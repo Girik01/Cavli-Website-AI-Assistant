@@ -1,0 +1,6149 @@
+{
+ "CQM220": {
+  "product": "CQM220",
+  "series": "c-series",
+  "categories": [
+   "5G RedCap"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/cqm220",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=cqm220-product-brochure",
+  "release": {
+   "value": "3GPP Release 17",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Linux / OpenWrt",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "L1+L5 - GPS/GLONASS/NavIC/BEIDOU/Galileo/SBAS/QZSS Capable",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "5G RedCap",
+     "220 Mbps (DL), 120 Mbps (UL)"
+    ],
+    [
+     "4G",
+     "DL 150 Mbps, UL 50 Mbps"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "25.0 x 28.0 x 2.4, LGA FF"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA",
+    "M.2"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": null,
+     "tech": "5G",
+     "bands": "n1/n2/n3/n5/n7/n8/n12/n13/n14/n18/n20/n25/n26/n28/n30/n38/n40/n41/n48/n66/n70/n71/n77/n78"
+    },
+    {
+     "region": null,
+     "tech": "4G",
+     "bands": "B1/B2/B3/B4/B5/B7/B8/B12/B13/B14/B17/B18/B19/B20/B25/B26/B28/B34/B38/B39/B40/B41/B42/B43/B48/B66/B71"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "1xI2C (optional)",
+    "3xUART",
+    "1xI2S",
+    "1xPCM",
+    "1xMAIN_ANT",
+    "1xGNSS_ANT",
+    "1xDIV_ANT",
+    "1xSDC (optional)",
+    "1xSGMII"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "5G RedCap",
+    "SDK Support",
+    "USB OTG support",
+    "USB 2.0 Interface",
+    "LTE Cat 4 Fallback"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": null,
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "5G RedCap",
+   "release": "3GPP Release 17",
+   "os": "Linux / OpenWrt",
+   "bands": [
+    {
+     "region": null,
+     "tech": "5G",
+     "bands": "n1/n2/n3/n5/n7/n8/n12/n13/n14/n18/n20/n25/n26/n28/n30/n38/n40/n41/n48/n66/n70/n71/n77/n78"
+    },
+    {
+     "region": null,
+     "tech": "4G",
+     "bands": "B1/B2/B3/B4/B5/B7/B8/B12/B13/B14/B17/B18/B19/B20/B25/B26/B28/B34/B38/B39/B40/B41/B42/B43/B48/B66/B71"
+    }
+   ],
+   "speeds": [
+    [
+     "5G RedCap",
+     "220 Mbps (DL), 120 Mbps (UL)"
+    ],
+    [
+     "4G",
+     "DL 150 Mbps, UL 50 Mbps"
+    ]
+   ],
+   "interfaces": [
+    "1xI2C (optional)",
+    "3xUART",
+    "1xI2S",
+    "1xPCM",
+    "1xMAIN_ANT",
+    "1xGNSS_ANT",
+    "1xDIV_ANT",
+    "1xSDC (optional)",
+    "1xSGMII"
+   ],
+   "highlights": [
+    "Arm Cortex A7 upto 1.7Ghz",
+    "5G RedCap",
+    "LTE Fallback",
+    "In-built GNSS-Support",
+    "Open SDK Support",
+    "USB 2.0 Interface"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/5g-redcap-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "Qualcomm Location Suite Gen9VT",
+    "source": "faq"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": null,
+    "source": null
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": "advanced power management options including eDRX/DRX modes",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "LTE Cat 4",
+    "source": "key_highlights"
+   },
+   "applications": {
+    "value": "Asset Tracking, Vehicular Telemetry System, Industry 4.0",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "CQM220 supports GNSS capabilities including GPS, GLONASS, NavIC, BeiDou, Galileo, SBAS, and QZSS.",
+     "source": "faq"
+    },
+    {
+     "value": "CQM220 is designed for energy efficiency in 5G IoT applications.",
+     "source": "faq"
+    }
+   ]
+  }
+ },
+ "CQ20": {
+  "product": "CQ20",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 4"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/cq20",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=cq20-product-brochure",
+  "release": {
+   "value": "3GPP Release 10",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Yocto Linux (Kernel 4.14)",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS / GLONASS / BeiDou / Galileo / QZSS Capable",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL), 50 Mbps (UL)"
+    ],
+    [
+     "2G",
+     "236.8 Kbps (DL), 236.8 Kbps (UL)"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "32 x 29 x TBD mm, LCC+LGA Package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LCC+LGA",
+    "Mini PCIe"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "WW",
+    "NA",
+    "EAJ",
+    "EU",
+    "IN",
+    "AN",
+    "LA"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "WW",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8/12/13/18/19/20/25/26/28/40/66"
+    },
+    {
+     "region": "NA",
+     "tech": "LTE",
+     "bands": "2/4/5/12/13/25/66"
+    },
+    {
+     "region": "EAJ",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/40"
+    },
+    {
+     "region": "EU",
+     "tech": "LTE",
+     "bands": "1/3/7/8/20/28"
+    },
+    {
+     "region": "IN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/40"
+    },
+    {
+     "region": "AN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/18/19/26/28"
+    },
+    {
+     "region": "LA",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "UART x3",
+    "USB 2.0 (HS) x1",
+    "HSIC x1",
+    "WLAN/BT (External) x1",
+    "SDC x2",
+    "USIM (1.8V / 2.85V) x1",
+    "Network Status Indicator x2",
+    "Power ON Status Indicator x1",
+    "SGMII x1",
+    "I2C x1 (requires SDK)",
+    "ADC x2",
+    "PCM x1 (requires SDK)",
+    "JTAG x1",
+    "Main ANT x1",
+    "GNSS ANT x1",
+    "Diversity ANT x1"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "Applicable Region - GLOBAL",
+    "VoLTE Support",
+    "SMS over IMS/SG/CS",
+    "USB 2.0 Interface",
+    "USB OTG support"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "CQ20-WW-22GNN",
+      "attrs": {
+       "GNSS": "Yes",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "CQ20-WW-22GNH",
+      "attrs": {
+       "GNSS": "Yes",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "CQ20-WW-11GNN",
+      "attrs": {
+       "GNSS": "Yes",
+       "Flash": "128MB / 128MB"
+      }
+     },
+     {
+      "sku": "CQ20-WW-11GNH",
+      "attrs": {
+       "GNSS": "Yes",
+       "Flash": "128MB / 128MB"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "GNN – No Internal Sim.",
+     "GNH – Internal Sim."
+    ],
+    "note": ""
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 4",
+   "release": "3GPP Release 10",
+   "os": "Yocto Linux (Kernel 4.14)",
+   "bands": [
+    {
+     "region": "WW",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8/12/13/18/19/20/25/26/28/40/66"
+    },
+    {
+     "region": "NA",
+     "tech": "LTE",
+     "bands": "2/4/5/12/13/25/66"
+    },
+    {
+     "region": "EAJ",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/40"
+    },
+    {
+     "region": "EU",
+     "tech": "LTE",
+     "bands": "1/3/7/8/20/28"
+    },
+    {
+     "region": "IN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/40"
+    },
+    {
+     "region": "AN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/18/19/26/28"
+    },
+    {
+     "region": "LA",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL), 50 Mbps (UL)"
+    ],
+    [
+     "2G",
+     "236.8 Kbps (DL), 236.8 Kbps (UL)"
+    ]
+   ],
+   "interfaces": [
+    "UART x3",
+    "USB 2.0 (HS) x1",
+    "HSIC x1",
+    "WLAN/BT (External) x1",
+    "SDC x2",
+    "USIM (1.8V / 2.85V) x1",
+    "Network Status Indicator x2",
+    "Power ON Status Indicator x1",
+    "SGMII x1",
+    "I2C x1 (requires SDK)",
+    "ADC x2",
+    "PCM x1 (requires SDK)",
+    "JTAG x1",
+    "Main ANT x1",
+    "GNSS ANT x1",
+    "Diversity ANT x1"
+   ],
+   "highlights": [
+    "Applicable regions - (EA, NA, WW)",
+    "In-built GNSS",
+    "LTE Cat 4",
+    "2G Fallback",
+    "VoLTE Support",
+    "SMS over IMS/SG/CS",
+    "USB 2.0 Interface",
+    "OpenSDK Support",
+    "USB OTG Support"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat4-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": null,
+    "source": null
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": "WLAN/BT (External)",
+    "source": "technical_data"
+   },
+   "esim": {
+    "value": null,
+    "source": null
+   },
+   "voice_sms": {
+    "value": "VoLTE Support; SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "asset tracking, automotive, e-mobility, data loggers, fleet management, environmental monitoring",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "CQ20 supports GNSS powered by Qualcomm® IZatTM location technology Gen8C Lite.",
+     "source": "about"
+    },
+    {
+     "value": "CQ20 is engineered in LCC+LGA and mPCIe form factor.",
+     "source": "about"
+    },
+    {
+     "value": "CQ20 delivers a maximum data rate of 150 Mbit/s DL & 50 Mbit/s UL.",
+     "source": "about"
+    },
+    {
+     "value": "CQ20 supports USB 2.0 Interface and USB OTG support.",
+     "source": "key_highlights"
+    },
+    {
+     "value": "CQ20 runs on Yocto Linux (Kernel 4.14).",
+     "source": "technical_data"
+    }
+   ]
+  }
+ },
+ "CQS292": {
+  "product": "CQS292",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 4"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/cqs292",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=cqs292-product-brochure",
+  "release": {
+   "value": "3GPP Release 10",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Android 12 + Service packs up to Android 14",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS / BDS / GLONASS / Galileo QZSS / SBAS Ranging Support NavIC CQS292: L1+L5",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL) & 50 Mbps (UL)"
+    ],
+    [
+     "GSM 2G",
+     "236.8 Kbps (DL) & 236.8 Kbps (UL)"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "40.5 x 40.5 x TBD mm, LCC+LGA Package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LCC+LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "WW"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28/B38/B40/B41/B66/B71 (optional)"
+    },
+    {
+     "region": "WW",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "1xLCD (MIPI-DSI) (requires SDK)",
+    "2xCamera (MIPI-CSI) (requires SDK)",
+    "2xCCI I2C",
+    "2xAnalog Audio Out (requires SDK)",
+    "2x DMIC",
+    "1xUSB 3.1(OTG Support)",
+    "1xUSIM",
+    "3xUART",
+    "37xGPIO (requires SDK)",
+    "1xSDC 3.0",
+    "1xADC (requires SDK)",
+    "2xI2C (requires SDK)",
+    "1xI3C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "1xTouch Interface (I2C)",
+    "1xVIB_DRV",
+    "1xWi-Fi + BLE + FM ANT",
+    "1xMain ANT",
+    "1xDIV ANT",
+    "1xGNSS ANT"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "Quad core Arm Cortex A53 processor up to 2 GHz",
+    "Applicable regions - (N.A, AN, EU, and IN)",
+    "LCD Interface",
+    "DFOTA Available",
+    "Applicable Region - GLOBAL",
+    "Superior Multimedia Functions",
+    "Integrated eSIM",
+    "Cavli Hubble",
+    "USB 2.0 Interface",
+    "Max UART speed upto 3 Mbps"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "CQS292-WW-216GNBN",
+      "attrs": {
+       "GNSS": "L1+L5",
+       "eSIM": "No",
+       "Flash": "2 GB LPDDR4X / 16 GB eMMC"
+      }
+     },
+     {
+      "sku": "CQS292-WW-216GNBH",
+      "attrs": {
+       "GNSS": "L1+L5",
+       "eSIM": "Yes",
+       "Flash": "2 GB LPDDR4X / 16 GB eMMC"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "SOON – No GNSS, no eSIM.",
+     "SOOH – No GNSS, with eSIM.",
+     "GNAN – With GNSS, no eSIM.",
+     "GNAH – With GNSS and eSIM.",
+     "mPCIe – Mini PCIe Formfactor"
+    ],
+    "note": ""
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 4",
+   "release": "3GPP Release 10",
+   "os": "Android 12 + Service packs up to Android 14",
+   "bands": [
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28/B38/B40/B41/B66/B71 (optional)"
+    },
+    {
+     "region": "WW",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL) & 50 Mbps (UL)"
+    ],
+    [
+     "GSM 2G",
+     "236.8 Kbps (DL) & 236.8 Kbps (UL)"
+    ]
+   ],
+   "interfaces": [
+    "1xLCD (MIPI-DSI) (requires SDK)",
+    "2xCamera (MIPI-CSI) (requires SDK)",
+    "2xCCI I2C",
+    "2xAnalog Audio Out (requires SDK)",
+    "2x DMIC",
+    "1xUSB 3.1(OTG Support)",
+    "1xUSIM",
+    "3xUART",
+    "37xGPIO (requires SDK)",
+    "1xSDC 3.0",
+    "1xADC (requires SDK)",
+    "2xI2C (requires SDK)",
+    "1xI3C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "1xTouch Interface (I2C)",
+    "1xVIB_DRV",
+    "1xWi-Fi + BLE + FM ANT",
+    "1xMain ANT",
+    "1xDIV ANT",
+    "1xGNSS ANT"
+   ],
+   "highlights": [
+    "ARM Cortex-A53 64-bit (Quad-core)",
+    "BR/EDR + BLE",
+    "Applicable regions -(World Wide)",
+    "Wi-Fi - IEEE 802.11 a/b/g/n/ac",
+    "Superior Multimedia Functions",
+    "Android OS 12",
+    "2G Fallback",
+    "Qualcomm Adreno™ 702 GPU",
+    "Touch Screen LCD Interface",
+    "Integrated eSIM",
+    "Powered by Cavli Hubble",
+    "GNSS Support",
+    "GPS/ BDS/ GLONASS/ Galileo/ QZSS/ SBAS/ NavIC"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat4-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "Cortex A53 quad-core CPU",
+    "source": "about"
+   },
+   "gpu": {
+    "value": "Adreno™ 702 GPU",
+    "source": "about"
+   },
+   "wifi_bluetooth": {
+    "value": "Wi-Fi + BLE",
+    "source": "about"
+   },
+   "esim": {
+    "value": "Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": "2xCamera (MIPI-CSI)",
+    "source": "technical_data"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "Automotive applications",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports multi-constellation GNSS including NavIC.",
+     "source": "about"
+    },
+    {
+     "value": "USB 3.1 Type-C/Micro USB.",
+     "source": "about"
+    },
+    {
+     "value": "Supports DFOTA.",
+     "source": "key_highlights"
+    },
+    {
+     "value": "LCD Interface available.",
+     "source": "key_highlights"
+    }
+   ]
+  }
+ },
+ "C20QM": {
+  "product": "C20QM",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 4"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/c20qm",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=c20qm-product-brochure",
+  "release": {
+   "value": "3GPP Release 10",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Yocto Linux (Kernel 4.14)",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS / GLONASS / BeiDou / Galileo QZSS Capable",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL), 50 Mbps (UL)"
+    ],
+    [
+     "2G",
+     "236.8 Kbps (DL), 236.8 Kbps (UL)"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "37 x 21.8 x 2.8 mm, LGA Package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA",
+    "Mini PCIe"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "EAJ",
+    "EU",
+    "NA",
+    "AN"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "EAJ",
+     "tech": null,
+     "bands": "1/3/5/7/8/18/19/20/26/28/38/40/41"
+    },
+    {
+     "region": "EU",
+     "tech": null,
+     "bands": "1/3/7/8/20/28"
+    },
+    {
+     "region": "NA",
+     "tech": null,
+     "bands": "2/4/5/12/13/17/25/66"
+    },
+    {
+     "region": "AN",
+     "tech": null,
+     "bands": "1/3/5/8/18/19/26/28"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "9xGPIO (requires SDK)",
+    "1xUSB HS",
+    "3xUART",
+    "2xADC (requires SDK)",
+    "1xPCM (requires SDK)",
+    "1xUSIM",
+    "1xI2C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "1xSDC",
+    "1xSGMII",
+    "1xJTAG",
+    "1xLCD (requires SDK)",
+    "1xMAIN_ANT",
+    "1xSDIO",
+    "1xGNSS_ANT",
+    "1xDIV_ANT (optional)"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "iSim",
+    "LTE Cat 4",
+    "Integrated eSIM",
+    "Cavli Hubble",
+    "VoLTE Support",
+    "DFOTA Available",
+    "SMS over IMS/SG/CS",
+    "SDK Support",
+    "Free RTOS",
+    "Deep Sleep Mode",
+    "USB 2.0 Interface",
+    "USB OTG support",
+    "LCD Interface",
+    "Small Form Factor Design"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "C20QM-NA-22GNN-mPCIe",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "C20QM-NA-22GNN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "C20QM-NA-22GNH-mPCIe",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "C20QM-NA-22GNH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "C20QM-EAJ-24GNN-mPCIe",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "256 MB / 512 MB"
+      }
+     },
+     {
+      "sku": "C20QM-EAJ-24GNN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "256 MB / 512 MB"
+      }
+     },
+     {
+      "sku": "C20QM-EAJ-24GNH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "256 MB / 512 MB"
+      }
+     },
+     {
+      "sku": "C20QM-EAJ-22GNN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "C20QM-EAJ-22GNH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "256 MB / 256 MB"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "GNAN – No Internal Sim.",
+     "GNAH – Internal Sim.",
+     "mPCIe – Mini PCIe Formfactor"
+    ],
+    "note": "C20QM is also available in eSIM and non-eSIM variants, with regional SKU's such as EU, IN, and AN in multiple memory configurations"
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 4",
+   "release": "3GPP Release 10",
+   "os": "Yocto Linux (Kernel 4.14)",
+   "bands": [
+    {
+     "region": "EAJ",
+     "tech": null,
+     "bands": "1/3/5/7/8/18/19/20/26/28/38/40/41"
+    },
+    {
+     "region": "EU",
+     "tech": null,
+     "bands": "1/3/7/8/20/28"
+    },
+    {
+     "region": "NA",
+     "tech": null,
+     "bands": "2/4/5/12/13/17/25/66"
+    },
+    {
+     "region": "AN",
+     "tech": null,
+     "bands": "1/3/5/8/18/19/26/28"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL), 50 Mbps (UL)"
+    ],
+    [
+     "2G",
+     "236.8 Kbps (DL), 236.8 Kbps (UL)"
+    ]
+   ],
+   "interfaces": [
+    "9xGPIO (requires SDK)",
+    "1xUSB HS",
+    "3xUART",
+    "2xADC (requires SDK)",
+    "1xPCM (requires SDK)",
+    "1xUSIM",
+    "1xI2C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "1xSDC",
+    "1xSGMII",
+    "1xJTAG",
+    "1xLCD (requires SDK)",
+    "1xMAIN_ANT",
+    "1xSDIO",
+    "1xGNSS_ANT",
+    "1xDIV_ANT (optional)"
+   ],
+   "highlights": [
+    "Integrated eSIM",
+    "Powered by Cavli Hubble",
+    "Applicable regions - (APAC, EMEA, N.America)",
+    "GNSS Support",
+    "LTE Cat 4",
+    "2G Fallback",
+    "VoLTE Support",
+    "DFOTA",
+    "SMS over IMS/SG/CS",
+    "USB 2.0 Interface",
+    "Deep Sleep Mode",
+    "OpenSDK Support",
+    "USB OTG Support",
+    "LCD Interface"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat4-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "Qualcomm Location Suite Gen8C Lite",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": "Transceiver support for WiFi and Bluetooth",
+    "source": "faq"
+   },
+   "esim": {
+    "value": "Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": "VoLTE Support; SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": "Advanced power management capabilities",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": "Integrated MIPI-DBI interface for LCD displays",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "technical_data"
+   },
+   "applications": {
+    "value": "asset tracking, e-mobility, data loggers, fleet management, environmental monitoring",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "The C20QM module supports GPS, GLONASS, BeiDou, Galileo, and QZSS.",
+     "source": "faq"
+    },
+    {
+     "value": "The module is compatible with the Cavli Hubble Platform for device management.",
+     "source": "faq"
+    },
+    {
+     "value": "The C20QM module features deep sleep mode.",
+     "source": "key_highlights"
+    }
+   ]
+  }
+ },
+ "CQS315": {
+  "product": "CQS315",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 4"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/cqs315",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=cqs315-product-brochure",
+  "release": {
+   "value": "3GPP Release 10",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Android / Linux",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "L1 - GPS/BDS/GLONASS/Galileo/QZSS/SBAS Ranging Support",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL) & 50 Mbps (UL)"
+    ],
+    [
+     "GSM 2G",
+     "236.8 Kbps (DL) & 236.8 Kbps (UL)"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "40.5 x 40.5 x TBD mm, LCC+LGA Package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LCC+LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "WW",
+    "EAJ",
+    "AN",
+    "IN",
+    "NA"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "1/2/3/4/5/7/8/12/13/18/19/20/25/26/28/40/41/66/71"
+    },
+    {
+     "region": "WW",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    },
+    {
+     "region": "EAJ",
+     "tech": null,
+     "bands": "1/3/5/7/8/18/19/20/26/28/38/40/41"
+    },
+    {
+     "region": "EAJ",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    },
+    {
+     "region": "AN",
+     "tech": null,
+     "bands": "1/3/5/8/18/19/26/28"
+    },
+    {
+     "region": "AN",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    },
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "1/3/5/8/40/41"
+    },
+    {
+     "region": "IN",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    },
+    {
+     "region": "NA",
+     "tech": null,
+     "bands": "2/4/5/7/8/12/13/17/25/66/71"
+    },
+    {
+     "region": "NA",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "1xLCD (DSI) (requires SDK)",
+    "2xCamera (CSI) (requires SDK)",
+    "2xCCI I2C",
+    "3xAnalog Audio Out (requires SDK)",
+    "3xAnalog Audio In",
+    "2xDigital Audio In",
+    "1xUSB 2.0/3.1(OTG Support)",
+    "1xUSIM",
+    "7xUART",
+    "71xGPIO (requires SDK)",
+    "1xSDC 3.0",
+    "1xADC (requires SDK)",
+    "4xI2C (requires SDK)",
+    "2xI3C (requires SDK)",
+    "5xSPI (requires SDK)",
+    "1xTouch Interface (I2C)",
+    "1xWi-Fi & Bluetooth ANT",
+    "1xMain ANT",
+    "1xDIV ANT",
+    "1xGNSS ANT"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "Superior Multimedia Functions",
+    "Applicable Region - GLOBAL",
+    "5G RedCap",
+    "Android / Linux OS",
+    "2G Fallback",
+    "SDK Support",
+    "USB OTG support",
+    "USB 2.0 Interface"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "CQS315-WW-464GNAN",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "No",
+       "Flash": "4 GB LPDDR4X / 64 GB eMMC"
+      }
+     },
+     {
+      "sku": "CQS315-WW-332GNAN",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "No",
+       "Flash": "3 GB LPDDR4X / 32 GB eMMC"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "SOON – No GNSS, no eSIM.",
+     "SOOH – No GNSS, with eSIM.",
+     "GNAN – With GNSS, no eSIM.",
+     "GNAH – With GNSS and eSIM.",
+     "mPCIe – Mini PCIe Formfactor"
+    ],
+    "note": ""
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 4",
+   "release": "3GPP Release 10",
+   "os": "Android / Linux",
+   "bands": [
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "1/2/3/4/5/7/8/12/13/18/19/20/25/26/28/40/41/66/71"
+    },
+    {
+     "region": "WW",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    },
+    {
+     "region": "EAJ",
+     "tech": null,
+     "bands": "1/3/5/7/8/18/19/20/26/28/38/40/41"
+    },
+    {
+     "region": "EAJ",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    },
+    {
+     "region": "AN",
+     "tech": null,
+     "bands": "1/3/5/8/18/19/26/28"
+    },
+    {
+     "region": "AN",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    },
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "1/3/5/8/40/41"
+    },
+    {
+     "region": "IN",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    },
+    {
+     "region": "NA",
+     "tech": null,
+     "bands": "2/4/5/7/8/12/13/17/25/66/71"
+    },
+    {
+     "region": "NA",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL) & 50 Mbps (UL)"
+    ],
+    [
+     "GSM 2G",
+     "236.8 Kbps (DL) & 236.8 Kbps (UL)"
+    ]
+   ],
+   "interfaces": [
+    "1xLCD (DSI) (requires SDK)",
+    "2xCamera (CSI) (requires SDK)",
+    "2xCCI I2C",
+    "3xAnalog Audio Out (requires SDK)",
+    "3xAnalog Audio In",
+    "2xDigital Audio In",
+    "1xUSB 2.0/3.1(OTG Support)",
+    "1xUSIM",
+    "7xUART",
+    "71xGPIO (requires SDK)",
+    "1xSDC 3.0",
+    "1xADC (requires SDK)",
+    "4xI2C (requires SDK)",
+    "2xI3C (requires SDK)",
+    "5xSPI (requires SDK)",
+    "1xTouch Interface (I2C)",
+    "1xWi-Fi & Bluetooth ANT",
+    "1xMain ANT",
+    "1xDIV ANT",
+    "1xGNSS ANT"
+   ],
+   "highlights": [
+    "Qualcomm Octa-core Kryo 260 64-bit CPU",
+    "Qualcomm Adreno™ 610 GPU",
+    "Android / Linux OS",
+    "2G Fallback",
+    "Superior Multimedia Functions",
+    "Wi-Fi - IEEE 802.11 a/b/g/n/ac",
+    "Bluetooth 5.0 (BR/EDR + BLE)",
+    "Integrated eSIM",
+    "Powered by Cavli Hubble",
+    "Applicable regions - (World Wide)",
+    "GNSS Support",
+    "GPS/BDS/GLONASS/ Galileo/QZSS/SBAS",
+    "Integrated LCD Touchscreen interface"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat4-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "Octa-core Kryo 260 CPU",
+    "source": "about"
+   },
+   "gpu": {
+    "value": "Adreno 610 GPU",
+    "source": "about"
+   },
+   "wifi_bluetooth": {
+    "value": "Dual-band Wi-Fi, Bluetooth 5.0",
+    "source": "about"
+   },
+   "esim": {
+    "value": "No",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": "Supports up to 48MP camera, MIPI DSI for full HD",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "two-wheelers, e-mobility, telematics, fleet management, POS terminals",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports Android / Linux OS",
+     "source": "key_highlights"
+    },
+    {
+     "value": "Includes multi-constellation GNSS support",
+     "source": "about"
+    },
+    {
+     "value": "Integrated with Cavli Hubble IoT Platform",
+     "source": "faq"
+    },
+    {
+     "value": "Supports touchscreen LCD displays up to 2520x1080 @60Hz",
+     "source": "faq"
+    }
+   ]
+  }
+ },
+ "CQS290": {
+  "product": "CQS290",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 4"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/cqs290",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=cqs290-product-brochure",
+  "release": {
+   "value": "3GPP Release 10",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Android / Linux OS",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS / BDS / GLONASS / Galileo QZSS / SBAS Ranging Support CQS290: L1",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL) & 50 Mbps (UL)"
+    ],
+    [
+     "GSM 2G",
+     "236.8 Kbps (DL) & 236.8 Kbps (UL)"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "40.5 x 40.5 x TBD mm, LCC+LGA Package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LCC+LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "WW"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28/B38/B40/B41/B66/B71 (optional)"
+    },
+    {
+     "region": "WW",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "1xLCD (DSI) (requires SDK)",
+    "2xCamera (CSI) (requires SDK)",
+    "2xCCI I2C",
+    "2xAnalog Audio Out (requires SDK)",
+    "2xAnalog Audio In",
+    "2xDigital Audio In",
+    "1xUSB 2.0(OTG Support)",
+    "1xUSIM",
+    "3xUART",
+    "1xJTAG",
+    "37xGPIO (requires SDK)",
+    "1xSDC 3.0",
+    "1xADC (requires SDK)",
+    "2xI2C (requires SDK)",
+    "1xI3C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "1xTouch Interface (I2C)",
+    "1xVIB_DRV",
+    "1xWi-Fi & Bluetooth ANT",
+    "1xMain ANT",
+    "1xDIV ANT",
+    "1xGNSS ANT"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "Quad core Arm Cortex A53 processor up to 2 GHz",
+    "Applicable regions - (N.A, AN, EU, and IN)",
+    "LCD Interface",
+    "DFOTA Available",
+    "Applicable Region - GLOBAL",
+    "Integrated eSIM",
+    "Cavli Hubble",
+    "USB 2.0 Interface",
+    "Max UART speed upto 3 Mbps",
+    "Small Form Factor Design"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "CQS290-WW-464GNAN",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "No",
+       "Flash": "4 GB LPDDR4X / 64 GB eMMC"
+      }
+     },
+     {
+      "sku": "CQS290-WW-464GNAH",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "Yes",
+       "Flash": "4 GB LPDDR4X / 64 GB eMMC"
+      }
+     },
+     {
+      "sku": "CQS290-WW-332GNAN",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "No",
+       "Flash": "3 GB LPDDR4X / 32 GB eMMC"
+      }
+     },
+     {
+      "sku": "CQS290-WW-232GNAN",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "No",
+       "Flash": "2 GB LPDDR4X / 32 GB eMMC"
+      }
+     },
+     {
+      "sku": "CQS290-WW-232GNAH",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "Yes",
+       "Flash": "2 GB LPDDR4X / 32 GB eMMC"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "SOON – No GNSS, no eSIM.",
+     "SOOH – No GNSS, with eSIM.",
+     "GNAN – With GNSS, no eSIM.",
+     "GNAH – With GNSS and eSIM.",
+     "mPCIe – Mini PCIe Formfactor"
+    ],
+    "note": ""
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 4",
+   "release": "3GPP Release 10",
+   "os": "Android / Linux OS",
+   "bands": [
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28/B38/B40/B41/B66/B71 (optional)"
+    },
+    {
+     "region": "WW",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL) & 50 Mbps (UL)"
+    ],
+    [
+     "GSM 2G",
+     "236.8 Kbps (DL) & 236.8 Kbps (UL)"
+    ]
+   ],
+   "interfaces": [
+    "1xLCD (DSI) (requires SDK)",
+    "2xCamera (CSI) (requires SDK)",
+    "2xCCI I2C",
+    "2xAnalog Audio Out (requires SDK)",
+    "2xAnalog Audio In",
+    "2xDigital Audio In",
+    "1xUSB 2.0(OTG Support)",
+    "1xUSIM",
+    "3xUART",
+    "1xJTAG",
+    "37xGPIO (requires SDK)",
+    "1xSDC 3.0",
+    "1xADC (requires SDK)",
+    "2xI2C (requires SDK)",
+    "1xI3C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "1xTouch Interface (I2C)",
+    "1xVIB_DRV",
+    "1xWi-Fi & Bluetooth ANT",
+    "1xMain ANT",
+    "1xDIV ANT",
+    "1xGNSS ANT"
+   ],
+   "highlights": [
+    "ARM Cortex-A53 64-bit Processor (Quad-core)",
+    "Qualcomm Adreno™ 702 GPU",
+    "Android OS 12",
+    "SP upto 14",
+    "2G Fallback",
+    "GPS/BDS/GLONASS/ Galileo/QZSS/SBAS",
+    "Superior Multimedia Functions",
+    "Wi-Fi - IEEE 802.11 a/b/g/n/ac",
+    "Bluetooth 5.0 (BR/EDR + BLE)"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat4-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "ARM Cortex A53",
+    "source": "about"
+   },
+   "gpu": {
+    "value": "Adreno 702",
+    "source": "about"
+   },
+   "wifi_bluetooth": {
+    "value": "Wi-Fi 5, Bluetooth 5.0",
+    "source": "about"
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": "Camera support up to 48MP, Touchscreen LCD support",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "POS terminals, Smart Vending Machines, Smart Kiosks",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports multi-constellation GNSS including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS.",
+     "source": "faq"
+    },
+    {
+     "value": "Integrated with Cavli Hubble Platform for device management.",
+     "source": "faq"
+    },
+    {
+     "value": "Supports USB 2.0 with OTG function.",
+     "source": "about"
+    }
+   ]
+  }
+ },
+ "CQS291": {
+  "product": "CQS291",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 4"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/cqs291",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=cqs291-product-brochure",
+  "release": {
+   "value": "3GPP Release 10",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Android / Linux OS",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS / BDS / GLONASS / Galileo QZSS / SBAS Ranging Support CQS291: L1",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL) & 50 Mbps (UL)"
+    ],
+    [
+     "GSM 2G",
+     "236.8 Kbps (DL) & 236.8 Kbps (UL)"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "40.5 x 40.5 x TBD mm, LCC+LGA Package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LCC+LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "WW"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28/B38/B40/B41/B66/B71 (optional)"
+    },
+    {
+     "region": "WW",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "1xLCD (MIPI-DSI) (requires SDK)",
+    "2xCamera (MIPI-CSI) (requires SDK)",
+    "2xCCI I2C",
+    "2xAnalog Audio Out (requires SDK)",
+    "2x DMIC",
+    "1xUSB 3.1(OTG Support)",
+    "1xUSIM",
+    "3xUART",
+    "37xGPIO (requires SDK)",
+    "1xSDC 3.0",
+    "1xADC (requires SDK)",
+    "2xI2C (requires SDK)",
+    "1xI3C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "1xTouch Interface (I2C)",
+    "1xVIB_DRV",
+    "1xWi-Fi + BLE + FM ANT",
+    "1xMain ANT",
+    "1xDIV ANT",
+    "1xGNSS ANT"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "Quad core Arm Cortex A53 processor up to 2 GHz",
+    "Applicable Region - GLOBAL",
+    "Superior Multimedia Functions",
+    "Integrated eSIM",
+    "Cavli Hubble",
+    "Applicable regions - (World Wide)",
+    "LCD Interface",
+    "GPS",
+    "Small Form Factor Design"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "CQS291-WW-464GNAN",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "No",
+       "Flash": "4 GB LPDDR4X / 64 GB eMMC"
+      }
+     },
+     {
+      "sku": "CQS291-WW-464GNAH",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "Yes",
+       "Flash": "4 GB LPDDR4X / 64 GB eMMC"
+      }
+     },
+     {
+      "sku": "CQS291-WW-364GNAN",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "No",
+       "Flash": "3 GB LPDDR4X / 64 GB eMMC"
+      }
+     },
+     {
+      "sku": "CQS291-WW-232GNAN",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "No",
+       "Flash": "2 GB LPDDR4X / 32 GB eMMC"
+      }
+     },
+     {
+      "sku": "CQS291-WW-232GNAH",
+      "attrs": {
+       "GNSS": "L1",
+       "eSIM": "Yes",
+       "Flash": "2 GB LPDDR4X / 32 GB eMMC"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "SOON – No GNSS, no eSIM.",
+     "SOOH – No GNSS, with eSIM.",
+     "GNAN – With GNSS, no eSIM.",
+     "GNAH – With GNSS and eSIM.",
+     "mPCIe – Mini PCIe Formfactor"
+    ],
+    "note": ""
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 4",
+   "release": "3GPP Release 10",
+   "os": "Android / Linux OS",
+   "bands": [
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28/B38/B40/B41/B66/B71 (optional)"
+    },
+    {
+     "region": "WW",
+     "tech": "GSM",
+     "bands": "900/1800 MHz"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat 4",
+     "150 Mbps (DL) & 50 Mbps (UL)"
+    ],
+    [
+     "GSM 2G",
+     "236.8 Kbps (DL) & 236.8 Kbps (UL)"
+    ]
+   ],
+   "interfaces": [
+    "1xLCD (MIPI-DSI) (requires SDK)",
+    "2xCamera (MIPI-CSI) (requires SDK)",
+    "2xCCI I2C",
+    "2xAnalog Audio Out (requires SDK)",
+    "2x DMIC",
+    "1xUSB 3.1(OTG Support)",
+    "1xUSIM",
+    "3xUART",
+    "37xGPIO (requires SDK)",
+    "1xSDC 3.0",
+    "1xADC (requires SDK)",
+    "2xI2C (requires SDK)",
+    "1xI3C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "1xTouch Interface (I2C)",
+    "1xVIB_DRV",
+    "1xWi-Fi + BLE + FM ANT",
+    "1xMain ANT",
+    "1xDIV ANT",
+    "1xGNSS ANT"
+   ],
+   "highlights": [
+    "ARM Cortex-A53 64-bit (Quad-core)",
+    "BR/EDR + BLE",
+    "Applicable regions - (World Wide)",
+    "Wi-Fi - IEEE 802.11 a/b/g/n/ac",
+    "Superior Multimedia Functions",
+    "Android OS 12",
+    "2G Fallback",
+    "Qualcomm Adreno™ 702 GPU",
+    "Touch Screen LCD Interface",
+    "Integrated eSIM",
+    "Powered by Cavli Hubble",
+    "GNSS Support",
+    "GPS/ BDS/ GLONASS/ Galileo/ QZSS/ SBAS"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat4-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "Cortex A53 quad-core CPU",
+    "source": "about"
+   },
+   "gpu": {
+    "value": "Adreno™ 702 GPU",
+    "source": "about"
+   },
+   "wifi_bluetooth": {
+    "value": "Wi-Fi + BLE",
+    "source": "about"
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": "2xCamera (MIPI-CSI)",
+    "source": "technical_data"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "two-wheeler automotive applications",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports multi-constellation GNSS including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS.",
+     "source": "about"
+    },
+    {
+     "value": "Supports Android and Linux OS.",
+     "source": "technical_data"
+    }
+   ]
+  }
+ },
+ "C10QM": {
+  "product": "C10QM",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 1"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/c10qm",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=c10qm-product-brochure",
+  "release": {
+   "value": "3GPP Release 10",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Yocto Linux (Kernel 4.14)",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS / GLONASS / BeiDou / Galileo /QZSS Capable",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat 1",
+     "10 Mbps (DL), 5 Mbps (UL)"
+    ],
+    [
+     "2G",
+     "236.8 Kbps (DL), 236.8 Kbps (UL)"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "37 x 21.8 x 2.8 mm, LGA Package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "formfactor"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "EAJ",
+    "NA",
+    "EU",
+    "IN",
+    "AN"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "EAJ",
+     "tech": null,
+     "bands": "1/3/5/7/8/18/19/20/26/28/38/40/41"
+    },
+    {
+     "region": "NA",
+     "tech": null,
+     "bands": "2/4/5/12/13/17/25/66"
+    },
+    {
+     "region": "EU",
+     "tech": null,
+     "bands": "1/3/7/8/20/28"
+    },
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "1/3/5/8/40/41"
+    },
+    {
+     "region": "AN",
+     "tech": null,
+     "bands": "1/3/5/8/18/19/26/28"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "9xGPIO (optional)",
+    "1xUSB HS",
+    "3xUART",
+    "1xSDH",
+    "2xADC (requires SDK)",
+    "1xPCM (optional)",
+    "1xUSIM",
+    "1xI2C (optional)",
+    "1xSPI (optional)",
+    "1xSDC",
+    "1xSGMII",
+    "1xJTAG",
+    "1xLCD (requires SDK)",
+    "1xMAIN_ANT",
+    "1xGNSS_ANT"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "SMS over IMS/SG/CS",
+    "Cavli Hubble",
+    "VoLTE Support",
+    "DFOTA Available",
+    "Integrated eSIM",
+    "LCD Interface",
+    "Deep Sleep Mode",
+    "Small Form Factor Design",
+    "SDK Support",
+    "USB 2.0 Interface",
+    "2G Fallback",
+    "eSIM Support"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "C10QM-NA-22GNN-mPCIe",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "C10QM-NA-22GNN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "C10QM-NA-22GNH-mPCIe",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "C10QM-NA-22GNH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "C10QM-EAJ-24GNH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "256 MB / 512 MB"
+      }
+     },
+     {
+      "sku": "C10QM-EAJ-22GNN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "C10QM-EAJ-22GNH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "256 MB / 256 MB"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "GNN – No Internal Sim.",
+     "GNH – Internal Sim."
+    ],
+    "note": "C10QM is also available in eSIM and non-eSIM variants, with regional SKU's such as EU, IN, and AN in multiple memory configurations"
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 1",
+   "release": "3GPP Release 10",
+   "os": "Yocto Linux (Kernel 4.14)",
+   "bands": [
+    {
+     "region": "EAJ",
+     "tech": null,
+     "bands": "1/3/5/7/8/18/19/20/26/28/38/40/41"
+    },
+    {
+     "region": "NA",
+     "tech": null,
+     "bands": "2/4/5/12/13/17/25/66"
+    },
+    {
+     "region": "EU",
+     "tech": null,
+     "bands": "1/3/7/8/20/28"
+    },
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "1/3/5/8/40/41"
+    },
+    {
+     "region": "AN",
+     "tech": null,
+     "bands": "1/3/5/8/18/19/26/28"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat 1",
+     "10 Mbps (DL), 5 Mbps (UL)"
+    ],
+    [
+     "2G",
+     "236.8 Kbps (DL), 236.8 Kbps (UL)"
+    ]
+   ],
+   "interfaces": [
+    "9xGPIO (optional)",
+    "1xUSB HS",
+    "3xUART",
+    "1xSDH",
+    "2xADC (requires SDK)",
+    "1xPCM (optional)",
+    "1xUSIM",
+    "1xI2C (optional)",
+    "1xSPI (optional)",
+    "1xSDC",
+    "1xSGMII",
+    "1xJTAG",
+    "1xLCD (requires SDK)",
+    "1xMAIN_ANT",
+    "1xGNSS_ANT"
+   ],
+   "highlights": [
+    "Integrated eSIM",
+    "Powered by Cavli Hubble",
+    "Applicable regions - (Global, APAC, EMEA, N.America)",
+    "GNSS Support",
+    "LTE Cat 1",
+    "2G Fallback",
+    "VoLTE Support",
+    "SMS over IMS/SG/CS",
+    "FOTA",
+    "DFOTA",
+    "USB OTG support",
+    "USB 2.0 Interface",
+    "Deep Sleep Mode",
+    "SDK Support",
+    "LCD Interface",
+    "Inbuilt GNSS"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "Qualcomm Location Suite Gen8C Lite",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": "Bundled with transceiver support for WiFi and Bluetooth",
+    "source": "faq"
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": "VoLTE Support; SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": "Includes eDRX and Deep Sleep Modes",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": "Integrated MIPI-DBI interface for LCD",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "key_highlights"
+   },
+   "applications": {
+    "value": "Asset tracking, e-mobility, data loggers, fleet management, environmental monitoring",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "The C10QM module supports multiple GNSS systems including GPS, GLONASS, BeiDou, Galileo, and QZSS.",
+     "source": "faq"
+    },
+    {
+     "value": "The C10QM module is compatible with the Cavli Hubble Platform.",
+     "source": "faq"
+    },
+    {
+     "value": "The C10QM module supports various interfaces including UART, I2C, SPI, MIPI-DBI, and GPIOs.",
+     "source": "faq"
+    }
+   ]
+  }
+ },
+ "CQ10": {
+  "product": "CQ10",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 1"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/cq10",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=cq10-product-brochure",
+  "release": {
+   "value": "3GPP Release 10",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Yocto Linux (Kernel 4.14)",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS / GLONASS / BeiDou / Galileo / QZSS Capable",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat 1",
+     "10 Mbps (DL), 5 Mbps (UL)"
+    ],
+    [
+     "2G",
+     "236.8 Kbps (DL), 236.8 Kbps (UL)"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "32 x 29 x TBD mm, LCC+LGA Package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LCC+LGA",
+    "Mini PCIe"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "WW",
+    "NA",
+    "EAJ",
+    "EU",
+    "IN",
+    "AN",
+    "LA"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "WW",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8/12/13/18/19/20/25/26/28/40/66"
+    },
+    {
+     "region": "NA",
+     "tech": "LTE",
+     "bands": "2/4/5/12/13/25/66"
+    },
+    {
+     "region": "EAJ",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/40"
+    },
+    {
+     "region": "EU",
+     "tech": "LTE",
+     "bands": "1/3/7/8/20/28"
+    },
+    {
+     "region": "IN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/40"
+    },
+    {
+     "region": "AN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/18/19/26/28"
+    },
+    {
+     "region": "LA",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "UART x3",
+    "USB 2.0 (HS) x1",
+    "HSIC x1",
+    "WLAN/BT (External) x1",
+    "SDC x2",
+    "USIM (1.8V / 2.85V) x1",
+    "Network Status Indicator x2",
+    "Power ON Status Indicator x1",
+    "SGMII x1",
+    "I2C x1 (requires SDK)",
+    "ADC x2",
+    "PCM x1 (requires SDK)",
+    "JTAG x1",
+    "Main ANT x1",
+    "GNSS ANT x1",
+    "Diversity ANT x1"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "Applicable regions - (APAC, EMEA, N.America)",
+    "OpenSDK Support",
+    "USB 2.0 Interface",
+    "2G Fallback",
+    "SMS over IMS/SG/CS",
+    "USB OTG support"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "CQ10-WW-22GNN",
+      "attrs": {
+       "GNSS": "Yes",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "CQ10-WW-22GNH",
+      "attrs": {
+       "GNSS": "Yes",
+       "Flash": "256 MB / 256 MB"
+      }
+     },
+     {
+      "sku": "CQ10-WW-11GNN",
+      "attrs": {
+       "GNSS": "Yes",
+       "Flash": "128MB / 128MB"
+      }
+     },
+     {
+      "sku": "CQ10-WW-11GNH",
+      "attrs": {
+       "GNSS": "Yes",
+       "Flash": "128MB / 128MB"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "GNN – No Internal Sim.",
+     "GNH – Internal Sim."
+    ],
+    "note": ""
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 1",
+   "release": "3GPP Release 10",
+   "os": "Yocto Linux (Kernel 4.14)",
+   "bands": [
+    {
+     "region": "WW",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8/12/13/18/19/20/25/26/28/40/66"
+    },
+    {
+     "region": "NA",
+     "tech": "LTE",
+     "bands": "2/4/5/12/13/25/66"
+    },
+    {
+     "region": "EAJ",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/40"
+    },
+    {
+     "region": "EU",
+     "tech": "LTE",
+     "bands": "1/3/7/8/20/28"
+    },
+    {
+     "region": "IN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/40"
+    },
+    {
+     "region": "AN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/18/19/26/28"
+    },
+    {
+     "region": "LA",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat 1",
+     "10 Mbps (DL), 5 Mbps (UL)"
+    ],
+    [
+     "2G",
+     "236.8 Kbps (DL), 236.8 Kbps (UL)"
+    ]
+   ],
+   "interfaces": [
+    "UART x3",
+    "USB 2.0 (HS) x1",
+    "HSIC x1",
+    "WLAN/BT (External) x1",
+    "SDC x2",
+    "USIM (1.8V / 2.85V) x1",
+    "Network Status Indicator x2",
+    "Power ON Status Indicator x1",
+    "SGMII x1",
+    "I2C x1 (requires SDK)",
+    "ADC x2",
+    "PCM x1 (requires SDK)",
+    "JTAG x1",
+    "Main ANT x1",
+    "GNSS ANT x1",
+    "Diversity ANT x1"
+   ],
+   "highlights": [
+    "Powered by Cavli Hubble",
+    "Applicable regions - (EA, NA, WW)",
+    "In-built GNSS",
+    "LTE Cat 1",
+    "2G Fallback",
+    "VoLTE Support",
+    "SMS over IMS/SG/CS",
+    "USB 2.0 Interface",
+    "OpenSDK Support",
+    "USB OTG Support"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": null,
+    "source": null
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": "External WLAN/BT support",
+    "source": "technical_data"
+   },
+   "esim": {
+    "value": "Internal Sim available",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": "Supports VoLTE and SMS over IMS/SG/CS",
+    "source": "about"
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "asset tracking, automotive, e-mobility, data loggers, fleet management, environmental monitoring",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "CQ10 supports GNSS with Qualcomm® Location Suite Gen8C Lite.",
+     "source": "about"
+    },
+    {
+     "value": "CQ10 is engineered in LCC+LGA and mPCIe form factor.",
+     "source": "about"
+    },
+    {
+     "value": "CQ10 delivers a maximum data rate of 10 Mbit/s DL & 5 Mbit/s UL.",
+     "source": "about"
+    },
+    {
+     "value": "CQ10 supports OpenSDK.",
+     "source": "key_highlights"
+    },
+    {
+     "value": "CQ10 has USB 2.0 Interface.",
+     "source": "key_highlights"
+    },
+    {
+     "value": "CQ10 supports USB OTG.",
+     "source": "key_highlights"
+    }
+   ]
+  }
+ },
+ "C11QM": {
+  "product": "C11QM",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 1"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/c11qm",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=c11qm-product-brochure",
+  "release": {
+   "value": "3GPP Release 10",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "ThreadX OS | Yocto Linux",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS/GLO/GAL/BDS with QZSS",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "Cat 1",
+     "DL 10 Mbps & UL 5 Mbps"
+    ],
+    [
+     "GSM",
+     "DL 236.8 Kbps & UL 236.8 Kbps"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "26.5 x 22.5 x TBD"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "IN"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "B1/B3/B5/B8/B38/B40/B41"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "uSIM x1",
+    "ADC x2",
+    "USB 2.0 x1",
+    "GPIO x4",
+    "I2C x1",
+    "SDC x2",
+    "PCM x1",
+    "SPI x1",
+    "UART x4",
+    "Network Status Indicator x1",
+    "Power ON Status Indicator x1"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "USB 2.0 Interface",
+    "2G Fallback",
+    "VoLTE Support",
+    "SMS over IMS/SG/CS",
+    "Integrated eSIM",
+    "Cavli Hubble"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "C11QM-IN-11GNH",
+      "attrs": {
+       "GNSS": "TBD",
+       "Flash": "128MB / 128MB"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "GNN – No Internal SIM.",
+     "GNH – Internal SIM."
+    ],
+    "note": ""
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 1",
+   "release": "3GPP Release 10",
+   "os": "ThreadX OS | Yocto Linux",
+   "bands": [
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "B1/B3/B5/B8/B38/B40/B41"
+    }
+   ],
+   "speeds": [
+    [
+     "Cat 1",
+     "DL 10 Mbps & UL 5 Mbps"
+    ],
+    [
+     "GSM",
+     "DL 236.8 Kbps & UL 236.8 Kbps"
+    ]
+   ],
+   "interfaces": [
+    "uSIM x1",
+    "ADC x2",
+    "USB 2.0 x1",
+    "GPIO x4",
+    "I2C x1",
+    "SDC x2",
+    "PCM x1",
+    "SPI x1",
+    "UART x4",
+    "Network Status Indicator x1",
+    "Power ON Status Indicator x1"
+   ],
+   "highlights": [
+    "LTE Cat 1",
+    "Inbuilt GNSS",
+    "2G Fallback",
+    "USB 2.0 Interface",
+    "ThreadX RTOS",
+    "VoLTE Support",
+    "SMS over IMS/SG/CS",
+    "Inbuilt GNSS"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "Qualcomm Location Suite Gen8C Lite",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": "Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": "VoLTE Support; SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": "Power Saving Mode (PSM) and Extended Discontinuous Reception (eDRX)",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "key_highlights"
+   },
+   "applications": {
+    "value": "asset tracking, e-mobility, data loggers, fleet management, environmental monitoring, telematics units, industrial monitoring",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "The C11QM module is built with industrial-grade components for rugged environments.",
+     "source": "faq"
+    },
+    {
+     "value": "The module measures only 26.5 x 22.5 x 2.3 mm.",
+     "source": "faq"
+    }
+   ]
+  }
+ },
+ "CQM211": {
+  "product": "CQM211",
+  "series": "c-series",
+  "categories": [
+   "5G NR"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/cqm211",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=cqm211-product-brochure",
+  "release": {
+   "value": "3GPP Release 16",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Linux / OpenWrt",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS/GLONASS/Galileo/BeiDou/NavIC/QZSS",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "5G NR SA",
+     "DL 2.4 Gbps & UL 900 Mbps"
+    ],
+    [
+     "5G NR NSA",
+     "DL 3.4 Gbps & UL 550 Mbps"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "44.0 x 41.0 x 2.75 mm, LGA FF"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA",
+    "M.2"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "WW",
+    "EA",
+    "EAJ",
+    "NA",
+    "IN"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "WW",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8/12/13/14/17/18/19/20/25/26/28/34/38/39/40/41/42/43/48/66/71"
+    },
+    {
+     "region": "WW",
+     "tech": "NR",
+     "bands": "1/2/3/5/7/8/12/13/14/18/20/25/26/28/34/38/39/40/41/48/66/71/77/78"
+    },
+    {
+     "region": "EA",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/38/40/41/42/43/48"
+    },
+    {
+     "region": "EA",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/18/20/26/28/38/40/41/48/77/78"
+    },
+    {
+     "region": "EAJ",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/34/38/39/40/41/42/43/48"
+    },
+    {
+     "region": "EAJ",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/18/20/26/28/34/38/39/40/41/48/77/78"
+    },
+    {
+     "region": "NA",
+     "tech": "LTE",
+     "bands": "2/4/5/7/12/13/14/17/18/19/25/26/38/41/42/43/48/66/71"
+    },
+    {
+     "region": "NA",
+     "tech": "NR",
+     "bands": "2/5/7/12/13/14/18/25/26/38/41/48/66/71/77/78"
+    },
+    {
+     "region": "IN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/18/19/26/38/40/41/42/43/48"
+    },
+    {
+     "region": "IN",
+     "tech": "NR",
+     "bands": "1/3/5/8/18/26/38/40/41/48/77/78"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "UART x4",
+    "SDC x1",
+    "I2C x1",
+    "EBI x1",
+    "SPI x2 (Master Only)",
+    "I2S x2",
+    "USIM x2",
+    "HS USB 3.1/2.0 x1",
+    "PCIe Gen3 x1",
+    "GPIO x16",
+    "ANTx5 (MAINx1, DIVx1, P_MIMOx1, D_MIMOx1, GNSSx1)"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "5G NR Advanced",
+    "USB 3.1/2.0 Interface",
+    "ARM CortexA7 Processor",
+    "SDK Support",
+    "OpenWrt OS",
+    "In-built GNSS",
+    "LTE Cat 16 Fallback"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": null,
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "5G NR",
+   "release": "3GPP Release 16",
+   "os": "Linux / OpenWrt",
+   "bands": [
+    {
+     "region": "WW",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8/12/13/14/17/18/19/20/25/26/28/34/38/39/40/41/42/43/48/66/71"
+    },
+    {
+     "region": "WW",
+     "tech": "NR",
+     "bands": "1/2/3/5/7/8/12/13/14/18/20/25/26/28/34/38/39/40/41/48/66/71/77/78"
+    },
+    {
+     "region": "EA",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/38/40/41/42/43/48"
+    },
+    {
+     "region": "EA",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/18/20/26/28/38/40/41/48/77/78"
+    },
+    {
+     "region": "EAJ",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/34/38/39/40/41/42/43/48"
+    },
+    {
+     "region": "EAJ",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/18/20/26/28/34/38/39/40/41/48/77/78"
+    },
+    {
+     "region": "NA",
+     "tech": "LTE",
+     "bands": "2/4/5/7/12/13/14/17/18/19/25/26/38/41/42/43/48/66/71"
+    },
+    {
+     "region": "NA",
+     "tech": "NR",
+     "bands": "2/5/7/12/13/14/18/25/26/38/41/48/66/71/77/78"
+    },
+    {
+     "region": "IN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/18/19/26/38/40/41/42/43/48"
+    },
+    {
+     "region": "IN",
+     "tech": "NR",
+     "bands": "1/3/5/8/18/26/38/40/41/48/77/78"
+    }
+   ],
+   "speeds": [
+    [
+     "5G NR SA",
+     "DL 2.4 Gbps & UL 900 Mbps"
+    ],
+    [
+     "5G NR NSA",
+     "DL 3.4 Gbps & UL 550 Mbps"
+    ]
+   ],
+   "interfaces": [
+    "UART x4",
+    "SDC x1",
+    "I2C x1",
+    "EBI x1",
+    "SPI x2 (Master Only)",
+    "I2S x2",
+    "USIM x2",
+    "HS USB 3.1/2.0 x1",
+    "PCIe Gen3 x1",
+    "GPIO x16",
+    "ANTx5 (MAINx1, DIVx1, P_MIMOx1, D_MIMOx1, GNSSx1)"
+   ],
+   "highlights": [
+    "Powered by an Arm Cortex-A7 processor with up to 1 GB RAM and 512 MB ROM",
+    "the module runs Linux/OpenWrt and supports application development without an external host MCU."
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+  },
+  "category_table": {
+   "Form factor": {
+    "value": "LGA, M.2",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Dimensions (mm)": {
+    "value": "41.0 x 44.0 mm (LGA); 30.0 x 52.0 mm (M.2)",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "RF Technology": {
+    "value": "5G NR / LTE Cat 16",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Operating temperature": {
+    "value": "-30°C to 85°C",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Control via AT commands": {
+    "value": "3GPP TS27.007 & Cavli AT Commands",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Baseband Chipset": {
+    "value": "SDX61",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Regions": {
+    "value": "WW / EA / EAJ / NA / IN",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / 5G SA Sub-6": {
+    "value": "DL 2.4 Gbps & UL 900 Mbps",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / 5G NSA Sub-6": {
+    "value": "DL 3.4 Gbps & UL 550 Mbps",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / Carrier Aggregation": {
+    "value": "DLCA",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / Protocols": {
+    "value": "TCP / MQTT / HTTP / HTTPS / MQTTS / FTP / FTPS / PPP",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Air Interfaces / Antenna": {
+    "value": "Main × 4, GNSS x1",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / CPU": {
+    "value": "Arm Cortex A7 upto 1.8GHz",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / Memory": {
+    "value": "4 Gb / 8 Gb ROM, 8 Gb RAM",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / OS": {
+    "value": "OpenWrt / Linux",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / PCIe Interface": {
+    "value": "Gen 3",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / Voice": {
+    "value": "VoNR / VoLTE",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / SDK": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / FOTA": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / GNSS": {
+    "value": "L1+L5",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / Constellation Support": {
+    "value": "GPS / GLO / Gal / BDS / QZSS / SBAS / NavIC",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / (U)SIM card detection": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Electrical features / Supply voltage range": {
+    "value": "Range: 3.2V - 4.8V; Typical: 3.8V",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Electrical features / Recommended applications": {
+    "value": "Industrial Gateways / Routers, Industrial PDAs, Digital Signage and Smart Surveillance",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   }
+  },
+  "llm_profile": {
+   "processor": {
+    "value": "Arm Cortex-A7",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": null,
+    "source": null
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "LTE Cat 16",
+    "source": "about"
+   },
+   "applications": {
+    "value": "Industry 4.0, smart surveillance",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "CQM211 supports both SA and NSA deployment modes.",
+     "source": "faq"
+    },
+    {
+     "value": "CQM211 runs on OpenWrt OS with SDK support.",
+     "source": "faq"
+    },
+    {
+     "value": "CQM211 is available in both LGA and M.2 form factors.",
+     "source": "faq"
+    }
+   ]
+  }
+ },
+ "CQM212": {
+  "product": "CQM212",
+  "series": "c-series",
+  "categories": [
+   "5G NR"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/cqm212",
+  "brochure_url": null,
+  "release": {
+   "value": "3GPP Release 18",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Linux / OpenWrt",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS, GLONASS, NavIC, BEIDOU, Galileo SBAS + QZSS Capable",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "5G NR",
+     "5.36 Gbps (DL), 1.25 Gbps (UL)"
+    ],
+    [
+     "4G",
+     "DL 2.0 Gbps, UL 315 Mbps"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "45.0 x 52.0 x TBD, LGA FF"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "EA",
+    "NA"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "EA",
+     "tech": "5G",
+     "bands": "n1/n3/n7/n8/n20/n28A/n38/n40/n41/n48/n75/n77/n78"
+    },
+    {
+     "region": "NA",
+     "tech": "5G",
+     "bands": "n2/n5/n7/n12/n13/n14/n25/n30/n48/n66/n71/n77/n78"
+    },
+    {
+     "region": "EA",
+     "tech": "4G",
+     "bands": "B1/B3/B7/B8/B20/B28A/B32/B38/B40/B41/B42/B43/B48/B75"
+    },
+    {
+     "region": "NA",
+     "tech": "4G",
+     "bands": "B2/B4/B5/B7/B12/B13/B14/B17/B20/B25/B30/B42/B43/B48/B71"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "2xUART",
+    "1xUSB2.0",
+    "1xUSB3.1",
+    "1xPCIe4.0",
+    "2xPCIe3.0",
+    "2xUSIM",
+    "4xPWM",
+    "2xSGMII",
+    "1xI2S",
+    "2xI2C",
+    "2xSPI",
+    "1xLCD",
+    "1xADC",
+    "1xJTAG",
+    "11xGPIO",
+    "4xNetworkStatus",
+    "1xGNSS_ANT",
+    "8xMAIN_ANT"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "5G NR",
+    "SDK Support",
+    "OpenWrt OS"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": null,
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "5G NR",
+   "release": "3GPP Release 18",
+   "os": "Linux / OpenWrt",
+   "bands": [
+    {
+     "region": "EA",
+     "tech": "5G",
+     "bands": "n1/n3/n7/n8/n20/n28A/n38/n40/n41/n48/n75/n77/n78"
+    },
+    {
+     "region": "NA",
+     "tech": "5G",
+     "bands": "n2/n5/n7/n12/n13/n14/n25/n30/n48/n66/n71/n77/n78"
+    },
+    {
+     "region": "EA",
+     "tech": "4G",
+     "bands": "B1/B3/B7/B8/B20/B28A/B32/B38/B40/B41/B42/B43/B48/B75"
+    },
+    {
+     "region": "NA",
+     "tech": "4G",
+     "bands": "B2/B4/B5/B7/B12/B13/B14/B17/B20/B25/B30/B42/B43/B48/B71"
+    }
+   ],
+   "speeds": [
+    [
+     "5G NR",
+     "5.36 Gbps (DL), 1.25 Gbps (UL)"
+    ],
+    [
+     "4G",
+     "DL 2.0 Gbps, UL 315 Mbps"
+    ]
+   ],
+   "interfaces": [
+    "2xUART",
+    "1xUSB2.0",
+    "1xUSB3.1",
+    "1xPCIe4.0",
+    "2xPCIe3.0",
+    "2xUSIM",
+    "4xPWM",
+    "2xSGMII",
+    "1xI2S",
+    "2xI2C",
+    "2xSPI",
+    "1xLCD",
+    "1xADC",
+    "1xJTAG",
+    "11xGPIO",
+    "4xNetworkStatus",
+    "1xGNSS_ANT",
+    "8xMAIN_ANT"
+   ],
+   "highlights": [
+    "Arm Cortex A55 upto 2.5Ghz",
+    "5G NR",
+    "LTE Cat 20 Fallback",
+    "In-built GNSS-Support",
+    "SDK Support"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+  },
+  "category_table": {
+   "Form factor": {
+    "value": "LGA",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Dimensions (mm)": {
+    "value": "45.0 x 52.0 x 2.9 mm",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "RF Technology": {
+    "value": "5G NR / LTE Cat 20",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Operating temperature": {
+    "value": "-20°C to 75°C",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Control via AT commands": {
+    "value": "3GPP TS27.007 & Cavli AT Commands",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Baseband Chipset": {
+    "value": "SDX82",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Regions": {
+    "value": "WW / EA / EAJ / NA / IN",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / 5G SA Sub-6": {
+    "value": "DL: 5.36 Gbps; UL: 1.25 Gbps",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / 5G NSA Sub-6": {
+    "value": "DL: 5.05 Gbps; UL: 750 Mbps",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / Carrier Aggregation": {
+    "value": "Upto 3xCC",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / Protocols": {
+    "value": "TCP / MQTT / HTTP / HTTPS / MQTTS / FTP / FTPS / PPP",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Air Interfaces / Antenna": {
+    "value": "Main × 8, GNSS x 1",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / CPU": {
+    "value": "Quad Arm Cortex A55 @2.2 GHz",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / Memory": {
+    "value": "1/2GB RAM, 8GB ROM",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / OS": {
+    "value": "OpenWrt / Linux",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / PCIe Interface": {
+    "value": "Gen 4",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / Voice": {
+    "value": "VoNR / VoLTE",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / SDK": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / FOTA": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / GNSS": {
+    "value": "L1+L5",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / Constellation Support": {
+    "value": "GPS / GLO / Gal / BDS / QZSS / SBAS / NavIC",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / (U)SIM card detection": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Electrical features / Supply voltage range": {
+    "value": "Range: 3.3V - 4.4V; Typical: 3.8V",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Electrical features / Recommended applications": {
+    "value": "Industrial Gateways / Routers, Industrial PDAs, Digital Signage and Smart Surveillance",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   }
+  },
+  "llm_profile": {
+   "processor": {
+    "value": null,
+    "source": null
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "faq"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "LTE Cat 20",
+    "source": "about"
+   },
+   "applications": {
+    "value": "Industry 4.0, Smart Surveillance Solutions",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "CQM212 integrates Qualcomm Location Suite Gen9VT for precise location tracking.",
+     "source": "faq"
+    },
+    {
+     "value": "CQM212 supports Linux / OpenWrt OS.",
+     "source": "technical_data"
+    },
+    {
+     "value": "CQM212 offers comprehensive interfaces including I2C, UART, I2S, PCM, SDC, and PCIe.",
+     "source": "faq"
+    },
+    {
+     "value": "CQM212 supports GNSS: GPS, GLONASS, NavIC, BeiDou, Galileo, SBAS, QZSS.",
+     "source": "technical_data"
+    }
+   ]
+  }
+ },
+ "CQM215": {
+  "product": "CQM215",
+  "series": "c-series",
+  "categories": [
+   "5G NR"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/cqm215",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=cqm215-product-brochure",
+  "release": {
+   "value": "3GPP Release 18",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Linux / OpenWrt",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS, GLONASS, NavIC, BEIDOU, Galileo SBAS + QZSS Capable",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "5G NR",
+     "7.01 Gbps (DL), 1.25 Gbps (UL)"
+    ],
+    [
+     "4G",
+     "DL 2.0 Gbps, UL 315 Mbps"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "45.0 x 52.0 x TBD, LGA FF"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "EA",
+    "NA"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "EA",
+     "tech": "5G",
+     "bands": "n1/n3/n7/n8/n20/n28A/n38/n40/n41/n48/n75/n77/n78"
+    },
+    {
+     "region": "NA",
+     "tech": "5G",
+     "bands": "n2/n5/n7/n12/n13/n14/n25/n30/n48/n66/n71/n77/n78"
+    },
+    {
+     "region": "EA",
+     "tech": "4G",
+     "bands": "B1/B3/B7/B8/B20/B28A/B32/B38/B40/B41/B42/B43/B48/B75"
+    },
+    {
+     "region": "NA",
+     "tech": "4G",
+     "bands": "B2/B4/B5/B7/B12/B13/B14/B17/B20/B25/B30/B42/B43/B48/B71"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "2xUART",
+    "1xUSB2.0",
+    "1xUSB3.1",
+    "1xPCIe4.0",
+    "2xPCIe3.0",
+    "2xUSIM",
+    "4xPWM",
+    "2xSGMII",
+    "1xI2S",
+    "2xI2C",
+    "2xSPI",
+    "1xLCD",
+    "1xADC",
+    "1xJTAG",
+    "11xGPIO",
+    "4xNetworkStatus",
+    "1xGNSS_ANT",
+    "8xMAIN_ANT"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "5G NR",
+    "SDK Support",
+    "OpenWrt OS"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": null,
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "5G NR",
+   "release": "3GPP Release 18",
+   "os": "Linux / OpenWrt",
+   "bands": [
+    {
+     "region": "EA",
+     "tech": "5G",
+     "bands": "n1/n3/n7/n8/n20/n28A/n38/n40/n41/n48/n75/n77/n78"
+    },
+    {
+     "region": "NA",
+     "tech": "5G",
+     "bands": "n2/n5/n7/n12/n13/n14/n25/n30/n48/n66/n71/n77/n78"
+    },
+    {
+     "region": "EA",
+     "tech": "4G",
+     "bands": "B1/B3/B7/B8/B20/B28A/B32/B38/B40/B41/B42/B43/B48/B75"
+    },
+    {
+     "region": "NA",
+     "tech": "4G",
+     "bands": "B2/B4/B5/B7/B12/B13/B14/B17/B20/B25/B30/B42/B43/B48/B71"
+    }
+   ],
+   "speeds": [
+    [
+     "5G NR",
+     "7.01 Gbps (DL), 1.25 Gbps (UL)"
+    ],
+    [
+     "4G",
+     "DL 2.0 Gbps, UL 315 Mbps"
+    ]
+   ],
+   "interfaces": [
+    "2xUART",
+    "1xUSB2.0",
+    "1xUSB3.1",
+    "1xPCIe4.0",
+    "2xPCIe3.0",
+    "2xUSIM",
+    "4xPWM",
+    "2xSGMII",
+    "1xI2S",
+    "2xI2C",
+    "2xSPI",
+    "1xLCD",
+    "1xADC",
+    "1xJTAG",
+    "11xGPIO",
+    "4xNetworkStatus",
+    "1xGNSS_ANT",
+    "8xMAIN_ANT"
+   ],
+   "highlights": [
+    "Arm Cortex A55 upto 2.5Ghz",
+    "5G NR",
+    "LTE Cat 20 Fallback",
+    "In-built GNSS-Support",
+    "SDK Support"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+  },
+  "category_table": {
+   "Form factor": {
+    "value": "LGA",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Dimensions (mm)": {
+    "value": "45.0 x 52.0 x 2.9 mm",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "RF Technology": {
+    "value": "5G NR / LTE Cat 20",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Operating temperature": {
+    "value": "-20°C to 75°C",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Control via AT commands": {
+    "value": "3GPP TS27.007 & Cavli AT Commands",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Baseband Chipset": {
+    "value": "SDX85",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Regions": {
+    "value": "WW / EA / EAJ / NA / IN",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / 5G SA Sub-6": {
+    "value": "DL: 7.01 Gbps; UL: 1.25 Gbps",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / 5G NSA Sub-6": {
+    "value": "5.95 Gbps; UL: 750 Mbps",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / Carrier Aggregation": {
+    "value": "Upto 4xCC",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Data transmission (Max.) / Protocols": {
+    "value": "TCP / MQTT / HTTP / HTTPS / MQTTS / FTP / FTPS / PPP",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Air Interfaces / Antenna": {
+    "value": "Main × 8, GNSS x 1",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / CPU": {
+    "value": "Quad Arm Cortex A55 @2.2 GHz",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / Memory": {
+    "value": "1/2GB RAM, 8GB ROM",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / OS": {
+    "value": "OpenWrt / Linux",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / PCIe Interface": {
+    "value": "Gen 4",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / Voice": {
+    "value": "VoNR / VoLTE",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / SDK": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / FOTA": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / GNSS": {
+    "value": "L1+L5",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / Constellation Support": {
+    "value": "GPS / GLO / Gal / BDS / QZSS / SBAS / NavIC",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Module Features / (U)SIM card detection": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Electrical features / Supply voltage range": {
+    "value": "Range: 3.3V - 4.4V; Typical: 3.8V",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   },
+   "Electrical features / Recommended applications": {
+    "value": "Industrial Gateways / Routers, Industrial PDAs, Digital Signage and Smart Surveillance",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module"
+   }
+  },
+  "llm_profile": {
+   "processor": {
+    "value": "Qualcomm Location Suite Gen9VT",
+    "source": "faq"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "faq"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "LTE Cat 20",
+    "source": "about"
+   },
+   "applications": {
+    "value": "Industry 4.0, Smart Surveillance Solutions",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "The CQM215 module supports GPS, GLONASS, NavIC, BeiDou, Galileo, SBAS, and QZSS.",
+     "source": "faq"
+    },
+    {
+     "value": "The CQM215 module is fully integrated with the Cavli Hubble Platform.",
+     "source": "faq"
+    },
+    {
+     "value": "The CQM215 module offers a comprehensive set of interfaces including I2C, UART, I2S, PCM, SDC, and PCIe.",
+     "source": "faq"
+    }
+   ]
+  }
+ },
+ "C41QS": {
+  "product": "C41QS",
+  "series": "c-series",
+  "categories": [
+   "LPWA"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/c41qs",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=c41qs-product-brochure",
+  "release": {
+   "value": "3GPP Release 14",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Free RTOS",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS/ BeiDou",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat NB2",
+     "Peak DL 127 Kbps & UL 158.5 Kbps"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "17.7 x 15.8 x 2.0 mm, LGA Package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "WW"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "B1/B2/B3/B4/B5/B8/B12/B13/B14/B17/B18/B19/B20/B25/B26/B28/B66/B70/B85"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "3xUART",
+    "1xGNSS_UART (optional)",
+    "1xUSIM",
+    "1xSWD",
+    "1xADC",
+    "1xSPI (requires SDK)",
+    "2xGPIO (requires SDK)",
+    "1xMAIN_ANT",
+    "1xGNSS_ANT"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "Applicable Region - GLOBAL",
+    "Max UART speed upto 3 Mbps",
+    "Small Form Factor Design",
+    "Integrated eSIM",
+    "Cavli Hubble",
+    "Applicable regions - (APAC, EMEA, N.A, S.A, AUS,NZ and Global)",
+    "Integrated GNSS",
+    "DFOTA Available",
+    "USB 2.0 Interface"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "C41QS-GNN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "272 KB / 4 MB"
+      }
+     },
+     {
+      "sku": "C41QS-GNH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "272 KB / 4 MB"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "GNN – No Internal Sim.",
+     "GNH – Internal Sim."
+    ],
+    "note": "C41QS is also available in non GNSS variants, with and without eSIM"
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LPWA",
+   "release": "3GPP Release 14",
+   "os": "Free RTOS",
+   "bands": [
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "B1/B2/B3/B4/B5/B8/B12/B13/B14/B17/B18/B19/B20/B25/B26/B28/B66/B70/B85"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat NB2",
+     "Peak DL 127 Kbps & UL 158.5 Kbps"
+    ]
+   ],
+   "interfaces": [
+    "3xUART",
+    "1xGNSS_UART (optional)",
+    "1xUSIM",
+    "1xSWD",
+    "1xADC",
+    "1xSPI (requires SDK)",
+    "2xGPIO (requires SDK)",
+    "1xMAIN_ANT",
+    "1xGNSS_ANT"
+   ],
+   "highlights": [
+    "Integrated eSIM",
+    "Powered by Cavli Hubble",
+    "Applicable regions - (Global)",
+    "GNSS Support",
+    "Ultra-Low Power Consumption",
+    "Compact Form Factor Design",
+    "Cat NB2"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lpwa-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "null",
+    "source": "null"
+   },
+   "gpu": {
+    "value": "null",
+    "source": "null"
+   },
+   "wifi_bluetooth": {
+    "value": "null",
+    "source": "null"
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": "null",
+    "source": "null"
+   },
+   "power_saving": {
+    "value": "PSM and eDRX",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": "null",
+    "source": "null"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "null"
+   },
+   "applications": {
+    "value": "smart metering, smart parking, sensor and monitoring applications",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "C41QS supports GPS and BeiDou for GNSS.",
+     "source": "faq"
+    },
+    {
+     "value": "C41QS is compatible with Cavli Hubble Platform.",
+     "source": "faq"
+    },
+    {
+     "value": "C41QS has a compact form factor of 17.7mm x 15.8mm x 2.0mm.",
+     "source": "about"
+    },
+    {
+     "value": "C41QS supports DFOTA.",
+     "source": "key_highlights"
+    }
+   ]
+  }
+ },
+ "AQ62": {
+  "product": "AQ62",
+  "series": "a-series",
+  "categories": [
+   "Automotive",
+   "5G NR"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/a-series/aq62",
+  "brochure_url": null,
+  "release": {
+   "value": "3GPP Release 16",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Yocto Linux 5.15",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS/GLONASS/Galileo/BeiDou/NavIC/QZSS Qualcomm Location Suite Gen 9VT (L1+L2/L5)",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "5G NR NSA",
+     "DL 2.5 Gbps & UL 550 Mbps"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "54.5 x 53.0 x 2.85 (mm scale), LGA package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "WW",
+    "NA",
+    "EAJ",
+    "IN",
+    "EA"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "WW",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8/12/13/14/17/18/19/20/25/26/28/34/38/39/40/41/42/43/48/66/71"
+    },
+    {
+     "region": "WW",
+     "tech": "NR",
+     "bands": "1/2/3/5/7/8/12/13/14/18/20/25/26/28/38/40/41/48/66/71/77/78/79"
+    },
+    {
+     "region": "NA",
+     "tech": "LTE",
+     "bands": "2/4/5/7/12/13/14/17/18/19/25/26/38/41/42/43/48/66/71"
+    },
+    {
+     "region": "NA",
+     "tech": "NR",
+     "bands": "2/5/7/12/13/14/18/25/26/38/41/48/66/71/77/78"
+    },
+    {
+     "region": "EAJ",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/34/38/39/40/41/42/43/48"
+    },
+    {
+     "region": "EAJ",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/18/20/26/28/38/40/41/48/77/78/79"
+    },
+    {
+     "region": "IN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/18/19/26/38/40/41/42/43/48"
+    },
+    {
+     "region": "IN",
+     "tech": "NR",
+     "bands": "1/3/5/8/18/26/38/40/41/48/77/78"
+    },
+    {
+     "region": "EA",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/20/28/38/40/41/42/43/48"
+    },
+    {
+     "region": "EA",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/20/28/38/40/41/48/77/78"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "UART x4",
+    "USIM x2",
+    "USB (3.1) x1",
+    "USB (2.0) x1",
+    "SDC x2 (4-bit/8-bit)",
+    "I2C x2",
+    "SPI x2",
+    "I2S x3",
+    "PCM x1",
+    "RGMII/SGMII/USxGMII x1",
+    "PCIe 4.0/3.0 x1",
+    "PCIe 3.0 x1",
+    "GPIO x19",
+    "ANT x5"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "Applicable regions - (N.A, AN, EU, and IN)",
+    "5G NR Sub-6 GHz",
+    "Automotive Grade",
+    "DFOTA Available",
+    "LTE Cat 18 Fallback",
+    "Integrated eSIM",
+    "NG-eCall Support",
+    "Cavli Hubble",
+    "In-built GNSS (L1+L5)",
+    "USB 2.0 Interface",
+    "Max UART speed upto 3 Mbps",
+    "LGA Package",
+    "Small Form Factor Design",
+    "OpenSDK Support",
+    "VoLTE Support"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "decoder",
+    "rows": [
+     {
+      "param": "Product",
+      "options": "AQ62",
+      "decoded": [
+       "Automotive 5G Module"
+      ]
+     },
+     {
+      "param": "Region SKU",
+      "options": "WW / EAJ / EA / NA / IN",
+      "decoded": [
+       "WW = World Wide",
+       "EAJ = Europe-Asia-Japan",
+       "EA = Europe-Asia",
+       "NA = North America",
+       "IN = India"
+      ]
+     },
+     {
+      "param": "RF Config.",
+      "options": "122 / 142 / 144",
+      "decoded": [
+       "122 = 1Tx + 2 Sub-2.7GHz Rx + 2 Sub-6GHz Rx",
+       "142 = 1Tx + 4 Sub-2.7GHz Rx + 2 Sub-6GHz Rx",
+       "144 = 1Tx + 4 Sub-2.7GHz Rx + 4 Sub-6GHz Rx"
+      ]
+     },
+     {
+      "param": "Memory",
+      "options": "84 / 88 / 164 / 168",
+      "decoded": [
+       "84 = 1GB RAM + 512MB NAND",
+       "88 = 1GB RAM + 1GB NAND",
+       "164 = 2GB RAM + 512MB NAND",
+       "168 = 2GB RAM + 1GB NAND"
+      ]
+     },
+     {
+      "param": "GNSS",
+      "options": "GN / A / B",
+      "decoded": [
+       "GN = GNSS enabled",
+       "A = GNSS L1",
+       "B = GNSS L1 + L2/L5"
+      ]
+     },
+     {
+      "param": "eSIM + Hubble",
+      "options": "H / N",
+      "decoded": [
+       "H = With eSIM + Hubble",
+       "N = Without eSIM + Hubble"
+      ]
+     },
+     {
+      "param": "HSM",
+      "options": "H / N",
+      "decoded": [
+       "H = With HSM",
+       "N = Without HSM"
+      ]
+     }
+    ]
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "Automotive",
+   "release": "3GPP Release 16",
+   "os": "Yocto Linux 5.15",
+   "bands": [
+    {
+     "region": "WW",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8/12/13/14/17/18/19/20/25/26/28/34/38/39/40/41/42/43/48/66/71"
+    },
+    {
+     "region": "WW",
+     "tech": "NR",
+     "bands": "1/2/3/5/7/8/12/13/14/18/20/25/26/28/38/40/41/48/66/71/77/78/79"
+    },
+    {
+     "region": "NA",
+     "tech": "LTE",
+     "bands": "2/4/5/7/12/13/14/17/18/19/25/26/38/41/42/43/48/66/71"
+    },
+    {
+     "region": "NA",
+     "tech": "NR",
+     "bands": "2/5/7/12/13/14/18/25/26/38/41/48/66/71/77/78"
+    },
+    {
+     "region": "EAJ",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/34/38/39/40/41/42/43/48"
+    },
+    {
+     "region": "EAJ",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/18/20/26/28/38/40/41/48/77/78/79"
+    },
+    {
+     "region": "IN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/18/19/26/38/40/41/42/43/48"
+    },
+    {
+     "region": "IN",
+     "tech": "NR",
+     "bands": "1/3/5/8/18/26/38/40/41/48/77/78"
+    },
+    {
+     "region": "EA",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/20/28/38/40/41/42/43/48"
+    },
+    {
+     "region": "EA",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/20/28/38/40/41/48/77/78"
+    }
+   ],
+   "speeds": [
+    [
+     "5G NR NSA",
+     "DL 2.5 Gbps & UL 550 Mbps"
+    ]
+   ],
+   "interfaces": [
+    "UART x4",
+    "USIM x2",
+    "USB (3.1) x1",
+    "USB (2.0) x1",
+    "SDC x2 (4-bit/8-bit)",
+    "I2C x2",
+    "SPI x2",
+    "I2S x3",
+    "PCM x1",
+    "RGMII/SGMII/USxGMII x1",
+    "PCIe 4.0/3.0 x1",
+    "PCIe 3.0 x1",
+    "GPIO x19",
+    "ANT x5"
+   ],
+   "highlights": [
+    "5G NR",
+    "Automotive Grade",
+    "NG-eCall Support",
+    "In-built GNSS (L1+L5)",
+    "USB 2.0 Interface",
+    "OpenSDK Support",
+    "LTE Cat 18 Fallback",
+    "LGA Package",
+    "VoLTE Support",
+    "Yocto Linux 5.15"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/automotive-grade-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "Arm Cortex A55 quad-core",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": "Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": "VoLTE Support",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "LTE Cat 18",
+    "source": "about"
+   },
+   "applications": {
+    "value": "automotive clusters, vehicle telematics, ADAS systems, OBD solutions",
+    "source": "faq"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports multi-constellation GNSS with GPS, GLONASS, Galileo, BeiDou, NavIC and QZSS.",
+     "source": "about"
+    },
+    {
+     "value": "Supports Qualcomm Location Suite Gen 9VT.",
+     "source": "faq"
+    }
+   ]
+  }
+ },
+ "AQ65": {
+  "product": "AQ65",
+  "series": "a-series",
+  "categories": [
+   "Automotive",
+   "5G NR"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/a-series/aq65",
+  "brochure_url": null,
+  "release": {
+   "value": "3GPP Release 16",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "Yocto Linux 5.15",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS/GLONASS/Galileo/BeiDou/NavIC/QZSS Qualcomm Location Suite Gen 9VT (L1+L2/L5)",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "5G NR NSA",
+     "DL 4.6 Gbps & UL 550 Mbps"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "54.5 x 53.0 x 2.85 (mm scale), LGA package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "WW",
+    "NA",
+    "EAJ",
+    "IN",
+    "EA"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "WW",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8/12/13/14/17/18/19/20/25/26/28/34/38/39/40/41/42/43/48/66/71"
+    },
+    {
+     "region": "WW",
+     "tech": "NR",
+     "bands": "1/2/3/5/7/8/12/13/14/18/20/25/26/28/38/40/41/48/66/71/77/78/79"
+    },
+    {
+     "region": "NA",
+     "tech": "LTE",
+     "bands": "2/4/5/7/12/13/14/17/18/19/25/26/38/41/42/43/48/66/71"
+    },
+    {
+     "region": "NA",
+     "tech": "NR",
+     "bands": "2/5/7/12/13/14/18/25/26/38/41/48/66/71/77/78"
+    },
+    {
+     "region": "EAJ",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/34/38/39/40/41/42/43/48"
+    },
+    {
+     "region": "EAJ",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/18/20/26/28/38/40/41/48/77/78/79"
+    },
+    {
+     "region": "IN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/18/19/26/38/40/41/42/43/48"
+    },
+    {
+     "region": "IN",
+     "tech": "NR",
+     "bands": "1/3/5/8/18/26/38/40/41/48/77/78"
+    },
+    {
+     "region": "EA",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/20/28/38/40/41/42/43/48"
+    },
+    {
+     "region": "EA",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/20/28/38/40/41/48/77/78"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "UART x4",
+    "USIM x2",
+    "USB (3.1) x1",
+    "USB (2.0) x1",
+    "SDC x2 (4-bit/8-bit)",
+    "I2C x2",
+    "SPI x2",
+    "I2S x3",
+    "PCM x1",
+    "RGMII/SGMII/USxGMII x1",
+    "PCIe 4.0/3.0 x1",
+    "PCIe 3.0 x1",
+    "GPIO x19",
+    "ANT x5"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "Quad core Arm Cortex A53 processor up to 2 GHz",
+    "OpenSDK Support",
+    "Integrated eSIM",
+    "5G NR Sub-6 GHz",
+    "Cavli Hubble",
+    "Automotive Grade",
+    "LCD Interface",
+    "2G Fallback",
+    "Applicable Region - GLOBAL",
+    "USB 2.0 Interface",
+    "SMS over IMS/SG/CS",
+    "USB OTG support"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "decoder",
+    "rows": [
+     {
+      "param": "Product",
+      "options": "AQ65",
+      "decoded": [
+       "Automotive 5G Module"
+      ]
+     },
+     {
+      "param": "Region SKU",
+      "options": "WW / EAJ / EA / NA / IN",
+      "decoded": [
+       "WW = World Wide",
+       "EAJ = Europe-Asia-Japan",
+       "EA = Europe-Asia",
+       "NA = North America",
+       "IN = India"
+      ]
+     },
+     {
+      "param": "RF Config.",
+      "options": "122 / 142 / 144",
+      "decoded": [
+       "122 = 1Tx + 2 Sub-2.7GHz Rx + 2 Sub-6GHz Rx",
+       "142 = 1Tx + 4 Sub-2.7GHz Rx + 2 Sub-6GHz Rx",
+       "144 = 1Tx + 4 Sub-2.7GHz Rx + 4 Sub-6GHz Rx"
+      ]
+     },
+     {
+      "param": "Memory",
+      "options": "84 / 88 / 164 / 168",
+      "decoded": [
+       "84 = 1GB RAM + 512MB NAND",
+       "88 = 1GB RAM + 1GB NAND",
+       "164 = 2GB RAM + 512MB NAND",
+       "168 = 2GB RAM + 1GB NAND"
+      ]
+     },
+     {
+      "param": "GNSS",
+      "options": "GN / A / B",
+      "decoded": [
+       "GN = GNSS enabled",
+       "A = GNSS L1",
+       "B = GNSS L1 + L2/L5"
+      ]
+     },
+     {
+      "param": "eSIM + Hubble",
+      "options": "H / N",
+      "decoded": [
+       "H = With eSIM + Hubble",
+       "N = Without eSIM + Hubble"
+      ]
+     },
+     {
+      "param": "HSM",
+      "options": "H / N",
+      "decoded": [
+       "H = With HSM",
+       "N = Without HSM"
+      ]
+     }
+    ]
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "Automotive",
+   "release": "3GPP Release 16",
+   "os": "Yocto Linux 5.15",
+   "bands": [
+    {
+     "region": "WW",
+     "tech": "LTE",
+     "bands": "1/2/3/4/5/7/8/12/13/14/17/18/19/20/25/26/28/34/38/39/40/41/42/43/48/66/71"
+    },
+    {
+     "region": "WW",
+     "tech": "NR",
+     "bands": "1/2/3/5/7/8/12/13/14/18/20/25/26/28/38/40/41/48/66/71/77/78/79"
+    },
+    {
+     "region": "NA",
+     "tech": "LTE",
+     "bands": "2/4/5/7/12/13/14/17/18/19/25/26/38/41/42/43/48/66/71"
+    },
+    {
+     "region": "NA",
+     "tech": "NR",
+     "bands": "2/5/7/12/13/14/18/25/26/38/41/48/66/71/77/78"
+    },
+    {
+     "region": "EAJ",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/18/19/20/26/28/34/38/39/40/41/42/43/48"
+    },
+    {
+     "region": "EAJ",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/18/20/26/28/38/40/41/48/77/78/79"
+    },
+    {
+     "region": "IN",
+     "tech": "LTE",
+     "bands": "1/3/5/8/18/19/26/38/40/41/42/43/48"
+    },
+    {
+     "region": "IN",
+     "tech": "NR",
+     "bands": "1/3/5/8/18/26/38/40/41/48/77/78"
+    },
+    {
+     "region": "EA",
+     "tech": "LTE",
+     "bands": "1/3/5/7/8/20/28/38/40/41/42/43/48"
+    },
+    {
+     "region": "EA",
+     "tech": "NR",
+     "bands": "1/3/5/7/8/20/28/38/40/41/48/77/78"
+    }
+   ],
+   "speeds": [
+    [
+     "5G NR NSA",
+     "DL 4.6 Gbps & UL 550 Mbps"
+    ]
+   ],
+   "interfaces": [
+    "UART x4",
+    "USIM x2",
+    "USB (3.1) x1",
+    "USB (2.0) x1",
+    "SDC x2 (4-bit/8-bit)",
+    "I2C x2",
+    "SPI x2",
+    "I2S x3",
+    "PCM x1",
+    "RGMII/SGMII/USxGMII x1",
+    "PCIe 4.0/3.0 x1",
+    "PCIe 3.0 x1",
+    "GPIO x19",
+    "ANT x5"
+   ],
+   "highlights": [
+    "5G NR",
+    "Automotive Grade",
+    "NG-eCall Support",
+    "In-built GNSS (L1+L5)",
+    "USB 2.0 Interface",
+    "OpenSDK Support",
+    "LTE Cat 18 Fallback",
+    "LGA Package",
+    "VoLTE Support",
+    "Linux / TelSDK"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/automotive-grade-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "Arm Cortex A55 quad-core CPU",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": "Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": "SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "LTE Cat 18",
+    "source": "about"
+   },
+   "applications": {
+    "value": "automotive clusters, vehicle telematics, ADAS systems, OBD solutions",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports multi-constellation GNSS with GPS, GLONASS, Galileo, BeiDou, NavIC and QZSS.",
+     "source": "about"
+    }
+   ]
+  }
+ },
+ "CQ16": {
+  "product": "CQ16",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 1bis"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/cq16",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=cq16-product-brochure",
+  "release": {
+   "value": "3GPP Release 14",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "FreeRTOS",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": null,
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat 1bis",
+     "10 Mbps (DL), 5 Mbps (UL)"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "17.7 x 15.8 x 2.5 mm, LGA"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "NA",
+    "AN",
+    "EU",
+    "IN"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "NA",
+     "tech": null,
+     "bands": "2/4/5/12/13/25/66"
+    },
+    {
+     "region": "AN",
+     "tech": null,
+     "bands": "1/3/5/8/18/19/26/28"
+    },
+    {
+     "region": "EU",
+     "tech": null,
+     "bands": "1/3/7/8/20/28"
+    },
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "1/3/5/8/40/41"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "3xUART",
+    "1xUSB2.0",
+    "1xUSIM",
+    "2xADC (requires SDK)",
+    "1xI2S (requires SDK)",
+    "1xI2C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "3xGPIO (requires SDK)",
+    "1xMain ANT"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "USB 2.0 Interface",
+    "Applicable regions - (N.A, AN, EU, and IN)",
+    "DFOTA Available",
+    "Cavli Hubble",
+    "Max UART speed upto 3 Mbps",
+    "2G Fallback",
+    "Small Form Factor Design",
+    "VoLTE Support",
+    "SMS over IMS/SG/CS"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "CQ16-NA-S00N",
+      "attrs": {
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "CQ16-IN-S00N",
+      "attrs": {
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "CQ16-EU-S00N",
+      "attrs": {
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "CQ16-AN-S00N",
+      "attrs": {
+       "Flash": "1.25 MB / 4 MB"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "SOON – No GNSS, no eSIM.",
+     "SOOH – No GNSS, with eSIM.",
+     "GNAN – With GNSS, no eSIM.",
+     "GNAH – With GNSS and eSIM.",
+     "mPCIe – Mini PCIe Formfactor"
+    ],
+    "note": ""
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 1bis",
+   "release": "3GPP Release 14",
+   "os": "FreeRTOS",
+   "bands": [
+    {
+     "region": "NA",
+     "tech": null,
+     "bands": "2/4/5/12/13/25/66"
+    },
+    {
+     "region": "AN",
+     "tech": null,
+     "bands": "1/3/5/8/18/19/26/28"
+    },
+    {
+     "region": "EU",
+     "tech": null,
+     "bands": "1/3/7/8/20/28"
+    },
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "1/3/5/8/40/41"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat 1bis",
+     "10 Mbps (DL), 5 Mbps (UL)"
+    ]
+   ],
+   "interfaces": [
+    "3xUART",
+    "1xUSB2.0",
+    "1xUSIM",
+    "2xADC (requires SDK)",
+    "1xI2S (requires SDK)",
+    "1xI2C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "3xGPIO (requires SDK)",
+    "1xMain ANT"
+   ],
+   "highlights": [
+    "Integrated eSIM",
+    "Power Saving Modes",
+    "Powered by Cavli Hubble",
+    "Compact Form Factor Design",
+    "USB 2.0 Interface",
+    "LTE Cat 1bis",
+    "DFOTA Available",
+    "Max UART speed upto 3 Mbps",
+    "Applicable regions - (N.A, AN, EU, and IN)"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+  },
+  "category_table": {
+   "Form factor": {
+    "value": "LGA",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Dimensions (mm)": {
+    "value": "17.7 x 15.8 x 2.5 mm",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "RF Technology": {
+    "value": "LTE Cat 1bis",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Frequency bands (MHz) / EAJ (EMEA/ APAC/ Japan) / EU": {
+    "value": "1 / 3 / 7 / 8 / 19 / 26 / 28 / 38 / 40 / 41; (EU Only)",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Frequency bands (MHz) / IN (India)": {
+    "value": "1 / 3 / 5 / 8 / 40 / 41",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Frequency bands (MHz) / NA (North America)": {
+    "value": "2 / 4 / 5 / 12 / 25 / 66",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Frequency bands (MHz) / AN (Aus & NZ)": {
+    "value": "1 / 3 / 5 / 8 / 18 / 19 / 26 / 28",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Weight (approx.) (g)": {
+    "value": "1.53 +.01 g",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Operating temperature": {
+    "value": "-30°C to +85°C",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Control via AT commands": {
+    "value": "3GPP TS27.007 and Cavli AT Commands",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Data transmission (Max.) / LTE": {
+    "value": "Cat 1bis: 10 Mbps(DL), 5 Mbps(UL)",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Data transmission (Max.) / Protocols": {
+    "value": "TCP(S), HTTP(S), MQTT(S), UDP, PPP",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / (U)SIM": {
+    "value": "x2",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / UART": {
+    "value": "x3",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / USB": {
+    "value": "x1",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / I2C": {
+    "value": "x1",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / SPI": {
+    "value": "x1",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / GPIO": {
+    "value": "x4",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / ADC": {
+    "value": "x2",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / SD Card": {
+    "value": "x1, SD 3.0, 4-bit SDIO",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / Antenna": {
+    "value": "× 1 Main LTE",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Enhanced features / PSM": {
+    "value": "DRX/eDRX/Sleep/Hibernate",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Enhanced features / DFOTA": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Enhanced features / (U)SIM card detection": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Electrical features / Supply voltage range": {
+    "value": "Range: 3.1 V to 4.5 V",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Electrical features / Recommended applications": {
+    "value": "Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc.",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   }
+  },
+  "llm_profile": {
+   "processor": {
+    "value": "null",
+    "source": "faq"
+   },
+   "gpu": {
+    "value": "null",
+    "source": "faq"
+   },
+   "wifi_bluetooth": {
+    "value": "null",
+    "source": "faq"
+   },
+   "esim": {
+    "value": "Optional integrated eSIM",
+    "source": "faq"
+   },
+   "voice_sms": {
+    "value": "VoLTE Support; SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": "Enhanced power-saving modes",
+    "source": "about"
+   },
+   "camera_display": {
+    "value": "null",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "key_highlights"
+   },
+   "applications": {
+    "value": "Point Of Sale Solutions, Remote monitoring solutions, utility metering solutions",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "The CQ16 module is compliant with 3GPP Rel 14 Cat 1bis standards.",
+     "source": "faq"
+    },
+    {
+     "value": "The CQ16 module measures 17.7 x 15.8 x 2.5 mm.",
+     "source": "faq"
+    }
+   ]
+  }
+ },
+ "C16QS": {
+  "product": "C16QS",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 1bis"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/c16qs",
+  "brochure_url": null,
+  "release": {
+   "value": "3GPP Release 14",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "FreeRTOS",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS / BeiDou",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat 1bis",
+     "10 Mbps (DL), 5 Mbps (UL)"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "26.5 x 22.5 x 2.3 mm, LGA Package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA",
+    "Mini PCIe"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "EAJ",
+    "EU",
+    "NA",
+    "AN",
+    "LA",
+    "IN",
+    "WW"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "EAJ",
+     "tech": null,
+     "bands": "1/3/5/7/8/18/19/20/26/28/40/41"
+    },
+    {
+     "region": "EU",
+     "tech": null,
+     "bands": "1/3/5/7/8/20/28"
+    },
+    {
+     "region": "NA",
+     "tech": null,
+     "bands": "2/4/5/12/25/66"
+    },
+    {
+     "region": "AN",
+     "tech": null,
+     "bands": "1/3/5/8/18/19/26/28"
+    },
+    {
+     "region": "LA",
+     "tech": null,
+     "bands": "1/2/3/4/5/7/8"
+    },
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "1/3/5/8/40/41"
+    },
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "1/2/3/4/5/7/8/12/18/19/20/25/26/28/40/41/66"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "3xUART",
+    "1xUSB2.0",
+    "1xUSIM",
+    "1xSWD",
+    "2xADC (requires SDK)",
+    "1xI2S (requires SDK)",
+    "1xI2C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "4xGPIO (requires SDK)",
+    "1xMain ANT",
+    "1xGNSS ANT (optional)"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "Optional Integrated GNSS for GPS and BeiDou Tracking",
+    "Arm Cortex-M3 Processor up to 204 MHz",
+    "UART Interface with Speed up to 3 Mbps",
+    "Compact LGA and Mini PCIe Form Factors",
+    "DFOTA Support for Remote Firmware Updates",
+    "Integrated eSIM",
+    "USB 2.0 Interface for Host Integration",
+    "Cavli Hubble",
+    "Integrated eSIM for Cross-border Deployments",
+    "Applicable regions - (APAC, EMEA, N.A, S.A, AUS,NZ and Global)",
+    "LCD Interface",
+    "Applicable Region - GLOBAL",
+    "Android / Linux OS",
+    "Superior Multimedia Functions"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": {
+    "format": "skus",
+    "skus": [
+     {
+      "sku": "C16QS-WW-GNAN-mPCIe",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-WW-GNAN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-NA-GNAN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-NA-GNAH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-IN-GNAN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-IN-GNAH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-EU-GNAN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-EU-GNAH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-EAJ-S00N",
+      "attrs": {
+       "GNSS": "No",
+       "eSIM": "No",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-EAJ-S00H",
+      "attrs": {
+       "GNSS": "No",
+       "eSIM": "Yes",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-EAJ-GNAN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-EAJ-GNAH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-AN-GNAN",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "No",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     },
+     {
+      "sku": "C16QS-AN-GNAH",
+      "attrs": {
+       "GNSS": "Yes",
+       "eSIM": "Yes",
+       "Flash": "1.25 MB / 4 MB"
+      }
+     }
+    ],
+    "regional": [
+     "WW – Worldwide",
+     "NA – North America",
+     "EU – Europe",
+     "IN – India",
+     "EA – East Asia"
+    ],
+    "variant_codes": [
+     "SOON – No GNSS, no eSIM.",
+     "SOOH – No GNSS, with eSIM.",
+     "GNAN – With GNSS, no eSIM.",
+     "GNAH – With GNSS and eSIM.",
+     "mPCIe – Mini PCIe Formfactor"
+    ],
+    "note": ""
+   },
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 1bis",
+   "release": "3GPP Release 14",
+   "os": "FreeRTOS",
+   "bands": [
+    {
+     "region": "EAJ",
+     "tech": null,
+     "bands": "1/3/5/7/8/18/19/20/26/28/40/41"
+    },
+    {
+     "region": "EU",
+     "tech": null,
+     "bands": "1/3/5/7/8/20/28"
+    },
+    {
+     "region": "NA",
+     "tech": null,
+     "bands": "2/4/5/12/25/66"
+    },
+    {
+     "region": "AN",
+     "tech": null,
+     "bands": "1/3/5/8/18/19/26/28"
+    },
+    {
+     "region": "LA",
+     "tech": null,
+     "bands": "1/2/3/4/5/7/8"
+    },
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "1/3/5/8/40/41"
+    },
+    {
+     "region": "WW",
+     "tech": null,
+     "bands": "1/2/3/4/5/7/8/12/18/19/20/25/26/28/40/41/66"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat 1bis",
+     "10 Mbps (DL), 5 Mbps (UL)"
+    ]
+   ],
+   "interfaces": [
+    "3xUART",
+    "1xUSB2.0",
+    "1xUSIM",
+    "1xSWD",
+    "2xADC (requires SDK)",
+    "1xI2S (requires SDK)",
+    "1xI2C (requires SDK)",
+    "1xSPI (requires SDK)",
+    "4xGPIO (requires SDK)",
+    "1xMain ANT",
+    "1xGNSS ANT (optional)"
+   ],
+   "highlights": [
+    "Integrated eSIM",
+    "GNSS Support",
+    "Power Saving Mode",
+    "Powered by Cavli Hubble",
+    "Small Form Factor Design",
+    "USB 2.0 Interface",
+    "LTE Cat 1bis",
+    "DFOTA Available",
+    "Max UART speed upto 3 Mbps",
+    "Independent GNSS",
+    "WiFi Scanning Support",
+    "Applicable regions",
+    "Inbuilt GNSS"
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+  },
+  "category_table": {
+   "Form factor": {
+    "value": "LGA, mPCIe, USB Dongle",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Dimensions (mm)": {
+    "value": "26.5 x 22.5 x 2.3 mm (LGA); 30.0 x 50.9 x 3.78 mm (mPCIe); 30.0 x 46.0 mm (USB Dongle)",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "RF Technology": {
+    "value": "LTE Cat 1bis",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Frequency bands (MHz) / WW (Worldwide)": {
+    "value": "1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 18 / 19 / 20 / 25 / 26 / 28 / 40 / 41 / 66",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Frequency bands (MHz) / EAJ (EMEA/ APAC/ Japan) / EU": {
+    "value": "1 / 3 / 5 / 7 / 8 / 18 / 19 / 20 / 26 / 28 / 40 / 41 (EAJ); 1 / 3 / 5 / 7 / 8 / 20 / 28 (EU)",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Frequency bands (MHz) / IN (India)": {
+    "value": "1 / 3 / 5 / 8 / 40 / 41",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Frequency bands (MHz) / NA (North America)": {
+    "value": "2 / 4 / 5 / 12 / 25 / 66",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Frequency bands (MHz) / AN (Aus & NZ)": {
+    "value": "1 / 3 / 5 / 8 / 18 / 19 / 26 / 28",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Frequency bands (MHz) / LA (Latin America)": {
+    "value": "1 / 2 / 3 / 4 / 5 / 7 / 8",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Weight (approx.) (g)": {
+    "value": "3.9g",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Operating temperature": {
+    "value": "-45 °C to +85 °C",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Control via AT commands": {
+    "value": "3GPP TS27.007 and Cavli AT Commands",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Data transmission (Max.) / LTE": {
+    "value": "Cat 1bis: 10 Mbps(DL), 5 Mbps(UL)",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Data transmission (Max.) / Protocols": {
+    "value": "TCP(S), HTTP(S), FTP(S), MQTT(S), UDP, PPP",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / (U)SIM": {
+    "value": "x1",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / UART": {
+    "value": "x3",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / USB": {
+    "value": "x1",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / I2C": {
+    "value": "x1",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / SPI": {
+    "value": "x1",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / GPIO": {
+    "value": "x4",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / ADC": {
+    "value": "x2",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / SD Card": {
+    "value": "x1, SD 3.0, 4-bit SDIO",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Interfaces / Antenna": {
+    "value": "× 2, Main LTE, GNSS",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Enhanced features / GNSS": {
+    "value": "GPS/BDS",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Enhanced features / PSM": {
+    "value": "DRX/eDRX/Sleep/Hibernate",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Enhanced features / DFOTA": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Enhanced features / Independent GNSS": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Enhanced features / (U)SIM card detection": {
+    "value": "Yes",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Electrical features / Supply voltage range": {
+    "value": "Range: 3.4 V to 4.2 V",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   },
+   "Electrical features / Recommended applications": {
+    "value": "Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc.",
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+   }
+  },
+  "llm_profile": {
+   "processor": {
+    "value": "Arm Cortex-M3",
+    "source": "key_highlights"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "faq"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": "Advanced power-saving features",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "asset tracking, POS terminals, remote monitoring, smart metering, logistics, industrial IoT",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "C16QS supports optional GNSS for GPS and BeiDou tracking.",
+     "source": "faq"
+    },
+    {
+     "value": "C16QS is compatible with the Cavli Hubble Platform.",
+     "source": "faq"
+    },
+    {
+     "value": "C16QS offers a versatile range of interfaces including 3xUART, USB 2.0, I2C, SPI, and GPIOs.",
+     "source": "faq"
+    },
+    {
+     "value": "C16QS is designed for global connectivity with multiple regional variants.",
+     "source": "faq"
+    },
+    {
+     "value": "C16QS offers LTE Cat 1bis connectivity.",
+     "source": "faq"
+    }
+   ]
+  }
+ },
+ "P16QS": {
+  "product": "P16QS",
+  "series": "c-series",
+  "categories": [
+   "LTE Cat 1bis"
+  ],
+  "url": "https://www.cavliwireless.com/iot-modules/c-series/p16qs",
+  "brochure_url": "https://www.cavliwireless.com/resources/download?docName=p16qs-product-brochure",
+  "release": {
+   "value": "3GPP Release 14",
+   "source": "product_page"
+  },
+  "os": {
+   "value": "RTOS(MCU) + FreeRTOS(Modem)",
+   "source": "product_page"
+  },
+  "gnss": {
+   "value": "GPS / BeiDou / GLONASS / Galileo / QZSS",
+   "source": "product_page"
+  },
+  "speeds": {
+   "value": [
+    [
+     "LTE Cat 1bis",
+     "10 Mbps (DL), 5 Mbps (UL)"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "packaging": {
+   "value": [
+    [
+     "Dimension",
+     "40.0 x 30.0 x 2.7 mm, LGA Package"
+    ]
+   ],
+   "source": "product_page"
+  },
+  "form_factors": {
+   "value": [
+    "LGA"
+   ],
+   "source": "product_page"
+  },
+  "regions": {
+   "value": [
+    "IN"
+   ],
+   "source": "product_page"
+  },
+  "bands": {
+   "value": [
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "1/3/5/8/38/40/41"
+    }
+   ],
+   "source": "product_page"
+  },
+  "interfaces": {
+   "value": [
+    "2xUSIM",
+    "1xKPD (up to 5x5)",
+    "up to 7xADC",
+    "1xI2S",
+    "2xI2C",
+    "1xSPI",
+    "up to 27xGPIO",
+    "1xPWM",
+    "1xDisplay Interface (DBI Type-C)",
+    "2xAudio ADC",
+    "1xAudio DAC",
+    "1xSmart Card Reader (CVCC)",
+    "1xMagnetic Stripe Reader",
+    "8xTamper Switch",
+    "1xNFC_I2C",
+    "1xNFC_SPI",
+    "1xMain ANT",
+    "1xWLAN ANT",
+    "1xGNSS ANT (optional)"
+   ],
+   "source": "product_page"
+  },
+  "key_highlights": {
+   "value": [
+    "Smart Card, Magnetic Stripe and NFC Interfaces",
+    "32-bit RISC-V Processor Up to 325 MHz",
+    "Low Power Consumption and Power Saving Modes",
+    "Optional Integrated eSIM for Seamless Connectivity",
+    "SMS over IMS/SG/CS",
+    "Compact LGA Form Factor (40.0 x 30.0 x 2.7 mm)",
+    "VoLTE Support",
+    "Remote Connectivity and Device Management via Cavli Hubble",
+    "Wi-Fi 6.0 and BLE 5.4 Connectivity",
+    "USB 2.0 Interface",
+    "Integrated Secure Element for Hardware-Level Security",
+    "Optional Integrated GNSS for GPS, BeiDou, GLONASS, Galileo and QZSS"
+   ],
+   "source": "product_page"
+  },
+  "variants": {
+   "value": null,
+   "source": "product_page"
+  },
+  "category_card": {
+   "category": "LTE Cat 1bis",
+   "release": "3GPP Release 14",
+   "os": "RTOS(MCU) + FreeRTOS(Modem)",
+   "bands": [
+    {
+     "region": "IN",
+     "tech": null,
+     "bands": "1/3/5/8/38/40/41"
+    }
+   ],
+   "speeds": [
+    [
+     "LTE Cat 1bis",
+     "10 Mbps (DL), 5 Mbps (UL)"
+    ]
+   ],
+   "interfaces": [
+    "2xUSIM",
+    "1xKPD (up to 5x5)",
+    "up to 7xADC",
+    "1xI2S",
+    "2xI2C",
+    "1xSPI",
+    "up to 27xGPIO",
+    "1xPWM",
+    "1xDisplay Interface (DBI Type-C)",
+    "2xAudio ADC",
+    "1xAudio DAC",
+    "1xSmart Card Reader (CVCC)",
+    "1xMagnetic Stripe Reader",
+    "8xTamper Switch",
+    "1xNFC_I2C",
+    "1xNFC_SPI",
+    "1xMain ANT",
+    "1xWLAN ANT",
+    "1xGNSS ANT (optional)"
+   ],
+   "highlights": [
+    "LTE Cat 1bis",
+    "32-bit RISC-V Processor @ 325 MHz",
+    "Wi-Fi 6 + BLE 5.4 Support",
+    "Integrated GNSS (Optional)",
+    "Integrated eSIM (Optional)",
+    "Cavli Hubble Platform Support (Optional)",
+    "Integrated Secure Element (Optional)",
+    "Power Saving Modes",
+    "Small Form Factor LGA Design",
+    "16/32 MB Flash Memory",
+    "8 MB pSRAM",
+    "RTOS Support",
+    "Dual USIM Interface",
+    "NFC Interface Support",
+    "Smart Card Reader Interface",
+    "Magnetic Stripe Reader Interface",
+    "Tamper Detection Support",
+    "208-Pin LGA Package",
+    "India LTE Band Support."
+   ],
+   "source_url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module"
+  },
+  "category_table": {},
+  "llm_profile": {
+   "processor": {
+    "value": "32-bit RISC-V Processor Up to 325 MHz",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": "Wi-Fi 6.0 and BLE 5.4",
+    "source": "about"
+   },
+   "esim": {
+    "value": "Optional Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": "SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": "Low Power Consumption and Power Saving Modes",
+    "source": "key_highlights"
+   },
+   "camera_display": {
+    "value": "DBI Type-C Display Interface",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "LTE Cat 1bis",
+    "source": "about"
+   },
+   "applications": {
+    "value": "secure IoT, connected payment systems, RTOS-based telematics applications",
+    "source": "faq"
+   },
+   "extra_facts": []
+  }
+ }
+}

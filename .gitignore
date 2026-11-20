@@ -1,0 +1,9 @@
+.venv/
+.env
+qdrant_data/
+data/feedback.jsonl
+data/requests.jsonl
+__pycache__/
+.idea/
+.DS_Store
+*.zip

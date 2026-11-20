@@ -1,0 +1,23 @@
+[project]
+name = "cavli-website-assistant"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-dotenv",
+    "requests",
+    "beautifulsoup4",
+    "qdrant-client",
+    "langchain",
+    "langchain-core",
+    "langchain-openai",
+    "langchain-qdrant",
+    "langchain-text-splitters",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "rank-bm25>=0.2.2",
+]

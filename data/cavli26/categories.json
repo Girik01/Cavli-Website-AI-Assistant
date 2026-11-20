@@ -1,0 +1,1828 @@
+{
+ "5G RedCap": {
+  "category": "5G RedCap",
+  "url": "https://www.cavliwireless.com/iot-modules/5g-redcap-iot-module",
+  "intro": [
+   "5G RedCap IoT modules help OEMs build mid-tier connected devices that need stronger performance than LTE Cat 4 but lower cost, power, and RF complexity than full 5G NR. Powered by the Qualcomm X35 chipset and integrated with the Cavli Hubble platform, Cavli’s CQM220 5G RedCap IoT module supports up to 220 Mbps downlink, 120 Mbps uplink, LTE fallback, integrated GNSS, OpenWrt SDK support, and remote lifecycle management for scalable IoT deployments."
+  ],
+  "sections": [
+   {
+    "title": "Introduction",
+    "kind": "intro",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "What Is 5G RedCap?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G RedCap stands for 5G Reduced Capability. It is also called NR-Light and was introduced in 3GPP Release 17 for IoT devices that do not need the full performance profile of standard 5G NR.",
+       "RedCap reduces device complexity by using narrower bandwidth, fewer antenna requirements, and a simpler hardware design compared with full 5G NR. This makes it suitable for IoT products that need reliable 5G connectivity, better uplink performance, and longer network lifecycle readiness without moving to high-end 5G module designs.",
+       "In practical terms, 5G RedCap fills the gap between LTE Cat 4 and full 5G NR for applications such as industrial gateways, smart cameras, connected healthcare devices, drones, routers, and field monitoring systems."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Why Choose 5G RedCap IoT Modules?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G RedCap IoT modules are designed for connected devices that need stronger performance than LTE Cat 1 or LTE Cat 4, but do not require the full capability of standard 5G NR modules.",
+       "- Higher throughput than LTE Cat 4: Supports up to 220 Mbps downlink and 120 Mbps uplink for mid-tier IoT applications.",
+       "- Lower complexity than full 5G NR: Reduced bandwidth and fewer antenna requirements simplify device design.",
+       "- Better long-term network readiness: Supports the transition from LTE-based IoT deployments to 5G Standalone networks.",
+       "- Suitable power profile: 5G power-saving features help support compact and field-deployed IoT devices.",
+       "- Practical IoT fit: Works well for smart cameras, industrial gateways, connected healthcare devices, routers, drones, and monitoring systems."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "5G RedCap vs LTE Cat 4 vs Full 5G NR",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "Where Does 5G RedCap Fit in IoT Connectivity?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G RedCap fills the performance gap between LTE and full 5G NR. It is useful for IoT products that need better uplink performance, 5G Standalone support, and a longer network lifecycle than LTE, but do not need the multi-gigabit performance of full 5G NR.",
+       "Not Sure Between LTE Cat 4, 5G RedCap, and Full 5G NR?",
+       "Our solution consulting team can help you choose the right module based on bandwidth, power profile, regional coverage, certification needs, and deployment scale.",
+       "Get Module Selection Support"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "5G RedCap Use Cases for IoT Devices",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G RedCap modules are suited for IoT devices that need reliable data transfer, stronger uplink performance, and a longer 5G-ready lifecycle without the full complexity of 5G NR.",
+       "- Drones and inspection systems: Support command data, telemetry, image transfer, and controlled video uplink for inspection workflows.",
+       "- Smart cameras and surveillance: Enable event-based video upload, remote monitoring, and edge-connected security systems.",
+       "- Industrial gateways: Aggregate machine data, alarms, diagnostics, and firmware update traffic from connected industrial equipment.",
+       "- Routers and wireless terminals: Support mid-tier broadband access, backup connectivity, and multi-device aggregation.",
+       "- Telehealth and connected healthcare devices: Enable reliable transmission of device data, diagnostics, and remote monitoring information.",
+       "- Smart grid and utility systems: Support field connectivity for grid monitoring, distribution equipment, and connected utility assets."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "5G RedCap Network Readiness and Deployment Considerations",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G RedCap is designed for 5G Standalone networks. Since 5G SA availability varies by country, operator, and deployment region, OEMs should validate network readiness before finalizing a RedCap-based product design.",
+       "- Check 5G SA availability: Confirm whether the target operator supports 5G Standalone services in the deployment region.",
+       "- Validate LTE fallback: Use LTE fallback to maintain connectivity where 5G SA coverage is limited or still expanding.",
+       "- Confirm supported bands: Match module variants with regional 5G and LTE band requirements.",
+       "- Plan field testing: Test both 5G RedCap and LTE fallback performance before commercial rollout.",
+       "- Review certification needs: Account for regional certification, carrier approval, and product integration timelines."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "How to Integrate the CQM220 5G RedCap Module",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "Cavli supports OEM integration of the CQM220 5G RedCap module through flexible form factors, standard interfaces, Linux-based development support, and evaluation resources.",
+       "- Form factors: Available in LGA and M.2 options for different product design requirements.",
+       "- Interfaces: Supports key interfaces such as USB 2.0, UART, SGMII, PCM, I2S, and antenna interfaces for cellular and GNSS connectivity.",
+       "- OpenWrt SDK support: Helps OEM teams accelerate Linux-based application development and customization.",
+       "- Evaluation support: OEMs can request evaluation kits, AT command references, and technical guidance for faster testing and validation."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "How Cavli Hubble Supports 5G RedCap Module Management",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "Cavli Hubble helps OEMs manage connected devices beyond the hardware integration stage. For 5G RedCap deployments, it provides tools to monitor connectivity, manage data usage, and support remote module lifecycle operations.",
+       "- Remote monitoring: Track modem health, connectivity status, and device behavior across deployed fleets.",
+       "- FOTA support: Push firmware updates remotely to reduce field maintenance and downtime.",
+       "- Data plan management: Manage preset, custom, and pay-as-you-go data plans based on deployment requirements.",
+       "- Lifecycle visibility: Support long-term device management from testing to commercial deployment."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "What Is the Future of 5G RedCap and eRedCap?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G RedCap continues to evolve with enhanced RedCap, or eRedCap, introduced as part of 3GPP Release 18. eRedCap is intended to further reduce device complexity, bandwidth requirements, and power consumption for lower-data-rate IoT devices.",
+       "For OEMs, this means RedCap can serve as a practical 5G migration path for mid-tier IoT devices today, while eRedCap may support future low-cost device categories that currently rely on LTE Cat 1, LTE Cat 1bis, or other low-power cellular technologies."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "5G RedCap IoT Modules",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "Highlights and Advantages of C-Series 5G RedCap IoT Module",
+    "kind": "highlights_advantages",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "The 4G fallback feature in the CQM220 5G Module ensures a seamless switching to a 4G network when a 5G network is unavailable providing continuous connectivity for the user at any remote location. CQM220 also supports peak data rates up to DL 226 Mbps and 4G peak speeds of DL 195 Mbps & UL 105 Mbps.",
+       "The integrated GNSS in CQM220 allows precise location tracking using the Qualcomm Location Suite Gen 9 (L1+L5) constellation suite for GPS/ GLONASS/ BeiDou/ Galileo QZSS. It ensures OEMs can reduce the bill of materials and design IoT applications with a small form factor.",
+       "The CQM220 module supports a wide range of 5G frequency bands, available in both worldwide and regional SKUs. This ensures broad geographic coverage for IoT deployments that operate across different geographical regions.",
+       "The CQM220 is available in standard LGA and M.2 form factors. This ensures compatibility and interchangeability across different modules enabling seamless integration.",
+       "CQM220 support internet protocols like TCP(S), HTTP(S), MQTT(S), FTP(S), SNMP(S) WS(S), and UDP to enable any internet-based solution. It also supports the following USB and UART interfaces - UART x4, USB 2.0 x1, PCM 2 x1,I2C 2 x1, SPI 2 x1, I2S x9, Main ANT x1 and GNSS ANT x1.",
+       "CQM220 with Hubble Connectivity platform offers a centralized cloud-based interface for module management. It offers comprehensive remote diagnostics, Firmware Over-The-Air (FOTA) updates, and troubleshoots issues successfully reducing the downtime."
+      ]
+     }
+    ]
+   }
+  ],
+  "tables": [
+   {
+    "title": "5G RedCap vs LTE Cat 4 vs Full 5G NR",
+    "before": "5G RedCap sits between LTE Cat 4 and full 5G NR. It gives IoT devices a 5G migration path with higher uplink performance, lower device complexity, and better long-term network readiness than LTE, without requiring the multi-gigabit bandwidth or RF complexity of full 5G NR.",
+    "after": "Choose 5G RedCap when LTE Cat 4 bandwidth or latency becomes limiting, but full 5G NR is too complex or expensive for the device design. Choose LTE Cat 4 for cost-first deployments and full 5G NR for applications that require multi-gigabit throughput.",
+    "body": "Technology | Typical Peak Speed | Device Complexity | Best Fit\nLTE Cat 4 | Typical Peak Speed: Up to 150 Mbps DL / 50 Mbps UL | Device Complexity: Low | Best Fit: Cost-sensitive IoT devices, legacy LTE deployments, and basic gateways\n5G RedCap | Typical Peak Speed: Up to 220 Mbps DL / 120 Mbps UL | Device Complexity: Low to medium | Best Fit: Mid-tier IoT devices that need better uplink, lower latency, and a 5G migration path\nFull 5G NR | Typical Peak Speed: Multi-gigabit speeds depending on modem and network | Device Complexity: High | Best Fit: High-bandwidth routers, CPE, edge gateways, video-heavy systems, and advanced industrial use cases",
+    "facts": {}
+   }
+  ],
+  "cards": {
+   "CQM220": [
+    "CQM220",
+    "Know More",
+    "5G RedCap",
+    "3GPP Release 17",
+    "Cellular Bands Supported",
+    "5G",
+    ":",
+    "n1/ n2/ n3/ n5/ n7/ n8/ n12/ n13/ n14/ n18/ n20/ n25/ n26/ n28/ n30/ n38/ n40/ n41/ n48/ n66/ n70/ n71/ n77/ n78",
+    "4G",
+    ":",
+    "B1/ B2/ B3/ B4/ B5/ B7/ B8/ B12/ B13/ B14/ B17/ B18/ B19/ B20/ B25/ B26/ B28/ B34/ B38/ B39/ B40/ B41/ B42/ B43/ B48/ B66/ B71",
+    "OS",
+    "Linux / OpenWrt",
+    "Interfaces",
+    "1xI2C*, 3xUART, 1x12S, 1xPCM, 1xMAIN_ANT, 1xGNSS_ANT, 1xDIV_ANT, 1xSDC*, 1xSGMII",
+    "Cellular Connectivity Download & Uplink Speed",
+    "5G RedCap",
+    ":",
+    "220 Mbps (DL), 120 Mbps (UL)",
+    "4G",
+    ":",
+    "DL 150 Mbps, UL 50 Mbps",
+    "Key Highlights",
+    "Arm Cortex A7 upto 1.7Ghz, 5G RedCap, LTE Fallback, In-built GNSS-Support, Open SDK Support, USB 2.0 Interface"
+   ]
+  },
+  "faqs": [
+   {
+    "question": "What exactly is 5G RedCap (Reduced Capability)?",
+    "answer": "5G RedCap (Reduced Capability), defined in 3GPP Release 17, is a lightweight 5G standard for IoT applications. It delivers up to 220 Mbps downlink and 120 Mbps uplink, offering a cost-effective, power-efficient alternative to full 5G for mid-tier IoT use cases like wearables, video surveillance, and industrial sensors."
+   },
+   {
+    "question": "What are the main advantages of using 5G RedCap over LTE for IoT applications?",
+    "answer": "5G RedCap outperforms LTE Cat-1 (10 Mbps DL, 5 Mbps UL) and Cat-4 (150 Mbps DL, 50 Mbps UL) with higher speeds (220 Mbps DL, 120 Mbps UL) and 5G features like network slicing and enhanced positioning. Its reduced complexity lowers costs by 50–70% compared to full 5G, and eDRX extends battery life, making it ideal for IoT migration."
+   },
+   {
+    "question": "Do 5G RedCap modules require 5G standalone (SA) networks?",
+    "answer": "Yes, 5G RedCap modules operate on 5G standalone (SA) networks for optimal performance. Cavli’s CQM220 module includes LTE fallback (up to 195 Mbps DL, 105 Mbps UL) to ensure connectivity in areas without SA coverage."
+   },
+   {
+    "question": "When will 5G RedCap be widely available for IoT deployments?",
+    "answer": "5G RedCap is rolling out on 5G SA networks, with 61 operators in 34 countries supporting SA as of 2025 (Ericsson Mobility Report, 2025). Broad availability is expected by 2025–2026, driven by milestones like AT&T’s U.S.-first RedCap data call in July 2025."
+   },
+   {
+    "question": "Can 5G RedCap support real-time video streaming and other demanding IoT applications?",
+    "answer": "Yes, with 120 Mbps uplink, 5G RedCap supports real-time video streaming for applications like drones and surveillance cameras. It also powers demanding IoT use cases like industrial sensors and smart grids, offering 2–50 Mbps bitrates with low power consumption."
+   },
+   {
+    "question": "What are the key use cases for 5G RedCap IoT modules?",
+    "answer": "5G RedCap IoT modules are optimized for a wide range of applications, including:\n- Wearables: Smartwatches and health monitors with 5–50 Mbps speeds.\n- Video Surveillance: 2–4 Mbps video streaming for drones and security cameras.\n- Industrial IoT: Real-time monitoring of machinery and factory sensors.\n- Smart Grids: Efficient real-time power distribution and management.\n- Logistics and Asset Tracking: Accurate GNSS-based tracking of shipments and assets.\n- Smart Cities and Agriculture: Real-time solutions for urban infrastructure and precision farming."
+   },
+   {
+    "question": "What are the challenges or considerations for deploying 5G RedCap IoT modules?",
+    "answer": "Deploying 5G RedCap IoT modules involves consideration of the following key factors:\n- Network Availability: Deployment requires 5G Standalone (SA) networks, with LTE fallback support in areas lacking SA coverage.\n- Device Design: Devices should be optimized for 20 MHz bandwidth and single-antenna configurations to ensure efficiency.\n- Cost Management: RedCap offers cost-effective connectivity compared to full 5G, but it is more expensive than NB-IoT for ultra-low-data scenarios.\n- Integration: Implementation demands expertise in ECM, QMI, MBIM, or L2 bridge configurations—streamlined through Cavli’s SDKs and integration guides.\n- Future Transition: It's essential to plan for the adoption of eRedCap (3GPP Release 18, expected in 2026) to enable even lower-cost, low-bandwidth applications."
+   },
+   {
+    "question": "How do I start integrating Cavli’s 5G RedCap modules?",
+    "answer": "Start with a CQM220 5G RedCap module evaluation kit, available via our contact page. Use our OpenWrt SDK for Linux-based development and follow ECM/QMI setup guides (e.g., qmicli -d /dev/cdc-wdm0 --wds-start-network=\"apn=iot\"). Our team provides dedicated support for seamless integration."
+   },
+   {
+    "question": "Why choose Cavli Wireless for 5G RedCap IoT modules?",
+    "answer": "Cavli Wireless, recognized by Gartner and IoT Analytics, leverages over a decade of IoT expertise. Our 5G RedCap IoT modules, like the CQM220, are deployed in Multiple countries, offering unmatched reliability and scalability. Global and NA SKUs, combined with Cavli Hubble's IoT Module and Connectivity management, simplify deployment and management."
+   }
+  ]
+ },
+ "LTE Cat 4": {
+  "category": "LTE Cat 4",
+  "url": "https://www.cavliwireless.com/iot-modules/lte-Cat4-iot-module",
+  "intro": [
+   "LTE Cat 4 is a category within the 4G LTE standard, introduced in 3GPP Release 8, that offers faster data speeds than earlier categories like LTE Cat 1. LTE Cat 4 is an ideal choice for IoT devices and applications that need a significant step up in high speed data connectivity."
+  ],
+  "sections": [
+   {
+    "title": "Introduction",
+    "kind": "intro",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "What is LTE Cat 4? Introduced in 3GPP Release 8 before LTE Advanced (LTE-A), LTE Category 4 (Cat 4) represents a key evolution in 4G LTE technology. It provides faster data rates—up to 150 Mbps download and 50 Mbps upload—along with enhanced network efficiency over earlier categories. This makes LTE Cat 4 IoT modules ideal for applications requiring reliable, high-speed connectivity and greater data throughput."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Benefits of LTE Cat 4 Technology",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "LTE Cat 4 modules deliver higher bandwidth support (up to 20 MHz), enabling seamless experiences in video streaming, web browsing, and real-time communication. Building on core LTE strengths like reduced latency and increased network capacity, it's a go-to solution for mobile and fixed IoT devices, ensuring efficient performance in demanding environments."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "LTE Cat 4 IoT Applications",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "LTE Cat 4 is suitable for IoT applications that demand high-speed data transmission, such as telematics control systems, e-mobility, and asset tracking. It is also widely preferred in applications in the smart metering domain, including smart grid management and critical equipment monitoring. Furthermore, it is adaptable for a wide range of other IoT use cases like smart cities, smart lighting, and more."
+      ]
+     },
+     {
+      "h3": "Trusted by Industries for Peak LTE Cat 4 Performance",
+      "lines": [
+       "At Cavli Wireless, our C-Series LTE Cat 4 IoT modules provide top-tier speeds: up to 150 Mbps download and 50 Mbps upload. Packed with features like integrated GNSS, eSIM support, multiple interfaces, and 2G fallback, these LTE Category 4 modules guarantee dependable connectivity for any IoT project. Powered by the Cavli Hubble connectivity platform, they streamline device management, include an in-house MQTT service, and support seamless FOTA updates. With Cavli Wireless, build innovative IoT devices using our robust LTE Cat 4 modules and lead the charge in connected world solutions."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "LTE Cat 4 IoT Modules",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "Highlights and Advantages of C-Series LTE Cat 4 IoT Modules",
+    "kind": "highlights_advantages",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "C20QM and C10GS are available in LGA and MiniPCIe form factors, enabling OEMs to choose the best-suited footprint for specific requirements in IoT systems.",
+       "The CQS290 and C20QM modules support USB, UART, and LCD interfaces empowering control unit applications in ICE Bikes, EV charging stations, E-scooters, and environment monitoring solutions.",
+       "Cavli C-Series LTE Cat 4 Modules like C10GS support LTE bands for global deployment. The AQ20 and C20QM module support VoLTE and SMS capability over IMS/SG/CS mobile communication protocols.",
+       "C20QM and AQ20 run on Yocto Linux, CQS290 is an Android module and C10GS runs on Linux. The rapid data transfer capability of 150 Mbps download and 50 Mbps upload speeds, enables swift communication and real-time data processing, ideal for IoT applications handling large data files.",
+       "Cavli C-Series LTE Cat 4 Modules with integrated GNSS positioning, provide real-time location data from satellite constellations, enabling OEMs to build precise location tracking in applications like logistics and transportation, with low BOM.",
+       "The C20QM and AQ20 modules incorporate 2G fallback capability. When an primary connectivity network (4G) is unavailable, it falls back to the legacy 2G cellular network to provide a undisrupted network connectivity for your IoT applications."
+      ]
+     }
+    ]
+   }
+  ],
+  "tables": [],
+  "cards": {
+   "CQ20": [
+    "CQ20",
+    "Know More",
+    "LTE Cat 4",
+    "3GPP Release 10",
+    "Cellular Bands Supported",
+    "WW",
+    ":",
+    "LTE - 1/2/3/4/5/7/8/12/13/18/19/20/25/26/28/40/66",
+    "NA",
+    ":",
+    "LTE - 2/4/5/12/13/25/66",
+    "EAJ",
+    ":",
+    "LTE - 1/3/5/7/8/18/19/20/26/28/40",
+    "EU",
+    ":",
+    "LTE - 1/3/7/8/20/28",
+    "IN",
+    ":",
+    "LTE - 1/3/5/8/40",
+    "AN",
+    ":",
+    "LTE - 1/3/5/8/18/19/26/28",
+    "LA",
+    ":",
+    "LTE - 1/2/3/4/5/7/8",
+    "OS",
+    "Yocto Linux (Kernel 4.14)",
+    "Interfaces",
+    "UART x3, USB 2.0 (HS) x1, HSIC x1, WLAN/BT (External) x1, SDC x2, USIM (1.8V / 2.85V) x1, Network Status Indicator x2, Power ON Status Indicator x1, SGMII x1, I2C x1**, ADC x2, PCM x1**, JTAG x1, Main ANT x1, GNSS ANT x1, Diversity ANT x1",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat 4",
+    ":",
+    "150 Mbps (DL), 50 Mbps (UL)",
+    "2G",
+    ":",
+    "236.8 Kbps (DL), 236.8 Kbps (UL)",
+    "Key Highlights",
+    "Applicable regions - (EA, NA, WW), In-built GNSS, LTE Cat 4, 2G Fallback, VoLTE Support, SMS over IMS/SG/CS, USB 2.0 Interface, OpenSDK Support, USB OTG Support"
+   ],
+   "C20QM": [
+    "C20QM",
+    "Know More",
+    "LTE Cat 4",
+    "3GPP Release 10",
+    "Cellular Bands Supported",
+    "EAJ",
+    ":",
+    "1/3/5/7/8/18/19/20/26/28/38/40/41",
+    "EU",
+    ":",
+    "1/3/7/8/20/28",
+    "NA",
+    ":",
+    "2/4/5/12/13/17/25/66",
+    "AN",
+    ":",
+    "1/3/5/8/18/19/26/28",
+    "OS",
+    "Yocto Linux (Kernel 4.14)",
+    "Interfaces",
+    "9xGPIO**, 1xUSB HS , 3xUART, 2xADC**, 1xPCM**, 1xUSIM, 1xI2C**, 1xSPI**, 1xSDC, 1xSGMII, 1xJTAG, 1xLCD**, 1xMAIN_ANT, 1xSDIO, 1xGNSS_ANT, 1xDIV_ANT*",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat 4",
+    ":",
+    "150 Mbps (DL), 50 Mbps (UL)",
+    "2G",
+    ":",
+    "236.8 Kbps (DL), 236.8 Kbps (UL)",
+    "Key Highlights",
+    "Integrated eSIM, Powered by Cavli Hubble, Applicable regions - (APAC, EMEA, N.America), GNSS Support, LTE Cat 4, 2G Fallback, VoLTE Support, DFOTA, SMS over IMS/SG/CS, USB 2.0 Interface, Deep Sleep Mode, OpenSDK Support, USB OTG Support, LCD Interface"
+   ],
+   "CQS290": [
+    "CQS290",
+    "Know More",
+    "LTE Cat 4",
+    "3GPP Release 10",
+    "Cellular Bands Supported",
+    "WW",
+    ":",
+    "B1 /B2 /B3 /B4 /B5 /B7 /B8 /B12 /B13 /B18 /B19 /B20 /B25 /B26 /B28 /B38 /B40 /B41 /B66 /B71* | GSM – 900/1800 MHz",
+    "OS",
+    "Android / Linux OS",
+    "Interfaces",
+    "1xLCD (DSI)**, 2xCamera (CSI)**, 2xCCI I2C, 2xAnalog Audio Out**, 2xAnalog Audio In, 2xDigital Audio In, 1xUSB 2.0(OTG Support), 1xUSIM, 3xUART, 1xJTAG, 37xGPIO**, 1xSDC 3.0, 1xADC**, 2xI2C**, 1xI3C**, 1xSPI**, 1xTouch Interface (I2C), 1xVIB_DRV, 1xWi-FI & Bluetooth ANT, 1xMain ANT, 1xDIV ANT, 1xGNSS ANT",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat 4",
+    ":",
+    "150Mbps (DL) & 50 Mbps (UL)",
+    "GSM 2G",
+    ":",
+    "236.8Kbps (DL) & 236.8 Kbps (UL)",
+    "Key Highlights",
+    "ARM Cortex-A53 64-bit Processor (Quad-core), Qualcomm Adreno™ 702 GPU, Android OS 12, SP upto 14, 2G Fallback, GPS/BDS/GLONASS/ Galileo/QZSS/SBAS, Superior Multimedia Functions, Wi-Fi - IEEE 802.11 a/b/g/n/ac, Bluetooth 5.0 (BR/EDR + BLE),"
+   ],
+   "CQS291": [
+    "CQS291",
+    "Know More",
+    "LTE Cat 4",
+    "3GPP Release 10",
+    "Cellular Bands Supported",
+    "WW",
+    ":",
+    "B1 /B2 /B3 /B4 /B5 /B7 /B8 /B12 /B13 /B18 /B19 /B20 /B25 /B26 /B28 /B38 /B40 /B41 /B66 /B71* | GSM – 900/1800 MHz",
+    "OS",
+    "Android / Linux OS",
+    "Interfaces",
+    "1xLCD (MIPI-DSI)**, 2xCamera (MIPI-CSI)**, 2xCCI I2C, 2xAnalog Audio Out**, 2x DMIC, 1xUSB 3.1(OTG Support), 1xUSIM, 3xUART, 37xGPIO**, 1xSDC 3.0, 1xADC**, 2xI2C**, 1xI3C**, 1xSPI**, 1xTouch Interface (I2C), 1xVIB_DRV, 1xWi-FI + BLE + FM ANT, 1xMain ANT, 1xDIV ANT, 1xGNSS ANT",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat 4",
+    ":",
+    "150Mbps (DL) & 50 Mbps (UL)",
+    "GSM 2G",
+    ":",
+    "236.8Kbps (DL) & 236.8 Kbps (UL)",
+    "Key Highlights",
+    "ARM Cortex-A53 64-bit (Quad-core), BR/EDR + BLE, Applicable regions - (World Wide), Wi-Fi - IEEE 802.11 a/b/g/n/ac, Superior Multimedia Functions, Android OS 12, 2G Fallback, Qualcomm Adreno™ 702 GPU, Touch Screen LCD Interface, Integrated eSIM, Powered by Cavli Hubble, GNSS Support, GPS/ BDS/ GLONASS/ Galileo/ QZSS/ SBAS"
+   ],
+   "CQS292": [
+    "CQS292",
+    "Know More",
+    "LTE Cat 4",
+    "3GPP Release 10",
+    "Cellular Bands Supported",
+    "WW",
+    ":",
+    "B1 /B2 /B3 /B4 /B5 /B7 /B8 /B12 /B13 /B18 /B19 /B20 /B25 /B26 /B28 /B38 /B40 /B41 /B66 /B71* | GSM – 900/1800 MHz",
+    "OS",
+    "Android 12 + Service packs up to Android 14",
+    "Interfaces",
+    "1xLCD (MIPI-DSI)**, 2xCamera (MIPI-CSI)**, 2xCCI I2C, 2xAnalog Audio Out**, 2x DMIC, 1xUSB 3.1(OTG Support), 1xUSIM, 3xUART, 37xGPIO**, 1xSDC 3.0, 1xADC**, 2xI2C**, 1xI3C**, 1xSPI**, 1xTouch Interface (I2C), 1xVIB_DRV, 1xWi-FI + BLE + FM ANT, 1xMain ANT, 1xDIV ANT, 1xGNSS ANT",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat 4",
+    ":",
+    "150Mbps (DL) & 50 Mbps (UL)",
+    "GSM 2G",
+    ":",
+    "236.8Kbps (DL) & 236.8 Kbps (UL)",
+    "Key Highlights",
+    "ARM Cortex-A53 64-bit (Quad-core), BR/EDR + BLE, Applicable regions -(World Wide), Wi-Fi - IEEE 802.11 a/b/g/n/ac, Superior Multimedia Functions, Android OS 12, 2G Fallback, Qualcomm Adreno™ 702 GPU, Touch Screen LCD Interface, Integrated eSIM, Powered by Cavli Hubble, GNSS Support, GPS/ BDS/ GLONASS/ Galileo/ QZSS/ SBAS/ NavIC"
+   ],
+   "CQS315": [
+    "CQS315",
+    "Know More",
+    "LTE Cat 4",
+    "3GPP Release 10",
+    "Cellular Bands Supported",
+    "WW",
+    ":",
+    "1/2/3/4/5/7/8/12/13/18/19/20/25/ 26/28/40/41/66/71 | GSM – 900/1800 MHz",
+    "EAJ",
+    ":",
+    "1/3/5/7/8/18/19/20/26/28/38/40/41 | GSM – 900/1800 MHz",
+    "AN",
+    ":",
+    "1/3/5/8/18/19/26/28 | GSM–900/1800 MHz",
+    "IN",
+    ":",
+    "1/3/5/8/40/41 | GSM – 900/1800 MHz",
+    "NA",
+    ":",
+    "2/4/5/7/8/12/13/17/25/66/71 | GSM – 900/1800 MHz",
+    "OS",
+    "Android / Linux",
+    "Interfaces",
+    "1xLCD (DSI)**, 2xCamera (CSI)**, 2xCCI I2C, 3xAnalog Audio Out**, 3xAnalog Audio In, 2xDigital Audio In, 1xUSB 2.0/3.1(OTG Support), 1xUSIM, 7xUART, 71xGPIO**, 1xSDC 3.0, 1xADC**, 4xI2C**, 2xI3C**, 5xSPI**, 1xTouch Interface (I2C), 1xWi-FI & Bluetooth ANT, 1xMain ANT, 1xDIV ANT, 1xGNSS ANT",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat 4",
+    ":",
+    "150Mbps (DL) & 50 Mbps (UL)",
+    "GSM 2G",
+    ":",
+    "236.8Kbps (DL) & 236.8 Kbps (UL)",
+    "Key Highlights",
+    "Qualcomm Octa-core Kryo 260 64-bit CPU, Qualcomm AdrenoTM 610 GPU, Android / Linux OS, 2G Fallback, Superior Multimedia Functions, Wi-Fi - IEEE 802.11 a/b/g/n/ac, Bluetooth 5.0 (BR/EDR + BLE), Integrated eSIM, Powered by Cavli Hubble, Applicable regions - (World Wide), GNSS Support,  GPS/BDS/GLONASS/ Galileo/QZSS/SBAS, Integrated LCD Touchscreen interface"
+   ]
+  },
+  "faqs": [
+   {
+    "question": "What is LTE Cat 4 and its significance in mobile communications?",
+    "answer": "LTE Category 4 (LTE Cat 4) is a standard within the LTE broadband technology that allows for faster data transmission rates compared to earlier LTE categories. It supports maximum data rates of up to 150 Mbps downlink and 50 Mbps uplink. This significant increase in speed enhances user experiences by enabling higher-quality video streaming, faster downloads, and more responsive web browsing, which is crucial for both consumer and business applications."
+   },
+   {
+    "question": "How does LTE Cat 4 enhance IoT device connectivity?",
+    "answer": "While primarily known for its benefits in consumer mobile devices, LTE Cat 4 also offers advantages for IoT applications that require high data throughput. It is ideal for IoT scenarios such as HD video surveillance, in-vehicle infotainment systems, and remote control of heavy machinery, where large amounts of data must be transmitted quickly and reliably."
+   },
+   {
+    "question": "What are the technical improvements of LTE Cat 4 over Cat 3?",
+    "answer": "LTE Cat 4 improves upon LTE Cat 3 by doubling the maximum downlink speeds (from 100 Mbps to 150 Mbps) and increasing the uplink speeds significantly (from 50 Mbps to 75 Mbps). These enhancements are achieved through more efficient use of radio spectrum by employing advanced signal processing techniques and modulation schemes, specifically 64-QAM (Quadrature Amplitude Modulation) in the downlink."
+   },
+   {
+    "question": "Are there any specific infrastructure requirements for deploying LTE Cat 4?",
+    "answer": "Deploying LTE Cat 4 technology requires network infrastructure that can support its higher throughput capabilities. This includes upgraded base station equipment and backhaul capacity to handle the increased data rates. Additionally, the deployment area must have sufficient LTE spectrum allocation to accommodate the broader bandwidth requirements of LTE Cat 4."
+   },
+   {
+    "question": "How does LTE Cat 4 differ from higher categories like LTE Cat 6?",
+    "answer": "LTE Cat 4 is less advanced than categories such as LTE Cat 6, which support higher data rates (up to 300 Mbps downlink via carrier aggregation) and better spectral efficiency. However, LTE Cat 4 strikes a balance between cost and performance for applications where extremely high data rates are not necessary but still require a substantial throughput improvement over lower LTE categories."
+   }
+  ]
+ },
+ "LTE Cat 1": {
+  "category": "LTE Cat 1",
+  "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-iot-module",
+  "intro": [
+   "LTE Cat 1, or LTE Category 1, introduced in 3GPP Release 8, is a cellular technology designed for IoT applications that require medium data throughputs. It is positioned between high-bandwidth cellular technology like LTE Cat 4 and low-power wide area networks like NB-IoT and LTE-M1."
+  ],
+  "sections": [
+   {
+    "title": "Introduction",
+    "kind": "intro",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "LTE Cat 1 technology is specifically designed to operate with medium data rates and moderate power consumption. LTE Cat 1 is the low-cost 4G cellular network standard, powering the broadest range of IoT applications. It supports Voice over LTE (VoLTE) and seamless handover, allowing continuous connectivity while switching between cell towers—crucial for mobile IoT applications."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "LTE Cat 1 IoT Applications: From Smart Metering to Wearables",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "LTE Cat 1 technology is utilized in a wide range of applications where devices need a reliable connection rather than high-speed data transfer. It is an excellent choice for remote monitoring and data collection applications such as smart metering and critical equipment monitoring. Additionally, wearable health monitors, POS machines, and security systems can efficiently leverage LTE Cat 1 IoT Modules to establish a reliable, IoT-connected ecosystem."
+      ]
+     },
+     {
+      "h3": "Cavli Wireless LTE Cat 1 IoT Modules: High Performance for Diverse IoT Solutions",
+      "lines": [
+       "Cavli Wireless introduces the C-Series LTE Cat 1 IoT Modules, offering peak data rates up to 10 Mbps downlink and 5 Mbps uplink. These modules are equipped with GNSS connectivity and eSIM integration, ensuring global coverage and seamless connectivity for your IoT deployments. With a compact footprint, Cavli’s Cat 1 modules come in various form factors, such as LGA and Mini PCIe, allowing for customization to meet specific business needs. Cavli Wireless empowers you to harness the power of cellular modules in your IoT applications, enabling the creation of a robust and connected ecosystem.",
+       "Cavli Wireless' LTE Cat 1 IoT Modules provide businesses with reliable, medium-speed connectivity for diverse IoT applications. With flexible form factors, global connectivity, and seamless integration, these modules enable the creation of efficient, connected IoT solutions that meet the needs of industries like smart metering, security, healthcare, and more."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "LTE Cat 1",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "Highlights and Advantages of C-Series LTE Cat 1 IoT Modules",
+    "kind": "highlights_advantages",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "C-Series LTE Cat 1 Modules support USB, and UART interfaces. The integrated LCD interface in C10QM empower applications like automotive telemetry units, EV charging stations, and environment monitoring.",
+       "Integrated GNSS provides assistance of navigational constellations like GPS, BeiDou, GLONASS, and Galileo for location tracking. In addition, the Qualcomm Location Suite in C11QM also employs multiple approaches like network-based positioning methods to deliver accurate location for IoT applications like asset tracking and fleet management.",
+       "The C10QM has a RAM of 256 MB allowing IoT devices to efficiently process data and handle multiple tasks simultaneously without significant slowdowns. With a substantial flash memory support of 256/ 512 MB, devices can now support more complex firmware and software updates.",
+       "The C10QM and C11QM modules have a 2G Fallback ability allowing IoT devices to seamlessly switch to 2G network when the primary network is unavailable. They also support VoLTE and SMS over IMS/SG/CS enabling reliable communication.",
+       "The C10QM and C10GS modules support FOTA (Firmware Over-The-Air) enabling remote upgrades. This reduces the need for physical access to the device to install the timely upgrades and patches.",
+       "The C10GS and C11QM work on Linux OS and ThreadX OS respectively. The C10QM Cat 1 module has a Yocto Linux operating system supporting virtual CAN that converts the nodal data into CAN data for the application cloud."
+      ]
+     }
+    ]
+   }
+  ],
+  "tables": [],
+  "cards": {
+   "C10QM": [
+    "C10QM",
+    "Know More",
+    "LTE Cat 1",
+    "3GPP Release 10",
+    "Cellular Bands Supported",
+    "EAJ",
+    ":",
+    "1/3/5/7/8/18/19/20/26/28/38/40/41",
+    "NA",
+    ":",
+    "2/4/5/12/13/17/25/66",
+    "EU",
+    ":",
+    "1/3/7/8/20/28",
+    "IN",
+    ":",
+    "1/3/5/8/40/41",
+    "AN",
+    ":",
+    "1/3/5/8/18/19/26/28",
+    "OS",
+    "Yocto Linux (Kernel 4.14)",
+    "Interfaces",
+    "9xGPIO*, 1xUSB HS , 3xUART, 1xSDH , 2xADC**, 1xPCM*, 1xUSIM, 1xI2C*, 1xSPI*, 1xSDC, 1xSGMII, 1xJTAG, 1xLCD**, 1xMAIN_ANT, 1xGNSS_ANT",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat 1",
+    ":",
+    "10 Mbps (DL), 5 Mbps (UL)",
+    "2G",
+    ":",
+    "236.8 Kbps (DL), 236.8 Kbps (UL)",
+    "Key Highlights",
+    "Integrated eSIM, Powered by Cavli Hubble, Applicable regions - (Global, APAC, EMEA, N.America), GNSS Support, LTE Cat 1, 2G Fallback, VoLTE Support, SMS over IMS/SG/CS, FOTA, DFOTA, USB OTG support, USB 2.0 Interface, Deep Sleep Mode, SDK Support, LCD Interface, Inbuilt GNSS"
+   ],
+   "CQ10": [
+    "CQ10",
+    "Know More",
+    "LTE Cat 1",
+    "2G",
+    "3GPP Release 10",
+    "Cellular Bands Supported",
+    "WW",
+    ":",
+    "LTE - 1/2/3/4/5/7/8/12/ 13/18/19/20/25/26/28/40/66",
+    "NA",
+    ":",
+    "LTE - 2/4/5/12/13/25/66",
+    "EAJ",
+    ":",
+    "LTE - 1/3/5/7/8/18/19/20/26/28/40",
+    "EU",
+    ":",
+    "LTE - 1/3/7/8/20/28",
+    "IN",
+    ":",
+    "LTE - 1/3/5/8/40",
+    "AN",
+    ":",
+    "LTE - 1/3/5/8/18/19/26/28",
+    "LA",
+    ":",
+    "LTE - 1/2/3/4/5/7/8",
+    "OS",
+    "Yocto Linux (Kernel 4.14)",
+    "Interfaces",
+    "UART x3, USB 2.0 (HS) x1, HSIC x1, WLAN/BT (External) x1, SDC x2, USIM (1.8V / 2.85V) x1, Network Status Indicator x2, Power ON Status Indicator x1, SGMII x1, I2C x1**, ADC x2, PCM x1**, JTAG x1, Main ANT x1, GNSS ANT x1, Diversity ANT x1",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat 1",
+    ":",
+    "10 Mbps (DL), 5 Mbps (UL)",
+    "2G",
+    ":",
+    "236.8 Kbps (DL), 236.8 Kbps (UL)",
+    "Key Highlights",
+    "Powered by Cavli Hubble, Applicable regions - (EA, NA, WW), In-built GNSS, LTE Cat 1, 2G Fallback, VoLTE Support, SMS over IMS/SG/CS, USB 2.0 Interface, OpenSDK Support, USB OTG Support"
+   ],
+   "C11QM": [
+    "C11QM",
+    "Know More",
+    "LTE Cat 1",
+    "2G",
+    "3GPP Release 10",
+    "Cellular Bands Supported",
+    "INDIA:",
+    ":",
+    "B1/B3/B5/B8/B38/B40/B41",
+    "OS",
+    "ThreadX OS | Yocto Linux",
+    "Interfaces",
+    "uSIM x1, ADC x2, USB 2.0 x1, GPIO x4, I2C x1, SDC x2, PCM x1, SPI x1, UART x4, Network Status Indicator x1, Power ON Status Indicator x1",
+    "Cellular Connectivity Download & Uplink Speed",
+    "Cat 1:",
+    ":",
+    "DL 10Mbps & UL 5 Mbps",
+    "GSM:",
+    ":",
+    "DL 236.8Kbps & UL 236.8 Kbps",
+    "Key Highlights",
+    "LTE Cat 1, Inbuilt GNSS, 2G Fallback, USB 2.0 Interface, ThreadX RTOS, VoLTE Support, SMS over IMS/SG/CS, Inbuilt GNSS"
+   ]
+  },
+  "faqs": [
+   {
+    "question": "What is LTE Cat 1 Technology?",
+    "answer": "LTE Category 1 (LTE Cat 1) is engineered for IoT applications that demand moderate throughput, supporting uplink speeds up to 5 Mbps and downlink speeds up to 10 Mbps. Unlike LTE Cat M1 and NB-IoT, which are optimized for low power and low data rate applications, LTE Cat 1 is ideal for applications requiring higher throughput and real-time data transmission such as interactive displays."
+   },
+   {
+    "question": "How effective is LTE Cat 1 in mobile IoT applications requiring high mobility?",
+    "answer": "LTE Cat 1 is highly effective in mobile IoT applications due to its robust handling of higher speed mobility. Its ability to maintain connection integrity, makes it suitable for applications like in-vehicle connectivity, fleet management systems, and other mobile operations that rely on consistent and reliable data transmission."
+   },
+   {
+    "question": "What are the advantages of using LTE Cat 1 for Smart City infrastructure?",
+    "answer": "LTE Cat 1 offers power efficiency and data throughput beneficial for diverse urban IoT deployments. It supports a variety of smart city applications by facilitating reliable, medium-bandwidth data transmission and real-time responsiveness, essential for functions such as dynamic traffic systems and urban area surveillance."
+   },
+   {
+    "question": "Are LTE Cat 1 modules future-proof with respect to the rollout of 5G technology?",
+    "answer": "LTE Cat 1 modules are designed with forward compatibility in mind, ensuring they integrate seamlessly into 5G network ecosystems as these networks roll out globally. This forward compatibility protects IoT infrastructure investments from rapid technological changes, ensuring they remain relevant and functional over time."
+   },
+   {
+    "question": "What is the difference of LTE Cat 1 from LTE Cat M1 and NB-IoT?",
+    "answer": "LTE Cat 1, Cat M1, and NB-IoT each serve distinct IoT connectivity needs.\n- LTE Cat 1 is suitable for medium data rate applications. It offers moderate power consumption and good coverage using existing LTE networks.\n- LTE Cat M1 offers lower data rates and power consumption compared to LTE Cat 1. It provides better indoor coverage and lower latency, suitable for real-time IoT applications.\n- NB-IoT focuses on ultra-low power consumption and excellent coverage. It is suitable for applications that can tolerate higher latency and require long battery life."
+   }
+  ]
+ },
+ "5G NR": {
+  "category": "5G NR",
+  "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module",
+  "intro": [
+   "Cavli Wireless leads the development of 5G NR IoT modules, delivering high-throughput, low-latency, and blazing fast connectivity for high-end IoT applications. Powered by Qualcomm SDX82/85 chipsets and integrated with the Cavli Hubble platform, our CQM212 and CQM215 5G NR modules enable scalable solutions for smart cities, indsutrial routers, autonomous vehicles, and more. With 5G subscriptions forecast to reach 6.3 billion by 2030 (Ericsson Mobility Report, 2025), Cavli drives the future of IoT connectivity."
+  ],
+  "sections": [
+   {
+    "title": "Introduction",
+    "kind": "intro",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "What is 5G NR Technology?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G New Radio (NR) is the full-featured 5G radio standard defined by 3GPP in Release 15 and later. It supports a wide range of spectrum bands in both Frequency Range 1 (FR1, sub-6 GHz) and Frequency Range 2 (FR2, millimeter wave). 5G NR delivers multi-gigabit data rates, very low latency, and massive device connectivity. It enables enhanced mobile broadband (eMBB), ultra-reliable low-latency communication (URLLC), and massive machine-type communication (mMTC). Typical peaks exceed 1–5 Gbps downlink and 500 Mbps uplink, depending on bandwidth and MIMO configuration. It supports both Standalone (SA) and Non-Standalone (NSA) architectures, providing full 5G features and backward compatibility with LTE networks."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Why Choose 5G NR IoT Modules?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G NR IoT modules deliver the highest badnwidth, lowest latency, and most advanced features available in cellular technology. They are ideal for applications that require high throughput, real-time control, and future scalability. Key benefits include:",
+       "- Maximum throughput: Multi-gigabit speeds for applications such as video analytics, edge AI, and AR/VR.",
+       "- Ultra-low latency: URLLC enables sub-10 millisecond responsiveness for automation and robotics.",
+       "- Massive MIMO and beamforming: Improve spectral efficiency, coverage, and signal reliability.",
+       "- Network slicing: Allows dedicated logical networks with guaranteed Quality of Service (QoS).",
+       "- Future-proofing: Supports new 3GPP releases and advanced 5G features for long-term deployment stability."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "5G NR vs 5G RedCap vs LTE Cat 4",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "How Does 5G NR Compare to RedCap and LTE?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G NR extends beyond RedCap and LTE by providing wider bandwidth, lower latency, and greater scalability. Compared with LTE Cat-1 (10 Mbps downlink, 5 Mbps uplink) and Cat 4 (150 Mbps downlink, 50 Mbps uplink), NR achieves multi-gigabit speeds and single-digit millisecond latency. This makes it ideal for high-definition video, robotics, and industrial automation. While RedCap simplifies 5G for IoT by reducing antennas and limiting bandwidth to 20 MHz FR1, full NR supports up to 100 MHz in FR1 and 400 MHz in FR2. It also includes advanced 5G features such as URLLC, network slicing, massive MIMO, and precise positioning that are not available in LTE or RedCap. For mission-critical and data-intensive IoT, 5G NR delivers the performance and reliability needed for the next generation of connected systems."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "What Are the Applications of 5G NR Modules?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G NR modules power advanced IoT and industrial systems that require real-time, high-bandwidth connectivity:",
+       "- Industrial automation and robotics: Deterministic control, motion coordination, and machine vision with low latency.",
+       "- AR/VR and immersive media: Multi-gigabit throughput for seamless streaming and low-lag interaction.",
+       "- Smart cities and infrastructure: High-definition surveillance, traffic management, and environmental monitoring.",
+       "- Fixed wireless access (FWA): Broadband replacement for enterprise and residential users.",
+       "- Edge AI and gateways: Multi-sensor data fusion and high-speed uplink for real-time analytics."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Are Operators Ready for 5G NR?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G NR runs on both Standalone (SA) and Non-Standalone (NSA) modes. NSA networks, anchored on LTE, enabled early rollouts. SA networks, which use a native 5G Core, are now expanding globally and allow full NR features such as slicing and URLLC. Most major operators already support SA in key industrial and urban regions. For areas without SA, modules offer LTE or NSA fallback to maintain service continuity. During design and testing, it is important to verify regional SA coverage and operator readiness to ensure seamless integration and certification."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "How to Integrate Cavli’s 5G NR IoT Modules?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "Cavli Wireless simplifies integration of 5G NR modules with hardware, software, and cloud tools that speed up deployment:",
+       "- Form factors and interfaces: 5G NR modules are available in LGA and M.2 formats supporting PCIe, USB 3.0, SGMII, UART, PCM, and I2S interfaces. Reference schematics and antenna design support are provided.",
+       "- Linux SDK support: The OpenWrt-based SDK accelerates application development and customization for edge and networking use cases.",
+       "- Evaluation kits: Request Cavli’s 5G NR evaluation kit and AT command guide from the contact portal to streamline prototyping and testing."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "How Does Cavli Hubble Enhance 5G NR Module Management?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "Cavli’s Hubble platform simplifies management, monitoring, and updates for deployed NR modules:",
+       "- Real-time monitoring: Tracks connectivity, throughput, and device health.",
+       "- FOTA updates: Enables firmware upgrades with minimal downtime.",
+       "- Data plan management: Offers preset, custom, and pay-as-you-go data plans for flexible global deployment."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "What Is the Future of 5G NR Technology?",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "5G NR continues to evolve through 3GPP Release 18 and later, introducing AI-assisted radio optimization, sub-millisecond URLLC, and improved energy efficiency. Integration with edge computing, private networks, and non-terrestrial networks (NTN) will further expand NR’s capabilities. While 5G RedCap and eRedCap will serve simplified IoT devices, full 5G NR will remain the foundation for high-performance, mission-critical, and broadband IoT ecosystems. It is the platform for the next decade of connected intelligence."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "5G NR IoT Modules",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "Highlights and Advantages of C-Series 5G NR IoT Module",
+    "kind": "highlights_advantages",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "The 4G fallback feature in the CQM212 5G NR Module ensures a seamless switching to a 4G network when a 5G network is unavailable providing continuous connectivity for the user at any remote location. CQM212 and CQM215 offer LTE Cat 20 as fallback network.",
+       "The in-built GNSS in CQM212 and CQM215 allows precise location tracking using the Qualcomm Location Suite Gen 9 V6 (L1+L5) constellation suite for GPS/ GLONASS/ BeiDou/ Galileo / NavIC / QZSS. It ensures OEMs can develop precision location tracking enabled solutions",
+       "The CQM212 and CQM215 modules support a wide range of 5G frequency bands, available in both worldwide and regional SKUs. This ensures broad geographic coverage for IoT deployments that operate across different geographical regions.",
+       "The CQM212 is available in standard LGA, measuring a dimension of 45.0x 52.0 mm",
+       "CQM212 and CQM215 support internet protocols like TCP(S), HTTP(S), MQTT(S), FTP(S), SNMP(S) WS(S), and UDP to enable any internet-based solution. It also supports the following USB and UART interfaces - UART x4, USB 2.0 x1, PCM 2 x1,I2C 2 x1, SPI 2 x1, I2S x9, Main ANT x1 and GNSS ANT x1.",
+       "CQM212 and CQM215 with Hubble Connectivity platform offers a centralized cloud-based interface for module management. It offers comprehensive remote diagnostics, Firmware Over-The-Air (FOTA) updates, and troubleshoots issues successfully reducing the downtime."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Find the Right 5G NR Module for Your Deployment",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   }
+  ],
+  "tables": [
+   {
+    "title": "5G NR vs 5G RedCap vs LTE Cat 4",
+    "before": "",
+    "after": "We select 5G NR when throughput, latency, or advanced features justify higher cost and RF complexity. RedCap fits mid-tier IoT that needs better performance than LTE Cat 4. LTE Cat 4 remains suitable for legacy or ultra-low-cost deployments.",
+    "body": "Technology | Peak; DL/UL | Bandwidth | Antennas; (typ) | Cost/Complexity | Typical Fit\nLTE Cat 4 | Peak; DL/UL: ~150 / 50; Mbps | Bandwidth: ≤20 MHz | Antennas; (typ): Fewer | Cost/Complexity: Lowest | Typical Fit: Legacy, cost-first; fleets\n5G RedCap | Peak; DL/UL: ~220 / 120; Mbps | Bandwidth: 20 MHz FR1 | Antennas; (typ): Fewer | Cost/Complexity: Low–Mid | Typical Fit: Mid-tier IoT needing; moderate speed; and latency\n5G NR; (full) | Peak; DL/UL: 1–5; Gbps+ /; 500; Mbps+ | Bandwidth: Up to 100–400; MHz; (FR1/FR2) | Antennas; (typ): Multiple; (MIMO) | Cost/Complexity: Highest | Typical Fit: High-performance; real-time; data-intensive IoT",
+    "facts": {}
+   },
+   {
+    "title": "Find the Right 5G NR Module for Your Deployment",
+    "before": "Compare key specifications, frequency bands, interfaces, and deployment-ready features across Cavli’s 5G NR modules.",
+    "after": "",
+    "body": "Product | CQM211 | CQM212 | CQM215\nForm factor | CQM211: LGA, M.2 | CQM212: LGA | CQM215: LGA\nDimensions (mm) | CQM211: 41.0 x 44.0 mm (LGA); 30.0 x 52.0 mm (M.2) | CQM212: 45.0 x 52.0 x 2.9 mm | CQM215: 45.0 x 52.0 x 2.9 mm\nRF Technology | CQM211: 5G NR / LTE Cat 16 | CQM212: 5G NR / LTE Cat 20 | CQM215: 5G NR / LTE Cat 20\nOperating temperature | CQM211: -30°C to 85°C | CQM212: -20°C to 75°C | CQM215: -20°C to 75°C\nControl via AT commands | CQM211: 3GPP TS27.007 & Cavli AT Commands | CQM212: 3GPP TS27.007 & Cavli AT Commands | CQM215: 3GPP TS27.007 & Cavli AT Commands\nBaseband Chipset | CQM211: SDX61 | CQM212: SDX82 | CQM215: SDX85\nRegions | CQM211: WW / EA / EAJ / NA / IN | CQM212: WW / EA / EAJ / NA / IN | CQM215: WW / EA / EAJ / NA / IN\nData transmission (Max.) / 5G SA Sub-6 | CQM211: DL 2.4 Gbps & UL 900 Mbps | CQM212: DL: 5.36 Gbps; UL: 1.25 Gbps | CQM215: DL: 7.01 Gbps; UL: 1.25 Gbps\nData transmission (Max.) / 5G NSA Sub-6 | CQM211: DL 3.4 Gbps & UL 550 Mbps | CQM212: DL: 5.05 Gbps; UL: 750 Mbps | CQM215: 5.95 Gbps; UL: 750 Mbps\nData transmission (Max.) / Carrier Aggregation | CQM211: DLCA | CQM212: Upto 3xCC | CQM215: Upto 4xCC\nData transmission (Max.) / Protocols | CQM211: TCP / MQTT / HTTP / HTTPS / MQTTS / FTP / FTPS / PPP | CQM212: TCP / MQTT / HTTP / HTTPS / MQTTS / FTP / FTPS / PPP | CQM215: TCP / MQTT / HTTP / HTTPS / MQTTS / FTP / FTPS / PPP\nAir Interfaces / Antenna | CQM211: Main × 4, GNSS x1 | CQM212: Main × 8, GNSS x 1 | CQM215: Main × 8, GNSS x 1\nModule Features / CPU | CQM211: Arm Cortex A7 upto 1.8GHz | CQM212: Quad Arm Cortex A55 @2.2 GHz | CQM215: Quad Arm Cortex A55 @2.2 GHz\nModule Features / Memory | CQM211: 4 Gb / 8 Gb ROM, 8 Gb RAM | CQM212: 1/2GB RAM, 8GB ROM | CQM215: 1/2GB RAM, 8GB ROM\nModule Features / OS | CQM211: OpenWrt / Linux | CQM212: OpenWrt / Linux | CQM215: OpenWrt / Linux\nModule Features / PCIe Interface | CQM211: Gen 3 | CQM212: Gen 4 | CQM215: Gen 4\nModule Features / Voice | CQM211: VoNR / VoLTE | CQM212: VoNR / VoLTE | CQM215: VoNR / VoLTE\nModule Features / SDK | CQM211: Yes | CQM212: Yes | CQM215: Yes\nModule Features / FOTA | CQM211: Yes | CQM212: Yes | CQM215: Yes\nModule Features / GNSS | CQM211: L1+L5 | CQM212: L1+L5 | CQM215: L1+L5\nModule Features / Constellation Support | CQM211: GPS / GLO / Gal / BDS / QZSS / SBAS / NavIC | CQM212: GPS / GLO / Gal / BDS / QZSS / SBAS / NavIC | CQM215: GPS / GLO / Gal / BDS / QZSS / SBAS / NavIC\nModule Features / (U)SIM card detection | CQM211: Yes | CQM212: Yes | CQM215: Yes\nElectrical features / Supply voltage range | CQM211: Range: 3.2V - 4.8V; Typical: 3.8V | CQM212: Range: 3.3V - 4.4V; Typical: 3.8V | CQM215: Range: 3.3V - 4.4V; Typical: 3.8V\nElectrical features / Recommended applications | CQM211: Industrial Gateways / Routers, Industrial PDAs, Digital Signage and Smart Surveillance | CQM212: Industrial Gateways / Routers, Industrial PDAs, Digital Signage and Smart Surveillance | CQM215: Industrial Gateways / Routers, Industrial PDAs, Digital Signage and Smart Surveillance",
+    "facts": {
+     "CQM211": {
+      "Form factor": "LGA, M.2",
+      "Dimensions (mm)": "41.0 x 44.0 mm (LGA); 30.0 x 52.0 mm (M.2)",
+      "RF Technology": "5G NR / LTE Cat 16",
+      "Operating temperature": "-30°C to 85°C",
+      "Control via AT commands": "3GPP TS27.007 & Cavli AT Commands",
+      "Baseband Chipset": "SDX61",
+      "Regions": "WW / EA / EAJ / NA / IN",
+      "Data transmission (Max.) / 5G SA Sub-6": "DL 2.4 Gbps & UL 900 Mbps",
+      "Data transmission (Max.) / 5G NSA Sub-6": "DL 3.4 Gbps & UL 550 Mbps",
+      "Data transmission (Max.) / Carrier Aggregation": "DLCA",
+      "Data transmission (Max.) / Protocols": "TCP / MQTT / HTTP / HTTPS / MQTTS / FTP / FTPS / PPP",
+      "Air Interfaces / Antenna": "Main × 4, GNSS x1",
+      "Module Features / CPU": "Arm Cortex A7 upto 1.8GHz",
+      "Module Features / Memory": "4 Gb / 8 Gb ROM, 8 Gb RAM",
+      "Module Features / OS": "OpenWrt / Linux",
+      "Module Features / PCIe Interface": "Gen 3",
+      "Module Features / Voice": "VoNR / VoLTE",
+      "Module Features / SDK": "Yes",
+      "Module Features / FOTA": "Yes",
+      "Module Features / GNSS": "L1+L5",
+      "Module Features / Constellation Support": "GPS / GLO / Gal / BDS / QZSS / SBAS / NavIC",
+      "Module Features / (U)SIM card detection": "Yes",
+      "Electrical features / Supply voltage range": "Range: 3.2V - 4.8V; Typical: 3.8V",
+      "Electrical features / Recommended applications": "Industrial Gateways / Routers, Industrial PDAs, Digital Signage and Smart Surveillance"
+     },
+     "CQM212": {
+      "Form factor": "LGA",
+      "Dimensions (mm)": "45.0 x 52.0 x 2.9 mm",
+      "RF Technology": "5G NR / LTE Cat 20",
+      "Operating temperature": "-20°C to 75°C",
+      "Control via AT commands": "3GPP TS27.007 & Cavli AT Commands",
+      "Baseband Chipset": "SDX82",
+      "Regions": "WW / EA / EAJ / NA / IN",
+      "Data transmission (Max.) / 5G SA Sub-6": "DL: 5.36 Gbps; UL: 1.25 Gbps",
+      "Data transmission (Max.) / 5G NSA Sub-6": "DL: 5.05 Gbps; UL: 750 Mbps",
+      "Data transmission (Max.) / Carrier Aggregation": "Upto 3xCC",
+      "Data transmission (Max.) / Protocols": "TCP / MQTT / HTTP / HTTPS / MQTTS / FTP / FTPS / PPP",
+      "Air Interfaces / Antenna": "Main × 8, GNSS x 1",
+      "Module Features / CPU": "Quad Arm Cortex A55 @2.2 GHz",
+      "Module Features / Memory": "1/2GB RAM, 8GB ROM",
+      "Module Features / OS": "OpenWrt / Linux",
+      "Module Features / PCIe Interface": "Gen 4",
+      "Module Features / Voice": "VoNR / VoLTE",
+      "Module Features / SDK": "Yes",
+      "Module Features / FOTA": "Yes",
+      "Module Features / GNSS": "L1+L5",
+      "Module Features / Constellation Support": "GPS / GLO / Gal / BDS / QZSS / SBAS / NavIC",
+      "Module Features / (U)SIM card detection": "Yes",
+      "Electrical features / Supply voltage range": "Range: 3.3V - 4.4V; Typical: 3.8V",
+      "Electrical features / Recommended applications": "Industrial Gateways / Routers, Industrial PDAs, Digital Signage and Smart Surveillance"
+     },
+     "CQM215": {
+      "Form factor": "LGA",
+      "Dimensions (mm)": "45.0 x 52.0 x 2.9 mm",
+      "RF Technology": "5G NR / LTE Cat 20",
+      "Operating temperature": "-20°C to 75°C",
+      "Control via AT commands": "3GPP TS27.007 & Cavli AT Commands",
+      "Baseband Chipset": "SDX85",
+      "Regions": "WW / EA / EAJ / NA / IN",
+      "Data transmission (Max.) / 5G SA Sub-6": "DL: 7.01 Gbps; UL: 1.25 Gbps",
+      "Data transmission (Max.) / 5G NSA Sub-6": "5.95 Gbps; UL: 750 Mbps",
+      "Data transmission (Max.) / Carrier Aggregation": "Upto 4xCC",
+      "Data transmission (Max.) / Protocols": "TCP / MQTT / HTTP / HTTPS / MQTTS / FTP / FTPS / PPP",
+      "Air Interfaces / Antenna": "Main × 8, GNSS x 1",
+      "Module Features / CPU": "Quad Arm Cortex A55 @2.2 GHz",
+      "Module Features / Memory": "1/2GB RAM, 8GB ROM",
+      "Module Features / OS": "OpenWrt / Linux",
+      "Module Features / PCIe Interface": "Gen 4",
+      "Module Features / Voice": "VoNR / VoLTE",
+      "Module Features / SDK": "Yes",
+      "Module Features / FOTA": "Yes",
+      "Module Features / GNSS": "L1+L5",
+      "Module Features / Constellation Support": "GPS / GLO / Gal / BDS / QZSS / SBAS / NavIC",
+      "Module Features / (U)SIM card detection": "Yes",
+      "Electrical features / Supply voltage range": "Range: 3.3V - 4.4V; Typical: 3.8V",
+      "Electrical features / Recommended applications": "Industrial Gateways / Routers, Industrial PDAs, Digital Signage and Smart Surveillance"
+     }
+    }
+   }
+  ],
+  "cards": {
+   "CQM211": [
+    "CQM211",
+    "Know More",
+    "5G NR",
+    "3GPP Release 16",
+    "Cellular Bands Supported",
+    "WW",
+    ":",
+    "LTE:1/2/3/4/5/7/8/12/13/14/17/18, /19/20/25/26/28/34/38/39/40/41/42/43/48/66/71, NR:1/2/3/5/7/8/12/13/14/18/20/25/26/28, /34/38/39/40/41/48/66/71/77/78",
+    "EA",
+    ":",
+    "LTE: 1/3/5/7/8/18/19/20/26/28/38, /40/41/42/43/48, NR: 1/3/5/7/8/18/20/26/28/38/40/41/48/77/78",
+    "EAJ",
+    ":",
+    "LTE:1/3/5/7/8/18/19/20/26/28/34, /38/39/40/41/42 /43/48, NR: 1/3/5/7/8/18/20/26/28/34/38, /39/40/41/48/77/78",
+    "NA",
+    ":",
+    "LTE: 2/4/5/7/12/13/14/17/18/19/25, /26/38/41/42/43/48/66/71, NR: 2/5/7/12/13/14/18/25/26/38, /41/48/66/71/77/78",
+    "IN",
+    ":",
+    "LTE: 1/3/5/8/18/19/26/38/40/41/42/43/48, NR: 1/3/5/8/18/26/38/40/41/48/77/78",
+    "OS",
+    "Linux / OpenWrt",
+    "Interfaces",
+    "UART x4, SDC x1, I2C x1, EBI x1, SPI x2 (Master Only), I2S x2, USIM x2, HS USB 3.1/2.0 x1, PCIe Gen3 x1, GPIO x16, ANTx5 (MAINx1, DIVx1, P_MIMOx1, D_MIMOx1, GNSSx1)",
+    "Cellular Connectivity Download & Uplink Speed",
+    "5G NR SA",
+    ":",
+    "DL 2.4Gbps & UL 900Mbps",
+    "5G NR NSA",
+    ":",
+    "DL 3.4Gbps & UL 550Mbps",
+    "Key Highlights",
+    "Powered by an Arm Cortex-A7 processor with up to 1 GB RAM and 512 MB ROM, the module runs Linux/OpenWrt and supports application development without an external host MCU."
+   ],
+   "CQM212": [
+    "CQM212",
+    "Know More",
+    "5G NR",
+    "3GPP Release 18",
+    "Cellular Bands Supported",
+    "5G",
+    ":",
+    "EA - n1/n3/n7/n8/n20/n28A/n38/n40/n41/n48/n75/n77/n78 NA - n2/n5/n7/n12/n13/n14/n25/n30/n48/n66/n71/n77/n78",
+    "4G",
+    ":",
+    "EA - B1/B3/B7/B8/B20/B28A/B32/B38/B40/B41/B42/B43/B48/B75 NA - B2/B4/B5/B7/B12/B13/B14/B17/B20/B25/B30/B42/B43/B48/B71",
+    "OS",
+    "Linux / OpenWrt",
+    "Interfaces",
+    "2xUART, 1xUSB2.0, 1xUSB3.1, 1xPCIe4.0, 2xPCIe3.0, 2xUSIM, 4xPWM, 2xSGMII, 1xI2S, 2xI2C, 2xSPI, 1xLCD, 1xADC, 1xJTAG, 11xGPIO, 4xNetworkStatus, 1xGNSS_ANT, 8xMAIN_ANT",
+    "Cellular Connectivity Download & Uplink Speed",
+    "5G NR",
+    ":",
+    "5.36 Gbps (DL), 1.25 Gbps (UL)",
+    "4G",
+    ":",
+    "DL 2.0Gbps Mbps, UL 315 Mbps",
+    "Key Highlights",
+    "Arm Cortex A55 upto 2.5Ghz, 5G NR, LTE Cat 20 Fallback, In-built GNSS-Support, SDK Support"
+   ],
+   "CQM215": [
+    "CQM215",
+    "Know More",
+    "5G NR",
+    "3GPP Release 18",
+    "Cellular Bands Supported",
+    "5G",
+    ":",
+    "EA - n1/n3/n7/n8/n20/n28A/n38/n40/n41/n48/n75/n77/n78 NA - n2/n5/n7/n12/n13/n14/n25/n30/n48/n66/n71/n77/n78",
+    "4G",
+    ":",
+    "EA - B1/B3/B7/B8/B20/B28A/B32/B38/B40/B41/B42/B43/B48/B75 NA - B2/B4/B5/B7/B12/B13/B14/B17/B20/B25/B30/B42/B43/B48/B71",
+    "OS",
+    "Linux / OpenWrt",
+    "Interfaces",
+    "2xUART, 1xUSB2.0, 1xUSB3.1, 1xPCIe4.0, 2xPCIe3.0, 2xUSIM, 4xPWM, 2xSGMII, 1xI2S, 2xI2C, 2xSPI, 1xLCD, 1xADC, 1xJTAG, 11xGPIO, 4xNetworkStatus, 1xGNSS_ANT, 8xMAIN_ANT",
+    "Cellular Connectivity Download & Uplink Speed",
+    "5G NR",
+    ":",
+    "7.01 Gbps (DL), 1.25 Gbps (UL)",
+    "4G",
+    ":",
+    "DL 2.0 Gbps, UL 315 Mbps",
+    "Key Highlights",
+    "Arm Cortex A55 upto 2.5Ghz, 5G NR, LTE Cat 20 Fallback, In-built GNSS-Support, SDK Support"
+   ]
+  },
+  "faqs": [
+   {
+    "question": "What exactly is 5G NR (New Radio)?",
+    "answer": "5G NR (New Radio), defined in 3GPP Release 15, is a full-featured 5G standard for advanced connectivity. It delivers up to multi-gigabit downlink and uplink speeds, providing a high-performance, low-latency platform. Ideal for AR/VR, edge AI, and industrial automation."
+   },
+   {
+    "question": "What are the main advantages of using 5G NR over RedCap / LTE for IoT applications?",
+    "answer": "5G NR surpasses LTE Cat 1 (10 Mbps DL, 5 Mbps UL) and Cat 4 (150 Mbps DL, 50 Mbps UL), as well as RedCap (220 Mbps DL, 120 Mbps UL), with multi-gigabit downlink and uplink speeds, plus advanced capabilities like URLLC, massive MIMO, slicing, and precise positioning. While more complex than RedCap, its wider bandwidth and deterministic low latency ensure higher reliability and capacity, making it ideal for mission-critical, data-intensive IoT."
+   },
+   {
+    "question": "Do 5G NR modules require 5G standalone (SA) networks?",
+    "answer": "5G NR modules operate on both 5G standalone (SA) and non-standallone networks for optimal performance. Cavli’s CQM212/215 module includes LTE fallback (up to 2.0 Gbps DL, 315 Mbps UL) to ensure connectivity in areas without SA coverage."
+   },
+   {
+    "question": "When will 5G NR be widely available for IoT deployments?",
+    "answer": "5G NR is rolling out on NSA and SA networks, with 74 operators running public SA as of 2025 (GSMA Intelligence, 2025). Broad availability is expected by 2025–2026, driven by milestones like EE/BT’s 5G+ standalone expansion announced in the UK in 2025."
+   },
+   {
+    "question": "Can 5G NR support real-time video streaming and other demanding IoT applications?",
+    "answer": "Yes, with nulti-gigabit uplink, 5G NR supports real-time video streaming for applications like surveillance cameras. It also powers demanding IoT use cases like industrial gateways and routers."
+   },
+   {
+    "question": "What are the key use cases for 5G NR IoT modules?",
+    "answer": "5G NR IoT modules are engineered for high-performance applications, including:\n- AR/VR and XR: Immersive experiences with multi-Gbps and low latency.\n- Industrial Automation: Deterministic control for robotics and machine vision.\n- Ultra-HD Video: 10–50 Mbps uplink for mobile surveillance and broadcasting.\n- Smart Grids: Sub-10 ms telemetry for protection and load balancing.\n- Edge AI Gateways: High-throughput sensor fusion and real-time analytics.\n- Smart Cities and Transportation: HD monitoring, traffic control, and V2X-ready links."
+   },
+   {
+    "question": "What are the challenges or considerations for deploying 5G NR IoT modules?",
+    "answer": "Deploying 5G NR IoT modules involves consideration of the following key factors:\n- Network Availability: Full NR operates on NSA and SA; mission-critical features (URLLC, slicing) typically require SA, with LTE/NSA fallback where SA is limited.\n- Device Design: Designs must account for wider bandwidth (up to 100 MHz FR1) and multi-antenna MIMO, including RF layout, thermal budget, and power integrity.\n- Cost Management: NR delivers top performance but increases BOM and RF complexity versus RedCap/LTE; plan TCO across hardware, certification, and data plans.\n- Integration: Implementation may involve PCIe/USB 3.0, IP passthrough, QMI/MBIM, and RAN features; Cavli’s SDKs, reference designs, and guides streamline bring-up.\n- Future Transition: Prepare for Release-18/19 upgrades (enhanced URLLC, NTN, AI-assisted RAN, private 5G) to ensure longevity and feature evolution."
+   },
+   {
+    "question": "How do I start integrating Cavli’s 5G NR moRdules?",
+    "answer": "Start with a CQM212/215 5G NR module evaluation kit, available via our contact page. Use our OpenWrt SDK for Linux-based development and follow ECM/QMI setup guides (e.g., qmicli -d /dev/cdc-wdm0 --wds-start-network=\"apn=iot\"). Our team provides dedicated support for seamless integration."
+   },
+   {
+    "question": "Why choose Cavli Wireless for 5G NR IoT modules?",
+    "answer": "Cavli Wireless, recognized by Gartner and IoT Analytics, leverages over a decade of IoT expertise. Our 5G NR IoT modules, like the CQM212 and CQM215, are deployed in various countries, offering unmatched reliability and scalability. Global and regional SKUs, combined with Cavli Hubble’s eSIM management, simplify deployment and management."
+   }
+  ]
+ },
+ "LPWA": {
+  "category": "LPWA",
+  "url": "https://www.cavliwireless.com/iot-modules/lpwa-iot-module",
+  "intro": [
+   "LPWAN, short for low-power wide-area network technology, is developed for IoT solutions that need to operate for extended periods with minimal power consumption. NB-IoT or Narrowband IoT, is a cellular technology under LPWAN. Cavli Wireless provides LPWAN and NB-IoT modules, significantly enhancing the IoT capabilities and offering extended coverage in remote and indoor environments."
+  ],
+  "sections": [
+   {
+    "title": "Introduction",
+    "kind": "intro",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "NB-IoT is a Low Power Wide Area Network (LPWAN) engineered to operate under low power conditions. Designed specifically for IoT applications, NB-IoT enables devices to communicate efficiently over a wide area at lower data rates with minimal power consumption compared to traditional cellular networks."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "NB-IoT in IoT Applications",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "NB-IoT is unlocking new possibilities across various sectors. In agriculture, it enables smart farming solutions, from soil moisture sensors to livestock tracking. In urban areas, this technology powers smart buildings incorporating smart lighting, smart home, and smart metering applications. In telehealth, NB-IoT is used to enable health monitors and wearable devices."
+      ]
+     },
+     {
+      "h3": "Cavli Wireless NB-IoT Modules: Tailored LPWA IoT Solutions for Global Connectivity",
+      "lines": [
+       "Cavli Wireless brings NB-IoT and LPWAN modules to power these diverse IoT applications. Equipped with eSIM and GNSS capabilities, Cavli NB-IoT C-Series modules offer seamless connectivity across global IoT deployments. These low-power modules come in various form factors, such as LGA and Mini PCIe, enabling tailored module selection to meet specific application requirements. Cavli Wireless stands at the forefront of providing LPWAN cellular IoT modules, offering unparalleled performance in building a smart connected ecosystem."
+      ]
+     },
+     {
+      "h3": "Why Cavli Wireless LPWA IoT Modules Are Ideal for Smart Connectivity Solutions",
+      "lines": [
+       "Cavli Wireless stands at the forefront of providing LPWA IoT Modules that offer reliable and low-power connectivity for a wide range of IoT solutions. With integrated eSIM and GNSS capabilities, Cavli’s NB-IoT C-Series modules ensure seamless, long-range connectivity, empowering businesses to deploy scalable, efficient, and smart IoT solutions across industries like agriculture, urban infrastructure, and telehealth.",
+       "Cavli Wireless provides LPWA IoT Modules that unlock the potential of next-generation IoT applications across a wide array of industries. These low-power modules enable reliable and cost-effective smart connectivity solutions for businesses and consumers, driving the growth of the IoT ecosystem and building a smarter, more connected world."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "LPWAN | NB-IoT Technology",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "Highlights and Advantages of C-Series LPWAN/NB-IoT Modules",
+    "kind": "highlights_advantages",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "C42GM incorporates CAN or Control Area network bus support. It is a serial communication protocol commonly used to connect electronic control units (ECUs) in vehicles, allowing internal communication between devices in the network.",
+       "Cavli LPWAN modules have eSIM-integrated variants. The Cavli Hubble modem management platform handles device connectivity, remote diagnostics, and over-the-air upgrades for these IoT modules through a single interface, eliminating hurdles in module management.",
+       "All C-Series LPWAN modules have integrated GNSS support. It allows precise global location tracking by connecting to satellite constellations like GPS and BeiDou. It is crucial for real-time location tracking applications.",
+       "LPWAN Modules like C42GM and C41QS operates on frequency bands M1 / NB1 / NB2 Bands -B1/ B2/ B3/ B4/ B5/ B6/ B8/ B9/ B10/ B12/ B13/ B14/ B15/ B16/ B17/ B18/ B19/ B20/ B24/ B25/B26/ B27/ B28/ B39/ B54/ B65/B66/ B68/ B71/ B90 to enable communication over cellular networks.",
+       "LPWAN/NB-IoT modules like C41QS and C42GM exhibit ultra-low power characteristics to optimize energy consumption. C42GM supports DRx and eDRx power-saving modes to enhance the power efficiency profile.",
+       "C41QS and C42GM offer the following connectivity speeds NB1: 60 Kbps (UL), 20 Kbps (DL), and NB2: 158.5 Kbps (UL), 127 Kbps (DL). They also support VoLTE features to enable seamless communication and data transfer."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Find the Right LPWAN/NB-IoT Module for Your Deployment",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   }
+  ],
+  "tables": [
+   {
+    "title": "Find the Right LPWAN/NB-IoT Module for Your Deployment",
+    "before": "Compare key specifications, frequency bands, interfaces, and deployment-ready features across Cavli’s LPWAN and NB-IoT modules.",
+    "after": "",
+    "body": "Product | CQ16 | C16QS | C17QS\nForm factor | CQ16: LGA | C16QS: LGA | C17QS: LGA\nDimensions (mm) | CQ16: 17.7 x 15.8 x 2.5 mm | C16QS: 26.5 x 22.5 x 2.3 mm | C17QS: 26.5 x 22.5 x 2.3 mm\nRF Technology | CQ16: LTE Cat 1bis | C16QS: LTE Cat 1bis | C17QS: LTE Cat 1bis\nFrequency bands (MHz) / WW (Worldwide) | CQ16: - | C16QS: 1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 18 / 19 / 20 / 25 / 26 / 28 / 40 / 41 / 66 | C17QS: 1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 13 / 14 / 18 / 19 / 20 / 25 / 26 / 28 / 34 / 38 / 39 / 40 / 41 / 66 / B71(Optional)\nFrequency bands (MHz) / EAJ (EMEA/ APAC/ Japan) / EU | CQ16: 1 / 3 / 7 / 8 / 19 / 26 / 28 / 38 / 40 / 41; (EU Only) | C16QS: 1 / 3 / 5 / 7 / 8 / 18 / 19 / 20 / 26 / 28 / 40 / 41 (EAJ); 1 / 3 / 5 / 7 / 8 / 20 / 28 (EU) | C17QS: 1 / 3 / 5 / 7 / 8 / 18 / 19 / 20 / 26 / 28 / 38 / 40 / 41 (EA)\nFrequency bands (MHz) / IN (India) | CQ16: 1 / 3 / 5 / 8 / 40 / 41 | C16QS: 1 / 3 / 5 / 8 / 40 / 41 | C17QS: 1 / 3 / 5 / 8 / 40 / 41\nFrequency bands (MHz) / NA (North America) | CQ16: 2 / 4 / 5 / 12 / 25 / 66 | C16QS: 2 / 4 / 5 / 12 / 25 / 66 | C17QS: 2 / 4 / 5 / 12 / 13 / 14 / 25 / 34 / 66 / B71(optional)\nFrequency bands (MHz) / AN (Aus & NZ) | CQ16: 1 / 3 / 5 / 8 / 18 / 19 / 26 / 28 | C16QS: 1 / 3 / 5 / 8 / 18 / 19 / 26 / 28 | C17QS: 1 / 3 / 5 / 8 / 18 / 19 / 26 / 28\nFrequency bands (MHz) / LA (Latin America) | CQ16: - | C16QS: 1 / 2 / 3 / 4 / 5 / 7 / 8 | C17QS: 1 / 2 / 3 / 4 / 5 / 7 / 8\nWeight (approx.) (g) | CQ16: 1.53 +.01 g | C16QS: 3.9g | C17QS: 3.3 g\nOperating temperature | CQ16: -30°C to +85°C | C16QS: -45 °C to +85 °C | C17QS: -40°C - +85°C\nExtended temperature | CQ16: - | C16QS: - | C17QS: -55°C - +150°C\nControl via AT commands | CQ16: 3GPP TS27.007 and Cavli AT Commands | C16QS: 3GPP TS27.007 and Cavli AT Commands | C17QS: 3GPP TS27.007 and Cavli AT Commands\nData transmission (Max.) / LTE | CQ16: Cat 1bis: 10 Mbps(DL), 5 Mbps(UL) | C16QS: Cat 1bis: 10 Mbps(DL), 5 Mbps(UL) | C17QS: Cat 1bis: 10 Mbps(DL), 5 Mbps(UL)\nData transmission (Max.) / Protocols | CQ16: TCP(S), HTTP(S), MQTT(S), UDP, PPP | C16QS: TCP(S), HTTP(S), FTP(S), MQTT(S), UDP, PPP | C17QS: TCP(S), HTTP(S), FTP(S), MQTT(S), PPP\nInterfaces / (U)SIM | CQ16: x2 | C16QS: x1 | C17QS: x1\nInterfaces / UART | CQ16: x3 | C16QS: x3 | C17QS: x3\nInterfaces / USB | CQ16: x1 | C16QS: x1 | C17QS: x1\nInterfaces / I2C | CQ16: x1 | C16QS: x1 | C17QS: x1\nInterfaces / SPI | CQ16: x1 | C16QS: x1 | C17QS: x2\nInterfaces / GPIO | CQ16: x4 | C16QS: x4 | C17QS: x11\nInterfaces / ADC | CQ16: x2 | C16QS: x2 | C17QS: x2\nInterfaces / SD Card | CQ16: x1, SD 3.0, 4-bit SDIO | C16QS: x1, SD 3.0, 4-bit SDIO | C17QS: x1, SD 3.0, 4-bit SDIO\nInterfaces / Antenna | CQ16: × 1 Main LTE | C16QS: × 2, Main LTE, GNSS | C17QS: × 2, Main LTE, GNSS\nEnhanced features / GNSS | CQ16: - | C16QS: GPS/BDS | C17QS: GPS/GLO/Gal/BDS/NavIC/QZSS/SBAS\nEnhanced features / PSM | CQ16: DRX/eDRX/Sleep/Hibernate | C16QS: DRX/eDRX/Sleep/Hibernate | C17QS: DRX/eDRX/Sleep/Hibernate\nEnhanced features / DFOTA | CQ16: Yes | C16QS: Yes | C17QS: -\nEnhanced features / Independent GNSS | CQ16: - | C16QS: Yes | C17QS: -\nEnhanced features / (U)SIM card detection | CQ16: Yes | C16QS: Yes | C17QS: Yes\nElectrical features / Supply voltage range | CQ16: Range: 3.1 V to 4.5 V | C16QS: Range: 3.4 V to 4.2 V | C17QS: Range: 3.6V - 4.5V\nElectrical features / Recommended applications | CQ16: Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc. | C16QS: Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc. | C17QS: Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc.",
+    "facts": {
+     "CQ16": {
+      "Form factor": "LGA",
+      "Dimensions (mm)": "17.7 x 15.8 x 2.5 mm",
+      "RF Technology": "LTE Cat 1bis",
+      "Frequency bands (MHz) / EAJ (EMEA/ APAC/ Japan) / EU": "1 / 3 / 7 / 8 / 19 / 26 / 28 / 38 / 40 / 41; (EU Only)",
+      "Frequency bands (MHz) / IN (India)": "1 / 3 / 5 / 8 / 40 / 41",
+      "Frequency bands (MHz) / NA (North America)": "2 / 4 / 5 / 12 / 25 / 66",
+      "Frequency bands (MHz) / AN (Aus & NZ)": "1 / 3 / 5 / 8 / 18 / 19 / 26 / 28",
+      "Weight (approx.) (g)": "1.53 +.01 g",
+      "Operating temperature": "-30°C to +85°C",
+      "Control via AT commands": "3GPP TS27.007 and Cavli AT Commands",
+      "Data transmission (Max.) / LTE": "Cat 1bis: 10 Mbps(DL), 5 Mbps(UL)",
+      "Data transmission (Max.) / Protocols": "TCP(S), HTTP(S), MQTT(S), UDP, PPP",
+      "Interfaces / (U)SIM": "x2",
+      "Interfaces / UART": "x3",
+      "Interfaces / USB": "x1",
+      "Interfaces / I2C": "x1",
+      "Interfaces / SPI": "x1",
+      "Interfaces / GPIO": "x4",
+      "Interfaces / ADC": "x2",
+      "Interfaces / SD Card": "x1, SD 3.0, 4-bit SDIO",
+      "Interfaces / Antenna": "× 1 Main LTE",
+      "Enhanced features / PSM": "DRX/eDRX/Sleep/Hibernate",
+      "Enhanced features / DFOTA": "Yes",
+      "Enhanced features / (U)SIM card detection": "Yes",
+      "Electrical features / Supply voltage range": "Range: 3.1 V to 4.5 V",
+      "Electrical features / Recommended applications": "Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc."
+     },
+     "C16QS": {
+      "Form factor": "LGA",
+      "Dimensions (mm)": "26.5 x 22.5 x 2.3 mm",
+      "RF Technology": "LTE Cat 1bis",
+      "Frequency bands (MHz) / WW (Worldwide)": "1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 18 / 19 / 20 / 25 / 26 / 28 / 40 / 41 / 66",
+      "Frequency bands (MHz) / EAJ (EMEA/ APAC/ Japan) / EU": "1 / 3 / 5 / 7 / 8 / 18 / 19 / 20 / 26 / 28 / 40 / 41 (EAJ); 1 / 3 / 5 / 7 / 8 / 20 / 28 (EU)",
+      "Frequency bands (MHz) / IN (India)": "1 / 3 / 5 / 8 / 40 / 41",
+      "Frequency bands (MHz) / NA (North America)": "2 / 4 / 5 / 12 / 25 / 66",
+      "Frequency bands (MHz) / AN (Aus & NZ)": "1 / 3 / 5 / 8 / 18 / 19 / 26 / 28",
+      "Frequency bands (MHz) / LA (Latin America)": "1 / 2 / 3 / 4 / 5 / 7 / 8",
+      "Weight (approx.) (g)": "3.9g",
+      "Operating temperature": "-45 °C to +85 °C",
+      "Control via AT commands": "3GPP TS27.007 and Cavli AT Commands",
+      "Data transmission (Max.) / LTE": "Cat 1bis: 10 Mbps(DL), 5 Mbps(UL)",
+      "Data transmission (Max.) / Protocols": "TCP(S), HTTP(S), FTP(S), MQTT(S), UDP, PPP",
+      "Interfaces / (U)SIM": "x1",
+      "Interfaces / UART": "x3",
+      "Interfaces / USB": "x1",
+      "Interfaces / I2C": "x1",
+      "Interfaces / SPI": "x1",
+      "Interfaces / GPIO": "x4",
+      "Interfaces / ADC": "x2",
+      "Interfaces / SD Card": "x1, SD 3.0, 4-bit SDIO",
+      "Interfaces / Antenna": "× 2, Main LTE, GNSS",
+      "Enhanced features / GNSS": "GPS/BDS",
+      "Enhanced features / PSM": "DRX/eDRX/Sleep/Hibernate",
+      "Enhanced features / DFOTA": "Yes",
+      "Enhanced features / Independent GNSS": "Yes",
+      "Enhanced features / (U)SIM card detection": "Yes",
+      "Electrical features / Supply voltage range": "Range: 3.4 V to 4.2 V",
+      "Electrical features / Recommended applications": "Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc."
+     },
+     "C17QS": {
+      "Form factor": "LGA",
+      "Dimensions (mm)": "26.5 x 22.5 x 2.3 mm",
+      "RF Technology": "LTE Cat 1bis",
+      "Frequency bands (MHz) / WW (Worldwide)": "1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 13 / 14 / 18 / 19 / 20 / 25 / 26 / 28 / 34 / 38 / 39 / 40 / 41 / 66 / B71(Optional)",
+      "Frequency bands (MHz) / EAJ (EMEA/ APAC/ Japan) / EU": "1 / 3 / 5 / 7 / 8 / 18 / 19 / 20 / 26 / 28 / 38 / 40 / 41 (EA)",
+      "Frequency bands (MHz) / IN (India)": "1 / 3 / 5 / 8 / 40 / 41",
+      "Frequency bands (MHz) / NA (North America)": "2 / 4 / 5 / 12 / 13 / 14 / 25 / 34 / 66 / B71(optional)",
+      "Frequency bands (MHz) / AN (Aus & NZ)": "1 / 3 / 5 / 8 / 18 / 19 / 26 / 28",
+      "Frequency bands (MHz) / LA (Latin America)": "1 / 2 / 3 / 4 / 5 / 7 / 8",
+      "Weight (approx.) (g)": "3.3 g",
+      "Operating temperature": "-40°C - +85°C",
+      "Extended temperature": "-55°C - +150°C",
+      "Control via AT commands": "3GPP TS27.007 and Cavli AT Commands",
+      "Data transmission (Max.) / LTE": "Cat 1bis: 10 Mbps(DL), 5 Mbps(UL)",
+      "Data transmission (Max.) / Protocols": "TCP(S), HTTP(S), FTP(S), MQTT(S), PPP",
+      "Interfaces / (U)SIM": "x1",
+      "Interfaces / UART": "x3",
+      "Interfaces / USB": "x1",
+      "Interfaces / I2C": "x1",
+      "Interfaces / SPI": "x2",
+      "Interfaces / GPIO": "x11",
+      "Interfaces / ADC": "x2",
+      "Interfaces / SD Card": "x1, SD 3.0, 4-bit SDIO",
+      "Interfaces / Antenna": "× 2, Main LTE, GNSS",
+      "Enhanced features / GNSS": "GPS/GLO/Gal/BDS/NavIC/QZSS/SBAS",
+      "Enhanced features / PSM": "DRX/eDRX/Sleep/Hibernate",
+      "Enhanced features / (U)SIM card detection": "Yes",
+      "Electrical features / Supply voltage range": "Range: 3.6V - 4.5V",
+      "Electrical features / Recommended applications": "Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc."
+     }
+    }
+   }
+  ],
+  "cards": {
+   "C41QS": [
+    "C41QS",
+    "Know More",
+    "LPWA",
+    "NB-IoT",
+    "3GPP Release 14",
+    "Cellular Bands Supported",
+    "Global",
+    ":",
+    "B1 / B2 / B3 / B4 / B5 / B8 / B12 / B13 / B14 / B17 / B18 / B19 / B20 / B25 / B26 / B28 / B66 / B70 / B85",
+    "3GPP Release",
+    ":",
+    "LTE 3GPP E-UTRA Release 14 Cat M1/ LTE NB1/NB2",
+    "OS",
+    "Free RTOS",
+    "Interfaces",
+    "3xUART, 1xGNSS_UART*, 1xUSIM, 1xSWD, 1xADC, 1xSPI**, 2xGPIO**, 1xMAIN_ANT, 1xGNSS_ANT",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat NB2",
+    ":",
+    "Peak DL 127 Kbps & UL 158.5Kbps",
+    "Key Highlights",
+    "Integrated eSIM, Powered by Cavli Hubble, Applicable regions - (Global), GNSS Support, Ultra-Low Power Consumption, Compact Form Factor Design, Cat NB2"
+   ]
+  },
+  "faqs": [
+   {
+    "question": "What is LPWAN?",
+    "answer": "Low Power Wide Area Network (LPWAN) is a category of wireless technology specifically designed for long-range communications at a low data rate among connected devices. LPWANs are optimized for low power consumption and are capable of operating for long periods of time. Key technologies under the LPWAN umbrella, such as NB-IoT, LoRaWAN, and Sigfox, are highly relevant for IoT applications such as smart metering, agricultural sensors, and smart city applications that require wide area coverage and battery life sustainability."
+   },
+   {
+    "question": "What is NB-IoT?",
+    "answer": "Narrowband IoT (NB-IoT) is a LPWAN technology developed to enable a wide range of devices and services to be connected using cellular telecommunication bands. NB-IoT is highly suitable for applications that require low data rates, long battery lives, and indoor coverage. NB-IoT leverages the existing LTE network infrastructure but is optimized for minimal power consumption and improved indoor coverage."
+   },
+   {
+    "question": "Whar are the benefits of using NB-IoT for IoT deployments?",
+    "answer": "NB-IoT offers several significant advantages for IoT deployments:\n- Low Power Usage: IoT devices can run on the same battery source for several years without replacement, which is crucial for scalable deployments.\n- Deep Penetration: It provides excellent penetration in dense urban environments, making it suitable for smart utilities and smart city infrastructure.\n- Cost Efficiency: NB-IoT devices can be deployed on a lower budget due to their minimal bandwidth requirements and simplified system design.\n- High Connection Density: NB-IoT supports about 50,000 devices per network cell, making it an excellent option for massive IoT deployments"
+   },
+   {
+    "question": "What are the applications of NB-IoT technology?",
+    "answer": "NB-IoT is ideal for applications where small amounts of data are transmitted intermittently, and device battery life is critical like Smart Metering, Asset Tracking and Environmental Monitoring."
+   },
+   {
+    "question": "How does the rollout of 5G technologies affect NB-IoT?",
+    "answer": "The rollout of 5G technologies enhances NB-IoT by improving coverage, capacity, reliability, and power efficiency. It also provides new capabilities such as network slicing and better scalability, thus supporting more sophisticated IoT applications and increased device densities. For 5G systems to enable NB-IoT support, the 3GPP is also looking at ways for the 5G core network to support the NB-IoT radio access network. This will enable operators to transition smoothly to 5G NR frequency bands while maintaining NB-IoT deployments."
+   },
+   {
+    "question": "How do NB-IoT and LoRaWAN differ from each other?",
+    "answer": "While both NB-IoT and LoRaWAN are popular choices for various LPWAN IoT applications, they cater to slightly different needs. NB-IoT operates within the licensed spectrum, offering advantages in terms of service quality and security, making it suitable for critical applications where interference might be a concern. LoRaWAN, on the other hand, operates in the unlicensed spectrum and provides more flexibility in network deployment and management, which can be cost-effective for private network setups and non-critical applications."
+   }
+  ]
+ },
+ "Automotive": {
+  "category": "Automotive",
+  "url": "https://www.cavliwireless.com/iot-modules/automotive-grade-iot-module",
+  "intro": [
+   "Cavli Automotive Modules are engineered to adhere to the highest quality standards to meet the rigorous demands of the automotive industry. Compliant with the IATF 16949:2016 quality management system and a suite of additional certifications, Cavli Automotive Modules are positioned as a reliable component for advanced vehicle connectivity."
+  ],
+  "sections": [
+   {
+    "title": "Introduction",
+    "kind": "intro",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "Imagine you’re deploying a mixed fleet of delivery vans, taxis, and EV buses—and you need reliable insights on vehicle health, location, and passenger experience. That’s exactly where our AQ20 shines. As a purpose-built Automotive IoT Module, it’s engineered to accelerate IoT for automotive projects with seamless connectivity and rugged reliability.",
+       "Automotive IoT Modules are specialized devices that link vehicles to the internet, powering everything from telematics and infotainment to advanced safety systems. They exchange data in real time with the cloud and other endpoints, enhancing performance, safety, and user experience. Built to industry standards, these modules shrug off extreme temperatures, moisture, vibration, and electrical noise—so they perform no matter what the road throws at them."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "AQ20: India’s First Made-in-India Automotive IoT Module",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "We’re proud that AQ20 is the first Made-in-India automotive IoT module developed by Cavli Wireless. It meets the rigorous IATF 16949:2016 standard for automotive quality management and follows Advanced Product Quality Planning (APQP) and Production Part Approval Process (PPAP). In short, AQ20 isn’t just another module—it’s a certified, battle-tested platform ready for every challenge by IoT in automotive industry"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Why AQ20 Is the Foundation for IoT in Automotive Industry Solutions",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "We’ve worked alongside OEMs and system integrators who needed a single module to handle everything from over-the-air updates to safety-critical diagnostics. AQ20 delivers:",
+       "- Standards-Compliant LTE Connectivity: AQ20 is a 3GPP Release 10 LTE Cat 4 module with VoLTE, ensuring consistent, high-quality data and voice across global bands. Plus, 2G fallback keeps your IoT in connected cars applications—and every IoT for vehicles use case—online even in hard-to-reach areas."
+      ]
+     },
+     {
+      "h3": "Standards-Compliant LTE Connectivity:",
+      "lines": [
+       "- In-built GNSS & eSIM Integration: Where sub-meter-level positioning meets streamlined connectivity. With an in-built GNSS receiver and eSIM support tied to our Cavli Hubble platform, you get instant SIM provisioning, remote management, and OTA updates—so you can monitor and update fleets from anywhere."
+      ]
+     },
+     {
+      "h3": "In-built GNSS & eSIM Integration:",
+      "lines": [
+       "- Automotive-Grade Durability: Rated for –40 °C to +85 °C operation, AQ20 endures heat, cold, moisture, vibration, and electrical noise. It’s engineered for everything from compact city cars to heavy-duty trucks across the IoT in automotive industry."
+      ]
+     },
+     {
+      "h3": "Automotive-Grade Durability:",
+      "lines": [
+       "- Edge-Optimized Compute & I/O: A dual-core MCU runs containerized applications for real-time analytics and secure data handling. With UART, SPI, I²C, GPIO, and USB interfaces, integration into existing vehicle architectures is seamless."
+      ]
+     },
+     {
+      "h3": "Edge-Optimized Compute & I/O:",
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "Real-World Impact: From Fleet Telematics to Infotainment",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "- Fleet Telematics & Asset Tracking: Track engine health, alert drivers in real time, and optimize routes to cut fuel costs."
+      ]
+     },
+     {
+      "h3": "Fleet Telematics & Asset Tracking:",
+      "lines": [
+       "- Connected Infotainment & Passenger Services: Keep riders engaged with on-demand media, location-aware alerts, and personalized offers—showcasing IoT in connected cars at its best."
+      ]
+     },
+     {
+      "h3": "Connected Infotainment & Passenger Services:",
+      "lines": [
+       "- EV Charging & Energy Management: Coordinate charger availability, billing, and energy balancing—all on the same secure Automotive IoT Modules platform."
+      ]
+     },
+     {
+      "h3": "EV Charging & Energy Management:",
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "Automotive IoT Modules",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "Highlights and Advantages of Automotive IoT Modules",
+    "kind": "highlights_advantages",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "AQ20 supports the following cellular frequency bands in the following regions- EMEA & APAC: LTE- 1/3/5/7/8/20/28A/40 GSM- 900/1800MHz and North America LTE- 2/4/5/7/12/13/25/66 and GSM- 900 /1800 MHz.",
+       "AQ20 supports global navigation satellite systems, such as GPS, GLONASS, Galileo, and BeiDou. With this inbuilt GNSS, it requires no additional hardware requirement to fetch precise location data for IoT applications.",
+       "The AQ20 automotive grade module supports 2G fallback. It connects to legacy 2G network when the assigned 4G network is unavailable, offering uninterrupted connectivity in your IoT applications.",
+       "AQ20 offers peak data rates of 150 Mbps (DL) and 50 Mbps (UL), allowing swift communication and real-time data processing. It is ideal for applications handling large data files like telematics, navigation, and real-time tracking.",
+       "AQ20 supports VoLTE (Voice over LTE) enabling high-quality voice communication over LTE networks. It also supports messaging capabilities like SMS over mobile communication protocols like IMS, SG, and CS.",
+       "The Cavli AQ20 automotive module is designed with automotive-specific standards such as IATF 16949:2016 quality management system and automotive quality processes such as APQP, and PPAP. It is proven and reliable to withstand harsh conditions, such as extreme temperatures, vibrations, and electromagnetic interference."
+      ]
+     }
+    ]
+   }
+  ],
+  "tables": [],
+  "cards": {
+   "AQ62": [
+    "AQ62",
+    "Know More",
+    "Automotive",
+    "5G NR",
+    "3GPP Release 16",
+    "Cellular Bands Supported",
+    "WW",
+    ":",
+    "LTE:1/2/3/4/5/7/8/12/13/14/17/18/19/20/25/26/28/34/38/39/40/41/42 /43/48/66/71, NR: 1/2/3/5/7/8/12/13/14/18/20/25/26/28/38/40/41/48/66/71/77/78/79",
+    "NA",
+    ":",
+    "LTE: 2/4/5/7/12/13/14/17/18/19/25/26/38/41/42/43/48/66/71, NR: 2/5/7/12/13/14/18/25/26/38/41/48/66/71/77/78",
+    "EAJ",
+    ":",
+    "LTE: 1/3/5/7/8/18/19/20/26/28/34/38/39/40/41/42/43/48, NR: 1/3/5/7/8/18/20/26/28/38/40/41/48/77/78/79",
+    "IN",
+    ":",
+    "LTE: 1/3/5/8/18/19/26/38/40/41/42/43/48, NR: 1/3/5/8/18/26/38/40/41/48/77/78",
+    "EA",
+    ":",
+    "LTE: 1/3/5/7/8/20/28/38/40/41/42/43/48, NR: 1/3/5/7/8/20/28/38/40/41/48/77/78",
+    "OS",
+    "Yocto Linux 5.15",
+    "Interfaces",
+    "UART x4 | USIM x2 | USB (3.1) x1 | USB (2.0) x1 | SDC x2 (4-bit/8-bit) | I2C x2 | SPI x2 | I2S x3 | PCM x1 | RGMII/SGMII/USxGMII x1 | PCIe 4.0/3.0 x1 | PCIe 3.0 x1 | GPIO x19 | ANT x5",
+    "Cellular Connectivity Download & Uplink Speed",
+    "5G NR NSA",
+    ":",
+    "DL 2.5 Gbps & UL 550 Mbps",
+    "Key Highlights",
+    "5G NR, Automotive Grade, NG-eCall Support, In-built GNSS (L1+L5), USB 2.0 Interface, OpenSDK Support, LTE Cat 18 Fallback, LGA Package, VoLTE Support, Yocto Linux 5.15"
+   ],
+   "AQ65": [
+    "AQ65",
+    "Know More",
+    "Automotive",
+    "5G NR",
+    "3GPP Release 16",
+    "Cellular Bands Supported",
+    "WW",
+    ":",
+    "LTE:1/2/3/4/5/7/8/12/13/14/17/18/19/20/25/26/28/34/38/39/40/41/42 /43/48/66/71, NR: 1/2/3/5/7/8/12/13/14/18/20/25/26/28/38/40/41/48/66/71/77/78/79",
+    "NA",
+    ":",
+    "LTE: 2/4/5/7/12/13/14/17/18/19/25/26/38/41/42/43/48/66/71, NR: 2/5/7/12/13/14/18/25/26/38/41/48/66/71/77/78",
+    "EAJ",
+    ":",
+    "LTE: 1/3/5/7/8/18/19/20/26/28/34/38/39/40/41/42/43/48, NR: 1/3/5/7/8/18/20/26/28/38/40/41/48/77/78/79",
+    "IN",
+    ":",
+    "LTE: 1/3/5/8/18/19/26/38/40/41/42/43/48, NR: 1/3/5/8/18/26/38/40/41/48/77/78",
+    "EA",
+    ":",
+    "LTE: 1/3/5/7/8/20/28/38/40/41/42/43/48, NR: 1/3/5/7/8/20/28/38/40/41/48/77/78",
+    "OS",
+    "Yocto Linux 5.15",
+    "Interfaces",
+    "UART x4 | USIM x2 | USB (3.1) x1 | USB (2.0) x1 | SDC x2 (4-bit/8-bit) | I2C x2 | SPI x2 | I2S x3 | PCM x1 | RGMII/SGMII/USxGMII x1 | PCIe 4.0/3.0 x1 | PCIe 3.0 x1 | GPIO x19 | ANT x5",
+    "Cellular Connectivity Download & Uplink Speed",
+    "5G NR NSA",
+    ":",
+    "DL 4.6 Gbps & UL 550 Mbps",
+    "Key Highlights",
+    "5G NR, Automotive Grade, NG-eCall Support, In-built GNSS (L1+L5), USB 2.0 Interface, OpenSDK Support, LTE Cat 18 Fallback, LGA Package, VoLTE Support, Linux / TelSDK"
+   ]
+  },
+  "faqs": [
+   {
+    "question": "What are Automotive IoT Modules and why are they critical for modern vehicles?",
+    "answer": "Automotive IoT Modules are specialized devices embedded in vehicles to enable connectivity and data exchange between the vehicle and external networks, devices, or systems. These modules are crucial for supporting a range of functionalities from basic telematics (tracking and diagnostics) to advanced features like automated driving, real-time navigation updates, and in-car infotainment systems."
+   },
+   {
+    "question": "How do Automotive IoT Modules enhance vehicle functionality?",
+    "answer": "Automotive IoT Modules enhance vehicle functionality by providing continuous internet access for various applications, facilitating the transmission of telemetry data, and enabling remote management and diagnostics of vehicle systems. They support features such as emergency call, live traffic updates, and remote vehicle control, significantly improving both vehicle safety and user experience."
+   },
+   {
+    "question": "What are the key considerations when implementing Automotive IoT Modules?",
+    "answer": "The key considerations in employing an automotive IoT module include ensuring robust and secure connections to prevent unauthorized access to the vehicle systems. The modules must also be highly reliable and able to function under the extreme conditions typically encountered in automotive environments, such as vibrations, temperature fluctuations, and exposure to moisture."
+   },
+   {
+    "question": "How are Automotive IoT Modules contributing to advancements in vehicle technology?",
+    "answer": "As vehicles become more connected and autonomous, Automotive IoT Modules are evolving to support higher data throughput, enhanced security protocols, and integration with a broader range of sensors and systems. Future developments are likely to focus on supporting V2X (vehicle-to-everything) communications, which will enable vehicles to interact seamlessly with traffic systems, other vehicles, and even pedestrian devices to enhance traffic efficiency and safety."
+   },
+   {
+    "question": "What are the security implications of using Automotive IoT Modules?",
+    "answer": "Security is a paramount concern with Automotive IoT Modules due to the potential risks associated with connectivity. These modules require robust cybersecurity measures to protect against unauthorized access. Solutions include secure boot mechanisms, data encryption, and continuous security updates and patches. Manufacturers must adhere to stringent security standards to ensure the safety and privacy of vehicle data and user information."
+   },
+   {
+    "question": "How do Automotive IoT Modules impact vehicle maintenance and diagnostics?",
+    "answer": "Automotive IoT Modules significantly enhance vehicle diagnostics and maintenance by providing real-time data to both drivers and manufacturers. They also allow remote diagnostics to keep a check on device health, facilitating preventative maintenance and reducing the need for physical service visits."
+   },
+   {
+    "question": "How do Automotive IoT Modules facilitate V2X communication?",
+    "answer": "The V2X (vehicle-to-everything) communication is geared towards creating more interconnected and automated traffic systems to improve safety and efficiency on the roads. Automotive IoT Modules help vehicles to communicate with traffic signals, other vehicles, and pedestrian devices. It will play a significant role in building a smart city ecosystem and autonomous driving technology."
+   }
+  ]
+ },
+ "LTE Cat 1bis": {
+  "category": "LTE Cat 1bis",
+  "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module",
+  "intro": [
+   "LTE Cat 1bis is an advanced version of LTE Cat 1 introduced in 3GPP Release 13 in 2016. The term 'bis' means 'second time' in Latin, and signifies its iteration as an improvement over LTE Cat 1. Unlike LTE Cat 1, which requires two antennas, LTE Cat 1bis is designed to operate efficiently on a single antenna."
+  ],
+  "sections": [
+   {
+    "title": "Introduction",
+    "kind": "intro",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "LTE Cat 1bis is the LTE-variant developed for IoT and M2M communications. Introduced in 3GPP Release 13 in 2016, it delivers the same throughput as LTE Cat 1 with a single antenna, reducing costs for OEMs and IoT solution providers."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "LTE Cat 1bis IoT Module Applications",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "LTE Cat 1bis offers a compact, power-efficient solution for wireless communication. Key applications include smart asset tracking, logistics, supply chain management, smart metering, smart cities, and micro-mobility."
+      ]
+     },
+     {
+      "h3": "Cavli LTE Cat 1bis IoT Modules: Low Power, Reliable",
+      "lines": [
+       "Cavli Wireless offers LTE Cat 1bis modules with advanced power-saving modes, integrated GNSS for precise location tracking, and eSIM support for global connectivity, making them ideal for compact and efficient IoT solutions.",
+       "Cavli Wireless LTE Cat 1bis IoT modules provide low-power, reliable, and cost-effective solutions for diverse IoT applications, empowering OEMs with space-saving, efficient connectivity options."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "LTE Cat 1bis",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   },
+   {
+    "title": "Highlights and Advantages of C-Series LTE Cat 1bis Modules",
+    "kind": "highlights_advantages",
+    "units": [
+     {
+      "h3": null,
+      "lines": [
+       "Assisted GNSS in C16QS is a GNSS augmentation system that helps to improve the TTFF (time-to-first-fix) for quick positioning. It supports the GNA-L1 band and GNB-L1+L5 (L5 for IRNSS/GPS) bands.",
+       "The C16QS and C17QS have standard form factors like LGA designed for efficient and easy integration into a wide range of IoT use cases.",
+       "The Hubble connectivity modem management platform simplifies the management of eSIM-integrated variants, offering a single interface for device management, MQTT services, remote SIM provisioning, and over-the-air updates.",
+       "The C16QS supports DFOTA (Delta Firmware Over-The-Air). It ensures IoT applications receive the latest security patches and upgrades over the air without physical intervention.",
+       "The C16QS and C17QS IoT modules support connectivity peak rates of DL 10 Mbps & UL 5 Mbps. It employs advanced power-saving features like PSM and eDRX to optimize the battery life of the IoT application and operate for longer periods without battery replacements.",
+       "The LTE cellular bands C16QS support in different regions include EMEA / APAC: B1 / B3 / B5 / B8 / B20, NA: B2 / B4 / B5 / B12 / B13 / B66, LA: B2 / B3 / B4 / B7 / B8/ B28, AN: B1 / B3 / B5 / B8 / B18 / B19 / B26 / B28, WW (Global): B1/ B2 /B3 /B4 /B5 /B7 /B8 /B12 /B18 /B19 /B20 /B25 /B26 /B28 /B40 /B41 /B66. It enables global connectivity according to 3GPP standards."
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Find the Right LTE Cat 1bis IoT Module for Your Deployment",
+    "kind": "explainer",
+    "units": [
+     {
+      "h3": null,
+      "lines": []
+     }
+    ]
+   }
+  ],
+  "tables": [
+   {
+    "title": "Find the Right LTE Cat 1bis IoT Module for Your Deployment",
+    "before": "Compare key specifications, frequency bands, interfaces, and deployment-ready features across Cavli’s LTE Cat 1bis IoT modules.",
+    "after": "",
+    "body": "Product | CQ16 | C16QS\nForm factor | CQ16: LGA | C16QS: LGA, mPCIe, USB Dongle\nDimensions (mm) | CQ16: 17.7 x 15.8 x 2.5 mm | C16QS: 26.5 x 22.5 x 2.3 mm (LGA); 30.0 x 50.9 x 3.78 mm (mPCIe); 30.0 x 46.0 mm (USB Dongle)\nRF Technology | CQ16: LTE Cat 1bis | C16QS: LTE Cat 1bis\nFrequency bands (MHz) / WW (Worldwide) | CQ16: - | C16QS: 1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 18 / 19 / 20 / 25 / 26 / 28 / 40 / 41 / 66\nFrequency bands (MHz) / EAJ (EMEA/ APAC/ Japan) / EU | CQ16: 1 / 3 / 7 / 8 / 19 / 26 / 28 / 38 / 40 / 41; (EU Only) | C16QS: 1 / 3 / 5 / 7 / 8 / 18 / 19 / 20 / 26 / 28 / 40 / 41 (EAJ); 1 / 3 / 5 / 7 / 8 / 20 / 28 (EU)\nFrequency bands (MHz) / IN (India) | CQ16: 1 / 3 / 5 / 8 / 40 / 41 | C16QS: 1 / 3 / 5 / 8 / 40 / 41\nFrequency bands (MHz) / NA (North America) | CQ16: 2 / 4 / 5 / 12 / 25 / 66 | C16QS: 2 / 4 / 5 / 12 / 25 / 66\nFrequency bands (MHz) / AN (Aus & NZ) | CQ16: 1 / 3 / 5 / 8 / 18 / 19 / 26 / 28 | C16QS: 1 / 3 / 5 / 8 / 18 / 19 / 26 / 28\nFrequency bands (MHz) / LA (Latin America) | CQ16: - | C16QS: 1 / 2 / 3 / 4 / 5 / 7 / 8\nWeight (approx.) (g) | CQ16: 1.53 +.01 g | C16QS: 3.9g\nOperating temperature | CQ16: -30°C to +85°C | C16QS: -45 °C to +85 °C\nExtended temperature | CQ16: - | C16QS: -\nControl via AT commands | CQ16: 3GPP TS27.007 and Cavli AT Commands | C16QS: 3GPP TS27.007 and Cavli AT Commands\nData transmission (Max.) / LTE | CQ16: Cat 1bis: 10 Mbps(DL), 5 Mbps(UL) | C16QS: Cat 1bis: 10 Mbps(DL), 5 Mbps(UL)\nData transmission (Max.) / Protocols | CQ16: TCP(S), HTTP(S), MQTT(S), UDP, PPP | C16QS: TCP(S), HTTP(S), FTP(S), MQTT(S), UDP, PPP\nInterfaces / (U)SIM | CQ16: x2 | C16QS: x1\nInterfaces / UART | CQ16: x3 | C16QS: x3\nInterfaces / USB | CQ16: x1 | C16QS: x1\nInterfaces / I2C | CQ16: x1 | C16QS: x1\nInterfaces / SPI | CQ16: x1 | C16QS: x1\nInterfaces / GPIO | CQ16: x4 | C16QS: x4\nInterfaces / ADC | CQ16: x2 | C16QS: x2\nInterfaces / SD Card | CQ16: x1, SD 3.0, 4-bit SDIO | C16QS: x1, SD 3.0, 4-bit SDIO\nInterfaces / Antenna | CQ16: × 1 Main LTE | C16QS: × 2, Main LTE, GNSS\nEnhanced features / GNSS | CQ16: - | C16QS: GPS/BDS\nEnhanced features / PSM | CQ16: DRX/eDRX/Sleep/Hibernate | C16QS: DRX/eDRX/Sleep/Hibernate\nEnhanced features / DFOTA | CQ16: Yes | C16QS: Yes\nEnhanced features / Independent GNSS | CQ16: - | C16QS: Yes\nEnhanced features / (U)SIM card detection | CQ16: Yes | C16QS: Yes\nElectrical features / Supply voltage range | CQ16: Range: 3.1 V to 4.5 V | C16QS: Range: 3.4 V to 4.2 V\nElectrical features / Recommended applications | CQ16: Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc. | C16QS: Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc.",
+    "facts": {
+     "CQ16": {
+      "Form factor": "LGA",
+      "Dimensions (mm)": "17.7 x 15.8 x 2.5 mm",
+      "RF Technology": "LTE Cat 1bis",
+      "Frequency bands (MHz) / EAJ (EMEA/ APAC/ Japan) / EU": "1 / 3 / 7 / 8 / 19 / 26 / 28 / 38 / 40 / 41; (EU Only)",
+      "Frequency bands (MHz) / IN (India)": "1 / 3 / 5 / 8 / 40 / 41",
+      "Frequency bands (MHz) / NA (North America)": "2 / 4 / 5 / 12 / 25 / 66",
+      "Frequency bands (MHz) / AN (Aus & NZ)": "1 / 3 / 5 / 8 / 18 / 19 / 26 / 28",
+      "Weight (approx.) (g)": "1.53 +.01 g",
+      "Operating temperature": "-30°C to +85°C",
+      "Control via AT commands": "3GPP TS27.007 and Cavli AT Commands",
+      "Data transmission (Max.) / LTE": "Cat 1bis: 10 Mbps(DL), 5 Mbps(UL)",
+      "Data transmission (Max.) / Protocols": "TCP(S), HTTP(S), MQTT(S), UDP, PPP",
+      "Interfaces / (U)SIM": "x2",
+      "Interfaces / UART": "x3",
+      "Interfaces / USB": "x1",
+      "Interfaces / I2C": "x1",
+      "Interfaces / SPI": "x1",
+      "Interfaces / GPIO": "x4",
+      "Interfaces / ADC": "x2",
+      "Interfaces / SD Card": "x1, SD 3.0, 4-bit SDIO",
+      "Interfaces / Antenna": "× 1 Main LTE",
+      "Enhanced features / PSM": "DRX/eDRX/Sleep/Hibernate",
+      "Enhanced features / DFOTA": "Yes",
+      "Enhanced features / (U)SIM card detection": "Yes",
+      "Electrical features / Supply voltage range": "Range: 3.1 V to 4.5 V",
+      "Electrical features / Recommended applications": "Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc."
+     },
+     "C16QS": {
+      "Form factor": "LGA, mPCIe, USB Dongle",
+      "Dimensions (mm)": "26.5 x 22.5 x 2.3 mm (LGA); 30.0 x 50.9 x 3.78 mm (mPCIe); 30.0 x 46.0 mm (USB Dongle)",
+      "RF Technology": "LTE Cat 1bis",
+      "Frequency bands (MHz) / WW (Worldwide)": "1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 18 / 19 / 20 / 25 / 26 / 28 / 40 / 41 / 66",
+      "Frequency bands (MHz) / EAJ (EMEA/ APAC/ Japan) / EU": "1 / 3 / 5 / 7 / 8 / 18 / 19 / 20 / 26 / 28 / 40 / 41 (EAJ); 1 / 3 / 5 / 7 / 8 / 20 / 28 (EU)",
+      "Frequency bands (MHz) / IN (India)": "1 / 3 / 5 / 8 / 40 / 41",
+      "Frequency bands (MHz) / NA (North America)": "2 / 4 / 5 / 12 / 25 / 66",
+      "Frequency bands (MHz) / AN (Aus & NZ)": "1 / 3 / 5 / 8 / 18 / 19 / 26 / 28",
+      "Frequency bands (MHz) / LA (Latin America)": "1 / 2 / 3 / 4 / 5 / 7 / 8",
+      "Weight (approx.) (g)": "3.9g",
+      "Operating temperature": "-45 °C to +85 °C",
+      "Control via AT commands": "3GPP TS27.007 and Cavli AT Commands",
+      "Data transmission (Max.) / LTE": "Cat 1bis: 10 Mbps(DL), 5 Mbps(UL)",
+      "Data transmission (Max.) / Protocols": "TCP(S), HTTP(S), FTP(S), MQTT(S), UDP, PPP",
+      "Interfaces / (U)SIM": "x1",
+      "Interfaces / UART": "x3",
+      "Interfaces / USB": "x1",
+      "Interfaces / I2C": "x1",
+      "Interfaces / SPI": "x1",
+      "Interfaces / GPIO": "x4",
+      "Interfaces / ADC": "x2",
+      "Interfaces / SD Card": "x1, SD 3.0, 4-bit SDIO",
+      "Interfaces / Antenna": "× 2, Main LTE, GNSS",
+      "Enhanced features / GNSS": "GPS/BDS",
+      "Enhanced features / PSM": "DRX/eDRX/Sleep/Hibernate",
+      "Enhanced features / DFOTA": "Yes",
+      "Enhanced features / Independent GNSS": "Yes",
+      "Enhanced features / (U)SIM card detection": "Yes",
+      "Electrical features / Supply voltage range": "Range: 3.4 V to 4.2 V",
+      "Electrical features / Recommended applications": "Asset tracking, commercial telematics, payment solutions, remote monitoring and control (RMAC), safety and automation, smart metering and grids, IoT gateways, industrial PCs, etc."
+     }
+    }
+   }
+  ],
+  "cards": {
+   "CQ16": [
+    "CQ16",
+    "Know More",
+    "LTE Cat 1bis",
+    "3GPP Release 14",
+    "Cellular Bands Supported",
+    "NA",
+    ":",
+    "2/ 4/ 5/ 12/ 13/ 25/ 66",
+    "AN",
+    ":",
+    "1/ 3/ 5/ 8/ 18/ 19/ 26/ 28",
+    "EU",
+    ":",
+    "1/ 3/ 7/ 8/ 20/ 28",
+    "IN",
+    ":",
+    "1/ 3/ 5/ 8/ 40/ 41",
+    "OS",
+    "FreeRTOS",
+    "Interfaces",
+    "3xUART, 1xUSB2.0, 1xUSIM, 2xADC**, 1xI2S**, 1xI2C**, 1xSPI**, 3xGPIO**, 1xMain ANT",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat 1bis",
+    ":",
+    "10Mbps (DL), 5Mbps (UL)",
+    "Key Highlights",
+    "Integrated eSIM, Power Saving Modes, Powered by Cavli Hubble, Compact Form Factor Design, USB 2.0 Interface, LTE Cat 1bis, DFOTA Available, Max UART speed upto 3Mbps, Applicable regions - (N.A, AN, EU, and IN)"
+   ],
+   "C16QS": [
+    "C16QS",
+    "Know More",
+    "LTE Cat 1bis",
+    "3GPP Release 14",
+    "Cellular Bands Supported",
+    "EAJ",
+    ":",
+    "1/ 3/ 5/ 7/ 8/ 18/19/20/26/28/40/41",
+    "EU",
+    ":",
+    "1/ 3/ 5/ 7/ 8/ 20/ 28",
+    "NA",
+    ":",
+    "2/ 4/ 5/ 12/ 25/ 66",
+    "AN",
+    ":",
+    "1/ 3/ 5/ 8/ 18/ 19/ 26/ 28",
+    "LA",
+    ":",
+    "1/2/ 3/ 4/ 5/ 7/ 8",
+    "IN",
+    ":",
+    "1/3/5/8/40/41",
+    "WW",
+    ":",
+    "1/ 2/ 3/ 4/ 5/ 7/ 8/ 12/ 18/ 19/ 20/ 25/ 26/ 28/40/  41/66",
+    "OS",
+    "FreeRTOS",
+    "Interfaces",
+    "3xUART, 1xUSB2.0, 1xUSIM, 1xSWD, 2xADC**, 1xI2S**, 1xI2C**, 1xSPI**, 4xGPIO**, 1xMain ANT, 1xGNSS ANT*",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat 1bis",
+    ":",
+    "10Mbps (DL), 5Mbps (UL)",
+    "Key Highlights",
+    "Integrated eSIM, GNSS Support, Power Saving Mode, Powered by Cavli Hubble, Small Form Factor Design, USB 2.0 Interface, LTE Cat 1bis, DFOTA Available, Max UART speed upto 3Mbps, Independent GNSS, WiFi Scanning Support, Applicable regions, Inbuilt GNSS"
+   ],
+   "P16QS": [
+    "P16QS",
+    "Know More",
+    "LTE Cat 1bis",
+    "3GPP Release 14",
+    "Cellular Bands Supported",
+    "IN",
+    ":",
+    "1/3/5/8/38/40/41",
+    "OS",
+    "RTOS(MCU) + FreeRTOS(Modem)",
+    "Interfaces",
+    "2xUSIM, 1xKPD (up to 5x5), up to 7xADC, 1xI2S, 2xI2C, 1xSPI, up to 27xGPIO, 1xPWM, 1xDisplay Interface (DBI Type-C), 2xAudio ADC, 1xAudio DAC, 1xSmart Card Reader (CVCC), 1xMagnetic Stripe Reader, 8xTamper Switch, 1xNFC_I2C, 1xNFC_SPI, 1xMain ANT, 1xWLAN ANT, 1xGNSS ANT*",
+    "Cellular Connectivity Download & Uplink Speed",
+    "LTE Cat 1bis",
+    ":",
+    "10Mbps (DL), 5Mbps (UL)",
+    "Key Highlights",
+    "LTE Cat 1bis, 32-bit RISC-V Processor @ 325 MHz, Wi-Fi 6 + BLE 5.4 Support, Integrated GNSS (Optional), Integrated eSIM (Optional), Cavli Hubble Platform Support (Optional), Integrated Secure Element (Optional), Power Saving Modes, Small Form Factor LGA Design, 16/32 MB Flash Memory, 8 MB pSRAM, RTOS Support, Dual USIM Interface, NFC Interface Support, Smart Card Reader Interface, Magnetic Stripe Reader Interface, Tamper Detection Support, 208-Pin LGA Package, India LTE Band Support."
+   ]
+  },
+  "faqs": []
+ }
+}

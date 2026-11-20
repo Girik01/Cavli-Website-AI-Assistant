@@ -1,0 +1,315 @@
+[
+ {
+  "type": "speed",
+  "product": "CQM220",
+  "field": "peak speed",
+  "note": "a speed figure differs from the product page's Technical Data",
+  "confidence": "medium",
+  "values": [
+   {
+    "source": "product_page",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cqm220",
+    "value": "5G RedCap: 220 Mbps (DL), 120 Mbps (UL); 4G: DL 150 Mbps, UL 50 Mbps"
+   },
+   {
+    "source": "category_page (highlights_advantages)",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-redcap-iot-module",
+    "value": "CQM220 also supports peak data rates up to DL 226 Mbps and 4G peak speeds of DL 195 Mbps & UL 105 Mbps."
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "speed",
+  "product": "CQM220",
+  "field": "peak speed",
+  "note": "a speed figure differs from the product page's Technical Data",
+  "confidence": "medium",
+  "values": [
+   {
+    "source": "product_page",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cqm220",
+    "value": "5G RedCap: 220 Mbps (DL), 120 Mbps (UL); 4G: DL 150 Mbps, UL 50 Mbps"
+   },
+   {
+    "source": "category_page (faq)",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-redcap-iot-module",
+    "value": "Cavli’s CQM220 module includes LTE fallback (up to 195 Mbps DL, 105 Mbps UL) to ensure connectivity in areas without SA coverage."
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "esim",
+  "product": "CQS315",
+  "field": "eSIM",
+  "note": "Key Highlights / category card say 'Integrated eSIM' but every variant SKU listed for ordering is without eSIM",
+  "confidence": "high",
+  "values": [
+   {
+    "source": "product_page key highlights",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cqs315",
+    "value": "Integrated eSIM"
+   },
+   {
+    "source": "product_page variants",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cqs315",
+    "value": "CQS315-WW-464GNAN, CQS315-WW-332GNAN -> eSIM: No"
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "category_badge",
+  "product": "CQS315",
+  "field": "category",
+  "note": "Key Highlights shows a '5G RedCap' badge, but the page category is LTE Cat 4",
+  "confidence": "high",
+  "values": [
+   {
+    "source": "product_page key highlights",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cqs315",
+    "value": "5G RedCap"
+   },
+   {
+    "source": "product_page hero / category",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cqs315",
+    "value": "LTE Cat 4"
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "speed",
+  "product": "CQM212",
+  "field": "peak speed",
+  "note": "category comparison table lists a speed figure that is not on the product page (e.g. a different network mode)",
+  "confidence": "medium",
+  "values": [
+   {
+    "source": "product_page",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cqm212",
+    "value": "5G NR: 5.36 Gbps (DL), 1.25 Gbps (UL); 4G: DL 2.0 Gbps, UL 315 Mbps"
+   },
+   {
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module",
+    "value": "Data transmission (Max.) / 5G NSA Sub-6: DL: 5.05 Gbps; UL: 750 Mbps"
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "speed",
+  "product": "CQM215",
+  "field": "peak speed",
+  "note": "category comparison table lists a speed figure that is not on the product page (e.g. a different network mode)",
+  "confidence": "medium",
+  "values": [
+   {
+    "source": "product_page",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cqm215",
+    "value": "5G NR: 7.01 Gbps (DL), 1.25 Gbps (UL); 4G: DL 2.0 Gbps, UL 315 Mbps"
+   },
+   {
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/5g-nr-iot-module",
+    "value": "Data transmission (Max.) / 5G NSA Sub-6: 5.95 Gbps; UL: 750 Mbps"
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "speed",
+  "product": "C41QS",
+  "field": "peak speed",
+  "note": "a speed figure differs from the product page's Technical Data",
+  "confidence": "medium",
+  "values": [
+   {
+    "source": "product_page",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/c41qs",
+    "value": "LTE Cat NB2: Peak DL 127 Kbps & UL 158.5 Kbps"
+   },
+   {
+    "source": "category_page (highlights_advantages)",
+    "url": "https://www.cavliwireless.com/iot-modules/lpwa-iot-module",
+    "value": "C41QS and C42GM offer the following connectivity speeds NB1: 60 Kbps (UL), 20 Kbps (DL), and NB2: 158.5 Kbps (UL), 127 Kbps (DL)."
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "speed",
+  "product": "AQ62",
+  "field": "peak speed",
+  "note": "a speed figure differs from the product page's Technical Data",
+  "confidence": "medium",
+  "values": [
+   {
+    "source": "product_page",
+    "url": "https://www.cavliwireless.com/iot-modules/a-series/aq62",
+    "value": "5G NR NSA: DL 2.5 Gbps & UL 550 Mbps"
+   },
+   {
+    "source": "product_page (faq)",
+    "url": "https://www.cavliwireless.com/iot-modules/a-series/aq62",
+    "value": "It supports 5G transmission rates of up to 4.4 Gbps downlink and 900 Mbps uplink with 2T4R, along with LTE 5xCC, NR 4xCC, 2x2 uplink MIMO, 4x4 downlink MIMO, ULCA, DLCA and ENDC."
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "bands",
+  "product": "CQ16",
+  "field": "bands EU",
+  "note": "category comparison table and product page list different bands",
+  "confidence": "high",
+  "values": [
+   {
+    "source": "product_page",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cq16",
+    "value": [
+     "1",
+     "3",
+     "7",
+     "8",
+     "20",
+     "28"
+    ]
+   },
+   {
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module",
+    "value": [
+     "1",
+     "3",
+     "7",
+     "8",
+     "19",
+     "26",
+     "28",
+     "38",
+     "40",
+     "41"
+    ]
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "bands",
+  "product": "CQ16",
+  "field": "bands NA",
+  "note": "category comparison table and product page list different bands",
+  "confidence": "high",
+  "values": [
+   {
+    "source": "product_page",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cq16",
+    "value": [
+     "2",
+     "4",
+     "5",
+     "12",
+     "13",
+     "25",
+     "66"
+    ]
+   },
+   {
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module",
+    "value": [
+     "2",
+     "4",
+     "5",
+     "12",
+     "25",
+     "66"
+    ]
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "esim",
+  "product": "CQ16",
+  "field": "eSIM",
+  "note": "Key Highlights / category card say 'Integrated eSIM' but every variant SKU listed for ordering is without eSIM",
+  "confidence": "high",
+  "values": [
+   {
+    "source": "product_page key highlights",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cq16",
+    "value": "Integrated eSIM"
+   },
+   {
+    "source": "product_page variants",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cq16",
+    "value": "CQ16-NA-S00N, CQ16-IN-S00N, CQ16-EU-S00N, CQ16-AN-S00N -> eSIM: No"
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "interfaces",
+  "product": "CQ16",
+  "field": "USIM",
+  "note": "category table says USIM x2 but the product page lists 1",
+  "confidence": "high",
+  "values": [
+   {
+    "source": "product_page",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cq16",
+    "value": "1xUSIM"
+   },
+   {
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module",
+    "value": "x2"
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "interfaces",
+  "product": "CQ16",
+  "field": "GPIO",
+  "note": "category table says GPIO x4 but the product page lists 3",
+  "confidence": "high",
+  "values": [
+   {
+    "source": "product_page",
+    "url": "https://www.cavliwireless.com/iot-modules/c-series/cq16",
+    "value": "3xGPIO"
+   },
+   {
+    "source": "category_table",
+    "url": "https://www.cavliwireless.com/iot-modules/lte-Cat1-bis-iot-module",
+    "value": "x4"
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ },
+ {
+  "type": "region_code",
+  "product": null,
+  "field": "EA",
+  "note": "the region code EA is defined differently on different product pages",
+  "confidence": "high",
+  "values": [
+   {
+    "source": "product pages",
+    "url": null,
+    "value": "EA = East Asia (CQ20, CQS292, C20QM, CQS315, CQS290, CQS291, C10QM, CQ10, C11QM, C41QS, CQ16, C16QS)"
+   },
+   {
+    "source": "product pages",
+    "url": null,
+    "value": "EA = Europe-Asia (AQ62, AQ65)"
+   }
+  ],
+  "status": "unresolved - both values kept, neither chosen"
+ }
+]

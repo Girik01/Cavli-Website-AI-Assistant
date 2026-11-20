@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Cavli Website AI Assistant – Technical note</title>
+<style>
+ @page{size:A4;margin:14mm 15mm}
+ body{font:9.6pt/1.38 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif;color:#1b2433;margin:0}
+ h1{font-size:16pt;margin:0 0 2px}.sub{color:#5b6677;margin:0 0 8px;font-size:9pt}
+ h2{font-size:11pt;margin:11px 0 3px;color:#16408f;border-bottom:1px solid #d9e0ec;padding-bottom:2px}
+ p{margin:3px 0}ul{margin:3px 0 3px 16px;padding:0}li{margin:1.5px 0}
+ table{border-collapse:collapse;width:100%;margin:4px 0;font-size:8.8pt}
+ th,td{border:1px solid #d3dbe8;padding:2.5px 5px;text-align:left;vertical-align:top}th{background:#eef2f9}
+ code{background:#eef2f9;padding:0 3px;border-radius:3px;font-size:8.6pt}
+ .fig{margin:4px 0;page-break-inside:avoid}.cap{font-size:8.5pt;color:#5b6677;margin-top:1px}
+ .note{background:#fff6e3;border:1px solid #ecd49b;border-radius:5px;padding:4px 7px;margin:5px 0}
+</style></head><body>
+
+<h1>Cavli Website AI Assistant – technical note</h1>
+<p class="sub">Assignment 1 · Website AI Assistant &amp; Product Discovery · working prototype, local run · model: gpt-5.4-mini + text-embedding-3-small · vector store: Qdrant Cloud</p>
+
+<h2>1. What it is, and what it is not</h2>
+<p>A small chat assistant that answers questions about Cavli cellular IoT modules from <b>26 public cavliwireless.com pages</b> (7 category pages, 19 module pages; two modules are the demo focus: <b>C16QS</b> and <b>CQM220</b>). Every factual answer carries clickable source links. When the sources do not support an answer, it says <i>“Not verified in available sources”</i> and shows a relevant page and the Contact link.</p>
+<p class="note"><b>Scope decision:</b> this is deliberately a <b>simple, single-question chatbot</b>. Each question is answered on its own; there is no conversation memory, no agent and no tool use. This keeps behaviour predictable, easy to test and cheap. A follow-up such as “what about its price?” is not understood without the module name.</p>
+
+<h2>2. Architecture and flow</h2>
+<div class="fig">
+<svg viewBox="0 0 740 330" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica,Arial,sans-serif" font-size="10.5">
+ <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#4b5a73"/></marker></defs>
+ <text x="6" y="14" font-weight="700" fill="#16408f">A. Answering one question (online)</text>
+ <g fill="#eef3fd" stroke="#6d8fd6"><rect x="6" y="24" width="104" height="62" rx="7"/><rect x="132" y="24" width="104" height="62" rx="7"/></g>
+ <g fill="#fff6e3" stroke="#d9a73b"><rect x="258" y="24" width="112" height="62" rx="7"/></g>
+ <g fill="#eaf7ef" stroke="#4fae7b"><rect x="392" y="24" width="112" height="62" rx="7"/><rect x="526" y="24" width="104" height="62" rx="7"/></g>
+ <g fill="#f3ecfb" stroke="#9a73cf"><rect x="650" y="24" width="84" height="62" rx="7"/></g>
+ <g text-anchor="middle" fill="#1b2433">
+  <text x="58" y="42" font-weight="700">Chat widget</text><text x="58" y="56">browser, Shadow DOM</text><text x="58" y="69">streams text, [n] links</text><text x="58" y="81" font-size="9">thumbs up / down</text>
+  <text x="184" y="42" font-weight="700">FastAPI</text><text x="184" y="56">/api/chat/stream</text><text x="184" y="69">length ≤ 500, rate limit</text><text x="184" y="81" font-size="9">emails / phones removed</text>
+  <text x="314" y="42" font-weight="700">1. Input rules</text><text x="314" y="56">greeting · vague · price</text><text x="314" y="69">code / SQL / injection</text><text x="314" y="81" font-size="9">no model call if matched</text>
+  <text x="448" y="42" font-weight="700">2. Retrieve</text><text x="448" y="56">1 embedding call</text><text x="448" y="69">Qdrant dense top 12</text><text x="448" y="81" font-size="9">score gate 0.30 / 0.35</text>
+  <text x="578" y="42" font-weight="700">3. LLM (stream)</text><text x="578" y="56">answers from chunks</text><text x="578" y="69">cites chunk ids</text><text x="578" y="81" font-size="9">or NOT_SUPPORTED</text>
+  <text x="692" y="42" font-weight="700">4. Checks</text><text x="692" y="56">ids real?</text><text x="692" y="69">numbers in</text><text x="692" y="81">cited chunk?</text>
+ </g>
+ <g stroke="#4b5a73" stroke-width="1.4" fill="none" marker-end="url(#a)"><path d="M110 55H131"/><path d="M236 55H257"/><path d="M370 55H391"/><path d="M504 55H525"/><path d="M630 55H649"/></g>
+ <g stroke="#4b5a73" stroke-width="1.4" fill="none" marker-end="url(#a)" stroke-dasharray="4 3"><path d="M692 86V112H58V88"/></g>
+ <text x="380" y="108" text-anchor="middle" font-size="9.5" fill="#4b5a73">final reply: answer + sources, or “Not verified in available sources” + page link + Contact link</text>
+ <g fill="#fff6e3" stroke="#d9a73b" stroke-dasharray="3 2"><rect x="258" y="124" width="112" height="22" rx="5"/></g>
+ <text x="314" y="139" text-anchor="middle" font-size="9.5">replies at once (≈10 ms)</text>
+ <path d="M314 86V123" stroke="#d9a73b" stroke-width="1.3" fill="none" marker-end="url(#a)"/>
+
+ <text x="6" y="176" font-weight="700" fill="#16408f">B. Building the knowledge base (offline, repeatable: <tspan font-family="Menlo,monospace" font-size="9.5">uv run python -m ingest.build26 --upsert</tspan>)</text>
+ <g fill="#eef3fd" stroke="#6d8fd6"><rect x="6" y="188" width="118" height="62" rx="7"/></g>
+ <g fill="#eaf7ef" stroke="#4fae7b"><rect x="146" y="188" width="128" height="62" rx="7"/><rect x="296" y="188" width="128" height="62" rx="7"/></g>
+ <g fill="#f3ecfb" stroke="#9a73cf"><rect x="446" y="188" width="118" height="62" rx="7"/><rect x="586" y="188" width="148" height="62" rx="7"/></g>
+ <g text-anchor="middle" fill="#1b2433">
+  <text x="65" y="206" font-weight="700">26 public pages</text><text x="65" y="220">7 category + 19 module</text><text x="65" y="234" font-size="9">fetched, cached as HTML</text>
+  <text x="210" y="206" font-weight="700">Parse by section</text><text x="210" y="220">menus, hero, videos,</text><text x="210" y="234">footer dropped</text>
+  <text x="360" y="206" font-weight="700">425 chunks</text><text x="360" y="220">1 per page section; tables</text><text x="360" y="234">kept whole; context header</text>
+  <text x="505" y="206" font-weight="700">Embed</text><text x="505" y="220">text-embedding-3-small</text><text x="505" y="234" font-size="9">1536 dims, cosine</text>
+  <text x="660" y="206" font-weight="700">Qdrant collection</text><text x="660" y="220">cavli_modules</text><text x="660" y="234" font-size="9">text + url + section + type</text>
+ </g>
+ <g stroke="#4b5a73" stroke-width="1.4" fill="none" marker-end="url(#a)"><path d="M124 219H145"/><path d="M274 219H295"/><path d="M424 219H445"/><path d="M564 219H585"/></g>
+ <text x="6" y="272" font-size="9.5" fill="#4b5a73">Also built offline: a spec record per module (each value tagged with its source), a list of conflicts between the site's own pages, and an LLM-written profile chunk</text>
+ <text x="6" y="285" font-size="9.5" fill="#4b5a73">per module (every number checked against the page text).  Side outputs of the API: <tspan font-family="Menlo,monospace" font-size="9">requests.jsonl</tspan> (latency, no user id), <tspan font-family="Menlo,monospace" font-size="9">feedback.jsonl</tspan>, <tspan font-family="Menlo,monospace" font-size="9">/api/metrics</tspan>.</text>
+ <text x="6" y="305" font-size="9.5" fill="#4b5a73">The browser never sees the OpenAI or Qdrant keys: they live only in the server's <tspan font-family="Menlo,monospace" font-size="9">.env</tspan>.</text>
+</svg>
+<div class="cap">Figure 1 – workflow. Orange = rule-based (no model), green = retrieval / model, blue = interface and data, purple = checks and stores.</div>
+</div>
+
+<h2>3. Retrieval</h2>
+<ul>
+ <li><b>Sources:</b> 26 pages, listed with URL, fetch date and chunk count in <code>01_sources.md</code>. Hardware and AT manuals need a login, so they are not used (questions about them get the standard “not verified” reply).</li>
+ <li><b>Chunking:</b> one chunk per page section (About, Key Highlights, Bands per region, GNSS + OS, Speeds, Packaging, Interfaces, Use Cases, Variants, each FAQ question). Comparison tables are never split and every cell keeps its product name. Each chunk starts with a header such as <code>[Product: C16QS | Category: LTE Cat 1bis | Section: Bands – Europe]</code>, which is what lets a question that names a module find that module's chunk without any metadata filter.</li>
+ <li><b>Search:</b> the question is embedded once and Qdrant returns the 12 closest chunks (cosine). No query rewriting, so there is no extra model call. Chunks below 0.30 are dropped; if even the best chunk is below 0.35 the question is treated as off-topic.</li>
+ <li><b>Why dense only:</b> I compared dense search with hybrid (dense + BM25) on 351 frozen questions (templated spec questions plus a paraphrase of every FAQ). Pass rate with the needed chunk in the top 8: <b>dense 96.6%</b>, hybrid 92.9%, BM25 alone 69.2%. The header repeats the module name on every chunk, which makes keyword scores match “any chunk of that module” instead of the chunk holding the fact.</li>
+ <li><b>Caveat:</b> that question set is generated from the same chunks, so it is friendlier than real traffic, and it measures retrieval only. A hand-written blind set should be added before quoting the numbers outside this assessment.</li>
+</ul>
+
+<h2>4. Answers, citations and “supported vs inferred”</h2>
+<ul>
+ <li>The model may use only the retrieved chunks and must end each factual sentence with the id of the supporting chunk. The server turns ids into numbered links to the exact page (<code>[1]</code> → the module page, with the section name shown on the source chip).</li>
+ <li><b>Citation checks:</b> (a) a cited id must be one of the retrieved chunks; (b) <b>every number in the answer must appear in a cited chunk</b> (if it only appears in another retrieved chunk, that chunk is added as a citation; if nowhere, the answer is replaced by the “not verified” reply); (c) if the question names modules, cited chunks must belong to those modules.</li>
+ <li><b>Supported vs inference:</b> facts carry citations. Judgement (for example why a module fits a smart meter) goes in a separate <i>Inference</i> box labelled “not stated in the sources”. Requirements the sources do not confirm (cost, battery life) are listed under <i>Not verified in sources</i>. For vague selection questions the model asks a clarifying question instead of naming a winner.</li>
+ <li><b>Conflicts:</b> where the site contradicts itself, both values are kept and reported with their source, never merged. Found by automatic comparison: 14 cases, e.g. CQM220 peak speed (220/120 Mbps on the module page vs 226 and 195/105 Mbps in category text), CQS315 eSIM (“Integrated eSIM” in highlights, but both listed variants say “eSIM: No”), CQS315 shows a “5G RedCap” badge on an LTE Cat 4 page, CQ16 bands and SIM count differing between its page and the comparison table.</li>
+ <li><b>Unsupported questions:</b> the standard reply is <i>“Not verified in available sources…”</i> plus the closest module page and the Contact link. Price, stock and lead time are answered by rule with the same wording (they are never public); if such a question also asks for something answerable (“bands and price”), the answerable part is answered and the price is flagged as not verified.</li>
+</ul>
+
+<h2>5. Guardrails</h2>
+<table>
+<tr><th>Case</th><th>Handling</th></tr>
+<tr><td>Pasted code, SQL, shell, HTML/script, encoded blobs, “ignore previous instructions”</td><td>Blocked by rules before any model call; polite refusal + Contact link</td></tr>
+<tr><td>Off-topic (weather, jokes) / non-Cavli requests</td><td>Best score below 0.35 → “outside what I can help with”; the prompt also tells the model to refuse</td></tr>
+<tr><td>Price, stock, lead time, quotes</td><td>Standard “not verified” reply with module page + Contact link (no model call)</td></tr>
+<tr><td>Vague “which is better?”</td><td>Asks for requirements and links the seven module-family pages</td></tr>
+<tr><td>Instructions hidden inside context or question</td><td>Prompt marks both as untrusted text; output checks still apply</td></tr>
+<tr><td>Question names a module that does not exist (CQ99)</td><td>No supporting chunk → “not verified”, never an invented spec</td></tr>
+<tr><td>Emails and phone numbers in a question</td><td>Removed before retrieval and before the model; log keeps only a tag</td></tr>
+<tr><td>Abuse</td><td>500-character limit, 20 requests per minute per IP</td></tr>
+</table>
+
+<h2>6. Security, privacy, latency, feedback, failures</h2>
+<ul>
+ <li><b>API-key security:</b> OpenAI and Qdrant keys exist only in the server's <code>.env</code> (git-ignored; <code>.env.example</code> has empty names). The browser calls only <code>/api/*</code>. No key appears in the code, logs, test outputs or the submitted package (scanned).</li>
+ <li><b>Privacy:</b> no accounts or cookies; the log stores a random request id, the question text with personal data removed, response type and timings. Questions go to OpenAI to be answered (state this in the site's privacy text).</li>
+ <li><b>Latency</b> is measured per request (retrieval, first word, model, total), shown under each answer, logged and summarised at <code>/api/metrics</code>. On this run (20 requests, local server calling Qdrant Cloud and OpenAI): average 3.3 s, median 3.5 s, p95 5.9 s; the first words appear after about 2.5 s because text streams while the answer is still being written. Rule-based replies take about 10 ms.</li>
+ <li><b>Feedback loop:</b> thumbs up / down under each answer → <code>POST /api/feedback</code> → <code>data/feedback.jsonl</code> with the request id, so a bad answer can be traced to its question, chunks and timings.</li>
+ <li><b>Failure handling:</b> backend or model errors return a friendly message with the Contact link (no stack traces, no keys); if the server is unreachable the widget shows “Could not reach the assistant”. Setup is reproducible: <code>uv sync</code>, copy <code>.env.example</code>, <code>uv run python -m ingest.build26 --upsert</code>, <code>uv run app/main.py</code>.</li>
+</ul>
+
+<h2>7. Embedding it in the Cavli website (with the website / UI team)</h2>
+<table>
+<tr><th>Step</th><th>What</th><th>Who</th></tr>
+<tr><td>1. Add the widget</td><td>One tag on every page (or in the site template): <code>&lt;script src="https://assistant.&lt;host&gt;/static/widget.js" data-api="https://assistant.&lt;host&gt;" defer&gt;&lt;/script&gt;</code>. The widget lives in a Shadow DOM, so site CSS cannot break it and it adds no styles to the site. Colours, name and starter questions are a few constants at the top of <code>widget.js</code>.</td><td>UI team</td></tr>
+<tr><td>2. Host the API</td><td>Run the FastAPI service behind HTTPS on a sub-domain. Add the site origin to <code>ALLOWED_ORIGINS</code> in <code>app/config.py</code> (browser CORS). Keys stay in the server environment / secret manager.</td><td>Web + IT</td></tr>
+<tr><td>3. Gateway controls</td><td>Bot protection, per-user rate limits and, if needed, login at the gateway; the built-in limit is per IP only.</td><td>IT / security</td></tr>
+<tr><td>4. Content refresh</td><td>Re-run the ingest command on a schedule (e.g. nightly) or when a product page changes; it rebuilds the collection from the live pages and re-lists conflicts. Changed pages should be reviewed before go-live.</td><td>Marketing + web</td></tr>
+<tr><td>5. Look and consent</td><td>Match brand, add the privacy / AI-use notice, set the Contact link, and have legal approve the “not verified” wording. Human approval is needed before anything is published.</td><td>Marketing + legal</td></tr>
+<tr><td>6. Measure</td><td>Send the feedback and latency logs to the site's analytics; review thumbs-down cases weekly and fix content gaps (e.g. add missing specs to pages).</td><td>Marketing + data</td></tr>
+</table>
+
+<h2>8. Assumptions, costs, simulated parts and limitations</h2>
+<ul>
+ <li><b>Services and models:</b> OpenAI <code>gpt-5.4-mini</code> (reasoning off) and <code>text-embedding-3-small</code>; Qdrant Cloud. Per question: 1 embedding call + 1 chat call with 12 chunks (roughly 2–4k input tokens, my estimate). <b>Cost per question was not measured</b>; check current OpenAI pricing before planning volume.</li>
+ <li><b>Implemented, not simulated:</b> ingestion, retrieval, streaming answers, citations, guardrails, feedback, metrics, embeddable widget. <b>Not built:</b> login, analytics dashboard, scheduled refresh (the command exists, the scheduler does not), production hosting.</li>
+ <li><b>Limits:</b> single-turn only (by design); list questions (“which modules support band 71?”) see only 12 chunks and may be incomplete; rare-keyword selection (“Wi-Fi 6 and Bluetooth 5.4”) can miss under dense-only retrieval; the answer wording can vary between runs, so a source conflict is occasionally left out (4 of 4 runs reported it after the last prompt fix, earlier 2 of 4); brochures, blogs and login-only manuals are not indexed; the site's own pages contradict each other in places (kept visible, not resolved); the quality judge for generated answers is the same model family, so it was not used as proof of accuracy.</li>
+</ul>
+</body></html>

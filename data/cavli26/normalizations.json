@@ -1,0 +1,11 @@
+{
+ "unit spacing": 86,
+ "12S->I2S": 5,
+ "BDU->BDS": 14,
+ "Wi-FI->Wi-Fi": 8,
+ "Kyro->Kryo": 1,
+ "'Gbps Mbps' -> single unit": 2,
+ "package<footnote digit>": 2,
+ "deploymnet->deployment": 1,
+ "AdrenoTM->Adreno™": 1
+}

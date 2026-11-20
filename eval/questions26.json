@@ -1,0 +1,3609 @@
+[
+ {
+  "kind": "bands",
+  "q": "Which cellular bands does the CQM220 support?",
+  "req": [
+   [
+    "CQM220:bands:4G",
+    "CQM220:bands:5G"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "What is the maximum download speed of the CQM220?",
+  "req": [
+   [
+    "CQM220:profile",
+    "CQM220:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "How many UART interfaces does the CQM220 have?",
+  "req": [
+   [
+    "CQM220:interfaces",
+    "CQM220:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "Which GNSS constellations does the CQM220 support?",
+  "req": [
+   [
+    "CQM220:gnss_os",
+    "CQM220:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "Which operating system does the CQM220 run?",
+  "req": [
+   [
+    "CQM220:gnss_os",
+    "CQM220:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "What are the dimensions of the CQM220?",
+  "req": [
+   [
+    "CQM220:packaging",
+    "CQM220:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "What use cases is the CQM220 suited for?",
+  "req": [
+   [
+    "CQM220:about",
+    "CQM220:profile",
+    "CQM220:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "Tell me about the Cavli CQM220",
+  "req": [
+   [
+    "CQM220:about",
+    "CQM220:highlights",
+    "CQM220:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "what frequency bands are available on CQ20 for Eurasia and Japan",
+  "req": [
+   [
+    "CQ20:bands:EAJ"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "how fast is the CQ20 module",
+  "req": [
+   [
+    "CQ20:profile",
+    "CQ20:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "does CQ20 have USB and SPI",
+  "req": [
+   [
+    "CQ20:interfaces",
+    "CQ20:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "CQ20 positioning support",
+  "req": [
+   [
+    "CQ20:gnss_os",
+    "CQ20:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "is CQ20 Linux or Android based",
+  "req": [
+   [
+    "CQ20:gnss_os",
+    "CQ20:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "how big is the CQ20 module",
+  "req": [
+   [
+    "CQ20:packaging",
+    "CQ20:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "which memory options can I order for CQ20",
+  "req": [
+   [
+    "CQ20:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "CQ20 industries",
+  "req": [
+   [
+    "CQ20:about",
+    "CQ20:profile",
+    "CQ20:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "give me an overview of CQ20",
+  "req": [
+   [
+    "CQ20:about",
+    "CQ20:highlights",
+    "CQ20:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "Which LTE bands does the CQS292 support in worldwide?",
+  "req": [
+   [
+    "CQS292:bands:WW"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "What is the maximum download speed of the CQS292?",
+  "req": [
+   [
+    "CQS292:profile",
+    "CQS292:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "How many UART interfaces does the CQS292 have?",
+  "req": [
+   [
+    "CQS292:interfaces",
+    "CQS292:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "Which GNSS constellations does the CQS292 support?",
+  "req": [
+   [
+    "CQS292:gnss_os",
+    "CQS292:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "Which operating system does the CQS292 run?",
+  "req": [
+   [
+    "CQS292:gnss_os",
+    "CQS292:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "What are the dimensions of the CQS292?",
+  "req": [
+   [
+    "CQS292:packaging",
+    "CQS292:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "What ordering variants of the CQS292 are available?",
+  "req": [
+   [
+    "CQS292:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "What use cases is the CQS292 suited for?",
+  "req": [
+   [
+    "CQS292:about",
+    "CQS292:profile",
+    "CQS292:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "Tell me about the Cavli CQS292",
+  "req": [
+   [
+    "CQS292:about",
+    "CQS292:highlights",
+    "CQS292:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "Which LTE bands does the C20QM support in Australia and New Zealand?",
+  "req": [
+   [
+    "C20QM:bands:AN"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "What is the maximum download speed of the C20QM?",
+  "req": [
+   [
+    "C20QM:profile",
+    "C20QM:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "How many UART interfaces does the C20QM have?",
+  "req": [
+   [
+    "C20QM:interfaces",
+    "C20QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "Which GNSS constellations does the C20QM support?",
+  "req": [
+   [
+    "C20QM:gnss_os",
+    "C20QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "Which operating system does the C20QM run?",
+  "req": [
+   [
+    "C20QM:gnss_os",
+    "C20QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "What are the dimensions of the C20QM?",
+  "req": [
+   [
+    "C20QM:packaging",
+    "C20QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "What ordering variants of the C20QM are available?",
+  "req": [
+   [
+    "C20QM:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "What use cases is the C20QM suited for?",
+  "req": [
+   [
+    "C20QM:about",
+    "C20QM:profile",
+    "C20QM:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "Tell me about the Cavli C20QM",
+  "req": [
+   [
+    "C20QM:about",
+    "C20QM:highlights",
+    "C20QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "what frequency bands are available on CQS315 for Eurasia and Japan",
+  "req": [
+   [
+    "CQS315:bands:EAJ"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "how fast is the CQS315 module",
+  "req": [
+   [
+    "CQS315:profile",
+    "CQS315:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "does CQS315 have USB and SPI",
+  "req": [
+   [
+    "CQS315:interfaces",
+    "CQS315:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "CQS315 positioning support",
+  "req": [
+   [
+    "CQS315:gnss_os",
+    "CQS315:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "is CQS315 Linux or Android based",
+  "req": [
+   [
+    "CQS315:gnss_os",
+    "CQS315:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "how big is the CQS315 module",
+  "req": [
+   [
+    "CQS315:packaging",
+    "CQS315:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "which memory options can I order for CQS315",
+  "req": [
+   [
+    "CQS315:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "CQS315 industries",
+  "req": [
+   [
+    "CQS315:about",
+    "CQS315:profile",
+    "CQS315:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "give me an overview of CQS315",
+  "req": [
+   [
+    "CQS315:about",
+    "CQS315:highlights",
+    "CQS315:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "Which LTE bands does the CQS290 support in worldwide?",
+  "req": [
+   [
+    "CQS290:bands:WW"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "What is the maximum download speed of the CQS290?",
+  "req": [
+   [
+    "CQS290:profile",
+    "CQS290:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "How many UART interfaces does the CQS290 have?",
+  "req": [
+   [
+    "CQS290:interfaces",
+    "CQS290:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "Which GNSS constellations does the CQS290 support?",
+  "req": [
+   [
+    "CQS290:gnss_os",
+    "CQS290:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "Which operating system does the CQS290 run?",
+  "req": [
+   [
+    "CQS290:gnss_os",
+    "CQS290:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "What are the dimensions of the CQS290?",
+  "req": [
+   [
+    "CQS290:packaging",
+    "CQS290:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "What ordering variants of the CQS290 are available?",
+  "req": [
+   [
+    "CQS290:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "What use cases is the CQS290 suited for?",
+  "req": [
+   [
+    "CQS290:about",
+    "CQS290:profile",
+    "CQS290:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "Tell me about the Cavli CQS290",
+  "req": [
+   [
+    "CQS290:about",
+    "CQS290:highlights",
+    "CQS290:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "CQS291 band list for worldwide",
+  "req": [
+   [
+    "CQS291:bands:WW"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "CQS291 peak uplink and downlink throughput",
+  "req": [
+   [
+    "CQS291:profile",
+    "CQS291:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "What interfaces and GPIOs does CQS291 offer?",
+  "req": [
+   [
+    "CQS291:interfaces",
+    "CQS291:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "does CQS291 have GPS",
+  "req": [
+   [
+    "CQS291:gnss_os",
+    "CQS291:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "CQS291 OS",
+  "req": [
+   [
+    "CQS291:gnss_os",
+    "CQS291:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "CQS291 size and form factor",
+  "req": [
+   [
+    "CQS291:packaging",
+    "CQS291:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "CQS291 SKU part numbers",
+  "req": [
+   [
+    "CQS291:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "which applications can I build with CQS291",
+  "req": [
+   [
+    "CQS291:about",
+    "CQS291:profile",
+    "CQS291:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "What is the CQS291 module?",
+  "req": [
+   [
+    "CQS291:about",
+    "CQS291:highlights",
+    "CQS291:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "C10QM band list for North America",
+  "req": [
+   [
+    "C10QM:bands:NA"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "C10QM peak uplink and downlink throughput",
+  "req": [
+   [
+    "C10QM:profile",
+    "C10QM:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "What interfaces and GPIOs does C10QM offer?",
+  "req": [
+   [
+    "C10QM:interfaces",
+    "C10QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "does C10QM have GPS",
+  "req": [
+   [
+    "C10QM:gnss_os",
+    "C10QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "C10QM OS",
+  "req": [
+   [
+    "C10QM:gnss_os",
+    "C10QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "C10QM size and form factor",
+  "req": [
+   [
+    "C10QM:packaging",
+    "C10QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "C10QM SKU part numbers",
+  "req": [
+   [
+    "C10QM:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "which applications can I build with C10QM",
+  "req": [
+   [
+    "C10QM:about",
+    "C10QM:profile",
+    "C10QM:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "What is the C10QM module?",
+  "req": [
+   [
+    "C10QM:about",
+    "C10QM:highlights",
+    "C10QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "Which LTE bands does the CQ10 support in Eurasia and Japan?",
+  "req": [
+   [
+    "CQ10:bands:EAJ"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "What is the maximum download speed of the CQ10?",
+  "req": [
+   [
+    "CQ10:profile",
+    "CQ10:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "How many UART interfaces does the CQ10 have?",
+  "req": [
+   [
+    "CQ10:interfaces",
+    "CQ10:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "Which GNSS constellations does the CQ10 support?",
+  "req": [
+   [
+    "CQ10:gnss_os",
+    "CQ10:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "Which operating system does the CQ10 run?",
+  "req": [
+   [
+    "CQ10:gnss_os",
+    "CQ10:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "What are the dimensions of the CQ10?",
+  "req": [
+   [
+    "CQ10:packaging",
+    "CQ10:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "What ordering variants of the CQ10 are available?",
+  "req": [
+   [
+    "CQ10:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "What use cases is the CQ10 suited for?",
+  "req": [
+   [
+    "CQ10:about",
+    "CQ10:profile",
+    "CQ10:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "Tell me about the Cavli CQ10",
+  "req": [
+   [
+    "CQ10:about",
+    "CQ10:highlights",
+    "CQ10:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "what frequency bands are available on C11QM for India",
+  "req": [
+   [
+    "C11QM:bands:IN"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "how fast is the C11QM module",
+  "req": [
+   [
+    "C11QM:profile",
+    "C11QM:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "does C11QM have USB and SPI",
+  "req": [
+   [
+    "C11QM:interfaces",
+    "C11QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "C11QM positioning support",
+  "req": [
+   [
+    "C11QM:gnss_os",
+    "C11QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "is C11QM Linux or Android based",
+  "req": [
+   [
+    "C11QM:gnss_os",
+    "C11QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "how big is the C11QM module",
+  "req": [
+   [
+    "C11QM:packaging",
+    "C11QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "which memory options can I order for C11QM",
+  "req": [
+   [
+    "C11QM:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "C11QM industries",
+  "req": [
+   [
+    "C11QM:about",
+    "C11QM:profile",
+    "C11QM:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "give me an overview of C11QM",
+  "req": [
+   [
+    "C11QM:about",
+    "C11QM:highlights",
+    "C11QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "what frequency bands are available on CQM211 for Eurasia and Japan",
+  "req": [
+   [
+    "CQM211:bands:EAJ"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "how fast is the CQM211 module",
+  "req": [
+   [
+    "CQM211:profile",
+    "CQM211:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "does CQM211 have USB and SPI",
+  "req": [
+   [
+    "CQM211:interfaces",
+    "CQM211:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "CQM211 positioning support",
+  "req": [
+   [
+    "CQM211:gnss_os",
+    "CQM211:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "is CQM211 Linux or Android based",
+  "req": [
+   [
+    "CQM211:gnss_os",
+    "CQM211:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "how big is the CQM211 module",
+  "req": [
+   [
+    "CQM211:packaging",
+    "CQM211:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "CQM211 industries",
+  "req": [
+   [
+    "CQM211:about",
+    "CQM211:profile",
+    "CQM211:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "give me an overview of CQM211",
+  "req": [
+   [
+    "CQM211:about",
+    "CQM211:highlights",
+    "CQM211:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "CQM212 band list for East Asia",
+  "req": [
+   [
+    "CQM212:bands:EA"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "CQM212 peak uplink and downlink throughput",
+  "req": [
+   [
+    "CQM212:profile",
+    "CQM212:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "What interfaces and GPIOs does CQM212 offer?",
+  "req": [
+   [
+    "CQM212:interfaces",
+    "CQM212:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "does CQM212 have GPS",
+  "req": [
+   [
+    "CQM212:gnss_os",
+    "CQM212:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "CQM212 OS",
+  "req": [
+   [
+    "CQM212:gnss_os",
+    "CQM212:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "CQM212 size and form factor",
+  "req": [
+   [
+    "CQM212:packaging",
+    "CQM212:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "which applications can I build with CQM212",
+  "req": [
+   [
+    "CQM212:about",
+    "CQM212:profile",
+    "CQM212:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "What is the CQM212 module?",
+  "req": [
+   [
+    "CQM212:about",
+    "CQM212:highlights",
+    "CQM212:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "CQM215 band list for East Asia",
+  "req": [
+   [
+    "CQM215:bands:EA"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "CQM215 peak uplink and downlink throughput",
+  "req": [
+   [
+    "CQM215:profile",
+    "CQM215:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "What interfaces and GPIOs does CQM215 offer?",
+  "req": [
+   [
+    "CQM215:interfaces",
+    "CQM215:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "does CQM215 have GPS",
+  "req": [
+   [
+    "CQM215:gnss_os",
+    "CQM215:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "CQM215 OS",
+  "req": [
+   [
+    "CQM215:gnss_os",
+    "CQM215:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "CQM215 size and form factor",
+  "req": [
+   [
+    "CQM215:packaging",
+    "CQM215:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "which applications can I build with CQM215",
+  "req": [
+   [
+    "CQM215:about",
+    "CQM215:profile",
+    "CQM215:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "What is the CQM215 module?",
+  "req": [
+   [
+    "CQM215:about",
+    "CQM215:highlights",
+    "CQM215:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "what frequency bands are available on C41QS for worldwide",
+  "req": [
+   [
+    "C41QS:bands:WW"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "how fast is the C41QS module",
+  "req": [
+   [
+    "C41QS:profile",
+    "C41QS:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "does C41QS have USB and SPI",
+  "req": [
+   [
+    "C41QS:interfaces",
+    "C41QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "C41QS positioning support",
+  "req": [
+   [
+    "C41QS:gnss_os",
+    "C41QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "is C41QS Linux or Android based",
+  "req": [
+   [
+    "C41QS:gnss_os",
+    "C41QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "how big is the C41QS module",
+  "req": [
+   [
+    "C41QS:packaging",
+    "C41QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "which memory options can I order for C41QS",
+  "req": [
+   [
+    "C41QS:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "C41QS industries",
+  "req": [
+   [
+    "C41QS:about",
+    "C41QS:profile",
+    "C41QS:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "give me an overview of C41QS",
+  "req": [
+   [
+    "C41QS:about",
+    "C41QS:highlights",
+    "C41QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "Which LTE bands does the AQ62 support in Eurasia and Japan?",
+  "req": [
+   [
+    "AQ62:bands:EAJ"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "What is the maximum download speed of the AQ62?",
+  "req": [
+   [
+    "AQ62:profile",
+    "AQ62:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "How many UART interfaces does the AQ62 have?",
+  "req": [
+   [
+    "AQ62:interfaces",
+    "AQ62:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "Which GNSS constellations does the AQ62 support?",
+  "req": [
+   [
+    "AQ62:gnss_os",
+    "AQ62:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "Which operating system does the AQ62 run?",
+  "req": [
+   [
+    "AQ62:gnss_os",
+    "AQ62:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "What are the dimensions of the AQ62?",
+  "req": [
+   [
+    "AQ62:packaging",
+    "AQ62:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "What ordering variants of the AQ62 are available?",
+  "req": [
+   [
+    "AQ62:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "What use cases is the AQ62 suited for?",
+  "req": [
+   [
+    "AQ62:about",
+    "AQ62:profile",
+    "AQ62:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "Tell me about the Cavli AQ62",
+  "req": [
+   [
+    "AQ62:about",
+    "AQ62:highlights",
+    "AQ62:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "Which LTE bands does the AQ65 support in worldwide?",
+  "req": [
+   [
+    "AQ65:bands:WW"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "What is the maximum download speed of the AQ65?",
+  "req": [
+   [
+    "AQ65:profile",
+    "AQ65:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "How many UART interfaces does the AQ65 have?",
+  "req": [
+   [
+    "AQ65:interfaces",
+    "AQ65:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "Which GNSS constellations does the AQ65 support?",
+  "req": [
+   [
+    "AQ65:gnss_os",
+    "AQ65:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "Which operating system does the AQ65 run?",
+  "req": [
+   [
+    "AQ65:gnss_os",
+    "AQ65:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "What are the dimensions of the AQ65?",
+  "req": [
+   [
+    "AQ65:packaging",
+    "AQ65:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "What ordering variants of the AQ65 are available?",
+  "req": [
+   [
+    "AQ65:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "What use cases is the AQ65 suited for?",
+  "req": [
+   [
+    "AQ65:about",
+    "AQ65:profile",
+    "AQ65:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "Tell me about the Cavli AQ65",
+  "req": [
+   [
+    "AQ65:about",
+    "AQ65:highlights",
+    "AQ65:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "what frequency bands are available on CQ16 for North America",
+  "req": [
+   [
+    "CQ16:bands:NA"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "how fast is the CQ16 module",
+  "req": [
+   [
+    "CQ16:profile",
+    "CQ16:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "does CQ16 have USB and SPI",
+  "req": [
+   [
+    "CQ16:interfaces",
+    "CQ16:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "CQ16 positioning support",
+  "req": [
+   [
+    "CQ16:gnss_os",
+    "CQ16:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "is CQ16 Linux or Android based",
+  "req": [
+   [
+    "CQ16:gnss_os",
+    "CQ16:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "how big is the CQ16 module",
+  "req": [
+   [
+    "CQ16:packaging",
+    "CQ16:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "which memory options can I order for CQ16",
+  "req": [
+   [
+    "CQ16:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "CQ16 industries",
+  "req": [
+   [
+    "CQ16:about",
+    "CQ16:profile",
+    "CQ16:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "give me an overview of CQ16",
+  "req": [
+   [
+    "CQ16:about",
+    "CQ16:highlights",
+    "CQ16:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "what frequency bands are available on C16QS for Australia and New Zealand",
+  "req": [
+   [
+    "C16QS:bands:AN"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "how fast is the C16QS module",
+  "req": [
+   [
+    "C16QS:profile",
+    "C16QS:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "does C16QS have USB and SPI",
+  "req": [
+   [
+    "C16QS:interfaces",
+    "C16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "C16QS positioning support",
+  "req": [
+   [
+    "C16QS:gnss_os",
+    "C16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "is C16QS Linux or Android based",
+  "req": [
+   [
+    "C16QS:gnss_os",
+    "C16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "how big is the C16QS module",
+  "req": [
+   [
+    "C16QS:packaging",
+    "C16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "variants",
+  "q": "which memory options can I order for C16QS",
+  "req": [
+   [
+    "C16QS:variants"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "C16QS industries",
+  "req": [
+   [
+    "C16QS:about",
+    "C16QS:profile",
+    "C16QS:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "give me an overview of C16QS",
+  "req": [
+   [
+    "C16QS:about",
+    "C16QS:highlights",
+    "C16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "bands",
+  "q": "Which LTE bands does the P16QS support in India?",
+  "req": [
+   [
+    "P16QS:bands:IN"
+   ]
+  ]
+ },
+ {
+  "kind": "speeds",
+  "q": "What is the maximum download speed of the P16QS?",
+  "req": [
+   [
+    "P16QS:profile",
+    "P16QS:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "interfaces",
+  "q": "How many UART interfaces does the P16QS have?",
+  "req": [
+   [
+    "P16QS:interfaces",
+    "P16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "gnss",
+  "q": "Which GNSS constellations does the P16QS support?",
+  "req": [
+   [
+    "P16QS:gnss_os",
+    "P16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "os",
+  "q": "Which operating system does the P16QS run?",
+  "req": [
+   [
+    "P16QS:gnss_os",
+    "P16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "dimensions",
+  "q": "What are the dimensions of the P16QS?",
+  "req": [
+   [
+    "P16QS:packaging",
+    "P16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "use_cases",
+  "q": "What use cases is the P16QS suited for?",
+  "req": [
+   [
+    "P16QS:about",
+    "P16QS:profile",
+    "P16QS:use_cases"
+   ]
+  ]
+ },
+ {
+  "kind": "about",
+  "q": "Tell me about the Cavli P16QS",
+  "req": [
+   [
+    "P16QS:about",
+    "P16QS:highlights",
+    "P16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the download speed of CQM212 and CQM215",
+  "req": [
+   [
+    "CQM212:profile",
+    "CQM212:speeds"
+   ],
+   [
+    "CQM215:profile",
+    "CQM215:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the operating system of CQM212 and CQM215",
+  "req": [
+   [
+    "CQM212:gnss_os",
+    "CQM212:profile"
+   ],
+   [
+    "CQM215:gnss_os",
+    "CQM215:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the interfaces of CQM212 and CQM215",
+  "req": [
+   [
+    "CQM212:interfaces",
+    "CQM212:profile"
+   ],
+   [
+    "CQM215:interfaces",
+    "CQM215:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the download speed of CQ16 and C16QS",
+  "req": [
+   [
+    "CQ16:profile",
+    "CQ16:speeds"
+   ],
+   [
+    "C16QS:profile",
+    "C16QS:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the operating system of CQ16 and C16QS",
+  "req": [
+   [
+    "CQ16:gnss_os",
+    "CQ16:profile"
+   ],
+   [
+    "C16QS:gnss_os",
+    "C16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the interfaces of CQ16 and C16QS",
+  "req": [
+   [
+    "CQ16:interfaces",
+    "CQ16:profile"
+   ],
+   [
+    "C16QS:interfaces",
+    "C16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the download speed of CQS290 and CQS291",
+  "req": [
+   [
+    "CQS290:profile",
+    "CQS290:speeds"
+   ],
+   [
+    "CQS291:profile",
+    "CQS291:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the operating system of CQS290 and CQS291",
+  "req": [
+   [
+    "CQS290:gnss_os",
+    "CQS290:profile"
+   ],
+   [
+    "CQS291:gnss_os",
+    "CQS291:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the interfaces of CQS290 and CQS291",
+  "req": [
+   [
+    "CQS290:interfaces",
+    "CQS290:profile"
+   ],
+   [
+    "CQS291:interfaces",
+    "CQS291:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the download speed of C10QM and CQ10",
+  "req": [
+   [
+    "C10QM:profile",
+    "C10QM:speeds"
+   ],
+   [
+    "CQ10:profile",
+    "CQ10:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the operating system of C10QM and CQ10",
+  "req": [
+   [
+    "C10QM:gnss_os",
+    "C10QM:profile"
+   ],
+   [
+    "CQ10:gnss_os",
+    "CQ10:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the interfaces of C10QM and CQ10",
+  "req": [
+   [
+    "C10QM:interfaces",
+    "C10QM:profile"
+   ],
+   [
+    "CQ10:interfaces",
+    "CQ10:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the download speed of AQ62 and AQ65",
+  "req": [
+   [
+    "AQ62:profile",
+    "AQ62:speeds"
+   ],
+   [
+    "AQ65:profile",
+    "AQ65:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the operating system of AQ62 and AQ65",
+  "req": [
+   [
+    "AQ62:gnss_os",
+    "AQ62:profile"
+   ],
+   [
+    "AQ65:gnss_os",
+    "AQ65:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the interfaces of AQ62 and AQ65",
+  "req": [
+   [
+    "AQ62:interfaces",
+    "AQ62:profile"
+   ],
+   [
+    "AQ65:interfaces",
+    "AQ65:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the download speed of CQM211 and CQM212",
+  "req": [
+   [
+    "CQM211:profile",
+    "CQM211:speeds"
+   ],
+   [
+    "CQM212:profile",
+    "CQM212:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the operating system of CQM211 and CQM212",
+  "req": [
+   [
+    "CQM211:gnss_os",
+    "CQM211:profile"
+   ],
+   [
+    "CQM212:gnss_os",
+    "CQM212:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the interfaces of CQM211 and CQM212",
+  "req": [
+   [
+    "CQM211:interfaces",
+    "CQM211:profile"
+   ],
+   [
+    "CQM212:interfaces",
+    "CQM212:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the download speed of CQS315 and CQS292",
+  "req": [
+   [
+    "CQS315:profile",
+    "CQS315:speeds"
+   ],
+   [
+    "CQS292:profile",
+    "CQS292:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the operating system of CQS315 and CQS292",
+  "req": [
+   [
+    "CQS315:gnss_os",
+    "CQS315:profile"
+   ],
+   [
+    "CQS292:gnss_os",
+    "CQS292:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the interfaces of CQS315 and CQS292",
+  "req": [
+   [
+    "CQS315:interfaces",
+    "CQS315:profile"
+   ],
+   [
+    "CQS292:interfaces",
+    "CQS292:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the download speed of C20QM and CQ20",
+  "req": [
+   [
+    "C20QM:profile",
+    "C20QM:speeds"
+   ],
+   [
+    "CQ20:profile",
+    "CQ20:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the operating system of C20QM and CQ20",
+  "req": [
+   [
+    "C20QM:gnss_os",
+    "C20QM:profile"
+   ],
+   [
+    "CQ20:gnss_os",
+    "CQ20:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the interfaces of C20QM and CQ20",
+  "req": [
+   [
+    "C20QM:interfaces",
+    "C20QM:profile"
+   ],
+   [
+    "CQ20:interfaces",
+    "CQ20:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the download speed of CQM220 and CQS315",
+  "req": [
+   [
+    "CQM220:profile",
+    "CQM220:speeds"
+   ],
+   [
+    "CQS315:profile",
+    "CQS315:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the operating system of CQM220 and CQS315",
+  "req": [
+   [
+    "CQM220:gnss_os",
+    "CQM220:profile"
+   ],
+   [
+    "CQS315:gnss_os",
+    "CQS315:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the interfaces of CQM220 and CQS315",
+  "req": [
+   [
+    "CQM220:interfaces",
+    "CQM220:profile"
+   ],
+   [
+    "CQS315:interfaces",
+    "CQS315:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the download speed of C11QM and C10QM",
+  "req": [
+   [
+    "C11QM:profile",
+    "C11QM:speeds"
+   ],
+   [
+    "C10QM:profile",
+    "C10QM:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the operating system of C11QM and C10QM",
+  "req": [
+   [
+    "C11QM:gnss_os",
+    "C11QM:profile"
+   ],
+   [
+    "C10QM:gnss_os",
+    "C10QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "comparison",
+  "q": "Compare the interfaces of C11QM and C10QM",
+  "req": [
+   [
+    "C11QM:interfaces",
+    "C11QM:profile"
+   ],
+   [
+    "C10QM:interfaces",
+    "C10QM:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "category",
+  "q": "when should I choose 5G RedCap",
+  "req": [
+   [
+    "5g-redcap:explainer:1",
+    "5g-redcap:explainer:2",
+    "5g-redcap:explainer:3",
+    "5g-redcap:explainer:4",
+    "5g-redcap:explainer:5",
+    "5g-redcap:explainer:6",
+    "5g-redcap:explainer:7",
+    "5g-redcap:explainer:8",
+    "5g-redcap:highlights_advantages:1",
+    "5g-redcap:intro:1",
+    "5g-redcap:lineup"
+   ]
+  ]
+ },
+ {
+  "kind": "category",
+  "q": "Explain LTE Cat 4 IoT modules",
+  "req": [
+   [
+    "lte-cat4:explainer:1",
+    "lte-cat4:explainer:2",
+    "lte-cat4:explainer:3",
+    "lte-cat4:highlights_advantages:1",
+    "lte-cat4:intro:1",
+    "lte-cat4:lineup"
+   ]
+  ]
+ },
+ {
+  "kind": "category",
+  "q": "when should I choose LTE Cat 1",
+  "req": [
+   [
+    "lte-cat1:explainer:1",
+    "lte-cat1:explainer:2",
+    "lte-cat1:highlights_advantages:1",
+    "lte-cat1:intro:1",
+    "lte-cat1:lineup"
+   ]
+  ]
+ },
+ {
+  "kind": "category",
+  "q": "Explain 5G NR IoT modules",
+  "req": [
+   [
+    "5g-nr:explainer:1",
+    "5g-nr:explainer:2",
+    "5g-nr:explainer:3",
+    "5g-nr:explainer:4",
+    "5g-nr:explainer:5",
+    "5g-nr:explainer:6",
+    "5g-nr:explainer:7",
+    "5g-nr:explainer:8",
+    "5g-nr:highlights_advantages:1",
+    "5g-nr:intro:1",
+    "5g-nr:lineup"
+   ]
+  ]
+ },
+ {
+  "kind": "category",
+  "q": "What is LPWA and what is it good for?",
+  "req": [
+   [
+    "lpwa:explainer:1",
+    "lpwa:explainer:2",
+    "lpwa:highlights_advantages:1",
+    "lpwa:intro:1",
+    "lpwa:lineup"
+   ]
+  ]
+ },
+ {
+  "kind": "category",
+  "q": "What is Automotive and what is it good for?",
+  "req": [
+   [
+    "automotive:explainer:1",
+    "automotive:explainer:2",
+    "automotive:explainer:3",
+    "automotive:explainer:4",
+    "automotive:highlights_advantages:1",
+    "automotive:intro:1",
+    "automotive:lineup"
+   ]
+  ]
+ },
+ {
+  "kind": "category",
+  "q": "What is LTE Cat 1bis and what is it good for?",
+  "req": [
+   [
+    "lte-cat1bis:explainer:1",
+    "lte-cat1bis:explainer:2",
+    "lte-cat1bis:highlights_advantages:1",
+    "lte-cat1bis:intro:1",
+    "lte-cat1bis:lineup"
+   ]
+  ]
+ },
+ {
+  "kind": "category",
+  "q": "RedCap vs LTE Cat 4 vs full 5G NR",
+  "req": [
+   [
+    "5g-nr:table:1",
+    "5g-redcap:table:1"
+   ]
+  ]
+ },
+ {
+  "kind": "category",
+  "q": "Which Cavli modules are in the LTE Cat 1bis family?",
+  "req": [
+   [
+    "lte-cat1bis:lineup"
+   ]
+  ]
+ },
+ {
+  "kind": "category",
+  "q": "List the Cavli 5G NR modules",
+  "req": [
+   [
+    "5g-nr:lineup"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which module supports Wi-Fi 6 and Bluetooth 5.4?",
+  "req": [
+   [
+    "P16QS:about",
+    "P16QS:highlights",
+    "P16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which Cavli module is meant for NB-IoT?",
+  "req": [
+   [
+    "C41QS:about",
+    "C41QS:bands:WW",
+    "C41QS:profile",
+    "C41QS:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which module has the highest 5G download speed?",
+  "req": [
+   [
+    "5g-nr:lineup",
+    "5g-nr:table:2",
+    "CQM215:profile",
+    "CQM215:speeds"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which modules are automotive grade?",
+  "req": [
+   [
+    "AQ62:about",
+    "AQ62:highlights",
+    "AQ65:about",
+    "AQ65:highlights",
+    "automotive:lineup"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which Cavli module has a magnetic stripe reader?",
+  "req": [
+   [
+    "P16QS:interfaces",
+    "P16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which modules run Android?",
+  "req": [
+   [
+    "CQS290:gnss_os",
+    "CQS290:profile",
+    "CQS291:gnss_os",
+    "CQS291:profile",
+    "CQS292:gnss_os",
+    "CQS292:profile",
+    "CQS315:gnss_os",
+    "CQS315:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which module has an Octa-core Kryo CPU?",
+  "req": [
+   [
+    "CQS315:about",
+    "CQS315:faq:1",
+    "CQS315:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which modules support band 71?",
+  "req": [
+   [
+    "AQ62:bands:NA",
+    "AQ62:bands:WW",
+    "AQ65:bands:NA",
+    "AQ65:bands:WW",
+    "CQM211:bands:NA",
+    "CQM211:bands:WW",
+    "CQM212:bands:NA",
+    "CQM215:bands:NA",
+    "CQM220:bands:4G",
+    "CQM220:bands:5G",
+    "CQS290:bands:WW",
+    "CQS291:bands:WW",
+    "CQS292:bands:WW",
+    "CQS315:bands:NA",
+    "CQS315:bands:WW"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which modules support VoNR?",
+  "req": [
+   [
+    "5g-nr:table:2",
+    "AQ62:faq:7",
+    "CQM211:profile",
+    "CQM212:profile",
+    "CQM215:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which modules support NG-eCall?",
+  "req": [
+   [
+    "AQ62:faq:7"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which module has PCIe 4.0?",
+  "req": [
+   [
+    "AQ62:interfaces",
+    "AQ62:profile",
+    "AQ65:interfaces",
+    "AQ65:profile",
+    "CQM212:interfaces",
+    "CQM212:profile",
+    "CQM215:interfaces",
+    "CQM215:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "filter",
+  "q": "Which Cavli modules have a built-in eSIM?",
+  "req": [
+   [
+    "AQ62:profile",
+    "AQ62:variants",
+    "AQ65:profile",
+    "AQ65:variants",
+    "C10QM:profile",
+    "C10QM:variants",
+    "C11QM:profile",
+    "C16QS:profile",
+    "C16QS:variants",
+    "C20QM:profile",
+    "C20QM:variants",
+    "C41QS:profile",
+    "C41QS:variants",
+    "CQ10:profile",
+    "CQ16:profile",
+    "CQ16:variants",
+    "CQ20:profile",
+    "CQM211:profile",
+    "CQM212:profile",
+    "CQM215:profile",
+    "CQM220:profile",
+    "CQS290:profile",
+    "CQS290:variants",
+    "CQS291:profile",
+    "CQS291:variants",
+    "CQS292:profile",
+    "CQS292:variants",
+    "CQS315:profile",
+    "CQS315:variants",
+    "P16QS:profile"
+   ]
+  ]
+ },
+ {
+  "kind": "conflict",
+  "q": "What is the peak data rate of the CQM220?",
+  "req": [
+   [
+    "CQM220:conflicts",
+    "CQM220:profile",
+    "CQM220:speeds"
+   ],
+   [
+    "CQM220:conflicts"
+   ]
+  ]
+ },
+ {
+  "kind": "conflict",
+  "q": "Does the CQS315 have eSIM?",
+  "req": [
+   [
+    "CQS315:conflicts"
+   ]
+  ]
+ },
+ {
+  "kind": "conflict",
+  "q": "Is the CQS315 a 5G RedCap module?",
+  "req": [
+   [
+    "CQS315:conflicts",
+    "CQS315:highlights"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what GNSS features the CQM220 module has?",
+  "req": [
+   [
+    "CQM220:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you explain how the CQM220 module controls power usage in 5G IoT setups?",
+  "req": [
+   [
+    "CQM220:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kind of connections does the CQM220 module have for IoT use?",
+  "req": [
+   [
+    "CQM220:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kind of global 5G and LTE support does the CQM220 module offer?",
+  "req": [
+   [
+    "CQM220:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "How do I buy the CQM220 module and its Evaluation Kit, and where can I find the technical brochures?",
+  "req": [
+   [
+    "CQM220:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what GNSS features the C20QM module has?",
+  "req": [
+   [
+    "C20QM:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you explain how the C20QM module controls power usage in IoT setups?",
+  "req": [
+   [
+    "C20QM:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Does the C20QM module work with the Cavli Hubble Platform for managing devices?",
+  "req": [
+   [
+    "C20QM:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what connection options the C20QM module has for IoT use?",
+  "req": [
+   [
+    "C20QM:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What does the C20QM module do to help with connecting globally and working with different systems?",
+  "req": [
+   [
+    "C20QM:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What extra connections can I get with the C10QM module?",
+  "req": [
+   [
+    "C20QM:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "How can I buy the C20QM module and its Evaluation Kit, and where can I find the technical brochures?",
+  "req": [
+   [
+    "C20QM:faq:7"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What features does the CQS315 module have for handling advanced graphics and multimedia in IoT projects?",
+  "req": [
+   [
+    "CQS315:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kind of GNSS features can I expect from the CQS315 module?",
+  "req": [
+   [
+    "CQS315:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Does the CQS315 module work with the Cavli Hubble IoT Platform for managing devices?",
+  "req": [
+   [
+    "CQS315:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kind of connections can I use with the CQS315 module for my external devices?",
+  "req": [
+   [
+    "CQS315:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What features does the CQS315 module have for connecting to LTE worldwide and what are the backup options?",
+  "req": [
+   [
+    "CQS315:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What extra features come with the CQS315 module?",
+  "req": [
+   [
+    "CQS315:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kind of graphics and multimedia features does the CQS290 module offer for IoT uses?",
+  "req": [
+   [
+    "CQS290:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what GNSS features the CQS290 module has?",
+  "req": [
+   [
+    "CQS290:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Does the CQS290 module work with the Cavli Hubble Platform for managing devices?",
+  "req": [
+   [
+    "CQS290:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kind of connections can I use with the CQS290 module for my external devices?",
+  "req": [
+   [
+    "CQS290:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you explain how the CQS290 module helps with LTE connections worldwide and what backup options it has?",
+  "req": [
+   [
+    "CQS290:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What extra features does the CQS290 module have?",
+  "req": [
+   [
+    "CQS290:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "How can I buy the CQS290 module and its Evaluation Kit, and where can I find the technical brochures?",
+  "req": [
+   [
+    "CQS290:faq:7"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what GNSS features the C10QM module has?",
+  "req": [
+   [
+    "C10QM:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me about the energy-saving options available in the C10QM module?",
+  "req": [
+   [
+    "C10QM:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can I use the C10QM module with the Cavli Hubble Platform?",
+  "req": [
+   [
+    "C10QM:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kinds of connections can I use for peripherals with the C10QM module?",
+  "req": [
+   [
+    "C10QM:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can the C10QM module handle VoLTE so I can use voice and data at the same time?",
+  "req": [
+   [
+    "C10QM:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What extra ports or connections can I use with the C10QM module?",
+  "req": [
+   [
+    "C10QM:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "How do I buy the C10QM module, the Evaluation Kit, and any technical brochures?",
+  "req": [
+   [
+    "C10QM:faq:7"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What features does the C11QM module have to provide precise positioning for IoT uses?",
+  "req": [
+   [
+    "C11QM:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me about the power-saving features in the C11QM module for IoT?",
+  "req": [
+   [
+    "C11QM:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What makes the C11QM module a good choice for tough IoT settings?",
+  "req": [
+   [
+    "C11QM:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kind of connections does the C11QM module have for sensors and other devices?",
+  "req": [
+   [
+    "C11QM:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What features does the C11QM module have for VoLTE and SMS in IoT setups?",
+  "req": [
+   [
+    "C11QM:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "C11QM module: What sets it apart for IoT manufacturers?",
+  "req": [
+   [
+    "C11QM:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "How do I buy the C11QM module and its Evaluation Kit, and where can I find the technical brochures?",
+  "req": [
+   [
+    "C11QM:faq:7"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can CQM211 be used for both Standalone and Non-Standalone setups?",
+  "req": [
+   [
+    "CQM211:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "CQM211 is compatible with which operating systems?",
+  "req": [
+   [
+    "CQM211:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can I get CQM211 in different sizes or shapes?",
+  "req": [
+   [
+    "CQM211:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what GNSS features the CQM212 module has?",
+  "req": [
+   [
+    "CQM212:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Does the CQM212 module work with the Cavli Hubble Platform?",
+  "req": [
+   [
+    "CQM212:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kind of connections can I use with the CQM212 module for my IoT projects?",
+  "req": [
+   [
+    "CQM212:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you explain how the CQM212 module works with 5G and LTE networks around the world?",
+  "req": [
+   [
+    "CQM212:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "How do I buy the CQM212 module and its Evaluation Kit? Also, where can I find the technical brochures to download?",
+  "req": [
+   [
+    "CQM212:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what GNSS features the CQM215 module has?",
+  "req": [
+   [
+    "CQM215:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Does the CQM215 module work with the Cavli Hubble Platform?",
+  "req": [
+   [
+    "CQM215:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kind of connections can I use with the CQM215 module for my IoT projects?",
+  "req": [
+   [
+    "CQM215:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me how the CQM215 module works with 5G and LTE around the world?",
+  "req": [
+   [
+    "CQM215:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "How can I buy the CQM215 module and its Evaluation Kit, and where can I find the technical brochures?",
+  "req": [
+   [
+    "CQM215:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What are the ways the C41QS module helps save power for IoT devices?",
+  "req": [
+   [
+    "C41QS:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what GNSS features the C41QS module has?",
+  "req": [
+   [
+    "C41QS:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can I use the C41QS module with the Cavli Hubble Platform for managing my devices?",
+  "req": [
+   [
+    "C41QS:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "C41QS module, what kinds of connections can I use for IoT?",
+  "req": [
+   [
+    "C41QS:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What features does the C41QS module have for supporting IoT projects around the world?",
+  "req": [
+   [
+    "C41QS:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "How can I buy the C41QS module and its Evaluation Kit, and where can I find the technical brochures?",
+  "req": [
+   [
+    "C41QS:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what the Cavli AQ62 5G NR automotive module is?",
+  "req": [
+   [
+    "AQ62:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Cavli AQ62, what kind of cellular networks and 5G speeds can it connect to?",
+  "req": [
+   [
+    "AQ62:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: Can you tell me what GNSS and positioning features the Cavli AQ62 has?",
+  "req": [
+   [
+    "AQ62:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Cavli AQ62 is meant for what kind of automotive uses?",
+  "req": [
+   [
+    "AQ62:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what kind of hardware connections the Cavli AQ62 5G module has?",
+  "req": [
+   [
+    "AQ62:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What different versions of the Cavli AQ62 can I get based on my location?",
+  "req": [
+   [
+    "AQ62:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Cavli AQ62, can it handle VoLTE, VoNR, and NG-eCall features?",
+  "req": [
+   [
+    "AQ62:faq:7"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Cavli AQ62 specs: can you tell me what kind of processor, memory, and OS it has?",
+  "req": [
+   [
+    "AQ62:faq:8"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what the main features of the CQ16 module are?",
+  "req": [
+   [
+    "CQ16:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me about the energy-saving options in the CQ16 module?",
+  "req": [
+   [
+    "CQ16:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Does the CQ16 module work with the Cavli Hubble Platform?",
+  "req": [
+   [
+    "CQ16:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kind of connections can I use with the CQ16 module for my IoT projects?",
+  "req": [
+   [
+    "CQ16:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What features does the CQ16 module have for connecting globally?",
+  "req": [
+   [
+    "CQ16:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What advantages does the small size of the CQ16 module offer for IoT uses?",
+  "req": [
+   [
+    "CQ16:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "How do I buy the CQ16 module and get the technical documents?",
+  "req": [
+   [
+    "CQ16:faq:7"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what GNSS features the C16QS module has?",
+  "req": [
+   [
+    "C16QS:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me about the energy-saving options in the C16QS module?",
+  "req": [
+   [
+    "C16QS:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Does the C16QS module work with the Cavli Hubble Platform?",
+  "req": [
+   [
+    "C16QS:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What kind of connections does the C16QS module have for IoT use?",
+  "req": [
+   [
+    "C16QS:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What does the C16QS module do to help with connecting globally?",
+  "req": [
+   [
+    "C16QS:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What does the C16QS module do to help OEMs transition from older networks?",
+  "req": [
+   [
+    "C16QS:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "How do I buy the C16QS module and its Evaluation Kit, and where can I find the technical brochures?",
+  "req": [
+   [
+    "C16QS:faq:7"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "C16QS, can I use an integrated eSIM with it?",
+  "req": [
+   [
+    "C16QS:faq:8"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "C16QS, can you tell me if it works with GNSS?",
+  "req": [
+   [
+    "C16QS:faq:9"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "I'm trying to decide on the right C16QS variant for me. Any suggestions?",
+  "req": [
+   [
+    "C16QS:faq:10"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what the main features and functions of the Cavli P16QS LTE Cat 1bis module are?",
+  "req": [
+   [
+    "P16QS:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what kind of connectivity and GNSS features the P16QS module has?",
+  "req": [
+   [
+    "P16QS:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What features does the P16QS module have for secure payments and point-of-sale systems?",
+  "req": [
+   [
+    "P16QS:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what kind of hardware connections and processing features the P16QS module has?",
+  "req": [
+   [
+    "P16QS:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can the P16QS module work with eSIM and manage connectivity through Cavli Hubble?",
+  "req": [
+   [
+    "P16QS:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What are the best uses for the Cavli P16QS module?",
+  "req": [
+   [
+    "P16QS:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you explain what 5G RedCap is?",
+  "req": [
+   [
+    "5g-redcap:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What benefits does 5G RedCap offer for IoT compared to LTE?",
+  "req": [
+   [
+    "5g-redcap:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Do I need a 5G standalone network for 5G RedCap modules?",
+  "req": [
+   [
+    "5g-redcap:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: 5G RedCap  \nWhen can I expect 5G RedCap to be available for my IoT projects?",
+  "req": [
+   [
+    "5g-redcap:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: 5G RedCap  \nIs it possible for 5G RedCap to handle live video streaming and other high-demand IoT uses?",
+  "req": [
+   [
+    "5g-redcap:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What are some common applications for 5G RedCap IoT modules?",
+  "req": [
+   [
+    "5g-redcap:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What should I know about the difficulties or factors when using 5G RedCap IoT modules?",
+  "req": [
+   [
+    "5g-redcap:faq:7"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What’s the process for getting started with Cavli’s 5G RedCap modules?",
+  "req": [
+   [
+    "5g-redcap:faq:8"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What makes Cavli Wireless a good option for 5G RedCap IoT modules?",
+  "req": [
+   [
+    "5g-redcap:faq:9"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you explain what LTE Cat 4 is and why it matters for mobile communication?",
+  "req": [
+   [
+    "lte-cat4:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: IoT Connectivity  \nWhat improvements does LTE Cat 4 bring to connecting IoT devices?",
+  "req": [
+   [
+    "lte-cat4:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: Technical Specifications  \nCan you explain how LTE Cat 4 is better than Cat 3 in terms of technology?",
+  "req": [
+   [
+    "lte-cat4:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: LTE Cat 4  \nWhat do I need to have in place to set up LTE Cat 4?",
+  "req": [
+   [
+    "lte-cat4:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What's the difference between LTE Cat 4 and LTE Cat 6?",
+  "req": [
+   [
+    "lte-cat4:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you tell me what LTE Cat 1 Technology is?",
+  "req": [
+   [
+    "lte-cat1:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: LTE Cat 1  \nIs LTE Cat 1 good for mobile IoT uses where things are moving around a lot?",
+  "req": [
+   [
+    "lte-cat1:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: LTE Cat 1  \nWhy should we choose LTE Cat 1 for building Smart City systems?",
+  "req": [
+   [
+    "lte-cat1:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Will LTE Cat 1 modules still be relevant when 5G starts to roll out?",
+  "req": [
+   [
+    "lte-cat1:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you explain how LTE Cat 1 is different from LTE Cat M1 and NB-IoT?",
+  "req": [
+   [
+    "lte-cat1:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you explain what 5G NR is?",
+  "req": [
+   [
+    "5g-nr:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: 5G NR  \nWhat benefits does 5G NR offer for IoT compared to RedCap or LTE?",
+  "req": [
+   [
+    "5g-nr:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Do I need a 5G standalone network for 5G NR modules to work?",
+  "req": [
+   [
+    "5g-nr:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: 5G NR  \nWhen can I expect 5G NR to be available for my IoT projects?",
+  "req": [
+   [
+    "5g-nr:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: 5G NR  \nDoes 5G NR have the capability to handle live video streaming and other high-demand IoT uses?",
+  "req": [
+   [
+    "5g-nr:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What can I do with 5G NR IoT modules?",
+  "req": [
+   [
+    "5g-nr:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What should I know about the difficulties or factors when using 5G NR IoT modules?",
+  "req": [
+   [
+    "5g-nr:faq:7"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What’s the process to begin using Cavli’s 5G NR modules?",
+  "req": [
+   [
+    "5g-nr:faq:8"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What makes Cavli Wireless the best option for 5G NR IoT modules?",
+  "req": [
+   [
+    "5g-nr:faq:9"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you explain what LPWAN is?",
+  "req": [
+   [
+    "lpwa:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you explain what NB-IoT is?",
+  "req": [
+   [
+    "lpwa:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: NB-IoT  \nWhat advantages does NB-IoT offer for my IoT projects?",
+  "req": [
+   [
+    "lpwa:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: NB-IoT  \nCan you tell me what NB-IoT technology is used for?",
+  "req": [
+   [
+    "lpwa:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Module: 5G Impact  \nWhat’s the impact of 5G on NB-IoT?",
+  "req": [
+   [
+    "lpwa:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What's the difference between NB-IoT and LoRaWAN?",
+  "req": [
+   [
+    "lpwa:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "Can you explain what Automotive IoT Modules are and why they matter for today's cars?",
+  "req": [
+   [
+    "automotive:faq:1"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What are the ways Automotive IoT Modules improve how my vehicle works?",
+  "req": [
+   [
+    "automotive:faq:2"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What should I keep in mind when setting up Automotive IoT Modules?",
+  "req": [
+   [
+    "automotive:faq:3"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What role do Automotive IoT Modules play in improving vehicle tech?",
+  "req": [
+   [
+    "automotive:faq:4"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What should I know about the security risks when using Automotive IoT Modules?",
+  "req": [
+   [
+    "automotive:faq:5"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What effect do Automotive IoT Modules have on keeping vehicles maintained and diagnosing issues?",
+  "req": [
+   [
+    "automotive:faq:6"
+   ]
+  ]
+ },
+ {
+  "kind": "faq_paraphrase",
+  "q": "What’s the role of Automotive IoT Modules in enabling communication between vehicles and everything around them?",
+  "req": [
+   [
+    "automotive:faq:7"
+   ]
+  ]
+ }
+]

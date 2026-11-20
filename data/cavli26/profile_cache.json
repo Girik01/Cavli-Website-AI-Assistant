@@ -1,0 +1,1162 @@
+{
+ "CQM220": {
+  "key": "a7a2bc4a1f60cd392a597b8683eabc5612b98523",
+  "profile": {
+   "processor": {
+    "value": "Qualcomm Location Suite Gen9VT",
+    "source": "faq"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": null,
+    "source": null
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": "advanced power management options including eDRX/DRX modes",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "LTE Cat 4",
+    "source": "key_highlights"
+   },
+   "applications": {
+    "value": "Asset Tracking, Vehicular Telemetry System, Industry 4.0",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "CQM220 supports GNSS capabilities including GPS, GLONASS, NavIC, BeiDou, Galileo, SBAS, and QZSS.",
+     "source": "faq"
+    },
+    {
+     "value": "CQM220 is designed for energy efficiency in 5G IoT applications.",
+     "source": "faq"
+    }
+   ]
+  },
+  "src": "[about]\nCQM220 is a 5G RedCap IoT module compatible with 3GPP release 17 standards for IoT and M2M applications. It offers a maximum data bandwidth of upto 220 Mbps in downlink and 120 Mbps in uplink. The module is available in LGA and M.2 form factors. CQM220 also supports optional in-built GNSS making it ideal for tracking applications. The module comes with OpenWrt based OpenSDK, ensuring application level coding for specific without requiring an external host MCU. CQM220 is perfect for applications that require higher data throughput with location information and global deployments such as Asset Tracking, Vehicular Telemetry System, Industry 4.0 etc.\n\n[key_highlights]\n5G RedCap; SDK Support; USB OTG support; USB 2.0 Interface; LTE Cat 4 Fallback\n\n[technical_data]\nGNSS: L1+L5 - GPS/GLONASS/NavIC/BEIDOU/Galileo/SBAS/QZSS Capable\nOS: Linux / OpenWrt\nSpeeds: 5G RedCap: 220 Mbps (DL), 120 Mbps (UL); 4G: DL 150 Mbps, UL 50 Mbps\nInterfaces: 1xI2C (optional), 3xUART, 1xI2S, 1xPCM, 1xMAIN_ANT, 1xGNSS_ANT, 1xDIV_ANT, 1xSDC (optional), 1xSGMII\n\n[variants]\nnone\n\n[faq]\nQ: What GNSS capabilities does the CQM220 module offer?\nA: The CQM220 module integrates Qualcomm Location Suite Gen9VT, supporting GPS, GLONASS, NavIC, BeiDou, Galileo, SBAS, and QZSS. These GNSS capabilities provide precise location tracking for applications such as asset tracking and vehicular telemetry.\nQ: How does the CQM220 module manage power consumption in 5G IoT applications?\nA: The CQM220 module is designed with energy efficiency in mind, featuring advanced power management options including eDRX/DRX modes. These features are critical for extending battery life in 5G IoT devices deployed in remote or power-sensitive environments.\nQ: What interfaces are available on the CQM220 module for IoT applications?\nA: The CQM220 module offers a comprehensive set of interfaces, including I2C*, 3xUART, I2S, PCM, SDC*, and SGMII. These interfaces support a wide range of peripherals, making the module versatile for use in applications such as smart cities, automotive systems, and industrial automation.\nQ: How does the CQM220 module support global 5G and LTE connectivity?\nA: The CQM220 module supports 5G RedCap with fallback to 4G LTE, covering a wide array of cellular bands across different regions. This global connectivity ensures reliable operation in international IoT deployments, making it suitable for sectors like logistics, smart cities, and energy utilities.\nQ: Where can I purchase the CQM220 module, its Evaluation Kit (EVK), and download technical brochures?\nA: You can purchase the CQM220 module and its Evaluation Kits (EVKs) through the Cavli Wireless store or from authorized distributors. Visit the CQM220 product page and select \"ORDER SAMPLES\" to purchase the module. If you need an Evaluation Kit, you can obtain it by clicking \"ORDER DDKs\". Detailed technical documents can be downloaded by navigating to \"Downloadable Resources\"."
+ },
+ "CQ20": {
+  "key": "1efefc26deb8718be1d39568cc76cfdc0d451d5d",
+  "profile": {
+   "processor": {
+    "value": null,
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": "about"
+   },
+   "wifi_bluetooth": {
+    "value": "WLAN/BT (External)",
+    "source": "technical_data"
+   },
+   "esim": {
+    "value": null,
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": "VoLTE Support; SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": null,
+    "source": "about"
+   },
+   "camera_display": {
+    "value": null,
+    "source": "about"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "asset tracking, automotive, e-mobility, data loggers, fleet management, environmental monitoring",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "CQ20 supports GNSS powered by Qualcomm® IZatTM location technology Gen8C Lite.",
+     "source": "about"
+    },
+    {
+     "value": "CQ20 is engineered in LCC+LGA and mPCIe form factor.",
+     "source": "about"
+    },
+    {
+     "value": "CQ20 delivers a maximum data rate of 150 Mbit/s DL & 50 Mbit/s UL.",
+     "source": "about"
+    },
+    {
+     "value": "CQ20 supports USB 2.0 Interface and USB OTG support.",
+     "source": "key_highlights"
+    },
+    {
+     "value": "CQ20 runs on Yocto Linux (Kernel 4.14).",
+     "source": "technical_data"
+    }
+   ]
+  },
+  "src": "[about]\nCQ20 is an LTE Cat 4 IoT module with 2G fall back compliant with 3GPP release 10 standards, with emphasis on data speed/bandwidth. Engineered in LCC+LGA and mPCIe form factor, it delivers a maximum data rate of 150 Mbit/s DL & 50 Mbit/s UL. CQ20 supports in-built GNSS powered by Qualcomm® IZatTM location technology Gen8C Lite (GPS, GLONASS, BeiDou, Galileo and QZSS), ensuring precise positioning. Additionally, it supports VoLTE and SMS over IMS/SG/CS and a wide variety of Internet protocols and industry-standard hardware interfaces.\nThe module comes in a world wide variant: CQ20-WW for worldwide deployments with other regional variants under development. The CQ20 module provides seamless global connectivity and wide coverage which helps to reduce the time to market. CQ20 is tailored for IoT and M2M applications, such as asset tracking, automotive, e-mobility, data loggers, fleet management, environmental monitoring and much more.\n\n[key_highlights]\nApplicable Region - GLOBAL; VoLTE Support; SMS over IMS/SG/CS; USB 2.0 Interface; USB OTG support\n\n[technical_data]\nGNSS: GPS / GLONASS / BeiDou / Galileo / QZSS Capable\nOS: Yocto Linux (Kernel 4.14)\nSpeeds: LTE Cat 4: 150 Mbps (DL), 50 Mbps (UL); 2G: 236.8 Kbps (DL), 236.8 Kbps (UL)\nInterfaces: UART x3, USB 2.0 (HS) x1, HSIC x1, WLAN/BT (External) x1, SDC x2, USIM (1.8V / 2.85V) x1, Network Status Indicator x2, Power ON Status Indicator x1, SGMII x1, I2C x1 (requires SDK), ADC x2, PCM x1 (requires SDK), JTAG x1, Main ANT x1, GNSS ANT x1, Diversity ANT x1\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"CQ20-WW-22GNN\", \"attrs\": {\"GNSS\": \"Yes\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"CQ20-WW-22GNH\", \"attrs\": {\"GNSS\": \"Yes\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"CQ20-WW-11GNN\", \"attrs\": {\"GNSS\": \"Yes\", \"Flash\": \"128MB / 128MB\"}}, {\"sku\": \"CQ20-WW-11GNH\", \"attrs\": {\"GNSS\": \"Yes\", \"Flash\": \"128MB / 128MB\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"GNN – No Internal Sim.\", \"GNH – Internal Sim.\"], \"note\": \"\"}\n\n[faq]\n"
+ },
+ "CQS292": {
+  "key": "dbf01df01240d0e318002bcf6a018bd4e991950d",
+  "profile": {
+   "processor": {
+    "value": "Cortex A53 quad-core CPU",
+    "source": "about"
+   },
+   "gpu": {
+    "value": "Adreno™ 702 GPU",
+    "source": "about"
+   },
+   "wifi_bluetooth": {
+    "value": "Wi-Fi + BLE",
+    "source": "about"
+   },
+   "esim": {
+    "value": "Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": "2xCamera (MIPI-CSI)",
+    "source": "technical_data"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "Automotive applications",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports multi-constellation GNSS including NavIC.",
+     "source": "about"
+    },
+    {
+     "value": "Max UART speed up to 3 Mbps.",
+     "source": "key_highlights"
+    },
+    {
+     "value": "USB 3.1 Type-C/Micro USB.",
+     "source": "about"
+    },
+    {
+     "value": "Supports DFOTA.",
+     "source": "key_highlights"
+    },
+    {
+     "value": "LCD Interface available.",
+     "source": "key_highlights"
+    }
+   ]
+  },
+  "src": "[about]\nThe CQS292 is a part of Cavli's C-Series module family, featuring LTE Cat 4 IoT modules that support data rates of up to 150 Mbit/s downlink and 50 Mbit/s uplink, with 2G fallback. These Android smart modules are equipped with a Cortex A53 quad-core CPU and a built-in Adreno™ 702 GPU, delivering superior graphics, exceptional image quality, and powerful compute performance. Available in global variants with various memory configurations, the series supports multi-constellation GNSS, including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS. Additional features such as USB 3.1 Type-C/Micro USB, Wi-Fi, Bluetooth, and FM.\nDesigned for four-wheel vehicles, the CQS292 also uses the QWM2290 chipset and includes Qualcomm's LA2.1 Automotive Middleware. It stands out with its L1+L5 GNSS support, including NavIC, providing superior positioning precision and accuracy. While retaining the high-performance CPU and GPU found in other models, it focuses on the advanced needs of four-wheel automotive applications, offering robust connectivity and precise navigation capabilities.\n\n[key_highlights]\nQuad core Arm Cortex A53 processor up to 2 GHz; Applicable regions - (N.A, AN, EU, and IN); LCD Interface; DFOTA Available; Applicable Region - GLOBAL; Superior Multimedia Functions; Integrated eSIM; Cavli Hubble; USB 2.0 Interface; Max UART speed upto 3 Mbps\n\n[technical_data]\nGNSS: GPS / BDS / GLONASS / Galileo QZSS / SBAS Ranging Support NavIC CQS292: L1+L5\nOS: Android 12 + Service packs up to Android 14\nSpeeds: LTE Cat 4: 150 Mbps (DL) & 50 Mbps (UL); GSM 2G: 236.8 Kbps (DL) & 236.8 Kbps (UL)\nInterfaces: 1xLCD (MIPI-DSI) (requires SDK), 2xCamera (MIPI-CSI) (requires SDK), 2xCCI I2C, 2xAnalog Audio Out (requires SDK), 2x DMIC, 1xUSB 3.1(OTG Support), 1xUSIM, 3xUART, 37xGPIO (requires SDK), 1xSDC 3.0, 1xADC (requires SDK), 2xI2C (requires SDK), 1xI3C (requires SDK), 1xSPI (requires SDK), 1xTouch Interface (I2C), 1xVIB_DRV, 1xWi-Fi + BLE + FM ANT, 1xMain ANT, 1xDIV ANT, 1xGNSS ANT\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"CQS292-WW-216GNBN\", \"attrs\": {\"GNSS\": \"L1+L5\", \"eSIM\": \"No\", \"Flash\": \"2 GB LPDDR4X / 16 GB eMMC\"}}, {\"sku\": \"CQS292-WW-216GNBH\", \"attrs\": {\"GNSS\": \"L1+L5\", \"eSIM\": \"Yes\", \"Flash\": \"2 GB LPDDR4X / 16 GB eMMC\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"SOON – No GNSS, no eSIM.\", \"SOOH – No GNSS, with eSIM.\", \"GNAN – With GNSS, no eSIM.\", \"GNAH – With GNSS and eSIM.\", \"mPCIe – Mini PCIe Formfactor\"], \"note\": \"\"}\n\n[faq]\n"
+ },
+ "C20QM": {
+  "key": "e46990fd51eeb7820e1a61e17da27c18243ed0bd",
+  "profile": {
+   "processor": {
+    "value": "Qualcomm Location Suite Gen8C Lite",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": "Transceiver support for WiFi and Bluetooth",
+    "source": "faq"
+   },
+   "esim": {
+    "value": "Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": "VoLTE Support; SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": "Advanced power management capabilities",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": "Integrated MIPI-DBI interface for LCD displays",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "technical_data"
+   },
+   "applications": {
+    "value": "asset tracking, e-mobility, data loggers, fleet management, environmental monitoring",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "The C20QM module supports GPS, GLONASS, BeiDou, Galileo, and QZSS.",
+     "source": "faq"
+    },
+    {
+     "value": "The module is compatible with the Cavli Hubble Platform for device management.",
+     "source": "faq"
+    },
+    {
+     "value": "The C20QM module features deep sleep mode.",
+     "source": "key_highlights"
+    }
+   ]
+  },
+  "src": "[about]\nCavli is proud to present the C20QM, a series of LTE Cat 4 IoT modules, with emphasis on data speed/bandwidth, that support 3GPP release 10. Engineered in LGA form factor, it offers pin compatibility with the C10GS LTE Cat 1/Cat 4 and C10QM modules, allowing for flexible migration and interoperability. The module encompasses integrated GNSS, with Qualcomm® IZat™ location technology Gen8C Lite, providing precise and reliable positioning through GPS, GLONASS, BeiDou/Compass, Galileo, and QZSS.\nThe C20QM supports VoLTE and SMS over IMS/SG/CS, along with a plethora of internet protocols and industry-standard interfaces. The module comes in two variants: C20QM-EA for the Europe and Asia markets, and C20QM-NA for the North America market. Additionally, with an optional integrated eSIM powered by the Cavli Hubble platform, it offers global connectivity, reducing time to market. The C20QM module is designed for IoT and M2M applications, such as asset tracking, e-mobility, data loggers, fleet management, and environmental monitoring.\n\n[key_highlights]\niSim; LTE Cat 4; Integrated eSIM; Cavli Hubble; VoLTE Support; DFOTA Available; SMS over IMS/SG/CS; SDK Support; Free RTOS; Deep Sleep Mode; USB 2.0 Interface; USB OTG support; LCD Interface; Small Form Factor Design\n\n[technical_data]\nGNSS: GPS / GLONASS / BeiDou / Galileo QZSS Capable\nOS: Yocto Linux (Kernel 4.14)\nSpeeds: LTE Cat 4: 150 Mbps (DL), 50 Mbps (UL); 2G: 236.8 Kbps (DL), 236.8 Kbps (UL)\nInterfaces: 9xGPIO (requires SDK), 1xUSB HS, 3xUART, 2xADC (requires SDK), 1xPCM (requires SDK), 1xUSIM, 1xI2C (requires SDK), 1xSPI (requires SDK), 1xSDC, 1xSGMII, 1xJTAG, 1xLCD (requires SDK), 1xMAIN_ANT, 1xSDIO, 1xGNSS_ANT, 1xDIV_ANT (optional)\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"C20QM-NA-22GNN-mPCIe\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"C20QM-NA-22GNN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"C20QM-NA-22GNH-mPCIe\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"C20QM-NA-22GNH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"C20QM-EAJ-24GNN-mPCIe\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"256 MB / 512 MB\"}}, {\"sku\": \"C20QM-EAJ-24GNN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"256 MB / 512 MB\"}}, {\"sku\": \"C20QM-EAJ-24GNH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"256 MB / 512 MB\"}}, {\"sku\": \"C20QM-EAJ-22GNN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"C20QM-EAJ-22GNH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"256 MB / 256 MB\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"GNAN – No Internal Sim.\", \"GNAH – Internal Sim.\", \"mPCIe – Mini PCIe Formfactor\"], \"note\": \"C20QM is also available in eSIM and non-eSIM variants, with regional SKU's such as EU, IN, and AN in multiple memory configurations\"}\n\n[faq]\nQ: What GNSS capabilities does the C20QM module offer?\nA: The C20QM module integrates Qualcomm Location Suite Gen8C Lite technology, supporting GPS, GLONASS, BeiDou, Galileo, and QZSS. This robust GNSS support ensures precise positioning for asset tracking, fleet management, and environmental monitoring.\nQ: How does the C20QM module manage power consumption in IoT deployments?\nA: The C20QM module features advanced power management capabilities, including sleep modes. These features optimize power consumption, making the module ideal for IoT applications requiring medium throughput.\nQ: Is the C20QM module integrated with the Cavli Hubble Platform for device management?\nA: Yes, the C20QM module is fully compatible with the Cavli Hubble Platform. This integration enables seamless device management, real-time monitoring, and remote diagnostics, reducing the complexity of global IoT deployments. For more information, visit the Cavli Hubble Platform.\nQ: What are the interface options available on the C20QM module for IoT applications?\nA: The C20QM module offers a broad range of interfaces, including UART, USB 2.0, I2C, SPI, MIPI-DBI, GPIOs, and more. These interfaces support diverse IoT and M2M applications, facilitating integration with various sensors and peripherals for use cases in industries such as smart cities, automotive, and energy utilities.\nQ: How does the C20QM module facilitate global connectivity and interoperability?\nA: The C20QM module is available in multiple variants tailored to different regions, including Europe, Asia, and North America. It also features an optional integrated eSIM, powered by the Cavli Hubble Platform, which simplifies global connectivity and ensures interoperability across regions, making it suitable for international IoT deployments.\nQ: Is there additional peripheral connectivity offered on the C10QM module?\nA: The C10QM module is designed with an integrated MIPI-DBI interface, enabling out-of-the-box configuration for LCD displays to power use cases like two-wheeler clusters, etc. It is also bundled with transceiver support for WiFi and Bluetooth, enabling our customers to add additional wireless connectivity support for their smart solutions.\nQ: Where can I purchase the C20QM module, its Evaluation Kit (EVK), and download technical brochures?\nA: You can purchase the C20QM module and its Evaluation Kits (EVKs) through the Cavli Wireless store or from authorized distributors. Visit the C20QM product page and select \"ORDER SAMPLES\" to purchase the module. If you need an Evaluation Kit, you can obtain it by clicking \"ORDER DDKs\". Detailed technical documents can be downloaded by navigating to \"Downloadable Resources\"."
+ },
+ "CQS315": {
+  "key": "a2c6d210372af959f3fc731cea81a53ec16c5ad9",
+  "profile": {
+   "processor": {
+    "value": "Octa-core Kryo 260 CPU",
+    "source": "about"
+   },
+   "gpu": {
+    "value": "Adreno 610 GPU",
+    "source": "about"
+   },
+   "wifi_bluetooth": {
+    "value": "Dual-band Wi-Fi, Bluetooth 5.0",
+    "source": "about"
+   },
+   "esim": {
+    "value": "No",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": "Supports up to 48MP camera, MIPI DSI for full HD",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "two-wheelers, e-mobility, telematics, fleet management, POS terminals",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports Android / Linux OS",
+     "source": "key_highlights"
+    },
+    {
+     "value": "Includes multi-constellation GNSS support",
+     "source": "about"
+    },
+    {
+     "value": "Integrated with Cavli Hubble IoT Platform",
+     "source": "faq"
+    },
+    {
+     "value": "USB 3.1/2.0 with OTG support",
+     "source": "faq"
+    },
+    {
+     "value": "Supports touchscreen LCD displays up to 2520x1080 @60Hz",
+     "source": "faq"
+    }
+   ]
+  },
+  "src": "[about]\nThe Cavli CQS315 is a versatile LTE Cat 4 module with 2G fallback, designed to meet a broad range of IoT application needs. Equipped with an Octa-core Kryo 260 CPU and an Adreno 610 GPU, this module offers enhanced graphics performance, efficient power usage, and supports high-quality imaging.\nWith multiple SKUs available, each variant includes multi-constellation GNSS support, including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS. The CQS315 module also provides robust connectivity options, including USB 3.1/2.0, Bluetooth 5.0, and dual-band Wi-Fi. It also supports the MIPI DSI interface, which is capable of full HD resolution, making it an ideal choice for applications such as two-wheelers, e-mobility, telematics, fleet management, and POS terminals.\n\n[key_highlights]\nSuperior Multimedia Functions; Applicable Region - GLOBAL; 5G RedCap; Android / Linux OS; 2G Fallback; SDK Support; USB OTG support; USB 2.0 Interface\n\n[technical_data]\nGNSS: L1 - GPS/BDS/GLONASS/Galileo/QZSS/SBAS Ranging Support\nOS: Android / Linux\nSpeeds: LTE Cat 4: 150 Mbps (DL) & 50 Mbps (UL); GSM 2G: 236.8 Kbps (DL) & 236.8 Kbps (UL)\nInterfaces: 1xLCD (DSI) (requires SDK), 2xCamera (CSI) (requires SDK), 2xCCI I2C, 3xAnalog Audio Out (requires SDK), 3xAnalog Audio In, 2xDigital Audio In, 1xUSB 2.0/3.1(OTG Support), 1xUSIM, 7xUART, 71xGPIO (requires SDK), 1xSDC 3.0, 1xADC (requires SDK), 4xI2C (requires SDK), 2xI3C (requires SDK), 5xSPI (requires SDK), 1xTouch Interface (I2C), 1xWi-Fi & Bluetooth ANT, 1xMain ANT, 1xDIV ANT, 1xGNSS ANT\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"CQS315-WW-464GNAN\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"No\", \"Flash\": \"4 GB LPDDR4X / 64 GB eMMC\"}}, {\"sku\": \"CQS315-WW-332GNAN\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"No\", \"Flash\": \"3 GB LPDDR4X / 32 GB eMMC\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"SOON – No GNSS, no eSIM.\", \"SOOH – No GNSS, with eSIM.\", \"GNAN – With GNSS, no eSIM.\", \"GNAH – With GNSS and eSIM.\", \"mPCIe – Mini PCIe Formfactor\"], \"note\": \"\"}\n\n[faq]\nQ: How does the CQS315 module support advanced graphics and multimedia processing in IoT applications?\nA: The CQS315 module is powered by an Octa-core Snapdragon Kryo 260 CPU, with quad ARM Cortex A73 cores for performance and quad A53 cores for efficiency, along with a Qualcomm Adreno™ 610 GPU. This provides enhanced graphics capabilities and efficient multimedia processing, making it ideal for applications such as automotive instrument clusters, smart POS terminals, and other IoT devices requiring high-quality visuals and robust processing power.\nQ: What GNSS capabilities does the CQS315 module offer?\nA: The CQS315 module includes in-built multi-constellation GNSS support, featuring GPS, BDS, GLONASS, Galileo, QZSS, and SBAS. Powered by the Qualcomm Location Suite Gen9VT, it ensures precise and reliable positioning for applications like vehicle telematics and smart city infrastructure.\nQ: Is the CQS315 module integrated with the Cavli Hubble IoT Platform for device management?\nA: Yes, the CQS315 module is fully compatible with the Cavli Hubble IoT Platform, as it supports integrated eSIM. This integration allows seamless device management, remote diagnostics, and global connectivity through eSIM provisioning, making it a powerful solution for large-scale IoT deployments. For more information, visit the Cavli Hubble IoT Platform.\nQ: What interfaces does the CQS315 module offer for connecting external peripherals?\nA: The CQS315 module offers a wide range of interfaces, including USB 3.1/2.0 with OTG support, UART, I2C, SPI, MIPI-DSI, MIPI-CSI, GPIOs, and multiple camera and audio inputs/outputs. These interfaces enable the module to connect with various peripherals, making it versatile for diverse IoT applications, including automotive systems and smart POS solutions.\nQ: How does the CQS315 module support global LTE connectivity and fallback options?\nA: The CQS315 module is designed with LTE Cat 4 and 2G fallback capabilities, supporting multiple cellular bands across different regions (Eurasia & Japan, Australia & New Zealand, India, North America, Worldwide). This ensures reliable and continuous connectivity, even in regions with varying network standards if needed, making it suitable for global IoT deployments in sectors like automotive, logistics, and smarter cities.\nQ: Are there additional features offered on the CQS315 module?\nA: The CQS315 module is designed with an integrated MIPI-DSI interface, enabling out-of-the-box configuration for touchscreen LCD displays (up to a resolution of 2520x1080 @60Hz) to power use cases like two-wheeler & four-wheeler clusters. It is also bundled with WiFi 5 and BLE 5.0, enabling customers to add additional wireless connectivity support for their smart solutions. Additionally, camera support (up to 48MP NZSL) is available."
+ },
+ "CQS290": {
+  "key": "c6ef21e9a7cd9c666eee6fcc0c41113da733d96a",
+  "profile": {
+   "processor": {
+    "value": "ARM Cortex A53",
+    "source": "about"
+   },
+   "gpu": {
+    "value": "Adreno 702",
+    "source": "about"
+   },
+   "wifi_bluetooth": {
+    "value": "Wi-Fi 5, Bluetooth 5.0",
+    "source": "about"
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": "Camera support up to 48MP, Touchscreen LCD support",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "POS terminals, Smart Vending Machines, Smart Kiosks",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports multi-constellation GNSS including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS.",
+     "source": "faq"
+    },
+    {
+     "value": "Integrated with Cavli Hubble Platform for device management.",
+     "source": "faq"
+    },
+    {
+     "value": "Supports USB 2.0 with OTG function.",
+     "source": "about"
+    },
+    {
+     "value": "Max UART speed up to 3 Mbps.",
+     "source": "key_highlights"
+    },
+    {
+     "value": "Small Form Factor Design.",
+     "source": "key_highlights"
+    }
+   ]
+  },
+  "src": "[about]\nCavli debuted the CQS290 as a flagship series of LTE Cat 4 Android smart modules with 2G fallback capability. The module is powered by ARM™ Cortex A53 quad-core CPU architecture and built-in Adreno™ 702 GPU that delivers stronger graphics capabilities, better image quality, and excellent battery efficiency. CQS290 supports versatile features such as USB 2.0 with OTG function, Bluetooth 5.0, FM & Wi-Fi 5 making it ideal for a wide range of applications such as POS terminals, Smart Vending Machines, Smart Kiosks etc.\nWith extensive SDK support powered by AOSP, the module's functionalities can be customised and tailored to suite an OEM's solution requirements. Available in global variants with various memory configurations, CQS290 supports multi-constellation GNSS, including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS powered by the Qualcomm Location Suite Gen 9VT.\n\n[key_highlights]\nQuad core Arm Cortex A53 processor up to 2 GHz; Applicable regions - (N.A, AN, EU, and IN); LCD Interface; DFOTA Available; Applicable Region - GLOBAL; Integrated eSIM; Cavli Hubble; USB 2.0 Interface; Max UART speed upto 3 Mbps; Small Form Factor Design\n\n[technical_data]\nGNSS: GPS / BDS / GLONASS / Galileo QZSS / SBAS Ranging Support CQS290: L1\nOS: Android / Linux OS\nSpeeds: LTE Cat 4: 150 Mbps (DL) & 50 Mbps (UL); GSM 2G: 236.8 Kbps (DL) & 236.8 Kbps (UL)\nInterfaces: 1xLCD (DSI) (requires SDK), 2xCamera (CSI) (requires SDK), 2xCCI I2C, 2xAnalog Audio Out (requires SDK), 2xAnalog Audio In, 2xDigital Audio In, 1xUSB 2.0(OTG Support), 1xUSIM, 3xUART, 1xJTAG, 37xGPIO (requires SDK), 1xSDC 3.0, 1xADC (requires SDK), 2xI2C (requires SDK), 1xI3C (requires SDK), 1xSPI (requires SDK), 1xTouch Interface (I2C), 1xVIB_DRV, 1xWi-Fi & Bluetooth ANT, 1xMain ANT, 1xDIV ANT, 1xGNSS ANT\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"CQS290-WW-464GNAN\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"No\", \"Flash\": \"4 GB LPDDR4X / 64 GB eMMC\"}}, {\"sku\": \"CQS290-WW-464GNAH\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"Yes\", \"Flash\": \"4 GB LPDDR4X / 64 GB eMMC\"}}, {\"sku\": \"CQS290-WW-332GNAN\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"No\", \"Flash\": \"3 GB LPDDR4X / 32 GB eMMC\"}}, {\"sku\": \"CQS290-WW-232GNAN\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"No\", \"Flash\": \"2 GB LPDDR4X / 32 GB eMMC\"}}, {\"sku\": \"CQS290-WW-232GNAH\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"Yes\", \"Flash\": \"2 GB LPDDR4X / 32 GB eMMC\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"SOON – No GNSS, no eSIM.\", \"SOOH – No GNSS, with eSIM.\", \"GNAN – With GNSS, no eSIM.\", \"GNAH – With GNSS and eSIM.\", \"mPCIe – Mini PCIe Formfactor\"], \"note\": \"\"}\n\n[faq]\nQ: How does the CQS290 module support advanced graphics and multimedia processing in IoT applications?\nA: The CQS290 module is powered by an ARM Cortex A53 quad-core CPU and Qualcomm Adreno™ 702 GPU, providing enhanced graphics capabilities and efficient multimedia processing. This makes it ideal for applications such as automotive instrument clusters, smart POS terminals, and other IoT devices requiring high-quality visuals and robust processing power.\nQ: What GNSS capabilities does the CQS290 module offer?\nA: The CQS290 module includes multi-constellation GNSS support, featuring GPS, BDS, GLONASS, Galileo, QZSS, and SBAS. Powered by Qualcomm Location Suite Gen 9VT, this ensures precise and reliable positioning for applications like vehicle telematics and smart city infrastructure.\nQ: Is the CQS290 module integrated with the Cavli Hubble Platform for device management?\nA: Yes, the CQS290 module is fully compatible with the Cavli Hubble Platform. This integration allows seamless device management, remote diagnostics, and global connectivity through eSIM provisioning, making it a powerful solution for large-scale IoT deployments. For more information, visit the Cavli Hubble Platform.\nQ: What interfaces does the CQS290 module offer for connecting external peripherals?\nA: The CQS290 module offers a wide range of interfaces, including USB 2.0 with OTG support, UART, I2C, SPI, MIPI-DSI, GPIOs, and multiple camera and audio inputs/outputs. These interfaces enable the module to connect with various peripherals, making it versatile for diverse IoT applications, including automotive systems and industrial automation.\nQ: How does the CQS290 module support global LTE connectivity and fallback options?\nA: The CQS290 module is designed with LTE Cat 4 and 2G fallback capabilities, supporting multiple cellular bands across different regions (APAC, EMEA, North America). This ensures reliable and continuous connectivity, even in regions with varying network standards, making it suitable for global IoT deployments in sectors like automotive, logistics, and smart cities.\nQ: Are there additional features offered on the CQS290 module?\nA: The CQS290 module is designed with an integrated MIPI-DSI interface, enabling out of the box configuration for Touchscreen LCD displays (up to a resolution of 1680x720 @60Hz) to power use cases like two-wheeler & four-wheeler clusters, etc. It is also bundled with WiFi 5 and BLE 5.0, enabling our customers to add additional wireless connectivity support for their smart solutions. Moreover, Camera support (up to 48MP NZSL) is also available, along with Haptic Driver support.\nQ: Where can I purchase the CQS290 module, its Evaluation Kit (EVK), and download technical brochures?\nA: p> You can purchase the CQS290 module and its Evaluation Kits (EVKs) through the Cavli Wireless store or from authorized distributors. Visit the CQS290 product page and select \"ORDER SAMPLES\" to purchase the module. If you need an Evaluation Kit, you can obtain it by clicking \"ORDER DDKs\". Detailed technical documents can be downloaded by navigating to \"Downloadable Resources\"."
+ },
+ "CQS291": {
+  "key": "987e1175c0d3e6cdd5fb51aa4690c6df77c21fd4",
+  "profile": {
+   "processor": {
+    "value": "Cortex A53 quad-core CPU",
+    "source": "about"
+   },
+   "gpu": {
+    "value": "Adreno™ 702 GPU",
+    "source": "about"
+   },
+   "wifi_bluetooth": {
+    "value": "Wi-Fi + BLE",
+    "source": "about"
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": "2xCamera (MIPI-CSI)",
+    "source": "technical_data"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "two-wheeler automotive applications",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports multi-constellation GNSS including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS.",
+     "source": "about"
+    },
+    {
+     "value": "Integrated eSIM for connectivity.",
+     "source": "key_highlights"
+    },
+    {
+     "value": "Supports Android and Linux OS.",
+     "source": "technical_data"
+    },
+    {
+     "value": "Speeds of LTE Cat 4: 150 Mbps (DL) & 50 Mbps (UL).",
+     "source": "technical_data"
+    },
+    {
+     "value": "Small Form Factor Design.",
+     "source": "key_highlights"
+    }
+   ]
+  },
+  "src": "[about]\nThe CQS291 is a part of Cavli's C-Series module family, featuring LTE Cat 4 IoT modules that support data rates of up to 150 Mbit/s downlink and 50 Mbit/s uplink, with 2G fallback. These Android smart modules are equipped with a Cortex A53 quad-core CPU and a built-in Adreno™ 702 GPU, delivering superior graphics, exceptional image quality, and powerful compute performance. Available in global variants with various memory configurations, the series supports multi-constellation GNSS, including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS. Additional features such as USB 3.1 Type-C/Micro USB, Wi-Fi, Bluetooth, and FM.\nTargeted at two-wheeler automotive applications, the CQS291 utilizes the QWM2290 chipset and integrates Qualcomm's LA2.1 Automotive Middleware for advanced telemetry and device management. It maintains robust LTE Cat 4 connectivity with 2G fallback, along with similar processing power and GNSS capabilities as the CQS290. However, it is specifically tailored to meet the demands of two-wheeler environments, offering enhanced telemetry for automotive use.\n\n[key_highlights]\nQuad core Arm Cortex A53 processor up to 2 GHz; Applicable Region - GLOBAL; Superior Multimedia Functions; Integrated eSIM; Cavli Hubble; Applicable regions - (World Wide); LCD Interface; GPS; Small Form Factor Design\n\n[technical_data]\nGNSS: GPS / BDS / GLONASS / Galileo QZSS / SBAS Ranging Support CQS291: L1\nOS: Android / Linux OS\nSpeeds: LTE Cat 4: 150 Mbps (DL) & 50 Mbps (UL); GSM 2G: 236.8 Kbps (DL) & 236.8 Kbps (UL)\nInterfaces: 1xLCD (MIPI-DSI) (requires SDK), 2xCamera (MIPI-CSI) (requires SDK), 2xCCI I2C, 2xAnalog Audio Out (requires SDK), 2x DMIC, 1xUSB 3.1(OTG Support), 1xUSIM, 3xUART, 37xGPIO (requires SDK), 1xSDC 3.0, 1xADC (requires SDK), 2xI2C (requires SDK), 1xI3C (requires SDK), 1xSPI (requires SDK), 1xTouch Interface (I2C), 1xVIB_DRV, 1xWi-Fi + BLE + FM ANT, 1xMain ANT, 1xDIV ANT, 1xGNSS ANT\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"CQS291-WW-464GNAN\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"No\", \"Flash\": \"4 GB LPDDR4X / 64 GB eMMC\"}}, {\"sku\": \"CQS291-WW-464GNAH\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"Yes\", \"Flash\": \"4 GB LPDDR4X / 64 GB eMMC\"}}, {\"sku\": \"CQS291-WW-364GNAN\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"No\", \"Flash\": \"3 GB LPDDR4X / 64 GB eMMC\"}}, {\"sku\": \"CQS291-WW-232GNAN\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"No\", \"Flash\": \"2 GB LPDDR4X / 32 GB eMMC\"}}, {\"sku\": \"CQS291-WW-232GNAH\", \"attrs\": {\"GNSS\": \"L1\", \"eSIM\": \"Yes\", \"Flash\": \"2 GB LPDDR4X / 32 GB eMMC\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"SOON – No GNSS, no eSIM.\", \"SOOH – No GNSS, with eSIM.\", \"GNAN – With GNSS, no eSIM.\", \"GNAH – With GNSS and eSIM.\", \"mPCIe – Mini PCIe Formfactor\"], \"note\": \"\"}\n\n[faq]\n"
+ },
+ "C10QM": {
+  "key": "75901c170a809c2c4a67a0ade5b08f90c769bb34",
+  "profile": {
+   "processor": {
+    "value": "Qualcomm Location Suite Gen8C Lite",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": "Bundled with transceiver support for WiFi and Bluetooth",
+    "source": "faq"
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": "VoLTE Support; SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": "Includes eDRX and Deep Sleep Modes",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": "Integrated MIPI-DBI interface for LCD",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "key_highlights"
+   },
+   "applications": {
+    "value": "Asset tracking, e-mobility, data loggers, fleet management, environmental monitoring",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "The C10QM module supports multiple GNSS systems including GPS, GLONASS, BeiDou, Galileo, and QZSS.",
+     "source": "faq"
+    },
+    {
+     "value": "The C10QM module is compatible with the Cavli Hubble Platform.",
+     "source": "faq"
+    },
+    {
+     "value": "The C10QM module supports various interfaces including UART, I2C, SPI, MIPI-DBI, and GPIOs.",
+     "source": "faq"
+    }
+   ]
+  },
+  "src": "[about]\nThe C10QM has been developed within the Cavli portfolio as part of a series of LTE Cat 1 modules that adhere to 3GPP release 10. With its LGA form factor, it offers pin compatibility with the C10GS LTE Cat 1/Cat 4 and C20QM LTE Cat 4 modules, allowing for flexible migration and interoperability. The C10QM module includes in-built GNSS featuring Qualcomm® IZat™ location technology Gen8C Lite, ensuring accurate and dependable positioning via GPS, GLONASS, BeiDou/Compass, Galileo, and QZSS. Additionally, it offers support for VoLTE, and SMS over IMS/SG/CS, as well as compatibility with various Internet protocols and standard industry interfaces that guarantee unbridled accessibility. The module comes in two variants: C10QM-EA for the Europe and Asia market, and C10QM-NA for the North America market. Additionally, with the help of the optional integrated eSIM powered by Cavli Hubble platform, the global connectivity on offer reduces time required to market. The C10QM module was designed with consideration for IoT and M2M applications, hence the module is well suited for tasks such as asset tracking, e-mobility, data loggers, fleet management, and environmental monitoring.\n\n[key_highlights]\nSMS over IMS/SG/CS; Cavli Hubble; VoLTE Support; DFOTA Available; Integrated eSIM; LCD Interface; Deep Sleep Mode; Small Form Factor Design; SDK Support; USB 2.0 Interface; 2G Fallback; eSIM Support\n\n[technical_data]\nGNSS: GPS / GLONASS / BeiDou / Galileo /QZSS Capable\nOS: Yocto Linux (Kernel 4.14)\nSpeeds: LTE Cat 1: 10 Mbps (DL), 5 Mbps (UL); 2G: 236.8 Kbps (DL), 236.8 Kbps (UL)\nInterfaces: 9xGPIO (optional), 1xUSB HS, 3xUART, 1xSDH, 2xADC (requires SDK), 1xPCM (optional), 1xUSIM, 1xI2C (optional), 1xSPI (optional), 1xSDC, 1xSGMII, 1xJTAG, 1xLCD (requires SDK), 1xMAIN_ANT, 1xGNSS_ANT\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"C10QM-NA-22GNN-mPCIe\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"C10QM-NA-22GNN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"C10QM-NA-22GNH-mPCIe\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"C10QM-NA-22GNH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"C10QM-EAJ-24GNH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"256 MB / 512 MB\"}}, {\"sku\": \"C10QM-EAJ-22GNN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"C10QM-EAJ-22GNH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"256 MB / 256 MB\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"GNN – No Internal Sim.\", \"GNH – Internal Sim.\"], \"note\": \"C10QM is also available in eSIM and non-eSIM variants, with regional SKU's such as EU, IN, and AN in multiple memory configurations\"}\n\n[faq]\nQ: What GNSS capabilities does the C10QM module offer?\nA: The C10QM module integrates Qualcomm Location Suite Gen8C Lite technology, supporting multiple GNSS systems including GPS, GLONASS, BeiDou, Galileo, and QZSS. This multi-constellation support ensures precise and reliable positioning, making the module ideal for applications such as fleet management and asset tracking.\nQ: What power-saving features are implemented in the C10QM module?\nA: The C10QM module includes advanced power-saving mechanisms like Extended Discontinuous Reception (eDRX) and Deep Sleep Modes. These features are designed to optimize energy efficiency, extending battery life in low-power IoT applications such as remote sensors and smart meters.\nQ: Is the C10QM module compatible with the Cavli Hubble Platform?\nA: Yes, the C10QM module is fully compatible with the Cavli Hubble Platform. This integration allows users to manage connectivity, monitor device performance, and perform remote diagnostics through a unified dashboard. Additionally, the platform supports seamless eSIM management and advanced device monitoring. For more information, visit the Cavli Hubble Platform.\nQ: What interfaces are available for peripheral connectivity in the C10QM module?\nA: The C10QM module supports various interfaces, including UART, I2C, SPI, MIPI-DBI, and GPIOs. These interfaces allow for easy integration with external sensors and peripherals, making it suitable for a wide range of IoT applications, from industrial automation to smart agriculture.\nQ: Does the C10QM module support VoLTE for simultaneous voice and data services?\nA: Yes, the C10QM module supports Voice over LTE (VoLTE), enabling high-quality simultaneous voice and data services. This feature is essential for applications that require real-time communication, such as connected vehicles and emergency response systems.\nQ: Is there additional peripheral connectivity offered on the C10QM module?\nA: The C10QM module is designed with an integrated MIPI-DBI interface, enabling out of the box configuration for LCD displays to power use cases like two-wheeler clusters, etc. It is also bundled with transceiver support for WiFi and Bluetooth, enabling our customers to add additional wireless connectivity support for their smart solutions.\nQ: Where can I purchase the C10QM module, its Evaluation Kit (EVK), and technical brochures?\nA: You can purchase the C10QM module and its Evaluation Kits (EVKs) through the Cavli Wireless store or from authorized distributors. Visit the C10QM product page and \"ORDER SAMPLES\" to purchase the module. If you need an Evaluation Kit, you can obtain it by clicking \"ORDER DDKs\". Detailed technical documents can be downloaded by navigating to \"Downloadable Resources\"."
+ },
+ "CQ10": {
+  "key": "57f0e03e1bb365cc84d42644fd0a30afca4f12dc",
+  "profile": {
+   "processor": {
+    "value": null,
+    "source": "faq"
+   },
+   "gpu": {
+    "value": null,
+    "source": "faq"
+   },
+   "wifi_bluetooth": {
+    "value": "External WLAN/BT support",
+    "source": "technical_data"
+   },
+   "esim": {
+    "value": "Internal Sim available",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": "Supports VoLTE and SMS over IMS/SG/CS",
+    "source": "about"
+   },
+   "power_saving": {
+    "value": null,
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": null,
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "asset tracking, automotive, e-mobility, data loggers, fleet management, environmental monitoring",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "CQ10 supports GNSS with Qualcomm® Location Suite Gen8C Lite.",
+     "source": "about"
+    },
+    {
+     "value": "CQ10 is engineered in LCC+LGA and mPCIe form factor.",
+     "source": "about"
+    },
+    {
+     "value": "CQ10 delivers a maximum data rate of 10 Mbit/s DL & 5 Mbit/s UL.",
+     "source": "about"
+    },
+    {
+     "value": "CQ10 supports OpenSDK.",
+     "source": "key_highlights"
+    },
+    {
+     "value": "CQ10 has USB 2.0 Interface.",
+     "source": "key_highlights"
+    },
+    {
+     "value": "CQ10 supports USB OTG.",
+     "source": "key_highlights"
+    }
+   ]
+  },
+  "src": "[about]\nCQ10 is an LTE Cat 1 IoT Modules with 2G fall back compliant with 3GPP release 10 standards, with emphasis on IoT & M2M applications. Engineered in LCC+LGA and mPCIe form factor, it delivers a maximum data rate of 10 Mbit/s DL & 5 Mbit/s UL. CQ10 supports in-built GNSS powered by Qualcomm® Location Suite Gen8C Lite (GPS, GLONASS, BeiDou, Galileo and QZSS), ensuring precise positioning. Additionally, it supports VoLTE and SMS over IMS/SG/CS and a wide variety of Internet protocols and industry-standard hardware interfaces.\nThe module comes in a world wide variant: CQ10-WW for worldwide deployments with other regional variants under development. The CQ10 module provides seamless global connectivity and wide coverage which helps to reduce the time to market. CQ10 is tailored for IoT and M2M applications, such as asset tracking, automotive, e-mobility, data loggers, fleet management, environmental monitoring and much more.\n\n[key_highlights]\nApplicable regions - (APAC, EMEA, N.America); OpenSDK Support; USB 2.0 Interface; 2G Fallback; SMS over IMS/SG/CS; USB OTG support\n\n[technical_data]\nGNSS: GPS / GLONASS / BeiDou / Galileo / QZSS Capable\nOS: Yocto Linux (Kernel 4.14)\nSpeeds: LTE Cat 1: 10 Mbps (DL), 5 Mbps (UL); 2G: 236.8 Kbps (DL), 236.8 Kbps (UL)\nInterfaces: UART x3, USB 2.0 (HS) x1, HSIC x1, WLAN/BT (External) x1, SDC x2, USIM (1.8V / 2.85V) x1, Network Status Indicator x2, Power ON Status Indicator x1, SGMII x1, I2C x1 (requires SDK), ADC x2, PCM x1 (requires SDK), JTAG x1, Main ANT x1, GNSS ANT x1, Diversity ANT x1\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"CQ10-WW-22GNN\", \"attrs\": {\"GNSS\": \"Yes\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"CQ10-WW-22GNH\", \"attrs\": {\"GNSS\": \"Yes\", \"Flash\": \"256 MB / 256 MB\"}}, {\"sku\": \"CQ10-WW-11GNN\", \"attrs\": {\"GNSS\": \"Yes\", \"Flash\": \"128MB / 128MB\"}}, {\"sku\": \"CQ10-WW-11GNH\", \"attrs\": {\"GNSS\": \"Yes\", \"Flash\": \"128MB / 128MB\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"GNN – No Internal Sim.\", \"GNH – Internal Sim.\"], \"note\": \"\"}\n\n[faq]\n"
+ },
+ "C11QM": {
+  "key": "dc4da8bbb9e77e6362a07e07f866925466fb37e1",
+  "profile": {
+   "processor": {
+    "value": "Qualcomm Location Suite Gen8C Lite",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": "Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": "VoLTE Support; SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": "Power Saving Mode (PSM) and Extended Discontinuous Reception (eDRX)",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "key_highlights"
+   },
+   "applications": {
+    "value": "asset tracking, e-mobility, data loggers, fleet management, environmental monitoring, telematics units, industrial monitoring",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "The C11QM module is built with industrial-grade components for rugged environments.",
+     "source": "faq"
+    },
+    {
+     "value": "The module measures only 26.5 x 22.5 x 2.3 mm.",
+     "source": "faq"
+    }
+   ]
+  },
+  "src": "[about]\nC11QM is a series of LTE Cat 1 module, designed for IoT and M2M applications, that support 3GPP release 10. The C11QM module features In-built GNSS with Qualcomm® IZat™ location technology Gen8C Lite, providing precise and reliable positioning through GPS, GLONASS, BeiDou/Compass, Galileo, and QZSS.\nIt supports VoLTE and SMS over IMS/SG/CS, along with a wide range of Internet protocols and industry-standard interfaces. The C11QM module is well-suited for IoT applications such as asset tracking, e-mobility, data loggers, fleet management, environmental monitoring, telematics units, and industrial monitoring. The module is currently region-specific, with versatile support for LTE and 2G bands of the region, and also features 2G fallback capabilities.\n\n[key_highlights]\nUSB 2.0 Interface; 2G Fallback; VoLTE Support; SMS over IMS/SG/CS; Integrated eSIM; Cavli Hubble\n\n[technical_data]\nGNSS: GPS/GLO/GAL/BDS with QZSS\nOS: ThreadX OS | Yocto Linux\nSpeeds: Cat 1: DL 10 Mbps & UL 5 Mbps; GSM: DL 236.8 Kbps & UL 236.8 Kbps\nInterfaces: uSIM x1, ADC x2, USB 2.0 x1, GPIO x4, I2C x1, SDC x2, PCM x1, SPI x1, UART x4, Network Status Indicator x1, Power ON Status Indicator x1\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"C11QM-IN-11GNH\", \"attrs\": {\"GNSS\": \"TBD\", \"Flash\": \"128MB / 128MB\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"GNN – No Internal SIM.\", \"GNH – Internal SIM.\"], \"note\": \"\"}\n\n[faq]\nQ: How does the C11QM module ensure accurate positioning for IoT applications?\nA: The C11QM module integrates Qualcomm Location Suite Gen8C Lite technology, offering support for GPS, GLONASS, BeiDou, Galileo, and QZSS. This robust multi-constellation support ensures highly accurate and reliable positioning, making the module ideal for applications such as fleet management, asset tracking, and telematics.\nQ: What power efficiency features are built into the C11QM module for IoT applications?\nA: The C11QM module supports advanced power-saving features, including Power Saving Mode (PSM) and Extended Discontinuous Reception (eDRX). These mechanisms are designed to optimize power consumption, making the module ideal for battery-operated IoT devices in remote monitoring and industrial applications.\nQ: What are the key features that make the C11QM module suitable for rugged IoT environments?\nA: The C11QM module is built with industrial-grade components that support extended temperature ranges and resistance to environmental stressors such as vibration and humidity. This durability makes it suitable for deployment in harsh IoT environments like industrial automation, outdoor monitoring, and logistics.\nQ: What interfaces does the C11QM module provide for peripheral and sensor connectivity?\nA: The C11QM module offers a rich set of interfaces, including UART, USB 2.0, I2C, SPI, and GPIOs. These interfaces allow for versatile integration with a wide range of external sensors and peripherals, supporting complex IoT use cases such as environmental monitoring and smart city infrastructure.\nQ: How does the C11QM module support VoLTE and SMS functionalities in IoT deployments?\nA: The C11QM module supports Voice over LTE (VoLTE) and SMS over IMS/SG/CS, ensuring high-quality voice communication and messaging capabilities. These features are critical for applications that require reliable communication channels, such as emergency systems and connected healthcare devices.\nQ: What makes the C11QM a unique solution for IoT OEMs?\nA: The C11QM module has been engineered in a compact form factor, measuring only 26.5 x 22.5 x 2.3 mm, yet provides LTE Cat 1 connectivity, along with versatile OS options and SDK support. It also placed at a disruptive price point, ensuring that the final BOM is as low as possible.\nQ: Where can I purchase the C11QM module, its Evaluation Kit (EVK), and download technical brochures?\nA: You can purchase the C11QM module and its Evaluation Kits (EVKs) through the Cavli Wireless store or from authorized distributors. Visit the C11QM product page and select \"ORDER SAMPLES\" to purchase the module. If you need an Evaluation Kit, you can obtain it by clicking \"ORDER DDKs\". Detailed technical documents can be downloaded by navigating to \"Downloadable Resources\"."
+ },
+ "CQM211": {
+  "key": "891737cd88343839cfd457e34b8490ec699c02ca",
+  "profile": {
+   "processor": {
+    "value": "Arm Cortex-A7",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": null,
+    "source": null
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "LTE Cat 16",
+    "source": "about"
+   },
+   "applications": {
+    "value": "Industry 4.0, smart surveillance",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "CQM211 supports both SA and NSA deployment modes.",
+     "source": "faq"
+    },
+    {
+     "value": "CQM211 runs on OpenWrt OS with SDK support.",
+     "source": "faq"
+    },
+    {
+     "value": "CQM211 is available in both LGA and M.2 form factors.",
+     "source": "faq"
+    }
+   ]
+  },
+  "src": "[about]\nCQM211 is a 5G-NR Advanced Sub-6 GHz module compliant with 3GPP Release 16, designed for IoT and M2M applications. It delivers up to 3.4 Gbps downlink and 550 Mbps uplink, with LTE Cat 16 fallback for reliable high-throughput connectivity across diverse networks. Powered by an Arm Cortex-A7 processor with up to 1 GB RAM and 512 MB ROM, the module runs Linux/OpenWrt and supports application development without an external host MCU. It also integrates GNSS with L1+L5 support for high-precision tracking. With a global variant and compact LGA form factor, CQM211 is ideal for high-bandwidth applications such as Industry 4.0 and smart surveillance.\n\n[key_highlights]\n5G NR Advanced; USB 3.1/2.0 Interface; ARM CortexA7 Processor; SDK Support; OpenWrt OS; In-built GNSS; LTE Cat 16 Fallback\n\n[technical_data]\nGNSS: GPS/GLONASS/Galileo/BeiDou/NavIC/QZSS\nOS: Linux / OpenWrt\nSpeeds: 5G NR SA: DL 2.4 Gbps & UL 900 Mbps; 5G NR NSA: DL 3.4 Gbps & UL 550 Mbps\nInterfaces: UART x4, SDC x1, I2C x1, EBI x1, SPI x2 (Master Only), I2S x2, USIM x2, HS USB 3.1/2.0 x1, PCIe Gen3 x1, GPIO x16, ANTx5 (MAINx1, DIVx1, P_MIMOx1, D_MIMOx1, GNSSx1)\n\n[variants]\nnone\n\n[faq]\nQ: Does CQM211 support Standalone and Non-Standalone deployments?\nA: Yes CQM211 supports both SA and NSA deployment modes, and it offers higher download speed in NSA mode\nQ: What OS does CQM211 run on?\nA: CQM211 runs on OpenWrt OS, an embedded platform based on Linux, and offers SDK support enabling our customers to incorporate application specific programming logic in their solutions.\nQ: Is CQM211 available in multiple form factors?\nA: Yes the module is available in both LGA and M.2 form factors to meet the unique requirements of each client."
+ },
+ "CQM212": {
+  "key": "5c123d27b46bc2c995c6d5aed69e57b1f1bfc41f",
+  "profile": {
+   "processor": {
+    "value": null,
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": "about"
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": "about"
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "faq"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": "about"
+   },
+   "power_saving": {
+    "value": null,
+    "source": "about"
+   },
+   "camera_display": {
+    "value": null,
+    "source": "about"
+   },
+   "fallback": {
+    "value": "LTE Cat 20",
+    "source": "about"
+   },
+   "applications": {
+    "value": "Industry 4.0, Smart Surveillance Solutions",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "CQM212 integrates Qualcomm Location Suite Gen9VT for precise location tracking.",
+     "source": "faq"
+    },
+    {
+     "value": "CQM212 supports Linux / OpenWrt OS.",
+     "source": "technical_data"
+    },
+    {
+     "value": "CQM212 offers comprehensive interfaces including I2C, UART, I2S, PCM, SDC, and PCIe.",
+     "source": "faq"
+    },
+    {
+     "value": "CQM212 supports GNSS: GPS, GLONASS, NavIC, BeiDou, Galileo, SBAS, QZSS.",
+     "source": "technical_data"
+    }
+   ]
+  },
+  "src": "[about]\nCQM212 is a 5G-NR Advanced Sub-6 GHz module compliant with 3GPP Release 18 standards, designed for IoT and M2M applications. It delivers exceptional data throughput in 5G NR, offering up to 5.36 Gbps in downlink and 1.25 Gbps in uplink along with advanced carrier aggregation with 3CC capability. The module supports LTE Cat 20 fallback, ensuring reliable high-throughput connectivity in diverse network environments. With its global variant and LGA form factor, CQM212 is perfect for high-bandwidth applications requiring ultra-fast connectivity and location information. This makes it an ideal choice for use cases such as Industry 4.0, Smart Surveillance Solutions and more.\n\n[key_highlights]\n5G NR; SDK Support; OpenWrt OS\n\n[technical_data]\nGNSS: GPS, GLONASS, NavIC, BEIDOU, Galileo SBAS + QZSS Capable\nOS: Linux / OpenWrt\nSpeeds: 5G NR: 5.36 Gbps (DL), 1.25 Gbps (UL); 4G: DL 2.0 Gbps, UL 315 Mbps\nInterfaces: 2xUART, 1xUSB2.0, 1xUSB3.1, 1xPCIe4.0, 2xPCIe3.0, 2xUSIM, 4xPWM, 2xSGMII, 1xI2S, 2xI2C, 2xSPI, 1xLCD, 1xADC, 1xJTAG, 11xGPIO, 4xNetworkStatus, 1xGNSS_ANT, 8xMAIN_ANT\n\n[variants]\nnone\n\n[faq]\nQ: What GNSS capabilities does the CQM212 module offer?\nA: The CQM212 module integrates Qualcomm Location Suite Gen9VT, supporting GPS, GLONASS, NavIC, BeiDou, Galileo, SBAS, and QZSS. These GNSS capabilities provide precise location tracking for applications such as asset tracking and vehicular telemetry.\nQ: Is the CQM212 module integrated with the Cavli Hubble Platform?\nA: Yes, the CQM212 module is fully integrated with the Cavli Hubble Platform. This allows for seamless management of connectivity, device diagnostics, and remote provisioning via eSIM, simplifying large-scale IoT deployments. For more details, visit the Cavli Hubble Platform.\nQ: What interfaces are available on the CQM212 module for IoT applications?\nA: The CQM212 module offers a comprehensive set of interfaces, including I2C, UART, I2S, PCM, SDC, and PCIe. These interfaces support a wide range of peripherals, making the module versatile for use in applications such as smart cities, automotive systems, and industrial automation.\nQ: How does the CQM212 module support global 5G and LTE connectivity?\nA: The CQM212 module supports 5G NR with LTE Cat 20 Fallback, covering a wide array of cellular bands across different regions. This global connectivity ensures reliable operation in international IoT deployments.\nQ: Where can I purchase the CQM212 module, its Evaluation Kit (EVK), and download technical brochures?\nA: You can purchase the CQM212 module and its Evaluation Kits (EVKs) through the Cavli Wireless store or from authorized distributors. Visit the CQM212 product page and select ORDER SAMPLES to purchase the module. If you need an Evaluation Kit, you can obtain it by clicking ORDER DDKs. Detailed technical documents can be downloaded by navigating to Downloadable Resources."
+ },
+ "CQM215": {
+  "key": "da898787a38f6b7a38306c37e21372b8709dc88b",
+  "profile": {
+   "processor": {
+    "value": "Qualcomm Location Suite Gen9VT",
+    "source": "faq"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "faq"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "LTE Cat 20",
+    "source": "about"
+   },
+   "applications": {
+    "value": "Industry 4.0, Smart Surveillance Solutions",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "The CQM215 module supports GPS, GLONASS, NavIC, BeiDou, Galileo, SBAS, and QZSS.",
+     "source": "faq"
+    },
+    {
+     "value": "The CQM215 module is fully integrated with the Cavli Hubble Platform.",
+     "source": "faq"
+    },
+    {
+     "value": "The CQM215 module offers a comprehensive set of interfaces including I2C, UART, I2S, PCM, SDC, and PCIe.",
+     "source": "faq"
+    }
+   ]
+  },
+  "src": "[about]\nCQM215 is a 5G-NR Advanced Sub-6 GHz module compliant with 3GPP Release 18 standards, designed for IoT and M2M applications. It delivers exceptional data throughput in 5G NR, offering up to 7.01 Gbps in downlink and 1.25 Gbps in uplink along with advanced carrier aggregation with 4CC capability. The module supports LTE Cat 20 fallback, ensuring reliable high-throughput connectivity in diverse network environments. With its global variant and LGA form factor, CQM215 is perfect for high-bandwidth applications requiring ultra-fast connectivity and location information. This makes it an ideal choice for use cases such as Industry 4.0, Smart Surveillance Solutions and more.\n\n[key_highlights]\n5G NR; SDK Support; OpenWrt OS\n\n[technical_data]\nGNSS: GPS, GLONASS, NavIC, BEIDOU, Galileo SBAS + QZSS Capable\nOS: Linux / OpenWrt\nSpeeds: 5G NR: 7.01 Gbps (DL), 1.25 Gbps (UL); 4G: DL 2.0 Gbps, UL 315 Mbps\nInterfaces: 2xUART, 1xUSB2.0, 1xUSB3.1, 1xPCIe4.0, 2xPCIe3.0, 2xUSIM, 4xPWM, 2xSGMII, 1xI2S, 2xI2C, 2xSPI, 1xLCD, 1xADC, 1xJTAG, 11xGPIO, 4xNetworkStatus, 1xGNSS_ANT, 8xMAIN_ANT\n\n[variants]\nnone\n\n[faq]\nQ: What GNSS capabilities does the CQM215 module offer?\nA: The CQM215 module integrates Qualcomm Location Suite Gen9VT, supporting GPS, GLONASS, NavIC, BeiDou, Galileo, SBAS, and QZSS. These GNSS capabilities provide precise location tracking for applications such as asset tracking and vehicular telemetry.\nQ: Is the CQM215 module integrated with the Cavli Hubble Platform?\nA: Yes, the CQM215 module is fully integrated with the Cavli Hubble Platform. This allows for seamless management of connectivity, device diagnostics, and remote provisioning via eSIM, simplifying large-scale IoT deployments. For more details, visit the Cavli Hubble Platform.\nQ: What interfaces are available on the CQM215 module for IoT applications?\nA: The CQM215 module offers a comprehensive set of interfaces, including I2C, UART, I2S, PCM, SDC, and PCIe. These interfaces support a wide range of peripherals, making the module versatile for use in applications such as smart cities, automotive systems, and industrial automation.\nQ: How does the CQM215 module support global 5G and LTE connectivity?\nA: The CQM215 module supports 5G NR with LTE Cat 20 Fallback, covering a wide array of cellular bands across different regions. This global connectivity ensures reliable operation in international IoT deployments.\nQ: Where can I purchase the CQM215 module, its Evaluation Kit (EVK), and download technical brochures?\nA: You can purchase the CQM215 module and its Evaluation Kits (EVKs) through the Cavli Wireless store or from authorized distributors. Visit the CQM212 product page and select \"ORDER SAMPLES\" to purchase the module. If you need an Evaluation Kit, you can obtain it by clicking \"ORDER DDKs\". Detailed technical documents can be downloaded by navigating to \"Downloadable Resources\"."
+ },
+ "C41QS": {
+  "key": "7c3d6b1b8be7be14183cc7a88a9038f3e1d67b39",
+  "profile": {
+   "processor": {
+    "value": "null",
+    "source": "null"
+   },
+   "gpu": {
+    "value": "null",
+    "source": "null"
+   },
+   "wifi_bluetooth": {
+    "value": "null",
+    "source": "null"
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "variants"
+   },
+   "voice_sms": {
+    "value": "null",
+    "source": "null"
+   },
+   "power_saving": {
+    "value": "PSM and eDRX",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": "null",
+    "source": "null"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "null"
+   },
+   "applications": {
+    "value": "smart metering, smart parking, sensor and monitoring applications",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "C41QS supports GPS and BeiDou for GNSS.",
+     "source": "faq"
+    },
+    {
+     "value": "C41QS is compatible with Cavli Hubble Platform.",
+     "source": "faq"
+    },
+    {
+     "value": "C41QS has a compact form factor of 17.7mm x 15.8mm x 2.0mm.",
+     "source": "about"
+    },
+    {
+     "value": "C41QS supports DFOTA.",
+     "source": "key_highlights"
+    }
+   ]
+  },
+  "src": "[about]\nC41QS is Cavli’s entrant in the all-new NarrowBand-Internet of Things (NB-IoT) platform, based on low power wide area networks (LPWAN) technology. The C41QS is a NB2/NB1 Module compatible with 3GPP E-UTRA Release 14 standards supporting a wide array of frequency bands, making it usable globally while providing leverageable low-power consumption. The module is designed in a compact form factor of 17.7mm x 15.8mm x 2.0mm, making it an ideal solution for applications where size is constrained. The module supports an optional integrated GNSS and integrated eSIM, enabling Global Connectivity and Device management features powered by Cavli’s proprietary Hubble platform.\nC41QS is ideal for applications that demand low space, low power consumption and aggressive pricing. It is suited for applications such as smart metering, smart parking, sensor and monitoring applications etc.\n\n[key_highlights]\nApplicable Region - GLOBAL; Max UART speed upto 3 Mbps; Small Form Factor Design; Integrated eSIM; Cavli Hubble; Applicable regions - (APAC, EMEA, N.A, S.A, AUS,NZ and Global); Integrated GNSS; DFOTA Available; USB 2.0 Interface\n\n[technical_data]\nGNSS: GPS/ BeiDou\nOS: Free RTOS\nSpeeds: LTE Cat NB2: Peak DL 127 Kbps & UL 158.5 Kbps\nInterfaces: 3xUART, 1xGNSS_UART (optional), 1xUSIM, 1xSWD, 1xADC, 1xSPI (requires SDK), 2xGPIO (requires SDK), 1xMAIN_ANT, 1xGNSS_ANT\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"C41QS-GNN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"272 KB / 4 MB\"}}, {\"sku\": \"C41QS-GNH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"272 KB / 4 MB\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"GNN – No Internal Sim.\", \"GNH – Internal Sim.\"], \"note\": \"C41QS is also available in non GNSS variants, with and without eSIM\"}\n\n[faq]\nQ: How does the C41QS module optimize power consumption for IoT applications?\nA: The C41QS module is designed with low-power wide area network (LPWAN) technology and supports 3GPP Release 14 standards for Cat NB2/NB1. It includes advanced power-saving modes such as PSM and eDRX, making it ideal for battery-powered IoT applications like smart metering and environmental monitoring.\nQ: What GNSS capabilities does the C41QS module offer?\nA: The C41QS module provides optional GNSS support for GPS and BeiDou, ensuring precise and reliable positioning for applications such as asset tracking and smart city infrastructure.\nQ: Is the C41QS module compatible with the Cavli Hubble Platform for device management?\nA: Yes, the C41QS module is fully integrated with the Cavli Hubble Platform. This allows for seamless device management, global connectivity via eSIM, and real-time monitoring, making it suitable for large-scale IoT deployments. For more information, visit the Cavli Hubble Platform.\nQ: What interfaces are available on the C41QS module for IoT connectivity?\nA: The C41QS module provides a variety of interfaces, including 3xUART, SPI, ADC, SWD, and GPIOs. These interfaces support the integration of various sensors and peripherals, making the module versatile for different IoT use cases, such as smart homes and healthcare devices.\nQ: How does the C41QS module support global IoT deployments?\nA: The C41QS module supports a wide array of global frequency bands, making it suitable for international deployments. Its compact form factor, combined with low power consumption and integrated eSIM options, makes it an ideal choice for IoT applications requiring global connectivity and efficiency.\nQ: Where can I purchase the C41QS module, its Evaluation Kit (EVK), and download technical brochures?\nA: You can purchase the C41QS module and its Evaluation Kits (EVKs) through the Cavli Wireless store or from authorized distributors. Visit the C41QS product page and select \"ORDER SAMPLES\" to purchase the module. If you need an Evaluation Kit, you can obtain it by clicking \"ORDER DDKs\". Detailed technical documents can be downloaded by navigating to \"Downloadable Resources\"."
+ },
+ "AQ62": {
+  "key": "a92600b6e27bade38f64d50f120d19b6d1415fe0",
+  "profile": {
+   "processor": {
+    "value": "Arm Cortex A55 quad-core",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": "Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": "VoLTE Support",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "LTE Cat 18",
+    "source": "about"
+   },
+   "applications": {
+    "value": "automotive clusters, vehicle telematics, ADAS systems, OBD solutions",
+    "source": "faq"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports multi-constellation GNSS with GPS, GLONASS, Galileo, BeiDou, NavIC and QZSS.",
+     "source": "about"
+    },
+    {
+     "value": "Supports Qualcomm Location Suite Gen 9VT.",
+     "source": "faq"
+    },
+    {
+     "value": "Speeds: 5G NR NSA: DL 2.5 Gbps & UL 550 Mbps",
+     "source": "technical_data"
+    },
+    {
+     "value": "OS: Yocto Linux 5.15",
+     "source": "technical_data"
+    },
+    {
+     "value": "Max UART speed up to 3 Mbps",
+     "source": "key_highlights"
+    },
+    {
+     "value": "USB 2.0 Interface",
+     "source": "key_highlights"
+    },
+    {
+     "value": "Small Form Factor Design",
+     "source": "key_highlights"
+    },
+    {
+     "value": "OpenSDK Support",
+     "source": "key_highlights"
+    },
+    {
+     "value": "DFOTA Available",
+     "source": "key_highlights"
+    },
+    {
+     "value": "NG-eCall Support",
+     "source": "key_highlights"
+    }
+   ]
+  },
+  "src": "[about]\nThe Cavli AQ62 is an automotive-grade 5G NR Sub-6 GHz module designed for next-generation telematics and connected vehicle applications. Powered by an Arm Cortex A55 quad-core CPU, the AQ62 delivers high-bandwidth and low-latency performance for advanced in-vehicle compute and communication workloads. Its communication subsystem integrates 5G NR connectivity with LTE Cat 18 fallback and supports 3GPP Release 16.\nThe AQ62 is available in five regional variants: Worldwide (WW), North America (NA), Eurasia and Japan (EAJ), India (IN), and Eurasia (EA). The module supports multi-constellation GNSS with GPS, GLONASS, Galileo, BeiDou, NavIC and QZSS, along with Qualcomm Location Suite Gen 9VT. Designed for connected mobility applications, the AQ62 is well suited for automotive clusters, vehicle telematics, ADAS systems and OBD solutions.\n\n[key_highlights]\nApplicable regions - (N.A, AN, EU, and IN); 5G NR Sub-6 GHz; Automotive Grade; DFOTA Available; LTE Cat 18 Fallback; Integrated eSIM; NG-eCall Support; Cavli Hubble; In-built GNSS (L1+L5); USB 2.0 Interface; Max UART speed upto 3 Mbps; LGA Package; Small Form Factor Design; OpenSDK Support; VoLTE Support\n\n[technical_data]\nGNSS: GPS/GLONASS/Galileo/BeiDou/NavIC/QZSS Qualcomm Location Suite Gen 9VT (L1+L2/L5)\nOS: Yocto Linux 5.15\nSpeeds: 5G NR NSA: DL 2.5 Gbps & UL 550 Mbps\nInterfaces: UART x4, USIM x2, USB (3.1) x1, USB (2.0) x1, SDC x2 (4-bit/8-bit), I2C x2, SPI x2, I2S x3, PCM x1, RGMII/SGMII/USxGMII x1, PCIe 4.0/3.0 x1, PCIe 3.0 x1, GPIO x19, ANT x5\n\n[variants]\n{\"format\": \"decoder\", \"rows\": [{\"param\": \"Product\", \"options\": \"AQ62\", \"decoded\": [\"Automotive 5G Module\"]}, {\"param\": \"Region SKU\", \"options\": \"WW / EAJ / EA / NA / IN\", \"decoded\": [\"WW = World Wide\", \"EAJ = Europe-Asia-Japan\", \"EA = Europe-Asia\", \"NA = North America\", \"IN = India\"]}, {\"param\": \"RF Config.\", \"options\": \"122 / 142 / 144\", \"decoded\": [\"122 = 1Tx + 2 Sub-2.7GHz Rx + 2 Sub-6GHz Rx\", \"142 = 1Tx + 4 Sub-2.7GHz Rx + 2 Sub-6GHz Rx\", \"144 = 1Tx + 4 Sub-2.7GHz Rx + 4 Sub-6GHz Rx\"]}, {\"param\": \"Memory\", \"options\": \"84 / 88 / 164 / 168\", \"decoded\": [\"84 = 1GB RAM + 512MB NAND\", \"88 = 1GB RAM + 1GB NAND\", \"164 = 2GB RAM + 512MB NAND\", \"168 = 2GB RAM + 1GB NAND\"]}, {\"param\": \"GNSS\", \"options\": \"GN / A / B\", \"decoded\": [\"GN = GNSS enabled\", \"A = GNSS L1\", \"B = GNSS L1 + L2/L5\"]}, {\"param\": \"eSIM + Hubble\", \"options\": \"H / N\", \"decoded\": [\"H = With eSIM + Hubble\", \"N = Without eSIM + Hubble\"]}, {\"param\": \"HSM\", \"options\": \"H / N\", \"decoded\": [\"H = With HSM\", \"N = Without HSM\"]}]}\n\n[faq]\nQ: What is the Cavli AQ62 5G NR automotive module?\nA: The Cavli AQ62 is an automotive-grade 5G NR Sub-6 GHz smart module designed for next-generation telematics and connected vehicle applications. Powered by an Arm Cortex A55 quad-core CPU, the AQ62 combines in-vehicle compute capabilities with 5G NR connectivity and LTE Cat 18 fallback for automotive communication workloads.\nQ: What cellular connectivity and 5G speeds does the Cavli AQ62 support?\nA: The Cavli AQ62 5G NR automotive module supports 5G NR Sub-6 GHz connectivity with LTE Cat 18 fallback and is based on 3GPP Release 16. It supports 5G transmission rates of up to 4.4 Gbps downlink and 900 Mbps uplink with 2T4R, along with LTE 5xCC, NR 4xCC, 2x2 uplink MIMO, 4x4 downlink MIMO, ULCA, DLCA and ENDC.\nQ: What GNSS and positioning capabilities are supported by the Cavli AQ62?\nA: The Cavli AQ62 automotive 5G module provides multi-constellation GNSS support for GPS, GLONASS, Galileo, BeiDou, NavIC and QZSS. It supports Qualcomm Location Suite Gen 9VT, with L1 and optional L5 GNSS bands, enabling positioning capabilities for connected vehicle and automotive telematics applications.\nQ: What automotive applications is the Cavli AQ62 designed for?\nA: The Cavli AQ62 automotive-grade 5G module is designed for automotive clusters, vehicle telematics, ADAS systems and OBD solutions. Its combination of 5G NR connectivity, LTE Cat 18 fallback, GNSS and onboard processing makes it suitable for connected mobility applications requiring cellular communication and in-vehicle compute capabilities.\nQ: What hardware interfaces does the Cavli AQ62 5G module provide?\nA: The Cavli AQ62 5G module provides a broad set of hardware interfaces, including UART, USIM, USB, SDC, I2C, SPI, I2S, PCM, RGMII/SGMII/USxGMII, PCIe, GPIO and antenna interfaces. The module includes four UART interfaces, two USIM interfaces, two SDC interfaces, two I2C interfaces, two SPI interfaces, three I2S interfaces, one PCM interface and nineteen GPIOs.\nQ: Which regional variants of the Cavli AQ62 are available?\nA: The Cavli AQ62 5G NR module is available in five regional variants based on supported cellular frequency bands: Worldwide (WW), North America (NA), Eurasia and Japan (EAJ), India (IN), and Eurasia (EA). These variants support regional deployment requirements for automotive telematics and connected vehicle applications.\nQ: Does the Cavli AQ62 support VoLTE, VoNR and NG-eCall?\nA: Yes. The Cavli AQ62 automotive connectivity module supports both VoLTE and VoNR. The module also supports NG-eCall as an optional feature, along with optional QDR 3.0 support.\nQ: What processor, memory and operating system does the Cavli AQ62 use?\nA: The Cavli AQ62 automotive-grade 5G smart module is powered by an Arm Cortex A55 processor operating at up to 2 GHz. It supports 4/8 Gb RAM with 4/8 Gb Flash memory and runs Linux/TelSDK, with OpenSDK support."
+ },
+ "AQ65": {
+  "key": "885f6b0c97625f38ac9a07d62446fe8dd2bdfb62",
+  "profile": {
+   "processor": {
+    "value": "Arm Cortex A55 quad-core CPU",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": "Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": "SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": null,
+    "source": null
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "LTE Cat 18",
+    "source": "about"
+   },
+   "applications": {
+    "value": "automotive clusters, vehicle telematics, ADAS systems, OBD solutions",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports multi-constellation GNSS with GPS, GLONASS, Galileo, BeiDou, NavIC and QZSS.",
+     "source": "about"
+    },
+    {
+     "value": "Speeds: 5G NR NSA: DL 4.6 Gbps & UL 550 Mbps",
+     "source": "technical_data"
+    },
+    {
+     "value": "OS: Yocto Linux 5.15",
+     "source": "technical_data"
+    },
+    {
+     "value": "Interfaces: UART x4, USIM x2, USB (3.1) x1, USB (2.0) x1, SDC x2 (4-bit/8-bit), I2C x2, SPI x2, I2S x3, PCM x1, RGMII/SGMII/USxGMII x1, PCIe 4.0/3.0 x1, PCIe 3.0 x1, GPIO x19, ANT x5",
+     "source": "technical_data"
+    }
+   ]
+  },
+  "src": "[about]\nThe Cavli AQ65 is an automotive-grade 5G NR Sub-6 GHz module designed for next-generation telematics and connected vehicle applications. Powered by an Arm Cortex A55 quad-core CPU, the AQ65 delivers high-bandwidth and low-latency performance for advanced in-vehicle compute and communication workloads. Its communication subsystem integrates 5G NR connectivity with LTE Cat 18 fallback and supports 3GPP Release 16.\nThe AQ65 is available in five regional variants: Worldwide (WW), North America (NA), Eurasia and Japan (EAJ), India (IN), and Eurasia (EA). The module supports multi-constellation GNSS with GPS, GLONASS, Galileo, BeiDou, NavIC and QZSS, along with Qualcomm Location Suite Gen 9VT. Designed for connected mobility applications, the AQ65 is well suited for automotive clusters, vehicle telematics, ADAS systems and OBD solutions.\n\n[key_highlights]\nQuad core Arm Cortex A53 processor up to 2 GHz; OpenSDK Support; Integrated eSIM; 5G NR Sub-6 GHz; Cavli Hubble; Automotive Grade; LCD Interface; 2G Fallback; Applicable Region - GLOBAL; USB 2.0 Interface; SMS over IMS/SG/CS; USB OTG support\n\n[technical_data]\nGNSS: GPS/GLONASS/Galileo/BeiDou/NavIC/QZSS Qualcomm Location Suite Gen 9VT (L1+L2/L5)\nOS: Yocto Linux 5.15\nSpeeds: 5G NR NSA: DL 4.6 Gbps & UL 550 Mbps\nInterfaces: UART x4, USIM x2, USB (3.1) x1, USB (2.0) x1, SDC x2 (4-bit/8-bit), I2C x2, SPI x2, I2S x3, PCM x1, RGMII/SGMII/USxGMII x1, PCIe 4.0/3.0 x1, PCIe 3.0 x1, GPIO x19, ANT x5\n\n[variants]\n{\"format\": \"decoder\", \"rows\": [{\"param\": \"Product\", \"options\": \"AQ65\", \"decoded\": [\"Automotive 5G Module\"]}, {\"param\": \"Region SKU\", \"options\": \"WW / EAJ / EA / NA / IN\", \"decoded\": [\"WW = World Wide\", \"EAJ = Europe-Asia-Japan\", \"EA = Europe-Asia\", \"NA = North America\", \"IN = India\"]}, {\"param\": \"RF Config.\", \"options\": \"122 / 142 / 144\", \"decoded\": [\"122 = 1Tx + 2 Sub-2.7GHz Rx + 2 Sub-6GHz Rx\", \"142 = 1Tx + 4 Sub-2.7GHz Rx + 2 Sub-6GHz Rx\", \"144 = 1Tx + 4 Sub-2.7GHz Rx + 4 Sub-6GHz Rx\"]}, {\"param\": \"Memory\", \"options\": \"84 / 88 / 164 / 168\", \"decoded\": [\"84 = 1GB RAM + 512MB NAND\", \"88 = 1GB RAM + 1GB NAND\", \"164 = 2GB RAM + 512MB NAND\", \"168 = 2GB RAM + 1GB NAND\"]}, {\"param\": \"GNSS\", \"options\": \"GN / A / B\", \"decoded\": [\"GN = GNSS enabled\", \"A = GNSS L1\", \"B = GNSS L1 + L2/L5\"]}, {\"param\": \"eSIM + Hubble\", \"options\": \"H / N\", \"decoded\": [\"H = With eSIM + Hubble\", \"N = Without eSIM + Hubble\"]}, {\"param\": \"HSM\", \"options\": \"H / N\", \"decoded\": [\"H = With HSM\", \"N = Without HSM\"]}]}\n\n[faq]\n"
+ },
+ "CQ16": {
+  "key": "6c1b9f79587c07bb0e07cdf48b65bef8235af4d5",
+  "profile": {
+   "processor": {
+    "value": "null",
+    "source": "faq"
+   },
+   "gpu": {
+    "value": "null",
+    "source": "faq"
+   },
+   "wifi_bluetooth": {
+    "value": "null",
+    "source": "faq"
+   },
+   "esim": {
+    "value": "Optional integrated eSIM",
+    "source": "faq"
+   },
+   "voice_sms": {
+    "value": "VoLTE Support; SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": "Enhanced power-saving modes",
+    "source": "about"
+   },
+   "camera_display": {
+    "value": "null",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "key_highlights"
+   },
+   "applications": {
+    "value": "Point Of Sale Solutions, Remote monitoring solutions, utility metering solutions",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "The CQ16 module is compliant with 3GPP Rel 14 Cat 1bis standards.",
+     "source": "faq"
+    },
+    {
+     "value": "The CQ16 module measures 17.7 x 15.8 x 2.5 mm.",
+     "source": "faq"
+    }
+   ]
+  },
+  "src": "[about]\nCQ16 is a series of LTE Cat 1bis IoT modules optimized for IoT and M2M applications. It is compliant with 3GPP Rel 14 Cat 1bis standards, designed for low-cost and low-power consumption IoT solutions. Additionally, it can be easily onboarded to the Cavli Hubble Device and connectivity management platform, enabling hassle-free global deployments.\nThe CQ16 module is ideal for IoT solution makers transitioning from legacy 2G and 3G solutions to LTE. It features enhanced power-saving modes, including sleep, hibernate and DRx/eDRx modes, making it perfect for applications like Point Of Sale Solutions, Remote monitoring solutions, and utitlity metering solutions. Its unique features simplify product development and accelerate time-to-market for product makers.\nThe CQ16 module is available in four regional variants: North America, South-East Asia, Europe, and India, covering a wide range of countries and regions. This flexibility ensures seamless adaptation to specific deployment needs.\n\n[key_highlights]\nUSB 2.0 Interface; Applicable regions - (N.A, AN, EU, and IN); DFOTA Available; Cavli Hubble; Max UART speed upto 3 Mbps; 2G Fallback; Small Form Factor Design; VoLTE Support; SMS over IMS/SG/CS\n\n[technical_data]\nGNSS: \nOS: FreeRTOS\nSpeeds: LTE Cat 1bis: 10 Mbps (DL), 5 Mbps (UL)\nInterfaces: 3xUART, 1xUSB2.0, 1xUSIM, 2xADC (requires SDK), 1xI2S (requires SDK), 1xI2C (requires SDK), 1xSPI (requires SDK), 3xGPIO (requires SDK), 1xMain ANT\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"CQ16-NA-S00N\", \"attrs\": {\"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"CQ16-IN-S00N\", \"attrs\": {\"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"CQ16-EU-S00N\", \"attrs\": {\"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"CQ16-AN-S00N\", \"attrs\": {\"Flash\": \"1.25 MB / 4 MB\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"SOON – No GNSS, no eSIM.\", \"SOOH – No GNSS, with eSIM.\", \"GNAN – With GNSS, no eSIM.\", \"GNAH – With GNSS and eSIM.\", \"mPCIe – Mini PCIe Formfactor\"], \"note\": \"\"}\n\n[faq]\nQ: What are the key features of the CQ16 module?\nA: The CQ16 module offers several features optimized for IoT applications:\n- Compliant with 3GPP Rel 14 Cat 1bis standards for reliable LTE connectivity.\n- Optional integrated eSIM for seamless global deployments via the Cavli Hubble platform.\n- Enhanced power-saving modes ideal for battery-operated devices.\nQ: What are the power-saving features of the CQ16 module?\nA: The CQ16 module is equipped with advanced power-saving features such as:\n- Low power modes to extend battery life in IoT devices.\n- Sleep 1 and Sleep 2 for highly capable low power operations\n- Hibernate offers least power consumption while DRx/eDRx offers greatest flexibiblity in device operability while consuming moderate power.\nQ: Is the CQ16 module integrated with the Cavli Hubble Platform?\nA: Yes, the CQ16 module is fully compatible with the Cavli Hubble Platform. This integration provides:\n- Seamless eSIM provisioning for global connectivity.\n- Real-time monitoring and remote diagnostics for enhanced deployment efficiency.\n- Streamlined device and connectivity management, making global IoT deployments hassle-free.\nQ: What interfaces does the CQ16 module offer for IoT applications?\nA: The CQ16 module supports a versatile range of interfaces to connect with various peripherals:\n- 3xUART for serial communication.\n- USB 2.0 for data transfer and power supply.\n- I2C, SPI, and GPIOs for sensor and device integration.\nQ: How does the CQ16 module facilitate global connectivity?\nA: The CQ16 module supports global deployments with:\n- Four regional variants covering North America, South-East Asia, Europe, and India.\n- Optional integrated eSIM, eliminating the need for multiple physical SIM cards.\n- Seamless global connectivity through the Cavli Hubble Platform, reducing deployment complexities.\nQ: How does the compact size of the CQ16 module benefit IoT applications?\nA: Measuring just 17.7 x 15.8 x 2.5 mm, the CQ16 module is significantly smaller than its predecessor. This compact size:\n- Enables space-saving designs for IoT devices.\n- Facilitates integration into form-factor-sensitive applications like wearables and portable devices.\n- Maintains robust performance despite its reduced dimensions.\nQ: Where can I purchase the CQ16 module and download technical resources?\nA: You can purchase the CQ16 module and access technical resources through the Cavli Wireless store or from authorized distributors. Visit the CQ16 product page and select \"ORDER SAMPLES\" to purchase the module. To obtain an Evaluation Kit, click \"ORDER DDKs\". Detailed technical documents can be downloaded by navigating to \"Downloadable Resources\"."
+ },
+ "C16QS": {
+  "key": "ca8e944a0f2ddb0f0b02d7f807abb250c25576f2",
+  "profile": {
+   "processor": {
+    "value": "Arm Cortex-M3",
+    "source": "key_highlights"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": null,
+    "source": null
+   },
+   "esim": {
+    "value": "Yes",
+    "source": "faq"
+   },
+   "voice_sms": {
+    "value": null,
+    "source": null
+   },
+   "power_saving": {
+    "value": "Advanced power-saving features",
+    "source": "faq"
+   },
+   "camera_display": {
+    "value": null,
+    "source": null
+   },
+   "fallback": {
+    "value": "2G",
+    "source": "about"
+   },
+   "applications": {
+    "value": "asset tracking, POS terminals, remote monitoring, smart metering, logistics, industrial IoT",
+    "source": "about"
+   },
+   "extra_facts": [
+    {
+     "value": "C16QS supports optional GNSS for GPS and BeiDou tracking.",
+     "source": "faq"
+    },
+    {
+     "value": "C16QS is compatible with the Cavli Hubble Platform.",
+     "source": "faq"
+    },
+    {
+     "value": "C16QS offers a versatile range of interfaces including 3xUART, USB 2.0, I2C, SPI, and GPIOs.",
+     "source": "faq"
+    },
+    {
+     "value": "C16QS is designed for global connectivity with multiple regional variants.",
+     "source": "faq"
+    },
+    {
+     "value": "C16QS offers LTE Cat 1bis connectivity.",
+     "source": "faq"
+    }
+   ]
+  },
+  "src": "[about]\nC16QS is a series of LTE Cat 1bis IoT modules designed for IoT and M2M applications that require reliable LTE connectivity, compact hardware integration, and regional deployment flexibility. Built to comply with 3GPP Release 14 specifications, the module is suitable for OEMs developing connected devices for asset tracking, POS terminals, remote monitoring, smart metering, logistics, and industrial IoT applications.\nThe C16QS module supports optional integrated GNSS, making it suitable for location-based IoT applications such as fleet tracking, asset monitoring, and mobility devices. It is also available with integrated eSIM options, enabling remote connectivity management through the Cavli Hubble Connectivity and IoT Module Management platform. With DFOTA, low-power operating modes, independent LTE and GNSS power control, and edge-based GPS data processing, C16QS helps OEMs build scalable and power-efficient connected products.\nC16QS is especially useful for IoT solution makers migrating from legacy 2G and 3G networks to LTE. Its LTE Cat 1bis architecture offers a practical migration path for applications that need moderate data throughput, long lifecycle connectivity, and simplified deployment across multiple regions.\nThe C16QS module is available in regional variants tailored for different deployment markets: C16QS-EAJ for Eurasia and Japan, C16QS-NA for North America, C16QS-LA for Latin America, C16QS-AN for Australia and New Zealand, and C16QS-WW for global use cases.\n\n[key_highlights]\nOptional Integrated GNSS for GPS and BeiDou Tracking; Arm Cortex-M3 Processor up to 204 MHz; UART Interface with Speed up to 3 Mbps; Compact LGA and Mini PCIe Form Factors; DFOTA Support for Remote Firmware Updates; Integrated eSIM; USB 2.0 Interface for Host Integration; Cavli Hubble; Integrated eSIM for Cross-border Deployments; Applicable regions - (APAC, EMEA, N.A, S.A, AUS,NZ and Global); LCD Interface; Applicable Region - GLOBAL; Android / Linux OS; Superior Multimedia Functions\n\n[technical_data]\nGNSS: GPS / BeiDou\nOS: FreeRTOS\nSpeeds: LTE Cat 1bis: 10 Mbps (DL), 5 Mbps (UL)\nInterfaces: 3xUART, 1xUSB2.0, 1xUSIM, 1xSWD, 2xADC (requires SDK), 1xI2S (requires SDK), 1xI2C (requires SDK), 1xSPI (requires SDK), 4xGPIO (requires SDK), 1xMain ANT, 1xGNSS ANT (optional)\n\n[variants]\n{\"format\": \"skus\", \"skus\": [{\"sku\": \"C16QS-WW-GNAN-mPCIe\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-WW-GNAN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-NA-GNAN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-NA-GNAH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-IN-GNAN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-IN-GNAH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-EU-GNAN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-EU-GNAH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-EAJ-S00N\", \"attrs\": {\"GNSS\": \"No\", \"eSIM\": \"No\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-EAJ-S00H\", \"attrs\": {\"GNSS\": \"No\", \"eSIM\": \"Yes\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-EAJ-GNAN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-EAJ-GNAH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-AN-GNAN\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"No\", \"Flash\": \"1.25 MB / 4 MB\"}}, {\"sku\": \"C16QS-AN-GNAH\", \"attrs\": {\"GNSS\": \"Yes\", \"eSIM\": \"Yes\", \"Flash\": \"1.25 MB / 4 MB\"}}], \"regional\": [\"WW – Worldwide\", \"NA – North America\", \"EU – Europe\", \"IN – India\", \"EA – East Asia\"], \"variant_codes\": [\"SOON – No GNSS, no eSIM.\", \"SOOH – No GNSS, with eSIM.\", \"GNAN – With GNSS, no eSIM.\", \"GNAH – With GNSS and eSIM.\", \"mPCIe – Mini PCIe Formfactor\"], \"note\": \"\"}\n\n[faq]\nQ: What GNSS capabilities does the C16QS module offer?\nA: The C16QS module includes optional GNSS support for GPS and BeiDou constellations, providing accurate location tracking. This feature is essential for applications like asset tracking, fleet management, and smart logistics, with independent power management to optimize energy usage.\nQ: What are the power-saving features of the C16QS module?\nA: The C16QS module incorporates advanced power-saving features, including independent LTE and GNSS power supplies, deep sleep mode, and eDRX (Extended Discontinuous Reception). These features are crucial for IoT applications requiring prolonged battery life, such as remote monitoring and energy metering.\nQ: Is the C16QS module integrated with the Cavli Hubble Platform?\nA: Yes, the C16QS module is compatible with the Cavli Hubble Platform, which provides comprehensive device and connectivity management. The platform enables seamless eSIM provisioning, real-time monitoring, and remote diagnostics, making global IoT deployments more efficient. For more information, visit the Cavli Hubble Platform.\nQ: What interfaces does the C16QS module offer for IoT applications?\nA: The C16QS module provides a versatile range of interfaces, including 3xUART, USB 2.0, I2C, SPI, and GPIOs, supporting various peripherals and sensors. These interfaces make the module adaptable to diverse IoT applications, from smart agriculture to industrial automation.\nQ: How does the C16QS module facilitate global connectivity?\nA: The C16QS module is designed with multiple regional variants and a worldwide variant, each supporting specific LTE bands. It also offers an integrated eSIM option, enabling seamless global connectivity and reducing the complexity of managing SIM cards across different regions. This makes the module particularly suited for international IoT deployments in sectors like automotive, smart cities, and energy utilities.\nQ: How does the C16QS module enable OEMs moving on from legacy networks?\nA: The C16QS module offers LTE Cat 1bis connectivity, which offers near Cat 1 bandwidth at very low power consumption. Furthermore, the module is priced highly competitively, ensuring that OEMs upgrading from legacy networks experience faster speeds and lower latency at an affordable price point.\nQ: Where can I purchase the C16QS module, its Evaluation Kit (EVK), and download technical brochures?\nA: You can purchase the C16QS module and its Evaluation Kits (EVKs) through the Cavli Wireless store or from authorized distributors. Visit the C16QS product page and select \"ORDER SAMPLES\" to purchase the module. If you need an Evaluation Kit, you can obtain it by clicking \"ORDER DDKs\". Detailed technical documents can be downloaded by navigating to \"Downloadable Resources\".\nQ: Does C16QS support integrated eSIM?\nA: Yes, C16QS is available with integrated eSIM options depending on the selected variant. This helps OEMs simplify SIM provisioning and manage connectivity across regional and global IoT deployments through Cavli Hubble.\nQ: Does C16QS support GNSS?\nA: Yes, C16QS supports optional GNSS with GPS and BeiDou. GNSS-enabled variants are suitable for asset tracking, fleet management, logistics, and mobility applications.\nQ: Which C16QS variant should I choose?\nA: The right C16QS variant depends on deployment region, GNSS requirement, eSIM requirement, and form factor. WW variants are suitable for global deployments, NA variants for North America, EU variants for Europe, IN variants for India, and AN variants for Australia and New Zealand."
+ },
+ "P16QS": {
+  "key": "3a6a7d690eaa87351571e57f54856eddfabe00f6",
+  "profile": {
+   "processor": {
+    "value": "32-bit RISC-V Processor Up to 325 MHz",
+    "source": "about"
+   },
+   "gpu": {
+    "value": null,
+    "source": null
+   },
+   "wifi_bluetooth": {
+    "value": "Wi-Fi 6.0 and BLE 5.4",
+    "source": "about"
+   },
+   "esim": {
+    "value": "Optional Integrated eSIM",
+    "source": "key_highlights"
+   },
+   "voice_sms": {
+    "value": "SMS over IMS/SG/CS",
+    "source": "key_highlights"
+   },
+   "power_saving": {
+    "value": "Low Power Consumption and Power Saving Modes",
+    "source": "key_highlights"
+   },
+   "camera_display": {
+    "value": "DBI Type-C Display Interface",
+    "source": "faq"
+   },
+   "fallback": {
+    "value": "LTE Cat 1bis",
+    "source": "about"
+   },
+   "applications": {
+    "value": "secure IoT, connected payment systems, RTOS-based telematics applications",
+    "source": "faq"
+   },
+   "extra_facts": [
+    {
+     "value": "Supports GNSS with GPS, BeiDou, GLONASS, Galileo, and QZSS",
+     "source": "about"
+    },
+    {
+     "value": "Integrated Secure Element for Hardware-Level Security",
+     "source": "key_highlights"
+    },
+    {
+     "value": "VoLTE Support",
+     "source": "key_highlights"
+    },
+    {
+     "value": "Remote Connectivity and Device Management via Cavli Hubble",
+     "source": "key_highlights"
+    },
+    {
+     "value": "Compact LGA Form Factor (40.0 x 30.0 x 2.7 mm)",
+     "source": "key_highlights"
+    }
+   ]
+  },
+  "src": "[about]\nThe Cavli P16QS is a compact LTE Cat 1bis System-on-Module (SoM) designed for secure IoT and connected payment applications that require reliable cellular connectivity, robust computing, and hardware-backed security. Built to comply with 3GPP Release 14 specifications, the module is suitable for OEMs developing connected devices for POS terminals, cost-effective instrument clusters, RTOS-based telematics, and secure IoT applications. Powered by a 32-bit RISC-V processor operating at 325 MHz, P16QS integrates an application MCU, LTE Cat 1bis modem, and secure element into a compact module.\nThe P16QS module supports optional integrated GNSS with GPS, BeiDou, GLONASS, Galileo, and QZSS for location-based IoT applications. It also features Wi-Fi 6.0 and BLE 5.4 connectivity, enabling comprehensive wireless communication alongside LTE Cat 1bis. Available with optional integrated eSIM, P16QS supports remote connectivity and device management through the Cavli Hubble platform. With low-power consumption, power-saving modes, audio capabilities, and multiple peripheral interfaces, the module enables OEMs to develop scalable, secure, and power-efficient connected products.\nP16QS is especially suited for smart payment systems, secure IoT devices, and RTOS-based telematics applications. Its integrated secure element provides hardware-level protection for payment credentials and sensitive data, while the application MCU handles core logic, Wi-Fi/BLE connectivity, audio processing, and peripheral interfaces. The LTE Cat 1bis modem ensures reliable wide-area server connectivity when Wi-Fi is unavailable, making P16QS suitable for connected applications that require secure communication and efficient processing.\nThe P16QS module is designed for deployment in India, supporting LTE bands 1, 3, 5, 8, 38, 40, and 41. It features a compact 40.0 x 30.0 x 2.7 mm LGA package, with optional integrated GNSS and eSIM capabilities, enabling flexible integration into connected payment terminals, Low-cost instrument clusters, and telematics devices.\n\n[key_highlights]\nSmart Card, Magnetic Stripe and NFC Interfaces; 32-bit RISC-V Processor Up to 325 MHz; Low Power Consumption and Power Saving Modes; Optional Integrated eSIM for Seamless Connectivity; SMS over IMS/SG/CS; Compact LGA Form Factor (40.0 x 30.0 x 2.7 mm); VoLTE Support; Remote Connectivity and Device Management via Cavli Hubble; Wi-Fi 6.0 and BLE 5.4 Connectivity; USB 2.0 Interface; Integrated Secure Element for Hardware-Level Security; Optional Integrated GNSS for GPS, BeiDou, GLONASS, Galileo and QZSS\n\n[technical_data]\nGNSS: GPS / BeiDou / GLONASS / Galileo / QZSS\nOS: RTOS(MCU) + FreeRTOS(Modem)\nSpeeds: LTE Cat 1bis: 10 Mbps (DL), 5 Mbps (UL)\nInterfaces: 2xUSIM, 1xKPD (up to 5x5), up to 7xADC, 1xI2S, 2xI2C, 1xSPI, up to 27xGPIO, 1xPWM, 1xDisplay Interface (DBI Type-C), 2xAudio ADC, 1xAudio DAC, 1xSmart Card Reader (CVCC), 1xMagnetic Stripe Reader, 8xTamper Switch, 1xNFC_I2C, 1xNFC_SPI, 1xMain ANT, 1xWLAN ANT, 1xGNSS ANT (optional)\n\n[variants]\nnone\n\n[faq]\nQ: What are the key features and capabilities of the Cavli P16QS LTE Cat 1bis module?\nA: The Cavli P16QS is a compact LTE Cat 1bis System-on-Module (SoM) designed for secure IoT, connected payment systems, and RTOS-based telematics applications. Powered by a 32-bit RISC-V processor operating at 325 MHz, it integrates cellular connectivity, Wi-Fi 6.0, BLE 5.4, and hardware-backed security. With optional GNSS, integrated eSIM, and Cavli Hubble support, P16QS enables OEMs to develop secure, connected, and power-efficient IoT devices.\nQ: What connectivity and GNSS capabilities does the P16QS module support?\nA: The P16QS module supports LTE Cat 1bis connectivity with peak download speeds of 10 Mbps and upload speeds of 5 Mbps. It also integrates Wi-Fi 6.0 and BLE 5.4 for local wireless communication. Optional GNSS functionality supports GPS, BeiDou, GLONASS, Galileo, and QZSS satellite constellations, making the module suitable for location-aware IoT applications, instrument clusters, and telematics solutions.\nQ: How does the P16QS module support secure payment and POS applications?\nA: The P16QS module is designed for connected payment terminals and secure IoT applications, featuring a hardware-backed secure element for protecting payment credentials and sensitive information. It supports smart card reader, magnetic stripe reader, NFC, keypad, display, and tamper switch interfaces, enabling integration with payment-related peripherals. These capabilities make P16QS a suitable platform for OEMs developing secure POS terminals and connected payment solutions.\nQ: What hardware interfaces and processing capabilities does the P16QS module offer?\nA: The P16QS features a 32-bit RISC-V processor operating at 325 MHz, 16/32 MB Flash memory, and 8 MB pSRAM for RTOS-based applications. Its interfaces include up to 27 GPIOs, seven ADC channels, two I2C interfaces, SPI, I2S, PWM, and a DBI Type-C display interface. It also supports audio ADC/DAC, smart card, magnetic stripe, and NFC interfaces, providing flexible hardware integration for payment terminals and embedded IoT devices.\nQ: Does the P16QS module support integrated eSIM and Cavli Hubble connectivity management?\nA: Yes, the P16QS is available with optional integrated eSIM and support for the Cavli Hubble Global Connectivity and Device Management Platform. This enables OEMs to simplify cellular connectivity provisioning and remotely manage connected devices. Combined with LTE Cat 1bis, Wi-Fi 6.0, and BLE 5.4 connectivity, P16QS provides a flexible communication platform for connected payment devices and IoT deployments.\nQ: What applications is the Cavli P16QS module best suited for?\nA: The Cavli P16QS is designed for secure IoT and connected payment applications, including POS terminals, cost-effective instrument clusters, and RTOS-based telematics systems. Its integrated LTE Cat 1bis modem, application processor, optional GNSS, and security capabilities make it suitable for devices requiring reliable wireless connectivity, peripheral integration, and protection of sensitive information. Its compact 40.0 × 30.0 × 2.7 mm LGA package also enables integration into embedded connected products."
+ }
+}
