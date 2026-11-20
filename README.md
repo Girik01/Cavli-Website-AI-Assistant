@@ -17,7 +17,7 @@ Other ingest options: no flag = parse and chunk only (no LLM, no embedding); `--
 - `cavli26.py`: the 26 URLs, section-aware HTML parsing, one chunk per page section, whole tables, context header on every chunk.
 - `cavli26_spec.py`: per-product spec records (each value tagged with its source), conflict detection, LLM product profiles
   (number-checked), category lineups.
-- `build26.py`: the command above. Outputs in `data/cavli26/` (`chunks.json`, `specs.json`, `conflicts.json`, ...).
+- `build26.py`: the command above. Outputs in `data/cavli26/` (`chunks.json`, `specs.json`, `conflicts.json`, ...). The downloaded pages (`data/cavli26/raw/`) and the LLM cache are created on the first run and are not stored in git.
 - Strategy, chunk counts, conflicts found and retrieval numbers: [docs/chunking_strategy_26_pages.md](docs/chunking_strategy_26_pages.md).
 
 ## Answering (`app/`)

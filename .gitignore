@@ -7,3 +7,5 @@ __pycache__/
 .idea/
 .DS_Store
 *.zip
+data/cavli26/raw/
+data/cavli26/profile_cache.json
